@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="twc.Regression.TestCases.GDPR_Run">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="Verifying_Supress_amazon_Slotid_Hourly1_bigaddetails_preload_adcall_GDPRPrivacy"/>
+          <include name="Verifying_Loatme_bcpcrwdcntrlnet_apiCall_supressing_GDPR_Privacy"/>
+          <include name="Verifying_Supress_amazon_Slotid_homescreenhourly_preload_adcall_GDPRPrivacy"/>
+          <include name="preConditionsTest_for_GDPR"/>
+          <include name="Verifying_supress_amazon_Slotid_feed1_preroladcall_GDPRPrivacy"/>
+          <include name="Verifying_supress_amazon_Slotid_mapsdetails_preload_adcall_GDPRPrivacy"/>
+          <include name="Verifying_supress_amazon_Slotid_feed2_preroladcall_GDPRPrivacy"/>
+          <include name="Verifying_Factual_locationwfxtriggerscom_apiCall_supressing_GDPR_Privacy"/>
+          <include name="afterClass"/>
+          <include name="Verifying_Supress_amazon_Slotid_Hourlydetails_preload_adcall_GDPRPrivacy"/>
+          <include name="Verifying_supress_amazon_Slotid_Hourly2_bigaddetails_preload_adcall_GDPRPrivacy"/>
+          <include name="Verifying_supress_amazon_Slotid_Hourly3_bigaddetails_preload_adcall_GDPRPrivacy"/>
+          <include name="Verifying_supress_amazon_Slotid_video_adcall_GDPRPrivacy"/>
+          <include name="Verifying_supress_amazon_Slotid_Dailydetails_preload_adcall_GDPRPrivacy"/>
+          <include name="Verifying_Loatme_adcrwdcntrlnet_apiCall_supressing_GDPR_Privacy"/>
+        </methods>
+      </class> <!-- twc.Regression.TestCases.GDPR_Run -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

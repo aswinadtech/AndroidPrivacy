@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="14" passed="14">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="641458" started-at="2020-08-19T13:15:06Z" finished-at="2020-08-19T13:25:47Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="641458" started-at="2020-08-19T13:15:06Z" finished-at="2020-08-19T13:25:47Z">
+      <class name="twc.Regression.TestCases.GDPR_Run">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:twc.Regression.TestCases.GDPR_Run@280484c7]" name="beforeClass" is-config="true" duration-ms="30438" started-at="2020-08-19T18:45:06Z" finished-at="2020-08-19T18:45:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="preConditionsTest_for_GDPR()[pri:0, instance:twc.Regression.TestCases.GDPR_Run@280484c7]" name="preConditionsTest_for_GDPR" duration-ms="610582" started-at="2020-08-19T18:45:36Z" finished-at="2020-08-19T18:55:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preConditionsTest_for_GDPR -->
+        <test-method status="PASS" signature="Verifying_Loatme_adcrwdcntrlnet_apiCall_supressing_GDPR_Privacy()[pri:0, instance:twc.Regression.TestCases.GDPR_Run@280484c7]" name="Verifying_Loatme_adcrwdcntrlnet_apiCall_supressing_GDPR_Privacy" duration-ms="175" started-at="2020-08-19T18:55:47Z" finished-at="2020-08-19T18:55:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verifying_Loatme_adcrwdcntrlnet_apiCall_supressing_GDPR_Privacy -->
+        <test-method status="PASS" signature="Verifying_Loatme_bcpcrwdcntrlnet_apiCall_supressing_GDPR_Privacy()[pri:0, instance:twc.Regression.TestCases.GDPR_Run@280484c7]" name="Verifying_Loatme_bcpcrwdcntrlnet_apiCall_supressing_GDPR_Privacy" duration-ms="14" started-at="2020-08-19T18:55:47Z" finished-at="2020-08-19T18:55:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verifying_Loatme_bcpcrwdcntrlnet_apiCall_supressing_GDPR_Privacy -->
+        <test-method status="PASS" signature="Verifying_Factual_locationwfxtriggerscom_apiCall_supressing_GDPR_Privacy()[pri:0, instance:twc.Regression.TestCases.GDPR_Run@280484c7]" name="Verifying_Factual_locationwfxtriggerscom_apiCall_supressing_GDPR_Privacy" duration-ms="20" started-at="2020-08-19T18:55:47Z" finished-at="2020-08-19T18:55:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verifying_Factual_locationwfxtriggerscom_apiCall_supressing_GDPR_Privacy -->
+        <test-method status="PASS" signature="Verifying_Supress_amazon_Slotid_homescreenhourly_preload_adcall_GDPRPrivacy()[pri:0, instance:twc.Regression.TestCases.GDPR_Run@280484c7]" name="Verifying_Supress_amazon_Slotid_homescreenhourly_preload_adcall_GDPRPrivacy" duration-ms="11" started-at="2020-08-19T18:55:47Z" finished-at="2020-08-19T18:55:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verifying_Supress_amazon_Slotid_homescreenhourly_preload_adcall_GDPRPrivacy -->
+        <test-method status="PASS" signature="Verifying_supress_amazon_Slotid_feed1_preroladcall_GDPRPrivacy()[pri:0, instance:twc.Regression.TestCases.GDPR_Run@280484c7]" name="Verifying_supress_amazon_Slotid_feed1_preroladcall_GDPRPrivacy" duration-ms="11" started-at="2020-08-19T18:55:47Z" finished-at="2020-08-19T18:55:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verifying_supress_amazon_Slotid_feed1_preroladcall_GDPRPrivacy -->
+        <test-method status="PASS" signature="Verifying_supress_amazon_Slotid_feed2_preroladcall_GDPRPrivacy()[pri:0, instance:twc.Regression.TestCases.GDPR_Run@280484c7]" name="Verifying_supress_amazon_Slotid_feed2_preroladcall_GDPRPrivacy" duration-ms="9" started-at="2020-08-19T18:55:47Z" finished-at="2020-08-19T18:55:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verifying_supress_amazon_Slotid_feed2_preroladcall_GDPRPrivacy -->
+        <test-method status="PASS" signature="Verifying_Supress_amazon_Slotid_Hourlydetails_preload_adcall_GDPRPrivacy()[pri:0, instance:twc.Regression.TestCases.GDPR_Run@280484c7]" name="Verifying_Supress_amazon_Slotid_Hourlydetails_preload_adcall_GDPRPrivacy" duration-ms="11" started-at="2020-08-19T18:55:47Z" finished-at="2020-08-19T18:55:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verifying_Supress_amazon_Slotid_Hourlydetails_preload_adcall_GDPRPrivacy -->
+        <test-method status="PASS" signature="Verifying_Supress_amazon_Slotid_Hourly1_bigaddetails_preload_adcall_GDPRPrivacy()[pri:0, instance:twc.Regression.TestCases.GDPR_Run@280484c7]" name="Verifying_Supress_amazon_Slotid_Hourly1_bigaddetails_preload_adcall_GDPRPrivacy" duration-ms="11" started-at="2020-08-19T18:55:47Z" finished-at="2020-08-19T18:55:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verifying_Supress_amazon_Slotid_Hourly1_bigaddetails_preload_adcall_GDPRPrivacy -->
+        <test-method status="PASS" signature="Verifying_supress_amazon_Slotid_Hourly2_bigaddetails_preload_adcall_GDPRPrivacy()[pri:0, instance:twc.Regression.TestCases.GDPR_Run@280484c7]" name="Verifying_supress_amazon_Slotid_Hourly2_bigaddetails_preload_adcall_GDPRPrivacy" duration-ms="10" started-at="2020-08-19T18:55:47Z" finished-at="2020-08-19T18:55:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verifying_supress_amazon_Slotid_Hourly2_bigaddetails_preload_adcall_GDPRPrivacy -->
+        <test-method status="PASS" signature="Verifying_supress_amazon_Slotid_Hourly3_bigaddetails_preload_adcall_GDPRPrivacy()[pri:0, instance:twc.Regression.TestCases.GDPR_Run@280484c7]" name="Verifying_supress_amazon_Slotid_Hourly3_bigaddetails_preload_adcall_GDPRPrivacy" duration-ms="9" started-at="2020-08-19T18:55:47Z" finished-at="2020-08-19T18:55:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verifying_supress_amazon_Slotid_Hourly3_bigaddetails_preload_adcall_GDPRPrivacy -->
+        <test-method status="PASS" signature="Verifying_supress_amazon_Slotid_mapsdetails_preload_adcall_GDPRPrivacy()[pri:0, instance:twc.Regression.TestCases.GDPR_Run@280484c7]" name="Verifying_supress_amazon_Slotid_mapsdetails_preload_adcall_GDPRPrivacy" duration-ms="12" started-at="2020-08-19T18:55:47Z" finished-at="2020-08-19T18:55:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verifying_supress_amazon_Slotid_mapsdetails_preload_adcall_GDPRPrivacy -->
+        <test-method status="PASS" signature="Verifying_supress_amazon_Slotid_Dailydetails_preload_adcall_GDPRPrivacy()[pri:0, instance:twc.Regression.TestCases.GDPR_Run@280484c7]" name="Verifying_supress_amazon_Slotid_Dailydetails_preload_adcall_GDPRPrivacy" duration-ms="10" started-at="2020-08-19T18:55:47Z" finished-at="2020-08-19T18:55:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verifying_supress_amazon_Slotid_Dailydetails_preload_adcall_GDPRPrivacy -->
+        <test-method status="PASS" signature="Verifying_supress_amazon_Slotid_video_adcall_GDPRPrivacy()[pri:0, instance:twc.Regression.TestCases.GDPR_Run@280484c7]" name="Verifying_supress_amazon_Slotid_video_adcall_GDPRPrivacy" duration-ms="7" started-at="2020-08-19T18:55:47Z" finished-at="2020-08-19T18:55:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verifying_supress_amazon_Slotid_video_adcall_GDPRPrivacy -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:twc.Regression.TestCases.GDPR_Run@280484c7]" name="afterClass" is-config="true" duration-ms="70" started-at="2020-08-19T18:55:47Z" finished-at="2020-08-19T18:55:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- twc.Regression.TestCases.GDPR_Run -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
