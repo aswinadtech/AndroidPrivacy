@@ -26,8 +26,8 @@ public class USA_Run extends TwcAndroidBaseTest {
 	
 	@BeforeClass(alwaysRun = true)
 	public void beforeClass() {
-		System.out.println("****** USA CCPA  Privacy Test Started");
-		logStep("****** LGPD Privacy Test Started");
+		System.out.println("****** USA   Privacy Test Started");
+		logStep("****** USA Privacy Test Started");
 		this.configFile = this.rewriteRuleToEnableUSA(CONFIG_FILE_PATH);
 		this.proxy = new CharlesProxy("localhost", 8222, CONFIG_FILE_PATH);
 
