@@ -29,7 +29,7 @@ public class TwcAndroidBaseTest extends Drivers{
 	 *            - What to change the content mode to
 	 * @return Config Files (for deletion in After method)
 	 */
-	/*public File rewriteRuleToEnableGDPR(String fileName) {
+	public File rewriteRuleToEnableGDPR(String fileName) {
 		final List<File> configFiles = new ArrayList<File>();
 		final File parentDir = new File(Constants.PATH_USER_HOME);
 		parentDir.mkdirs();
@@ -45,8 +45,8 @@ public class TwcAndroidBaseTest extends Drivers{
 
 
 		return configFile;
-	}*/
-	public File rewriteRuleToEnableGDPR(String fileName) {
+	}
+	/*public File rewriteRuleToEnableGDPR(String fileName) {
 		final List<File> configFiles = new ArrayList<File>();
 		final File parentDir = new File(Constants.PATH_USER_HOME);
 		parentDir.mkdirs();
@@ -64,7 +64,7 @@ public class TwcAndroidBaseTest extends Drivers{
 
 
 		return configFile;
-	}
+	}*/
 	
 	public File rewriteRuleToEnableGDPRWithLocale(String fileName) {
 		final File parentDir = new File(Constants.PATH_USER_HOME);
@@ -96,7 +96,7 @@ public class TwcAndroidBaseTest extends Drivers{
 	 *            - What to change the content mode to
 	 * @return Config Files (for deletion in After method)
 	 */
-	/*public File rewriteRuleToEnableLGPD(String fileName) {
+	public File rewriteRuleToEnableLGPD(String fileName) {
 		final List<File> configFiles = new ArrayList<File>();
 		final File parentDir = new File(Constants.PATH_USER_HOME);
 		parentDir.mkdirs();
@@ -112,9 +112,9 @@ public class TwcAndroidBaseTest extends Drivers{
 
 
 		return configFile;
-	}*/
+	}
 	
-	public File rewriteRuleToEnableLGPD(String fileName) {
+	/*public File rewriteRuleToEnableLGPD(String fileName) {
 		final List<File> configFiles = new ArrayList<File>();
 		final File parentDir = new File(Constants.PATH_USER_HOME);
 		parentDir.mkdirs();
@@ -132,7 +132,7 @@ public class TwcAndroidBaseTest extends Drivers{
 
 
 		return configFile;
-	}
+	}*/
 	
 	/**
 	 * Create a Charles configuration to rewrite vt1ContentMode mode to the given content mode. Rewrite to severe1 or severe2 to show Breaking
@@ -144,7 +144,7 @@ public class TwcAndroidBaseTest extends Drivers{
 	 *            - What to change the content mode to
 	 * @return Config Files (for deletion in After method)
 	 */
-	/*public File rewriteRuleToEnableUSA(String fileName) {
+	public File rewriteRuleToEnableUSA(String fileName) {
 		final List<File> configFiles = new ArrayList<File>();
 		final File parentDir = new File(Constants.PATH_USER_HOME);
 		parentDir.mkdirs();
@@ -160,9 +160,9 @@ public class TwcAndroidBaseTest extends Drivers{
 
 
 		return configFile;
-	}*/
+	}
 	
-	public File rewriteRuleToEnableUSA(String fileName) {
+	/*public File rewriteRuleToEnableUSA(String fileName) {
 		final List<File> configFiles = new ArrayList<File>();
 		final File parentDir = new File(Constants.PATH_USER_HOME);
 		parentDir.mkdirs();
@@ -181,7 +181,7 @@ public class TwcAndroidBaseTest extends Drivers{
 
 
 		return configFile;
-	}
+	}*/
 	
 	/**
 	 * Create a Charles configuration to rewrite vt1ContentMode mode to the given content mode. Rewrite to severe1 or severe2 to show Breaking
@@ -193,7 +193,7 @@ public class TwcAndroidBaseTest extends Drivers{
 	 *            - What to change the content mode to
 	 * @return Config Files (for deletion in After method)
 	 */
-	/*public File rewriteRuleToEnableUSACCPA(String fileName) {
+	public File rewriteRuleToEnableUSACCPA(String fileName) {
 		final List<File> configFiles = new ArrayList<File>();
 		final File parentDir = new File(Constants.PATH_USER_HOME);
 		parentDir.mkdirs();
@@ -209,9 +209,9 @@ public class TwcAndroidBaseTest extends Drivers{
 
 
 		return configFile;
-	}*/
+	}
 	
-	public File rewriteRuleToEnableUSACCPA(String fileName) {
+	/*public File rewriteRuleToEnableUSACCPA(String fileName) {
 		final List<File> configFiles = new ArrayList<File>();
 		final File parentDir = new File(Constants.PATH_USER_HOME);
 		parentDir.mkdirs();
@@ -230,7 +230,7 @@ public class TwcAndroidBaseTest extends Drivers{
 
 
 		return configFile;
-	}
+	}*/
 
 	
 }
