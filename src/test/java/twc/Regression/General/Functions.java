@@ -3091,7 +3091,9 @@ public static Map<String, String> validating_adcrw_privacy_Optoutmode_scenarion(
 	String wxtgValues="";
 	DeviceStatus device_status = new DeviceStatus();
 	int Cap = device_status.Device_Status();
+		Thread.sleep(10000);
 	read_xml_data_into_buffer xml_data_into_buffer = new read_xml_data_into_buffer();
+		Thread.sleep(10000);
 	String sb = xml_data_into_buffer.read_xml_file_into_buffer_string();	
 	//https://ad.crwdcntrl.net
 	logStep("Verifying  https://ad.crwdcntrl.net api url");
