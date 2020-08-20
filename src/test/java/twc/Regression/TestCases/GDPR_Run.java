@@ -94,6 +94,7 @@ public class GDPR_Run extends TwcAndroidBaseTest  {
 		//Utils.navigateToAllCards(false);
 		CharlesFunctions.archive_folder("charles");
 		this.proxy.getXml();
+		  Thread.sleep(40000);	
 	//	Utils.createXMLFileForCharlesSessionFile();
 	}
 	@Test(priority =2,enabled = true)  
