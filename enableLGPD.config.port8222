@@ -124,7 +124,7 @@
     <fullscreen>false</fullscreen>
     <mainWindow>
       <x>20</x>
-      <y>45</y>
+      <y>42</y>
       <width>900</width>
       <height>700</height>
     </mainWindow>
@@ -260,13 +260,30 @@
                   <active>true</active>
                   <ruleType>3</ruleType>
                   <matchHeader>twc-privacy</matchHeader>
-                  <matchValue>exempt</matchValue>
+                  <matchValue>usa</matchValue>
                   <matchHeaderRegex>false</matchHeaderRegex>
                   <matchValueRegex>false</matchValueRegex>
                   <matchRequest>false</matchRequest>
                   <matchResponse>true</matchResponse>
                   <newHeader>twc-privacy</newHeader>
                   <newValue>lgpd</newValue>
+                  <newHeaderRegex>false</newHeaderRegex>
+                  <newValueRegex>false</newValueRegex>
+                  <matchWholeValue>false</matchWholeValue>
+                  <caseSensitive>false</caseSensitive>
+                  <replaceType>1</replaceType>
+                </rewriteRule>
+                <rewriteRule>
+                  <active>true</active>
+                  <ruleType>3</ruleType>
+                  <matchHeader>twc-geoip-country</matchHeader>
+                  <matchValue>US</matchValue>
+                  <matchHeaderRegex>false</matchHeaderRegex>
+                  <matchValueRegex>false</matchValueRegex>
+                  <matchRequest>false</matchRequest>
+                  <matchResponse>true</matchResponse>
+                  <newHeader>twc-geoip-country</newHeader>
+                  <newValue>BR</newValue>
                   <newHeaderRegex>false</newHeaderRegex>
                   <newValueRegex>false</newValueRegex>
                   <matchWholeValue>false</matchWholeValue>

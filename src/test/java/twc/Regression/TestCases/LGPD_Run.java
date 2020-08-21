@@ -50,7 +50,7 @@ public class LGPD_Run extends TwcAndroidBaseTest  {
 			this.configFile.delete();
 		}
 		this.proxy.disableRewriting();
-		//this.proxy.quitCharlesProxy();
+		this.proxy.quitCharlesProxy();
 		
 		System.out.println("****** LGPD  Privacy Test Ended");
 		logStep("****** LGPD Privacy Test Ended");
@@ -62,28 +62,24 @@ public class LGPD_Run extends TwcAndroidBaseTest  {
 		this.proxy.startRecording();
 		this.proxy.clearCharlesSession();
 		AppiumFunctions.LaunchAppWithFullReset();
+		System.out.println("Launching the app with full reset");
 		   AppiumFunctions.resetApp();
 		  	AppiumFunctions.clickONNext();
 			AppiumFunctions.ClickonIUnderstand();
 			AppiumFunctions.ClickonIUnderstand();
 			AppiumFunctions.clickOnAllow();
-		// Preconditions
-	//	Utils.getCurrentMacIPAddressAndSetiPhoneProxy(true, true);
-		//Functions.listFilesForFolder(Functions.folder);
-	//	Functions.archive_folder("Charles");
-		//Functions.launchtheApp("true");
-		System.out.println("App launched ");
+			System.out.println("App launched ");
+			CharlesFunctions.archive_folder("charles");
 		this.proxy.clearCharlesSession();
 		AppiumFunctions.Kill_Launch_App();
 		AppiumFunctions.ClickonIUnderstand();
 		AppiumFunctions.clickOnVideos_tile();
-	//	Functions.close_launchApp();
-		//Utils.navigateToAllCards(false);
+
 		CharlesFunctions.archive_folder("charles");
 		this.proxy.getXml();
 	//	Utils.createXMLFileForCharlesSessionFile();
 	}
-	@Test(priority =41, enabled = true)  
+@Test(priority =41, enabled = true)  
 	 @Title("Verifying Lotame ad.crwdcntrl.net api call supressing for LGPD privacy") 
 	public void Verifying_Loatme_adcrwdcntrlnet_apiCall_supressing_LGPD_Privacy() throws Exception {	  
 	 System.out. println("=================Verifying Lotame ad.crwdcntrl.net api call supressing for LGPD privacy testcase started =========================" ); 

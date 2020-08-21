@@ -1,0 +1,419 @@
+{
+  "uid" : "647d197e9fc8230f",
+  "name" : "preConditionsTest_for_GDPR",
+  "title" : "Pre conditions test for GDPR",
+  "time" : {
+    "start" : 1597954999052,
+    "stop" : 1597955870727,
+    "duration" : 871675
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 24
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "c8a285747049d5a2",
+    "name" : "Suite : Test",
+    "title" : "Suite : Test"
+  },
+  "steps" : [ {
+    "name" : "logStep[****** GDPR Privacy Test Started]",
+    "title" : "****** GDPR Privacy Test Started",
+    "time" : {
+      "start" : 1597954968604,
+      "stop" : 1597954968607,
+      "duration" : 3
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Starting Charles headless: false using port: 8222]",
+    "title" : "Starting Charles headless: false using port: 8222",
+    "time" : {
+      "start" : 1597954968878,
+      "stop" : 1597954968878,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Url :http://control.charles Responded with status code : 200]",
+    "title" : "Url :http://control.charles Responded with status code : 200",
+    "time" : {
+      "start" : 1597954968886,
+      "stop" : 1597954968886,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Url :http://control.charles/quit Responded with status code : 200]",
+    "title" : "Url :http://control.charles/quit Responded with status code : 200",
+    "time" : {
+      "start" : 1597954968893,
+      "stop" : 1597954968893,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[input command /Applications/Charles.app/Contents/MacOS/Charles -config enableGDPR.config.port8222]",
+    "title" : "input command /Applications/Charles.app/Contents/MacOS/Charles -config enableGDPR.config.port8222",
+    "time" : {
+      "start" : 1597954968897,
+      "stop" : 1597954968897,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Url :http://control.charles Responded with status code : 200]",
+    "title" : "Url :http://control.charles Responded with status code : 200",
+    "time" : {
+      "start" : 1597954998972,
+      "stop" : 1597954998972,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Url :http://control.charles/tools/rewrite/disable Responded with status code : 200]",
+    "title" : "Url :http://control.charles/tools/rewrite/disable Responded with status code : 200",
+    "time" : {
+      "start" : 1597954998981,
+      "stop" : 1597954998981,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Url :http://control.charles/recording/stop Responded with status code : 200]",
+    "title" : "Url :http://control.charles/recording/stop Responded with status code : 200",
+    "time" : {
+      "start" : 1597954998996,
+      "stop" : 1597954998996,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Url :http://control.charles/tools/map-local/disable Responded with status code : 200]",
+    "title" : "Url :http://control.charles/tools/map-local/disable Responded with status code : 200",
+    "time" : {
+      "start" : 1597954999002,
+      "stop" : 1597954999002,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Url :http://control.charles/tools/rewrite/enable Responded with status code : 200]",
+    "title" : "Url :http://control.charles/tools/rewrite/enable Responded with status code : 200",
+    "time" : {
+      "start" : 1597954999164,
+      "stop" : 1597954999164,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Url :http://control.charles/recording/start Responded with status code : 200]",
+    "title" : "Url :http://control.charles/recording/start Responded with status code : 200",
+    "time" : {
+      "start" : 1597954999174,
+      "stop" : 1597954999174,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Url :http://control.charles/session/clear Responded with status code : 200]",
+    "title" : "Url :http://control.charles/session/clear Responded with status code : 200",
+    "time" : {
+      "start" : 1597954999180,
+      "stop" : 1597954999180,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Current IP Address of the system is : 192.168.1.227]",
+    "title" : "Current IP Address of the system is : 192.168.1.227",
+    "time" : {
+      "start" : 1597954999278,
+      "stop" : 1597954999278,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[checking for Firebase App is properly launched or not on the device]",
+    "title" : "checking for Firebase App is properly launched or not on the device",
+    "time" : {
+      "start" : 1597955223241,
+      "stop" : 1597955223241,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[clicking the The weather channel release debug]",
+    "title" : "clicking the The weather channel release debug",
+    "time" : {
+      "start" : 1597955303613,
+      "stop" : 1597955303613,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[clicking the the download button]",
+    "title" : "clicking the the download button",
+    "time" : {
+      "start" : 1597955414930,
+      "stop" : 1597955414930,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[clicking the the install button]",
+    "title" : "clicking the the install button",
+    "time" : {
+      "start" : 1597955475068,
+      "stop" : 1597955475068,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Url :http://control.charles/session/clear Responded with status code : 200]",
+    "title" : "Url :http://control.charles/session/clear Responded with status code : 200",
+    "time" : {
+      "start" : 1597955840029,
+      "stop" : 1597955840029,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Charles Download path is: /Users/jenkins/Documents/projects/AndroidPrivacy/CapturedSessionFile/]",
+    "title" : "Charles Download path is: /Users/jenkins/Documents/projects/AndroidPrivacy/CapturedSessionFile/",
+    "time" : {
+      "start" : 1597955870506,
+      "stop" : 1597955870506,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[To be saved file: /Users/jenkins/Documents/projects/AndroidPrivacy/CapturedSessionFile/Charles20200820163750.chl...]",
+    "title" : "To be saved file: /Users/jenkins/Documents/projects/AndroidPrivacy/CapturedSessionFile/Charles20200820163750.chlsx",
+    "time" : {
+      "start" : 1597955870507,
+      "stop" : 1597955870507,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Create new file that is empty and writable]",
+    "title" : "Create new file that is empty and writable",
+    "time" : {
+      "start" : 1597955870507,
+      "stop" : 1597955870507,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Downloading Charles HAR file to: /Users/jenkins/Documents/projects/AndroidPrivacy/CapturedSessionFile/Charles202...]",
+    "title" : "Downloading Charles HAR file to: /Users/jenkins/Documents/projects/AndroidPrivacy/CapturedSessionFile/Charles20200820163...",
+    "time" : {
+      "start" : 1597955870508,
+      "stop" : 1597955870508,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[File download complete]",
+    "title" : "File download complete",
+    "time" : {
+      "start" : 1597955870718,
+      "stop" : 1597955870718,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Har file size (mb): 5.400466]",
+    "title" : "Har file size (mb): 5.400466",
+    "time" : {
+      "start" : 1597955870721,
+      "stop" : 1597955870721,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "preConditionsTest_for_GDPR"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testGroup",
+    "value" : "Test"
+  }, {
+    "name" : "host",
+    "value" : "iosbuildserver.attlocal.net"
+  }, {
+    "name" : "thread",
+    "value" : "96905@iosbuildserver.attlocal.net.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : Test"
+  }, {
+    "name" : "testClass",
+    "value" : "twc.Regression.TestCases.GDPR_Run"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : Test"
+  } ],
+  "parameters" : [ ]
+}

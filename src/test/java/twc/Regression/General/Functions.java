@@ -2905,7 +2905,8 @@ public static  void selecting_opt_out_mode() throws Exception{
 		Swipe_Conter(10);
 		 Thread.sleep(10000);
 		 TouchAction ta=new TouchAction(Ad);
-		 ta.tap(480, 1369).perform();
+		// ta.tap(480, 1369).perform();
+		  ta.tap(416, 1284).perform();
 		//Selecting  Opt out  mode option in privacy card
 		System.out.println("Selecting  Opt out  mode option in privacy card");
 		logStep("Selecting  Opt out  mode option in privacy card");
@@ -3091,9 +3092,7 @@ public static Map<String, String> validating_adcrw_privacy_Optoutmode_scenarion(
 	String wxtgValues="";
 	DeviceStatus device_status = new DeviceStatus();
 	int Cap = device_status.Device_Status();
-		Thread.sleep(10000);
 	read_xml_data_into_buffer xml_data_into_buffer = new read_xml_data_into_buffer();
-		Thread.sleep(10000);
 	String sb = xml_data_into_buffer.read_xml_file_into_buffer_string();	
 	//https://ad.crwdcntrl.net
 	logStep("Verifying  https://ad.crwdcntrl.net api url");
@@ -3861,9 +3860,10 @@ public static  void selecting_opt_in_mode() throws Exception{
 	  //Selecting  Opt out  mode option in privacy card
 		System.out.println("Selecting  Opt in  mode option in privacy card");
 		logStep("Selecting  Opt in  mode option in privacy card");
+	 // TouchAction ta=new TouchAction(Ad);
 	  TouchAction ta=new TouchAction(Ad);
-	 ta.tap(347, 1070).perform();
-	 Ad.findElementById("com.weather.Weather:id/popup_positive_button").click();
+	  ta.tap(308, 710).perform();
+		 Ad.findElementById("com.weather.Weather:id/popup_positive_button").click();
 	    Thread.sleep(10000);
    //Ad.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View[4]/android.widget.ListView/android.view.View[2]").click();	
 }

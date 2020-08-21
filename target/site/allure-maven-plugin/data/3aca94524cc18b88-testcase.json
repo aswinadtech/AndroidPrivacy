@@ -1,0 +1,239 @@
+{
+  "uid" : "3aca94524cc18b88",
+  "name" : "Verifying_Loatme_adcrwdcntrlnet_apiCall_supressing_USA_CCPA_Privacy_DoNotSellMyInformation",
+  "title" : "Verifying Lotame ad.crwdcntrl.net api call supressing for USA-CCPA privacy when Advertising option set to Do Not Sell My Information",
+  "time" : {
+    "start" : 1597956710897,
+    "stop" : 1597956742835,
+    "duration" : 31938
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 12
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "c8a285747049d5a2",
+    "name" : "Suite : Test",
+    "title" : "Suite : Test"
+  },
+  "steps" : [ {
+    "name" : "logStep[Verifying Lotame ad.crwdcntrl.net api call supressing for USA-CCPA privacy when Advertising option set to Do Not...]",
+    "title" : "Verifying Lotame ad.crwdcntrl.net api call supressing for USA-CCPA privacy when Advertising option set to Do Not Sell My...",
+    "time" : {
+      "start" : 1597956710898,
+      "stop" : 1597956710898,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Url :http://control.charles/session/clear Responded with status code : 200]",
+    "title" : "Url :http://control.charles/session/clear Responded with status code : 200",
+    "time" : {
+      "start" : 1597956710902,
+      "stop" : 1597956710902,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[maps element clicked]",
+    "title" : "maps element clicked",
+    "time" : {
+      "start" : 1597956736046,
+      "stop" : 1597956736046,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Videos element clicked]",
+    "title" : "Videos element clicked",
+    "time" : {
+      "start" : 1597956741759,
+      "stop" : 1597956741759,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Charles Download path is: /Users/jenkins/Documents/projects/AndroidPrivacy/CapturedSessionFile/]",
+    "title" : "Charles Download path is: /Users/jenkins/Documents/projects/AndroidPrivacy/CapturedSessionFile/",
+    "time" : {
+      "start" : 1597956741764,
+      "stop" : 1597956741764,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[To be saved file: /Users/jenkins/Documents/projects/AndroidPrivacy/CapturedSessionFile/Charles20200820165221.chl...]",
+    "title" : "To be saved file: /Users/jenkins/Documents/projects/AndroidPrivacy/CapturedSessionFile/Charles20200820165221.chlsx",
+    "time" : {
+      "start" : 1597956741764,
+      "stop" : 1597956741764,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Create new file that is empty and writable]",
+    "title" : "Create new file that is empty and writable",
+    "time" : {
+      "start" : 1597956741764,
+      "stop" : 1597956741764,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Downloading Charles HAR file to: /Users/jenkins/Documents/projects/AndroidPrivacy/CapturedSessionFile/Charles202...]",
+    "title" : "Downloading Charles HAR file to: /Users/jenkins/Documents/projects/AndroidPrivacy/CapturedSessionFile/Charles20200820165...",
+    "time" : {
+      "start" : 1597956741765,
+      "stop" : 1597956741765,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[File download complete]",
+    "title" : "File download complete",
+    "time" : {
+      "start" : 1597956742561,
+      "stop" : 1597956742561,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Har file size (mb): 46.119089]",
+    "title" : "Har file size (mb): 46.119089",
+    "time" : {
+      "start" : 1597956742561,
+      "stop" : 1597956742561,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Verifying  https://ad.crwdcntrl.net api url]",
+    "title" : "Verifying  https://ad.crwdcntrl.net api url",
+    "time" : {
+      "start" : 1597956742762,
+      "stop" : 1597956742762,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[https://ad.crwdcntrl.net/ url was  not trigred]",
+    "title" : "https://ad.crwdcntrl.net/ url was  not trigred",
+    "time" : {
+      "start" : 1597956742834,
+      "stop" : 1597956742834,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "twc.Regression.TestCases.USA_CCPA_Run"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testGroup",
+    "value" : "Test"
+  }, {
+    "name" : "host",
+    "value" : "iosbuildserver.attlocal.net"
+  }, {
+    "name" : "thread",
+    "value" : "96905@iosbuildserver.attlocal.net.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : Test"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verifying_Loatme_adcrwdcntrlnet_apiCall_supressing_USA_CCPA_Privacy_DoNotSellMyInformation"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,62 @@
+{
+  "uid" : "ba1473884befa5a9",
+  "name" : "Verifying_presence_amazon_Slotid_Hourly2_bigaddetails_preload_adcall_USA_Privacy_StandardAdvertisingSettings",
+  "title" : "Verifying presence amazon SlotId for  hourly2 details big ad  preload call  USA privacy when Advertising option set to  Standard Advertising Settings",
+  "time" : {
+    "start" : 1597958052616,
+    "stop" : 1597958052620,
+    "duration" : 4
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "NullPointerException: null",
+    "stackTrace" : "java.lang.NullPointerException\n\tat twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)\n\tat twc.Regression.General.Functions.verifyaax_SlotId_Presence(Functions.java:1575)\n\tat twc.Regression.TestCases.USA_Run.Verifying_presence_amazon_Slotid_Hourly2_bigaddetails_preload_adcall_USA_Privacy_StandardAdvertisingSettings(USA_Run.java:460)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:659)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:771)\n\tat org.testng.TestRunner.run(TestRunner.java:621)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:357)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:259)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1124)\n\tat org.testng.TestNG.run(TestNG.java:1032)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:73)\n\tat org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:94)\n\tat org.apache.maven.surefire.Surefire.run(Surefire.java:169)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.apache.maven.surefire.booter.SurefireBooter.runSuitesInProcess(SurefireBooter.java:350)\n\tat org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:1021)\n"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "BROKEN",
+  "suite" : {
+    "uid" : "c8a285747049d5a2",
+    "name" : "Suite : Test",
+    "title" : "Suite : Test"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "twc.Regression.TestCases.USA_Run"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testGroup",
+    "value" : "Test"
+  }, {
+    "name" : "host",
+    "value" : "iosbuildserver.attlocal.net"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verifying_presence_amazon_Slotid_Hourly2_bigaddetails_preload_adcall_USA_Privacy_StandardAdvertisingSettings"
+  }, {
+    "name" : "thread",
+    "value" : "96905@iosbuildserver.attlocal.net.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : Test"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : Test"
+  } ],
+  "parameters" : [ ]
+}

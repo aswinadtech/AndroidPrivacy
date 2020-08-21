@@ -1,0 +1,104 @@
+{
+  "uid" : "c50d6517adbe6878",
+  "name" : "Verifying_homescreenmarquee_adCall_Presence_USA_CCPA_Privacy_DoNotSellMyInformation",
+  "title" : "Verifying home screen marquee ad call presense for USA-CCPA privacy when Advertising option set to Do Not Sell My Information",
+  "time" : {
+    "start" : 1597956746344,
+    "stop" : 1597956746555,
+    "duration" : 211
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 3
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "c8a285747049d5a2",
+    "name" : "Suite : Test",
+    "title" : "Suite : Test"
+  },
+  "steps" : [ {
+    "name" : "logStep[Verifying home screen marquee ad call presense for USA-CCPA privacy when Advertising option set to Do Not Sell M...]",
+    "title" : "Verifying home screen marquee ad call presense for USA-CCPA privacy when Advertising option set to Do Not Sell My Inform...",
+    "time" : {
+      "start" : 1597956746345,
+      "stop" : 1597956746345,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[checking for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fhome_screen%2Fmarquee ad call]",
+    "title" : "checking for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fhome_screen%2Fmarquee ad call",
+    "time" : {
+      "start" : 1597956746553,
+      "stop" : 1597956746553,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[iu=/7646/app_android_us/db_display/home_screen/marquee call was trigred]",
+    "title" : "iu=/7646/app_android_us/db_display/home_screen/marquee call was trigred",
+    "time" : {
+      "start" : 1597956746554,
+      "stop" : 1597956746554,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verifying_homescreenmarquee_adCall_Presence_USA_CCPA_Privacy_DoNotSellMyInformation"
+  }, {
+    "name" : "testClass",
+    "value" : "twc.Regression.TestCases.USA_CCPA_Run"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testGroup",
+    "value" : "Test"
+  }, {
+    "name" : "host",
+    "value" : "iosbuildserver.attlocal.net"
+  }, {
+    "name" : "thread",
+    "value" : "96905@iosbuildserver.attlocal.net.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : Test"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : Test"
+  } ],
+  "parameters" : [ ]
+}

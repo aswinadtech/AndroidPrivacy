@@ -8,6 +8,7 @@ import twc.Regression.utils.CommandRunner;
 import com.google.common.io.Files;
 import twc.Regression.utils.Constants;
 import twc.Regression.Driver.Drivers;
+import twc.Regression.ReadDataFromFile.read_excel_data;
 
 import org.apache.commons.io.*;
 
@@ -250,10 +251,14 @@ public class CharlesProxy extends Drivers{
 			throw new RuntimeException("Failed to get har file. " + e.getMessage());
 		}
 	}
-	public File getXml() {
+	public File getXml() throws Exception {
 		// http://control.charles/session/export-xml
 		final String url = this.CHARLES_URL + CharlesOption.SESSION.getPath() + "export-xml";
-		final String filePath = Constants.PATH_USER_HOME+"/CapturedSessionFile/";
+		//final String filePath = Constants.PATH_USER_HOME+"/CapturedSessionFile/";
+		FileUtils.cleanDirectory(new File(properties.getProperty("downloadPath"))); 
+		String[][] paths = read_excel_data.exceldataread("Paths");
+		final String filePath=paths[4][2];
+		
 		System.out.println("Charles Download path is: "+filePath);
 		logStep("Charles Download path is: "+filePath);
 		try {

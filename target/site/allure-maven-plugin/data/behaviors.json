@@ -1,0 +1,1478 @@
+{
+  "features" : [ {
+    "title" : "Without feature",
+    "statistic" : {
+      "total" : 132,
+      "passed" : 84,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 2,
+      "broken" : 46
+    },
+    "stories" : [ {
+      "uid" : "f309fb6255ec35ee",
+      "title" : "Without story",
+      "statistic" : {
+        "total" : 132,
+        "passed" : 84,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 2,
+        "broken" : 46
+      },
+      "testCases" : [ {
+        "uid" : "647d197e9fc8230f",
+        "name" : "preConditionsTest_for_GDPR",
+        "title" : "Pre conditions test for GDPR",
+        "time" : {
+          "start" : 1597954999052,
+          "stop" : 1597955870727,
+          "duration" : 871675
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "3533614617456a6c",
+        "name" : "Verifying_Loatme_adcrwdcntrlnet_apiCall_supressing_GDPR_Privacy",
+        "title" : "Verifying Lotame ad.crwdcntrl.net api call supressing for GDPR privacy",
+        "time" : {
+          "start" : 1597955870735,
+          "stop" : 1597955870897,
+          "duration" : 162
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "8a52c37e2773b09e",
+        "name" : "Verifying_Loatme_bcpcrwdcntrlnet_apiCall_supressing_GDPR_Privacy",
+        "title" : "Verifying Lotame bcp.crwdcntrl.net api call supressing for GDPR privacy",
+        "time" : {
+          "start" : 1597955870898,
+          "stop" : 1597955870971,
+          "duration" : 73
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "3342c24ad3e71d8f",
+        "name" : "Verifying_Factual_locationwfxtriggerscom_apiCall_supressing_GDPR_Privacy",
+        "title" : "Verifying Factual location.wfxtriggers.com api call supressing for GDPR privacy",
+        "time" : {
+          "start" : 1597955870972,
+          "stop" : 1597955871095,
+          "duration" : 123
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "42db61544197624",
+        "name" : "Verifying_Supress_amazon_Slotid_homescreenhourly_preload_adcall_GDPRPrivacy",
+        "title" : "Verifying supress amazon slot id for  home screen hourly preload ad call GDPR Privacy",
+        "time" : {
+          "start" : 1597955871096,
+          "stop" : 1597955871136,
+          "duration" : 40
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "fb0953e101a2f8f4",
+        "name" : "Verifying_supress_amazon_Slotid_feed1_preroladcall_GDPRPrivacy",
+        "title" : "Verifying supress amazon Slot Id for  feed1 preload ad call GDPR Privacy",
+        "time" : {
+          "start" : 1597955871137,
+          "stop" : 1597955871175,
+          "duration" : 38
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "24d56c8a57cba5ab",
+        "name" : "Verifying_supress_amazon_Slotid_feed2_preroladcall_GDPRPrivacy",
+        "title" : "Verifying supress amazon SlotId for feed2 prerload ad call  GDPR Privacy",
+        "time" : {
+          "start" : 1597955871176,
+          "stop" : 1597955871222,
+          "duration" : 46
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "a965cccfbb10b84a",
+        "name" : "Verifying_Supress_amazon_Slotid_Hourlydetails_preload_adcall_GDPRPrivacy",
+        "title" : "Verifying supress amazon SlotId for  hourly details preload ad call GDPR Privacy",
+        "time" : {
+          "start" : 1597955871224,
+          "stop" : 1597955871280,
+          "duration" : 56
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "80d364397bb14ac7",
+        "name" : "Verifying_Supress_amazon_Slotid_Hourly1_bigaddetails_preload_adcall_GDPRPrivacy",
+        "title" : "Verifying supress amazon SlotId for  hourly1 details big ad  preload call GDPR Privacy",
+        "time" : {
+          "start" : 1597955871281,
+          "stop" : 1597955871328,
+          "duration" : 47
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "120afd7f62f7a40b",
+        "name" : "Verifying_supress_amazon_Slotid_Hourly2_bigaddetails_preload_adcall_GDPRPrivacy",
+        "title" : "Verifying supress amazon SlotId for  hourly2 details big ad  preload call  GDPR Privacy",
+        "time" : {
+          "start" : 1597955871329,
+          "stop" : 1597955871373,
+          "duration" : 44
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "317b96034aa9bfde",
+        "name" : "Verifying_supress_amazon_Slotid_Hourly3_bigaddetails_preload_adcall_GDPRPrivacy",
+        "title" : "Verifying supress amazon SlotId for  hourly3 details big ad preload call GDPR Privacy",
+        "time" : {
+          "start" : 1597955871374,
+          "stop" : 1597955871401,
+          "duration" : 27
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "73114bbde47761d3",
+        "name" : "Verifying_supress_amazon_Slotid_mapsdetails_preload_adcall_GDPRPrivacy",
+        "title" : "Verifying supress amazon SlotId for maps details preload ad call GDPR Privacy",
+        "time" : {
+          "start" : 1597955871402,
+          "stop" : 1597955871441,
+          "duration" : 39
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "8ff5144cd90594f9",
+        "name" : "Verifying_supress_amazon_Slotid_Dailydetails_preload_adcall_GDPRPrivacy",
+        "title" : "Verifying supress amazon SlotId for daily details preload ad call GDPR Privacy",
+        "time" : {
+          "start" : 1597955871441,
+          "stop" : 1597955871477,
+          "duration" : 36
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "ae633e2fbf1eeeb4",
+        "name" : "Verifying_supress_amazon_Slotid_video_adcall_GDPRPrivacy",
+        "title" : "Verifying supress amazon SlotId for videos preload ad call for GDPR Privacy",
+        "time" : {
+          "start" : 1597955871478,
+          "stop" : 1597955871533,
+          "duration" : 55
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "a019aec3269e13f2",
+        "name" : "preConditionsTest_for_LGPD",
+        "title" : "Pre conditions test for LGPD",
+        "time" : {
+          "start" : 1597955901660,
+          "stop" : 1597956060867,
+          "duration" : 159207
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "beb881008b2a8439",
+        "name" : "Verifying_Loatme_adcrwdcntrlnet_apiCall_supressing_LGPD_Privacy",
+        "title" : "Verifying Lotame ad.crwdcntrl.net api call supressing for LGPD privacy",
+        "time" : {
+          "start" : 1597956060873,
+          "stop" : 1597956061498,
+          "duration" : 625
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "e038d15416b1ccab",
+        "name" : "Verifying_Loatme_bcpcrwdcntrlnet_apiCall_supressing_LGPD_Privacy",
+        "title" : "Verifying Lotame bcp.crwdcntrl.net api call supressing for LGPD privacy",
+        "time" : {
+          "start" : 1597956061499,
+          "stop" : 1597956061913,
+          "duration" : 414
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "8a2816dc67c47713",
+        "name" : "Verifying_Factual_locationwfxtriggerscom_apiCall_supressing_LGPD_Privacy",
+        "title" : "Verifying Factual location.wfxtriggers.com api call supressing for LGPD privacy",
+        "time" : {
+          "start" : 1597956061914,
+          "stop" : 1597956062349,
+          "duration" : 435
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "3a5b010eb3ecdde7",
+        "name" : "Verifying_Supress_amazon_Slotid_homescreenhourly_preload_adcall_LGPDPrivacy",
+        "title" : "Verifying supress amazon slot id for  home screen hourly preload ad call LGPD Privacy",
+        "time" : {
+          "start" : 1597956062350,
+          "stop" : 1597956062589,
+          "duration" : 239
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "ba07c92c02c34cdc",
+        "name" : "Verifying_supress_amazon_Slotid_feed1_preroladcall_LGPDPrivacy",
+        "title" : "Verifying supress amazon Slot Id for  feed1 preload ad call LGPD Privacy",
+        "time" : {
+          "start" : 1597956062589,
+          "stop" : 1597956062828,
+          "duration" : 239
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "67613c83004bf473",
+        "name" : "Verifying_supress_amazon_Slotid_feed2_preroladcall_LGPDPrivacy",
+        "title" : "Verifying supress amazon SlotId for feed2 prerload ad call  LGPD Privacy",
+        "time" : {
+          "start" : 1597956062829,
+          "stop" : 1597956063100,
+          "duration" : 271
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "d32f5a2af8037ab",
+        "name" : "Verifying_Supress_amazon_Slotid_Hourlydetails_preload_adcall_LGPDPrivacy",
+        "title" : "Verifying supress amazon SlotId for  hourly details preload ad call LGPD Privacy",
+        "time" : {
+          "start" : 1597956063100,
+          "stop" : 1597956063406,
+          "duration" : 306
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "532389d6123072c1",
+        "name" : "Verifying_Supress_amazon_Slotid_Hourly1_bigaddetails_preload_adcall_LGPDPrivacy",
+        "title" : "Verifying supress amazon SlotId for  hourly1 details big ad  preload call LGPD Privacy",
+        "time" : {
+          "start" : 1597956063407,
+          "stop" : 1597956063740,
+          "duration" : 333
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "d06e2b7dce9ea837",
+        "name" : "Verifying_supress_amazon_Slotid_Hourly2_bigaddetails_preload_adcall_LGPDPrivacy",
+        "title" : "Verifying supress amazon SlotId for  hourly2 details big ad  preload call  LGPD Privacy",
+        "time" : {
+          "start" : 1597956063741,
+          "stop" : 1597956063994,
+          "duration" : 253
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "45fb4f0cd5bf2994",
+        "name" : "Verifying_supress_amazon_Slotid_Hourly3_bigaddetails_preload_adcall_LGPDPrivacy",
+        "title" : "Verifying supress amazon SlotId for  hourly3 details big ad preload call LGPD Privacy",
+        "time" : {
+          "start" : 1597956063995,
+          "stop" : 1597956064298,
+          "duration" : 303
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "67ea2a500917cb62",
+        "name" : "Verifying_supress_amazon_Slotid_mapsdetails_preload_adcall_LGPDPrivacy",
+        "title" : "Verifying supress amazon SlotId for maps details preload ad call LGPD Privacy",
+        "time" : {
+          "start" : 1597956064299,
+          "stop" : 1597956064514,
+          "duration" : 215
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "4832e4e7dcf6e878",
+        "name" : "Verifying_supress_amazon_Slotid_Dailydetails_preload_adcall_LGPDPrivacy",
+        "title" : "Verifying supress amazon SlotId for daily details preload ad call LGPD Privacy",
+        "time" : {
+          "start" : 1597956064515,
+          "stop" : 1597956064789,
+          "duration" : 274
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "1b0929cb59ec907e",
+        "name" : "Verifying_supress_amazon_Slotid_video_adcall_LGPDPrivacy",
+        "title" : "Verifying supress amazon SlotId for videos preload ad call for LGPD Privacy",
+        "time" : {
+          "start" : 1597956064790,
+          "stop" : 1597956065102,
+          "duration" : 312
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "a8b4fd3b39639673",
+        "name" : "Verifying_homescreenhourly_adCall_Presence_LGPDprivacy",
+        "title" : "Verifying home screen hourly ad call presense for LGPD privacy",
+        "time" : {
+          "start" : 1597956065103,
+          "stop" : 1597956065322,
+          "duration" : 219
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "78903eba721e84b4",
+        "name" : "Verifying_homescreenmarquee_adCall_Presence_LGPDprivacy",
+        "title" : "Verifying home screen marquee ad call presense for LGPD privacy",
+        "time" : {
+          "start" : 1597956065323,
+          "stop" : 1597956065585,
+          "duration" : 262
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "cd6dfd364122cd6c",
+        "name" : "Verifying_npa_equals_1_homescreenHourly_adCall_LGPD_Privacy",
+        "title" : "Verifying npa=1 in home screen hourly ad call for LGPD privacy",
+        "time" : {
+          "start" : 1597956065586,
+          "stop" : 1597956065953,
+          "duration" : 367
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "fd1651db25c2e2a9",
+        "name" : "Verifying_npa_equals_1_homescreenmarquee_adCall_LGPD_Privacy",
+        "title" : "Verifying npa=1 in home screen marquee ad call for LGPD privacy",
+        "time" : {
+          "start" : 1597956065958,
+          "stop" : 1597956066166,
+          "duration" : 208
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "b188073cdb61fac6",
+        "name" : "Verifying_videos_adCall_Presence_LGPDprivacy",
+        "title" : "Verifying videos ad call presense for LGPD privacy",
+        "time" : {
+          "start" : 1597956066167,
+          "stop" : 1597956066445,
+          "duration" : 278
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "56108f7bbfcd21f3",
+        "name" : "Verifying_npa_equals_1_videos_adCall_LGPD_Privacy",
+        "title" : "Verifying npa=1 in videos ad call for LGPD privacy",
+        "time" : {
+          "start" : 1597956066445,
+          "stop" : 1597956066686,
+          "duration" : 241
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "3a413b5c9c7af90f",
+        "name" : "preConditionsTest_for_USA_CCPA",
+        "title" : "Pre conditions test for USA CCPA",
+        "time" : {
+          "start" : 1597956096787,
+          "stop" : 1597956272521,
+          "duration" : 175734
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "92b4a054edfd3233",
+        "name" : "Verifying_PrivacyCard_PresenceonScreen",
+        "title" : "Verifying Privacy Card is present on the screen",
+        "time" : {
+          "start" : 1597956272529,
+          "stop" : 1597956581540,
+          "duration" : 309011
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "2164521dad76ca5",
+        "name" : "Selecting_DoNotSellMyInformation_scenario",
+        "title" : "Selecting the  Do Not Sell My Information option  in the privacy card",
+        "time" : {
+          "start" : 1597956581546,
+          "stop" : 1597956710891,
+          "duration" : 129345
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "3aca94524cc18b88",
+        "name" : "Verifying_Loatme_adcrwdcntrlnet_apiCall_supressing_USA_CCPA_Privacy_DoNotSellMyInformation",
+        "title" : "Verifying Lotame ad.crwdcntrl.net api call supressing for USA-CCPA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597956710897,
+          "stop" : 1597956742835,
+          "duration" : 31938
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "e643c2267aee33c7",
+        "name" : "Verifying_Loatme_bcpcrwdcntrlnet_apiCall_supressing_USA_CCPA_Privacy_DoNotSellMyInformation",
+        "title" : "Verifying Lotame bcp.crwdcntrl.net api call supressing for USA-CCPA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597956742841,
+          "stop" : 1597956743176,
+          "duration" : 335
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "5494497535449b5f",
+        "name" : "Verifying_Factual_locationwfxtriggerscom_apiCall_supressing_USA_CCPA_Privacy_DoNotSellMyInformation",
+        "title" : "Verifying Factual location.wfxtriggers.com api call supressing for USA-CCPA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597956743176,
+          "stop" : 1597956743569,
+          "duration" : 393
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "505d5e691971da21",
+        "name" : "Verifying_Supress_amazon_Slotid_homescreenhourly_preload_adcall_USA_CCPA_Privacy_DoNotSellMyInformation",
+        "title" : "Verifying supress amazon slotid for  home screen hourly preload ad call  USA-CCPA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597956743570,
+          "stop" : 1597956743804,
+          "duration" : 234
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "7b9904ac97d5f42a",
+        "name" : "Verifying_supress_amazon_Slotid_feed1_preroladcall_USA_CCPA_Privacy_DoNotSellMyInformation",
+        "title" : "Verifying supress amazon Slot Id for  feed1 preload ad call  USA-CCPA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597956743804,
+          "stop" : 1597956744055,
+          "duration" : 251
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "73072643b6e20ae5",
+        "name" : "Verifying_supress_amazon_Slotid_feed2_preroladcall_USA_CCPA_Privacy_DoNotSellMyInformation",
+        "title" : "Verifying supress amazon SlotId for feed2 prerload ad call  USA-CCPA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597956744056,
+          "stop" : 1597956744293,
+          "duration" : 237
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "707967726305e750",
+        "name" : "Verifying_Supress_amazon_Slotid_Hourlydetails_preload_adcall_USA_CCPA_Privacy_DoNotSellMyInformation",
+        "title" : "Verifying supress amazon SlotId for  hourly details preload ad call  USA-CCPA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597956744294,
+          "stop" : 1597956744511,
+          "duration" : 217
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "53bbc2cbeca46988",
+        "name" : "Verifying_Supress_amazon_Slotid_Hourly1_bigaddetails_preload_adcall_USA_CCPA_Privacy_DoNotSellMyInformation",
+        "title" : "Verifying supress amazon SlotId for  hourly1 details big ad  preload call USA-CCPA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597956744512,
+          "stop" : 1597956744745,
+          "duration" : 233
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "9a72d65c3b00cfa3",
+        "name" : "Verifying_supress_amazon_Slotid_Hourly2_bigaddetails_preload_adcall_USA_CCPA_Privacy_DoNotSellMyInformation",
+        "title" : "Verifying supress amazon SlotId for  hourly2 details big ad  preload call  USA-CCPA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597956744746,
+          "stop" : 1597956744993,
+          "duration" : 247
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "9868fd0b81c65d70",
+        "name" : "Verifying_supress_amazon_Slotid_Hourly3_bigaddetails_preload_adcall_USA_CCPA_Privacy_DoNotSellMyInformation",
+        "title" : "Verifying supress amazon SlotId for  hourly3 details big ad preload call USA-CCPA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597956744993,
+          "stop" : 1597956745227,
+          "duration" : 234
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "571c0014a6d27e77",
+        "name" : "Verifying_supress_amazon_Slotid_mapsdetails_preload_adcall_USA_CCPA_Privacy_DoNotSellMyInformation",
+        "title" : "Verifying supress amazon SlotId for maps details preload ad call USA-CCPA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597956745227,
+          "stop" : 1597956745468,
+          "duration" : 241
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "56d7728c205cb1fe",
+        "name" : "Verifying_supress_amazon_Slotid_Dailydetails_preload_adcall_USA_CCPA_Privacy_DoNotSellMyInformation",
+        "title" : "Verifying supress amazon SlotId for daily details preload ad call USA-CCPA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597956745469,
+          "stop" : 1597956745894,
+          "duration" : 425
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "ee3866c804e93853",
+        "name" : "Verifying_supress_amazon_Slotid_video_adcall_USA_CCPA_Privacy_DoNotSellMyInformation",
+        "title" : "Verifying supress amazon SlotId for videos preload ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597956745895,
+          "stop" : 1597956746127,
+          "duration" : 232
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "98d30bdbd1a5e15b",
+        "name" : "Verifying_homescreenhourly_adCall_Presence_USA_CCPA_Privacy_DoNotSellMyInformation",
+        "title" : "Verifying home screen hourly ad call presense for USA-CCPA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597956746127,
+          "stop" : 1597956746344,
+          "duration" : 217
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "c50d6517adbe6878",
+        "name" : "Verifying_homescreenmarquee_adCall_Presence_USA_CCPA_Privacy_DoNotSellMyInformation",
+        "title" : "Verifying home screen marquee ad call presense for USA-CCPA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597956746344,
+          "stop" : 1597956746555,
+          "duration" : 211
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "5a26782cd5d26ce8",
+        "name" : "Verifying_SOD_Cust_Param_homescreenmarquee_adCall_USA_CCPA_Privacy_DoNotSellMyInformation",
+        "title" : "Verifying SOD Cust param value in homescreen marquee call for  USA-CCPA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597956746556,
+          "stop" : 1597956746793,
+          "duration" : 237
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "88746d159a15bc99",
+        "name" : "Verifying_SOD_Cust_Param_homescreenhourly_adCall_USA_CCPA_Privacy_DoNotSellMyInformation",
+        "title" : "Verifying SOD Cust param value in homescreen hourly ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597956746794,
+          "stop" : 1597956747026,
+          "duration" : 232
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "3fcb3a208fe4ae39",
+        "name" : "Verifying_SOD_Cust_Param_mapsdetails_adCall_USA_CCPA_Privacy_DoNotSellMyInformation",
+        "title" : "Verifying SOD Cust param value in maps details page ad call for USA _CCPA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597956747027,
+          "stop" : 1597956747272,
+          "duration" : 245
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "cee6642d9c676069",
+        "name" : "Verifying_rdp_equals_1_homescreenHourly_adCall_USA_CCPA_Privacy_DoNotSellMyInformation",
+        "title" : "Verifying rdp=1 in home screen hourly ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597956747272,
+          "stop" : 1597956747460,
+          "duration" : 188
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "6fe614a9f7512ac3",
+        "name" : "Verifying_rdp_equals_1_homescreenmarquee_adCall_USA_CCPA_Privacy_DoNotSellMyInformation",
+        "title" : "Verifying rdp=1 in home screen marquee  ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597956747460,
+          "stop" : 1597956747705,
+          "duration" : 245
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "f27ac5ee7b9f4926",
+        "name" : "Verifying_videos_adCall_Presence_USA_CCPA_Privacy_DoNotSellMyInformation",
+        "title" : "Verifying videos ad call presense for USA-CCPA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597956747705,
+          "stop" : 1597956747929,
+          "duration" : 224
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "c5de187e577709b4",
+        "name" : "Verifying_SOD_Cust_Param_videos_adCall_USA_CCPA_Privacy_DoNotSellMyInformation",
+        "title" : "Verifying SOD Cust param value in Videos  ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597956747931,
+          "stop" : 1597956748210,
+          "duration" : 279
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "5d9a3791ad440474",
+        "name" : "Verifying_rdp_equals_1_Videos_adCall_USA_CCPA_Privacy_DoNotSellMyInformation",
+        "title" : "Verifying rdp=1 in videos  ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597956748211,
+          "stop" : 1597956748436,
+          "duration" : 225
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "4a0937986df997e5",
+        "name" : "Smoke_Test_Selecting_Optin_mode_scenario",
+        "title" : "Selecting the  Standard Advertising Settings  in the privacy card",
+        "time" : {
+          "start" : 1597956748437,
+          "stop" : 1597957096180,
+          "duration" : 347743
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "bec9d29a64335ad6",
+        "name" : "Verifying_Loatme_bcpcrwdcntrlnet_apiCall_presence_USA_CCPA_Privacy_StandardAdvertisingSettings",
+        "title" : "Verifying Lotame bcp.crwdcntrl.net api call presence for USA-CCPA privacy when Advertising option set to Standard Advertising Settings",
+        "time" : {
+          "start" : 1597957096187,
+          "stop" : 1597957127703,
+          "duration" : 31516
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "6f97f71399d78054",
+        "name" : "Verifying_Factual_locationwfxtriggerscom_apiCall_presence_USA_CCPA_Privacy_StandardAdvertisingSettings",
+        "title" : "Verifying Factual location.wfxtriggers.com api call presence for USA-CCPA privacy when Advertising option set to Standard Advertising Settings",
+        "time" : {
+          "start" : 1597957127709,
+          "stop" : 1597957127757,
+          "duration" : 48
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "7d47429d3e5b6238",
+        "name" : "Verifying_presence_amazon_Slotid_homescreenhourly_preload_adcall_USA_CCPA_Privacy_StandardAdvertisingSettings",
+        "title" : "Verifying presence amazon slotid for  home screen hourly preload ad call  USA-CCPA privacy when Advertising option set to Standard Advertising Settings",
+        "time" : {
+          "start" : 1597957127758,
+          "stop" : 1597957127801,
+          "duration" : 43
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "4adc94ff5a90a795",
+        "name" : "Verifying_presence_amazon_Slotid_feed1_preroladcall_USA_CCPA_Privacy_StandardAdvertisingSettings",
+        "title" : "Verifying presence amazon SlotId for  feed1 preload ad call  USA-CCPA privacy when Advertising option set to Standard Advertising Settings",
+        "time" : {
+          "start" : 1597957127802,
+          "stop" : 1597957127837,
+          "duration" : 35
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "32da105ec84704f9",
+        "name" : "Verifying_presence_amazon_Slotid_feed2_preroladcall_USA_CCPA_Privacy_StandardAdvertisingSettings",
+        "title" : "Verifying presence amazon SlotId for feed2 prerload ad call  USA-CCPA privacy when Advertising option set to  Standard Advertising Settings",
+        "time" : {
+          "start" : 1597957127837,
+          "stop" : 1597957127872,
+          "duration" : 35
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "220c23c24955e902",
+        "name" : "Verifying_presence_amazon_Slotid_Hourlydetails_preload_adcall_USA_CCPA_Privacy_StandardAdvertisingSettings",
+        "title" : "Verifying presence amazon SlotId for  hourly details preload ad call  USA-CCPA privacy when Advertising option set to Standard Advertising Settings",
+        "time" : {
+          "start" : 1597957127873,
+          "stop" : 1597957127905,
+          "duration" : 32
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "4c5109dc8d9800f9",
+        "name" : "Verifying_presence_amazon_Slotid_Hourly1_bigaddetails_preload_adcall_USA_CCPA_Privacy_StandardAdvertisingSettings",
+        "title" : "Verifying presence amazon SlotId for  hourly1 details big ad  preload call USA-CCPA privacy when Advertising option set to  Standard Advertising Settings",
+        "time" : {
+          "start" : 1597957127905,
+          "stop" : 1597957127941,
+          "duration" : 36
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "baec1b9f067aa350",
+        "name" : "Verifying_presence_amazon_Slotid_Hourly2_bigaddetails_preload_adcall_USA_CCPA_Privacy_StandardAdvertisingSettings",
+        "title" : "Verifying presence amazon SlotId for  hourly2 details big ad  preload call  USA-CCPA privacy when Advertising option set to  Standard Advertising Settings",
+        "time" : {
+          "start" : 1597957127942,
+          "stop" : 1597957127978,
+          "duration" : 36
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "8e5a076cedc2d7a2",
+        "name" : "Verifying_presence_amazon_Slotid_Hourly3_bigaddetails_preload_adcall_USA_CCPA_Privacy_StandardAdvertisingSettings",
+        "title" : "Verifying presence amazon SlotId for  hourly3 details big ad preload call USA-CCPA privacy when Advertising option set to  Standard Advertising Settings",
+        "time" : {
+          "start" : 1597957127979,
+          "stop" : 1597957128014,
+          "duration" : 35
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "77bee5fcc970fbd1",
+        "name" : "Verifying_presence_amazon_Slotid_mapsdetails_preload_adcall_USA_CCPA_Privacy_StandardAdvertisingSettings",
+        "title" : "Verifying presence amazon SlotId for maps details preload ad call USA-CCPA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597957128014,
+          "stop" : 1597957128083,
+          "duration" : 69
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "5380ff05e7c61c70",
+        "name" : "Verifying_presence_amazon_Slotid_Dailydetails_preload_adcall_USA_CCPA_Privacy_StandardAdvertisingSettings",
+        "title" : "Verifying presence amazon SlotId for daily details preload ad call USA-CCPA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597957128083,
+          "stop" : 1597957128120,
+          "duration" : 37
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "5635e31c66d28377",
+        "name" : "Verifying_presence_amazon_Slotid_video_adcall_USA_CCPA_Privacy_StandardAdvertisingSettings",
+        "title" : "Verifying presence amazon SlotId for videos preload ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597957128120,
+          "stop" : 1597957128196,
+          "duration" : 76
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "a3d868c6eac5ee3c",
+        "name" : "Verifying_homescreenhourly_adCall_Presence_USA_CCPA_Privacy_StandardAdvertisingSettings",
+        "title" : "Verifying home screen hourly ad call presense for USA-CCPA privacy when Advertising option set to Standard Advertising Settings",
+        "time" : {
+          "start" : 1597957128196,
+          "stop" : 1597957128230,
+          "duration" : 34
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "28ce9a39cb536548",
+        "name" : "Verifying_homescreenmarquee_adCall_Presence_USA_CCPA_Privacy_StandardAdvertisingSettings",
+        "title" : "Verifying home screen marquee ad call presense for USA-CCPA privacy when Advertising option set to Standard Advertising Settings",
+        "time" : {
+          "start" : 1597957128230,
+          "stop" : 1597957128267,
+          "duration" : 37
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "87e1359384a0f59f",
+        "name" : "Verifying_SOD_Cust_Param_homescreenmarquee_adCall_USA_CCPA_Privacy_StandardAdvertisingSettings",
+        "title" : "Verifying SOD custum param for  home screen marquee ad call USA-CCPA privacy when Advertising option set to Standard Advertising Settings",
+        "time" : {
+          "start" : 1597957128267,
+          "stop" : 1597957128308,
+          "duration" : 41
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "40e313ed35285f8d",
+        "name" : "Verifying_SOD_Cust_Param_homescreenhourly_adCall_USA_CCPA_Privacy_StandardAdvertisingSettings",
+        "title" : "Verifying SOD custum param for  home screen hourly ad call USA-CCPA privacy when Advertising option set to Standard Advertising Settings",
+        "time" : {
+          "start" : 1597957128308,
+          "stop" : 1597957128346,
+          "duration" : 38
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "f2c7a1f85fd81abd",
+        "name" : "Verifying_SOD_Cust_Param_mapsdetails_adCall_USACCPA_Privacy_StandardAdvertisingSettings",
+        "title" : "Verifying SOD custum param for  maps details ad call USA_CCPA privacy when Advertising option set to Standard Advertising Settings",
+        "time" : {
+          "start" : 1597957128347,
+          "stop" : 1597957128386,
+          "duration" : 39
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "f1085cd8afa4eb28",
+        "name" : "Verifying_rdp_keyword_supress_homescreenmarquee_adCall_USA_CCPA_Privacy_StandardAdvertisingSettings",
+        "title" : "Verifying rdp keyword supress in home screen marquee ad call for USA-CCPA privacy when Advertising option set to Standard Advertising Settings",
+        "time" : {
+          "start" : 1597957128386,
+          "stop" : 1597957128420,
+          "duration" : 34
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "28435caa1387312a",
+        "name" : "Verifying_rdp_keyword_supress_homescreenHourly_adCall_USA_CCPA_Privacy_StandardAdvertisingSettings",
+        "title" : "Verifying rdp keyword supress in home screen hourly ad call for USA-CCPA privacy when Advertising option set to Standard Advertising Settings",
+        "time" : {
+          "start" : 1597957128421,
+          "stop" : 1597957128456,
+          "duration" : 35
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "fb1848e8d1e84f79",
+        "name" : "Verifying_video_adCall_Presence_USA_CCPA_Privacy_StandardAdvertisingSettings",
+        "title" : "Verifying video call presense for USA-CCPA privacy when Advertising option set to Standard Advertising Settings",
+        "time" : {
+          "start" : 1597957128457,
+          "stop" : 1597957128497,
+          "duration" : 40
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "4ed9e55602e183a4",
+        "name" : "Smoke_Test_Verifying_SOD_Cust_Param_videoad_Optin_mode_scenario",
+        "title" : "Verifying SOD custum param for  video ad call  USA-CCPA privacy when Advertising option set to Standard Advertising Settings",
+        "time" : {
+          "start" : 1597957128498,
+          "stop" : 1597957128541,
+          "duration" : 43
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "a6c8787a8bfddc94",
+        "name" : "Verifying_rdp_keyword_supress_videos_Call_USA_CCPA_Privacy_StandardAdvertisingSettings",
+        "title" : "Verifying rdp keyword supress in videos call for USA-CCPA privacy when Advertising option set to Standard Advertising Settings",
+        "time" : {
+          "start" : 1597957128541,
+          "stop" : 1597957128585,
+          "duration" : 44
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "99d917ad1bfa32e9",
+        "name" : "preConditionsTest_for_USA",
+        "title" : "Pre conditions test for USA",
+        "time" : {
+          "start" : 1597957158695,
+          "stop" : 1597957324468,
+          "duration" : 165773
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "c65480cad6bc8b1e",
+        "name" : "Verifying_PrivacyCard_PresenceonScreen",
+        "title" : "Verifying Privacy Card is present on the screen",
+        "time" : {
+          "start" : 1597957324469,
+          "stop" : 1597957616060,
+          "duration" : 291591
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "a854e2714d4f55d0",
+        "name" : "Selecting_DoNotSellMyInformation_scenario",
+        "title" : "Selecting the  Do Not Sell My Information option  in the privacy card",
+        "time" : {
+          "start" : 1597957616066,
+          "stop" : 1597957716545,
+          "duration" : 100479
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "4e4fbfda641e5cfc",
+        "name" : "Verifying_Loatme_adcrwdcntrlnet_apiCall_supressing_USA_Privacy_DoNotSellMyInformation",
+        "title" : "Verifying Lotame ad.crwdcntrl.net api call supressing for USA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597957716550,
+          "stop" : 1597957717557,
+          "duration" : 1007
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "73225cb668c0696d",
+        "name" : "Verifying_Loatme_bcpcrwdcntrlnet_apiCall_supressing_USA_Privacy_DoNotSellMyInformation",
+        "title" : "Verifying Lotame bcp.crwdcntrl.net api call supressing for USA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597957717557,
+          "stop" : 1597957717561,
+          "duration" : 4
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "17342a9f55439248",
+        "name" : "Verifying_Factual_locationwfxtriggerscom_apiCall_supressing_USA_Privacy_DoNotSellMyInformation",
+        "title" : "Verifying Factual location.wfxtriggers.com api call supressing for USA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597957717562,
+          "stop" : 1597957717566,
+          "duration" : 4
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "bb4bffb1054881f0",
+        "name" : "Verifying_Supress_amazon_Slotid_homescreenhourly_preload_adcall_USA_Privacy_DoNotSellMyInformation",
+        "title" : "Verifying supress amazon slotid for  home screen hourly preload ad call  USA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597957717567,
+          "stop" : 1597957717570,
+          "duration" : 3
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "223088b636377543",
+        "name" : "Verifying_supress_amazon_Slotid_feed1_preroladcall_USA_Privacy_DoNotSellMyInformation",
+        "title" : "Verifying supress amazon Slot Id for  feed1 preload ad call  USA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597957717570,
+          "stop" : 1597957717573,
+          "duration" : 3
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "2fee22577056756f",
+        "name" : "Verifying_supress_amazon_Slotid_feed2_preroladcall_USA_Privacy_DoNotSellMyInformation",
+        "title" : "Verifying supress amazon SlotId for feed2 prerload ad call  USA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597957717574,
+          "stop" : 1597957717577,
+          "duration" : 3
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "4e8898e34a2e974c",
+        "name" : "Verifying_Supress_amazon_Slotid_Hourlydetails_preload_adcall_USA_Privacy_DoNotSellMyInformation",
+        "title" : "Verifying supress amazon SlotId for  hourly details preload ad call  USA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597957717578,
+          "stop" : 1597957717581,
+          "duration" : 3
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "8464e3e87a1c7c79",
+        "name" : "Verifying_Supress_amazon_Slotid_Hourly1_bigaddetails_preload_adcall_USA_Privacy_DoNotSellMyInformation",
+        "title" : "Verifying supress amazon SlotId for  hourly1 details big ad  preload call USA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597957717581,
+          "stop" : 1597957717584,
+          "duration" : 3
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "d0f71082009d98a8",
+        "name" : "Verifying_supress_amazon_Slotid_Hourly2_bigaddetails_preload_adcall_USA_Privacy_DoNotSellMyInformation",
+        "title" : "Verifying supress amazon SlotId for  hourly2 details big ad  preload call  USA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597957717585,
+          "stop" : 1597957717587,
+          "duration" : 2
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "6593c6e531e90ea8",
+        "name" : "Verifying_supress_amazon_Slotid_Hourly3_bigaddetails_preload_adcall_USA_Privacy_DoNotSellMyInformation",
+        "title" : "Verifying supress amazon SlotId for  hourly3 details big ad preload call USA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597957717588,
+          "stop" : 1597957717591,
+          "duration" : 3
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "af8740631cfc2ca0",
+        "name" : "Verifying_supress_amazon_Slotid_mapsdetails_preload_adcall_USA_Privacy_DoNotSellMyInformation",
+        "title" : "Verifying supress amazon SlotId for maps details preload ad call USA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597957717591,
+          "stop" : 1597957717594,
+          "duration" : 3
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "94cce54b55e11bd2",
+        "name" : "Verifying_supress_amazon_Slotid_Dailydetails_preload_adcall_USA_Privacy_DoNotSellMyInformation",
+        "title" : "Verifying supress amazon SlotId for daily details preload ad call USA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597957717595,
+          "stop" : 1597957717598,
+          "duration" : 3
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "e4d58bdea1bfbd3f",
+        "name" : "Verifying_supress_amazon_Slotid_video_adcall_USA_Privacy_DoNotSellMyInformation",
+        "title" : "Verifying supress amazon SlotId for videos preload ad call for USA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597957717599,
+          "stop" : 1597957717602,
+          "duration" : 3
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "4874c6a1b1619d9d",
+        "name" : "Verifying_homescreenhourly_adCall_Presence_USA_Privacy_DoNotSellMyInformation",
+        "title" : "Verifying home screen hourly ad call presense for USA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597957717602,
+          "stop" : 1597957717607,
+          "duration" : 5
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "c2f319db66e2041",
+        "name" : "Verifying_homescreenmarquee_adCall_Presence_USA_Privacy_DoNotSellMyInformation",
+        "title" : "Verifying home screen marquee ad call presense for USA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597957717607,
+          "stop" : 1597957717611,
+          "duration" : 4
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "e10b57c153572e4f",
+        "name" : "Verifying_SOD_Cust_Param_homescreenmarquee_adCall_USA_Privacy_DoNotSellMyInformation",
+        "title" : "Verifying SOD Cust param value in homescreen marquee call for  USA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597957717611,
+          "stop" : 1597957717617,
+          "duration" : 6
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "f670118fc79f7162",
+        "name" : "Verifying_SOD_Cust_Param_homescreenhourly_adCall_USA_Privacy_DoNotSellMyInformation",
+        "title" : "Verifying SOD Cust param value in homescreen hourly ad call for USA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597957717618,
+          "stop" : 1597957717623,
+          "duration" : 5
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "b3c2e42f8e4236a7",
+        "name" : "Verifying_SOD_Cust_Param_mapsdetails_adCall_USA_Privacy_DoNotSellMyInformation",
+        "title" : "Verifying SOD Cust param value in maps details page ad call for USA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597957717624,
+          "stop" : 1597957717629,
+          "duration" : 5
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "89d5f2d1192ca37d",
+        "name" : "Verifying_rdp_equals_1_homescreenHourly_adCall_USA_Privacy_DoNotSellMyInformation",
+        "title" : "Verifying rdp=1 in home screen hourly ad call for USA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597957717630,
+          "stop" : 1597957717634,
+          "duration" : 4
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "d54b240fc46361df",
+        "name" : "Verifying_rdp_equals_1_homescreenmarquee_adCall_USA_Privacy_DoNotSellMyInformation",
+        "title" : "Verifying rdp=1 in home screen marquee  ad call for USA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597957717635,
+          "stop" : 1597957717640,
+          "duration" : 5
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "6ba9f2233735cb57",
+        "name" : "Verifying_videos_adCall_Presence_USA_Privacy_DoNotSellMyInformation",
+        "title" : "Verifying videos ad call presense for USA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597957717640,
+          "stop" : 1597957717643,
+          "duration" : 3
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "8d57f37262427843",
+        "name" : "Verifying_SOD_Cust_Param_videos_adCall_USA_Privacy_DoNotSellMyInformation",
+        "title" : "Verifying SOD Cust param value in Videos  ad call for USA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597957717644,
+          "stop" : 1597957717648,
+          "duration" : 4
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "e4d964bbdcf69e6d",
+        "name" : "Verifying_rdp_equals_1_Videos_adCall_USA_Privacy_DoNotSellMyInformation",
+        "title" : "Verifying rdp=1 in videos  ad call for USA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597957717648,
+          "stop" : 1597957717652,
+          "duration" : 4
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "f1a441512a77c2b0",
+        "name" : "Smoke_Test_Selecting_Optin_mode_scenario",
+        "title" : "Selecting the  Standard Advertising Settings  in the privacy card",
+        "time" : {
+          "start" : 1597957717653,
+          "stop" : 1597958051584,
+          "duration" : 333931
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "3fe8faf5ea61fb87",
+        "name" : "Verifying_Loatme_bcpcrwdcntrlnet_apiCall_presence_USA_Privacy_StandardAdvertisingSettings",
+        "title" : "Verifying Lotame bcp.crwdcntrl.net api call presence for USA privacy when Advertising option set to Standard Advertising Settings",
+        "time" : {
+          "start" : 1597958051590,
+          "stop" : 1597958052594,
+          "duration" : 1004
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "d1d015439f2ff243",
+        "name" : "Verifying_Factual_locationwfxtriggerscom_apiCall_presence_USA_Privacy_StandardAdvertisingSettings",
+        "title" : "Verifying Factual location.wfxtriggers.com api call presence for USA privacy when Advertising option set to Standard Advertising Settings",
+        "time" : {
+          "start" : 1597958052595,
+          "stop" : 1597958052599,
+          "duration" : 4
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "f06878d901ffc498",
+        "name" : "Verifying_presence_amazon_Slotid_homescreenhourly_preload_adcall_USA_Privacy_StandardAdvertisingSettings",
+        "title" : "Verifying presence amazon slotid for  home screen hourly preload ad call  USA privacy when Advertising option set to Standard Advertising Settings",
+        "time" : {
+          "start" : 1597958052599,
+          "stop" : 1597958052602,
+          "duration" : 3
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "d54e166b425ac63d",
+        "name" : "Verifying_presence_amazon_Slotid_feed1_preroladcall_USA_Privacy_StandardAdvertisingSettings",
+        "title" : "Verifying presence amazon SlotId for  feed1 preload ad call  USA privacy when Advertising option set to Standard Advertising Settings",
+        "time" : {
+          "start" : 1597958052603,
+          "stop" : 1597958052605,
+          "duration" : 2
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "bca92d178f2eacf5",
+        "name" : "Verifying_presence_amazon_Slotid_feed2_preroladcall_USA_Privacy_StandardAdvertisingSettings",
+        "title" : "Verifying presence amazon SlotId for feed2 prerload ad call  USA privacy when Advertising option set to  Standard Advertising Settings",
+        "time" : {
+          "start" : 1597958052606,
+          "stop" : 1597958052608,
+          "duration" : 2
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "57820e0c1613bd3f",
+        "name" : "Verifying_presence_amazon_Slotid_Hourlydetails_preload_adcall_USA_Privacy_StandardAdvertisingSettings",
+        "title" : "Verifying presence amazon SlotId for  hourly details preload ad call  USA privacy when Advertising option set to Standard Advertising Settings",
+        "time" : {
+          "start" : 1597958052609,
+          "stop" : 1597958052611,
+          "duration" : 2
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "9c8a9cec938333ce",
+        "name" : "Verifying_presence_amazon_Slotid_Hourly1_bigaddetails_preload_adcall_USA_Privacy_StandardAdvertisingSettings",
+        "title" : "Verifying presence amazon SlotId for  hourly1 details big ad  preload call USA privacy when Advertising option set to  Standard Advertising Settings",
+        "time" : {
+          "start" : 1597958052612,
+          "stop" : 1597958052616,
+          "duration" : 4
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "ba1473884befa5a9",
+        "name" : "Verifying_presence_amazon_Slotid_Hourly2_bigaddetails_preload_adcall_USA_Privacy_StandardAdvertisingSettings",
+        "title" : "Verifying presence amazon SlotId for  hourly2 details big ad  preload call  USA privacy when Advertising option set to  Standard Advertising Settings",
+        "time" : {
+          "start" : 1597958052616,
+          "stop" : 1597958052620,
+          "duration" : 4
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "43f49c6e80379cd2",
+        "name" : "Verifying_presence_amazon_Slotid_Hourly3_bigaddetails_preload_adcall_USA_Privacy_StandardAdvertisingSettings",
+        "title" : "Verifying presence amazon SlotId for  hourly3 details big ad preload call USA privacy when Advertising option set to  Standard Advertising Settings",
+        "time" : {
+          "start" : 1597958052620,
+          "stop" : 1597958052623,
+          "duration" : 3
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "b0e4b46700928381",
+        "name" : "Verifying_presence_amazon_Slotid_mapsdetails_preload_adcall_USA_Privacy_StandardAdvertisingSettings",
+        "title" : "Verifying presence amazon SlotId for maps details preload ad call USA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597958052623,
+          "stop" : 1597958052627,
+          "duration" : 4
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "fbf1c1e236b990f6",
+        "name" : "Verifying_presence_amazon_Slotid_Dailydetails_preload_adcall_USA_Privacy_StandardAdvertisingSettings",
+        "title" : "Verifying presence amazon SlotId for daily details preload ad call USA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597958052628,
+          "stop" : 1597958052632,
+          "duration" : 4
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "4a5afbee48d88eeb",
+        "name" : "Verifying_presence_amazon_Slotid_video_adcall_USA_Privacy_StandardAdvertisingSettings",
+        "title" : "Verifying presence amazon SlotId for videos preload ad call for USA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597958052632,
+          "stop" : 1597958052635,
+          "duration" : 3
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "f7fb888758669362",
+        "name" : "Verifying_homescreenhourly_adCall_Presence_USA_Privacy_StandardAdvertisingSettings",
+        "title" : "Verifying home screen hourly ad call presense for USA privacy when Advertising option set to Standard Advertising Settings",
+        "time" : {
+          "start" : 1597958052636,
+          "stop" : 1597958052640,
+          "duration" : 4
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "e1e4609710ddd023",
+        "name" : "Verifying_homescreenmarquee_adCall_Presence_USA_Privacy_StandardAdvertisingSettings",
+        "title" : "Verifying home screen marquee ad call presense for USA privacy when Advertising option set to Standard Advertising Settings",
+        "time" : {
+          "start" : 1597958052640,
+          "stop" : 1597958052644,
+          "duration" : 4
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "2fd229961cfc5f91",
+        "name" : "Verifying_SOD_Cust_Param_homescreenmarquee_adCall_USA_Privacy_StandardAdvertisingSettings",
+        "title" : "Verifying SOD custum param for  home screen marquee ad call USA privacy when Advertising option set to Standard Advertising Settings",
+        "time" : {
+          "start" : 1597958052645,
+          "stop" : 1597958052649,
+          "duration" : 4
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "3a259f05fae7c93e",
+        "name" : "Verifying_SOD_Cust_Param_homescreenhourly_adCall_USA_Privacy_StandardAdvertisingSettings",
+        "title" : "Verifying SOD custum param for  home screen hourly ad call USA privacy when Advertising option set to Standard Advertising Settings",
+        "time" : {
+          "start" : 1597958052650,
+          "stop" : 1597958052656,
+          "duration" : 6
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "f860bd504a64d0e6",
+        "name" : "Verifying_rdp_keyword_supress_homescreenmarquee_adCall_USA_Privacy_StandardAdvertisingSettings",
+        "title" : "Verifying rdp keyword supress in home screen marquee ad call for USA privacy when Advertising option set to Standard Advertising Settings",
+        "time" : {
+          "start" : 1597958052657,
+          "stop" : 1597958052662,
+          "duration" : 5
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "b18f74be4a99deb8",
+        "name" : "Verifying_rdp_keyword_supress_homescreenHourly_adCall_USA_Privacy_StandardAdvertisingSettings",
+        "title" : "Verifying rdp keyword supress in home screen hourly ad call for USA privacy when Advertising option set to Standard Advertising Settings",
+        "time" : {
+          "start" : 1597958052662,
+          "stop" : 1597958052668,
+          "duration" : 6
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "3e1ef62b69fd010",
+        "name" : "Verifying_video_adCall_Presence_USA_Privacy_StandardAdvertisingSettings",
+        "title" : "Verifying video call presense for USA privacy when Advertising option set to Standard Advertising Settings",
+        "time" : {
+          "start" : 1597958052668,
+          "stop" : 1597958052671,
+          "duration" : 3
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "790fa36f5e272785",
+        "name" : "Smoke_Test_Verifying_SOD_Cust_Param_videoad_Optin_mode_scenario",
+        "title" : "Verifying SOD custum param for  video ad call  USA privacy when Advertising option set to Standard Advertising Settings",
+        "time" : {
+          "start" : 1597958052672,
+          "stop" : 1597958052675,
+          "duration" : 3
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "8a39ac43f1b59be9",
+        "name" : "Verifying_rdp_keyword_supress_videos_Call_USA_Privacy_StandardAdvertisingSettings",
+        "title" : "Verifying rdp keyword supress in videos call for USA privacy when Advertising option set to Standard Advertising Settings",
+        "time" : {
+          "start" : 1597958052676,
+          "stop" : 1597958052680,
+          "duration" : 4
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "b1bcf056d1155b96",
+        "name" : "Verifying_SOD_Cust_Param_mapsdetails_adCall_USA_Privacy_StandardAdvertisingSettings",
+        "title" : "Verifying SOD custum param for  maps details page ad call USA privacy when Advertising option set to Standard Advertising Settings",
+        "time" : {
+          "start" : 1597958052680,
+          "stop" : 1597958052686,
+          "duration" : 6
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      } ]
+    } ]
+  } ]
+}

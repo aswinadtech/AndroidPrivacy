@@ -1,0 +1,89 @@
+{
+  "uid" : "7d47429d3e5b6238",
+  "name" : "Verifying_presence_amazon_Slotid_homescreenhourly_preload_adcall_USA_CCPA_Privacy_StandardAdvertisingSettings",
+  "title" : "Verifying presence amazon slotid for  home screen hourly preload ad call  USA-CCPA privacy when Advertising option set to Standard Advertising Settings",
+  "time" : {
+    "start" : 1597957127758,
+    "stop" : 1597957127801,
+    "duration" : 43
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 2
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "c8a285747049d5a2",
+    "name" : "Suite : Test",
+    "title" : "Suite : Test"
+  },
+  "steps" : [ {
+    "name" : "logStep[Verifying presence amazon slotid for  home screen hourly preload ad call  USA-CCPA privacy when Advertising opti...]",
+    "title" : "Verifying presence amazon slotid for  home screen hourly preload ad call  USA-CCPA privacy when Advertising option set t...",
+    "time" : {
+      "start" : 1597957127758,
+      "stop" : 1597957127758,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[slot id: 869c843c-7cf8-47ae-b6ed-088057e4bc8a is present]",
+    "title" : "slot id: 869c843c-7cf8-47ae-b6ed-088057e4bc8a is present",
+    "time" : {
+      "start" : 1597957127801,
+      "stop" : 1597957127801,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "twc.Regression.TestCases.USA_CCPA_Run"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verifying_presence_amazon_Slotid_homescreenhourly_preload_adcall_USA_CCPA_Privacy_StandardAdvertisingSettings"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testGroup",
+    "value" : "Test"
+  }, {
+    "name" : "host",
+    "value" : "iosbuildserver.attlocal.net"
+  }, {
+    "name" : "thread",
+    "value" : "96905@iosbuildserver.attlocal.net.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : Test"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : Test"
+  } ],
+  "parameters" : [ ]
+}

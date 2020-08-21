@@ -1,0 +1,299 @@
+{
+  "uid" : "3a413b5c9c7af90f",
+  "name" : "preConditionsTest_for_USA_CCPA",
+  "title" : "Pre conditions test for USA CCPA",
+  "time" : {
+    "start" : 1597956096787,
+    "stop" : 1597956272521,
+    "duration" : 175734
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 16
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "c8a285747049d5a2",
+    "name" : "Suite : Test",
+    "title" : "Suite : Test"
+  },
+  "steps" : [ {
+    "name" : "logStep[Url :http://control.charles/tools/rewrite/disable Responded with status code : 200]",
+    "title" : "Url :http://control.charles/tools/rewrite/disable Responded with status code : 200",
+    "time" : {
+      "start" : 1597956066712,
+      "stop" : 1597956066712,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Url :http://control.charles/quit Responded with status code : 200]",
+    "title" : "Url :http://control.charles/quit Responded with status code : 200",
+    "time" : {
+      "start" : 1597956066717,
+      "stop" : 1597956066717,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[****** LGPD Privacy Test Ended]",
+    "title" : "****** LGPD Privacy Test Ended",
+    "time" : {
+      "start" : 1597956066718,
+      "stop" : 1597956066718,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[****** LGPD Privacy Test Started]",
+    "title" : "****** LGPD Privacy Test Started",
+    "time" : {
+      "start" : 1597956066719,
+      "stop" : 1597956066719,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Starting Charles headless: false using port: 8222]",
+    "title" : "Starting Charles headless: false using port: 8222",
+    "time" : {
+      "start" : 1597956066740,
+      "stop" : 1597956066740,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Url :http://control.charles Responded with status code : 200]",
+    "title" : "Url :http://control.charles Responded with status code : 200",
+    "time" : {
+      "start" : 1597956066743,
+      "stop" : 1597956066743,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Url :http://control.charles/quit Responded with status code : 200]",
+    "title" : "Url :http://control.charles/quit Responded with status code : 200",
+    "time" : {
+      "start" : 1597956066747,
+      "stop" : 1597956066747,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[input command /Applications/Charles.app/Contents/MacOS/Charles -config enableUSACCPA.config.port8222]",
+    "title" : "input command /Applications/Charles.app/Contents/MacOS/Charles -config enableUSACCPA.config.port8222",
+    "time" : {
+      "start" : 1597956066747,
+      "stop" : 1597956066747,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Url :http://control.charles Responded with status code : 200]",
+    "title" : "Url :http://control.charles Responded with status code : 200",
+    "time" : {
+      "start" : 1597956096761,
+      "stop" : 1597956096761,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Url :http://control.charles/tools/rewrite/disable Responded with status code : 200]",
+    "title" : "Url :http://control.charles/tools/rewrite/disable Responded with status code : 200",
+    "time" : {
+      "start" : 1597956096767,
+      "stop" : 1597956096767,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Url :http://control.charles/recording/stop Responded with status code : 200]",
+    "title" : "Url :http://control.charles/recording/stop Responded with status code : 200",
+    "time" : {
+      "start" : 1597956096775,
+      "stop" : 1597956096775,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Url :http://control.charles/tools/map-local/disable Responded with status code : 200]",
+    "title" : "Url :http://control.charles/tools/map-local/disable Responded with status code : 200",
+    "time" : {
+      "start" : 1597956096781,
+      "stop" : 1597956096781,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Url :http://control.charles/tools/rewrite/enable Responded with status code : 200]",
+    "title" : "Url :http://control.charles/tools/rewrite/enable Responded with status code : 200",
+    "time" : {
+      "start" : 1597956096840,
+      "stop" : 1597956096840,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Url :http://control.charles/recording/start Responded with status code : 200]",
+    "title" : "Url :http://control.charles/recording/start Responded with status code : 200",
+    "time" : {
+      "start" : 1597956096884,
+      "stop" : 1597956096884,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Url :http://control.charles/session/clear Responded with status code : 200]",
+    "title" : "Url :http://control.charles/session/clear Responded with status code : 200",
+    "time" : {
+      "start" : 1597956096911,
+      "stop" : 1597956096911,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Url :http://control.charles/session/clear Responded with status code : 200]",
+    "title" : "Url :http://control.charles/session/clear Responded with status code : 200",
+    "time" : {
+      "start" : 1597956242828,
+      "stop" : 1597956242828,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "twc.Regression.TestCases.USA_CCPA_Run"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testGroup",
+    "value" : "Test"
+  }, {
+    "name" : "host",
+    "value" : "iosbuildserver.attlocal.net"
+  }, {
+    "name" : "thread",
+    "value" : "96905@iosbuildserver.attlocal.net.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "preConditionsTest_for_USA_CCPA"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : Test"
+  } ],
+  "parameters" : [ ]
+}

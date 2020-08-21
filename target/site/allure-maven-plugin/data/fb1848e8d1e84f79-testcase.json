@@ -1,0 +1,104 @@
+{
+  "uid" : "fb1848e8d1e84f79",
+  "name" : "Verifying_video_adCall_Presence_USA_CCPA_Privacy_StandardAdvertisingSettings",
+  "title" : "Verifying video call presense for USA-CCPA privacy when Advertising option set to Standard Advertising Settings",
+  "time" : {
+    "start" : 1597957128457,
+    "stop" : 1597957128497,
+    "duration" : 40
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 3
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "c8a285747049d5a2",
+    "name" : "Suite : Test",
+    "title" : "Suite : Test"
+  },
+  "steps" : [ {
+    "name" : "logStep[Verifying video call presense for USA-CCPA privacy when Advertising option set to Standard Advertising Settings]",
+    "title" : "Verifying video call presense for USA-CCPA privacy when Advertising option set to Standard Advertising Settings",
+    "time" : {
+      "start" : 1597957128457,
+      "stop" : 1597957128457,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Verifying iu=%2F7646%2Fapp_android_us%2Fvideo ad calll]",
+    "title" : "Verifying iu=%2F7646%2Fapp_android_us%2Fvideo ad calll",
+    "time" : {
+      "start" : 1597957128493,
+      "stop" : 1597957128493,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[iu=/7646/app_android_us/video call was trigred]",
+    "title" : "iu=/7646/app_android_us/video call was trigred",
+    "time" : {
+      "start" : 1597957128495,
+      "stop" : 1597957128495,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "twc.Regression.TestCases.USA_CCPA_Run"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testGroup",
+    "value" : "Test"
+  }, {
+    "name" : "host",
+    "value" : "iosbuildserver.attlocal.net"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verifying_video_adCall_Presence_USA_CCPA_Privacy_StandardAdvertisingSettings"
+  }, {
+    "name" : "thread",
+    "value" : "96905@iosbuildserver.attlocal.net.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : Test"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : Test"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,89 @@
+{
+  "uid" : "56108f7bbfcd21f3",
+  "name" : "Verifying_npa_equals_1_videos_adCall_LGPD_Privacy",
+  "title" : "Verifying npa=1 in videos ad call for LGPD privacy",
+  "time" : {
+    "start" : 1597956066445,
+    "stop" : 1597956066686,
+    "duration" : 241
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 2
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "c8a285747049d5a2",
+    "name" : "Suite : Test",
+    "title" : "Suite : Test"
+  },
+  "steps" : [ {
+    "name" : "logStep[Verifying npa=1 keyword in iu=%2F7646%2Fapp_android_us%2Fvideo  ad call url]",
+    "title" : "Verifying npa=1 keyword in iu=%2F7646%2Fapp_android_us%2Fvideo  ad call url",
+    "time" : {
+      "start" : 1597956066647,
+      "stop" : 1597956066647,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[npa value for iu=%2F7646%2Fapp_android_us%2Fvideo ad call is 1]",
+    "title" : "npa value for iu=%2F7646%2Fapp_android_us%2Fvideo ad call is 1",
+    "time" : {
+      "start" : 1597956066686,
+      "stop" : 1597956066686,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testGroup",
+    "value" : "Test"
+  }, {
+    "name" : "host",
+    "value" : "iosbuildserver.attlocal.net"
+  }, {
+    "name" : "testClass",
+    "value" : "twc.Regression.TestCases.LGPD_Run"
+  }, {
+    "name" : "thread",
+    "value" : "96905@iosbuildserver.attlocal.net.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verifying_npa_equals_1_videos_adCall_LGPD_Privacy"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : Test"
+  } ],
+  "parameters" : [ ]
+}

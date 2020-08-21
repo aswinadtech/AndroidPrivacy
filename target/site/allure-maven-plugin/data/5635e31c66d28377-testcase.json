@@ -1,0 +1,119 @@
+{
+  "uid" : "5635e31c66d28377",
+  "name" : "Verifying_presence_amazon_Slotid_video_adcall_USA_CCPA_Privacy_StandardAdvertisingSettings",
+  "title" : "Verifying presence amazon SlotId for videos preload ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information",
+  "time" : {
+    "start" : 1597957128120,
+    "stop" : 1597957128196,
+    "duration" : 76
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 4
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "c8a285747049d5a2",
+    "name" : "Suite : Test",
+    "title" : "Suite : Test"
+  },
+  "steps" : [ {
+    "name" : "logStep[Verifying presence amazon SlotId for videos preload ad call for USA-CCPA privacy when Advertising option set to ...]",
+    "title" : "Verifying presence amazon SlotId for videos preload ad call for USA-CCPA privacy when Advertising option set to Do Not S...",
+    "time" : {
+      "start" : 1597957128121,
+      "stop" : 1597957128121,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Verifying amazon \"slotId\": \"f71b7e17-6e34-4f6c-98f6-bbbe9f55586c\"   for video ad call]",
+    "title" : "Verifying amazon \"slotId\": \"f71b7e17-6e34-4f6c-98f6-bbbe9f55586c\"   for video ad call",
+    "time" : {
+      "start" : 1597957128156,
+      "stop" : 1597957128156,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[f71b7e17-6e34-4f6c-98f6-bbbe9f55586c is trigred for aax  call app_android_us/video]",
+    "title" : "f71b7e17-6e34-4f6c-98f6-bbbe9f55586c is trigred for aax  call app_android_us/video",
+    "time" : {
+      "start" : 1597957128158,
+      "stop" : 1597957128158,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[slot id: f71b7e17-6e34-4f6c-98f6-bbbe9f55586c is present]",
+    "title" : "slot id: f71b7e17-6e34-4f6c-98f6-bbbe9f55586c is present",
+    "time" : {
+      "start" : 1597957128195,
+      "stop" : 1597957128195,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "twc.Regression.TestCases.USA_CCPA_Run"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testGroup",
+    "value" : "Test"
+  }, {
+    "name" : "host",
+    "value" : "iosbuildserver.attlocal.net"
+  }, {
+    "name" : "thread",
+    "value" : "96905@iosbuildserver.attlocal.net.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : Test"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verifying_presence_amazon_Slotid_video_adcall_USA_CCPA_Privacy_StandardAdvertisingSettings"
+  } ],
+  "parameters" : [ ]
+}

@@ -50,7 +50,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 			this.configFile.delete();
 		}
 		this.proxy.disableRewriting();
-		//this.proxy.quitCharlesProxy();
+		this.proxy.quitCharlesProxy();
 		
 		System.out.println("****** USA CCPA  Privacy Test Ended");
 		logStep("****** USA CCPA  Privacy Test Ended");
@@ -61,6 +61,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 		// Enable rewriting on Charles install/launch TWC
 		this.proxy.enableRewriting();
 		this.proxy.startRecording();
+		CharlesFunctions.archive_folder("charles");
 		this.proxy.clearCharlesSession();
 		AppiumFunctions.LaunchAppWithFullReset();
 		   AppiumFunctions.resetApp();
@@ -68,18 +69,12 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 			AppiumFunctions.ClickonIUnderstand();
 			AppiumFunctions.ClickonIUnderstand();
 			AppiumFunctions.clickOnAllow();
-		// Preconditions
-	//	Utils.getCurrentMacIPAddressAndSetiPhoneProxy(true, true);
-		//Functions.listFilesForFolder(Functions.folder);
-	//	Functions.archive_folder("Charles");
-		//Functions.launchtheApp("true");
+		
 		System.out.println("App launched ");
 		this.proxy.clearCharlesSession();
 		AppiumFunctions.Kill_Launch_App();
 		AppiumFunctions.ClickonIUnderstand();
-	//	Functions.close_launchApp();
-		//Utils.navigateToAllCards(false);
-	//	Utils.createXMLFileForCharlesSessionFile();
+	
 	}
 	@Test(priority =102, enabled = true)  
 	  @Title("Verifying Privacy Card is present on the screen") public void
@@ -360,7 +355,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 	  logStep("Selecting the Standard Advertising Settings  in the privacy card");
      System.out. println("=================Slecting Standard Advertising Settings  in privacy card testcase started =========================");
 	 AppiumFunctions. Kill_Launch_App();
-	//  AppFunctions. Kill_Launch_App();
+		CharlesFunctions.archive_folder("charles");
 	  Thread.sleep(40000);	  
 	  AppiumFunctions.SwipeUp_Counter_privacy(25);
 	  Thread.sleep(10000); 

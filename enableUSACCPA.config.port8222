@@ -124,7 +124,7 @@
     <fullscreen>false</fullscreen>
     <mainWindow>
       <x>20</x>
-      <y>45</y>
+      <y>42</y>
       <width>900</width>
       <height>700</height>
     </mainWindow>
@@ -179,10 +179,6 @@
       <entry>
         <string>SessionFrame.navTabs.mode</string>
         <string>Sequence</string>
-      </entry>
-      <entry>
-        <string>URLEncodedQueryViewer.TABLE_COLUMN_STATES</string>
-        <columnStates/>
       </entry>
       <entry>
         <string>NavigatorJTable.TABLE_COLUMN_STATES</string>
@@ -272,13 +268,47 @@
                   <active>true</active>
                   <ruleType>3</ruleType>
                   <matchHeader>twc-privacy</matchHeader>
-                  <matchValue>exempt</matchValue>
+                  <matchValue>usa</matchValue>
                   <matchHeaderRegex>false</matchHeaderRegex>
                   <matchValueRegex>false</matchValueRegex>
                   <matchRequest>false</matchRequest>
                   <matchResponse>true</matchResponse>
                   <newHeader>twc-privacy</newHeader>
                   <newValue>usa-ccpa</newValue>
+                  <newHeaderRegex>false</newHeaderRegex>
+                  <newValueRegex>false</newValueRegex>
+                  <matchWholeValue>false</matchWholeValue>
+                  <caseSensitive>false</caseSensitive>
+                  <replaceType>1</replaceType>
+                </rewriteRule>
+                <rewriteRule>
+                  <active>true</active>
+                  <ruleType>3</ruleType>
+                  <matchHeader>twc-geoip-country</matchHeader>
+                  <matchValue>US</matchValue>
+                  <matchHeaderRegex>false</matchHeaderRegex>
+                  <matchValueRegex>false</matchValueRegex>
+                  <matchRequest>false</matchRequest>
+                  <matchResponse>true</matchResponse>
+                  <newHeader>twc-geoip-country</newHeader>
+                  <newValue>US</newValue>
+                  <newHeaderRegex>false</newHeaderRegex>
+                  <newValueRegex>false</newValueRegex>
+                  <matchWholeValue>false</matchWholeValue>
+                  <caseSensitive>false</caseSensitive>
+                  <replaceType>1</replaceType>
+                </rewriteRule>
+                <rewriteRule>
+                  <active>true</active>
+                  <ruleType>3</ruleType>
+                  <matchHeader>twc-geoip-region</matchHeader>
+                  <matchValue>GA</matchValue>
+                  <matchHeaderRegex>false</matchHeaderRegex>
+                  <matchValueRegex>false</matchValueRegex>
+                  <matchRequest>false</matchRequest>
+                  <matchResponse>true</matchResponse>
+                  <newHeader>twc-geoip-regiony</newHeader>
+                  <newValue>CA</newValue>
                   <newHeaderRegex>false</newHeaderRegex>
                   <newValueRegex>false</newValueRegex>
                   <matchWholeValue>false</matchWholeValue>

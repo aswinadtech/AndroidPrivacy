@@ -1,0 +1,119 @@
+{
+  "uid" : "77bee5fcc970fbd1",
+  "name" : "Verifying_presence_amazon_Slotid_mapsdetails_preload_adcall_USA_CCPA_Privacy_StandardAdvertisingSettings",
+  "title" : "Verifying presence amazon SlotId for maps details preload ad call USA-CCPA privacy when Advertising option set to Do Not Sell My Information",
+  "time" : {
+    "start" : 1597957128014,
+    "stop" : 1597957128083,
+    "duration" : 69
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 4
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "c8a285747049d5a2",
+    "name" : "Suite : Test",
+    "title" : "Suite : Test"
+  },
+  "steps" : [ {
+    "name" : "logStep[Verifying presence amazon SlotId for maps details preload ad call USA-CCPA privacy when Advertising option set t...]",
+    "title" : "Verifying presence amazon SlotId for maps details preload ad call USA-CCPA privacy when Advertising option set to Do Not...",
+    "time" : {
+      "start" : 1597957128014,
+      "stop" : 1597957128014,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Verifying amazon \"slot Id\": \"5db1161b-b504-4640-9496-dfe6284f84ab\"  for db_display/details/map]",
+    "title" : "Verifying amazon \"slot Id\": \"5db1161b-b504-4640-9496-dfe6284f84ab\"  for db_display/details/map",
+    "time" : {
+      "start" : 1597957128050,
+      "stop" : 1597957128050,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[5db1161b-b504-4640-9496-dfe6284f84ab is trigred for aax  call db_display/details/map]",
+    "title" : "5db1161b-b504-4640-9496-dfe6284f84ab is trigred for aax  call db_display/details/map",
+    "time" : {
+      "start" : 1597957128050,
+      "stop" : 1597957128050,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[slot id: 2634dc9-b59f-4b2c-b281-bb3be291b7b6 is present]",
+    "title" : "slot id: 2634dc9-b59f-4b2c-b281-bb3be291b7b6 is present",
+    "time" : {
+      "start" : 1597957128083,
+      "stop" : 1597957128083,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "twc.Regression.TestCases.USA_CCPA_Run"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testGroup",
+    "value" : "Test"
+  }, {
+    "name" : "host",
+    "value" : "iosbuildserver.attlocal.net"
+  }, {
+    "name" : "thread",
+    "value" : "96905@iosbuildserver.attlocal.net.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : Test"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verifying_presence_amazon_Slotid_mapsdetails_preload_adcall_USA_CCPA_Privacy_StandardAdvertisingSettings"
+  } ],
+  "parameters" : [ ]
+}

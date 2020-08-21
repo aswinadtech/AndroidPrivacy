@@ -1,0 +1,104 @@
+{
+  "uid" : "2164521dad76ca5",
+  "name" : "Selecting_DoNotSellMyInformation_scenario",
+  "title" : "Selecting the  Do Not Sell My Information option  in the privacy card",
+  "time" : {
+    "start" : 1597956581546,
+    "stop" : 1597956710891,
+    "duration" : 129345
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 3
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "c8a285747049d5a2",
+    "name" : "Suite : Test",
+    "title" : "Suite : Test"
+  },
+  "steps" : [ {
+    "name" : "logStep[Selecting  Opt out  mode option in privacy card]",
+    "title" : "Selecting  Opt out  mode option in privacy card",
+    "time" : {
+      "start" : 1597956658310,
+      "stop" : 1597956658310,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Url :http://control.charles/session/clear Responded with status code : 200]",
+    "title" : "Url :http://control.charles/session/clear Responded with status code : 200",
+    "time" : {
+      "start" : 1597956661322,
+      "stop" : 1597956661322,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Url :http://control.charles/session/clear Responded with status code : 200]",
+    "title" : "Url :http://control.charles/session/clear Responded with status code : 200",
+    "time" : {
+      "start" : 1597956710891,
+      "stop" : 1597956710891,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "twc.Regression.TestCases.USA_CCPA_Run"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testGroup",
+    "value" : "Test"
+  }, {
+    "name" : "host",
+    "value" : "iosbuildserver.attlocal.net"
+  }, {
+    "name" : "thread",
+    "value" : "96905@iosbuildserver.attlocal.net.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : Test"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Selecting_DoNotSellMyInformation_scenario"
+  } ],
+  "parameters" : [ ]
+}

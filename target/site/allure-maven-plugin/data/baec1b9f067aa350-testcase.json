@@ -1,0 +1,74 @@
+{
+  "uid" : "baec1b9f067aa350",
+  "name" : "Verifying_presence_amazon_Slotid_Hourly2_bigaddetails_preload_adcall_USA_CCPA_Privacy_StandardAdvertisingSettings",
+  "title" : "Verifying presence amazon SlotId for  hourly2 details big ad  preload call  USA-CCPA privacy when Advertising option set to  Standard Advertising Settings",
+  "time" : {
+    "start" : 1597957127942,
+    "stop" : 1597957127978,
+    "duration" : 36
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 1
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "c8a285747049d5a2",
+    "name" : "Suite : Test",
+    "title" : "Suite : Test"
+  },
+  "steps" : [ {
+    "name" : "logStep[slot id: 08f0ccea-cab5-449c-963d-dc57ed9ee87d is present]",
+    "title" : "slot id: 08f0ccea-cab5-449c-963d-dc57ed9ee87d is present",
+    "time" : {
+      "start" : 1597957127978,
+      "stop" : 1597957127978,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "twc.Regression.TestCases.USA_CCPA_Run"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testGroup",
+    "value" : "Test"
+  }, {
+    "name" : "host",
+    "value" : "iosbuildserver.attlocal.net"
+  }, {
+    "name" : "thread",
+    "value" : "96905@iosbuildserver.attlocal.net.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : Test"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verifying_presence_amazon_Slotid_Hourly2_bigaddetails_preload_adcall_USA_CCPA_Privacy_StandardAdvertisingSettings"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : Test"
+  } ],
+  "parameters" : [ ]
+}

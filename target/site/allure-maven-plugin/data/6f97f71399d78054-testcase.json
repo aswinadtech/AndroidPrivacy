@@ -1,0 +1,107 @@
+{
+  "uid" : "6f97f71399d78054",
+  "name" : "Verifying_Factual_locationwfxtriggerscom_apiCall_presence_USA_CCPA_Privacy_StandardAdvertisingSettings",
+  "title" : "Verifying Factual location.wfxtriggers.com api call presence for USA-CCPA privacy when Advertising option set to Standard Advertising Settings",
+  "time" : {
+    "start" : 1597957127709,
+    "stop" : 1597957127757,
+    "duration" : 48
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 3
+  },
+  "failure" : {
+    "message" : "AssertionError: https://location.wfxtriggers.com url was not trigred",
+    "stackTrace" : "java.lang.AssertionError: https://location.wfxtriggers.com url was not trigred\n\tat org.testng.Assert.fail(Assert.java:94)\n\tat twc.Regression.General.Functions.validating_Fatualcall_privacy_Optinmode_scenarion(Functions.java:3934)\n\tat twc.Regression.TestCases.USA_CCPA_Run.Verifying_Factual_locationwfxtriggerscom_apiCall_presence_USA_CCPA_Privacy_StandardAdvertisingSettings(USA_CCPA_Run.java:394)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:659)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:771)\n\tat org.testng.TestRunner.run(TestRunner.java:621)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:357)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:259)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1124)\n\tat org.testng.TestNG.run(TestNG.java:1032)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:73)\n\tat org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:94)\n\tat org.apache.maven.surefire.Surefire.run(Surefire.java:169)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.apache.maven.surefire.booter.SurefireBooter.runSuitesInProcess(SurefireBooter.java:350)\n\tat org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:1021)\n"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "FAILED",
+  "suite" : {
+    "uid" : "c8a285747049d5a2",
+    "name" : "Suite : Test",
+    "title" : "Suite : Test"
+  },
+  "steps" : [ {
+    "name" : "logStep[Verifying Factual location.wfxtriggers.com api call presence for USA-CCPA privacy when Advertising option set to...]",
+    "title" : "Verifying Factual location.wfxtriggers.com api call presence for USA-CCPA privacy when Advertising option set to Standar...",
+    "time" : {
+      "start" : 1597957127710,
+      "stop" : 1597957127710,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Verifying forlocation.wfxtriggers.com url ]",
+    "title" : "Verifying forlocation.wfxtriggers.com url ",
+    "time" : {
+      "start" : 1597957127744,
+      "stop" : 1597957127744,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[https://location.wfxtriggers.com url was not trigred]",
+    "title" : "https://location.wfxtriggers.com url was not trigred",
+    "time" : {
+      "start" : 1597957127756,
+      "stop" : 1597957127756,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "twc.Regression.TestCases.USA_CCPA_Run"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testGroup",
+    "value" : "Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verifying_Factual_locationwfxtriggerscom_apiCall_presence_USA_CCPA_Privacy_StandardAdvertisingSettings"
+  }, {
+    "name" : "host",
+    "value" : "iosbuildserver.attlocal.net"
+  }, {
+    "name" : "thread",
+    "value" : "96905@iosbuildserver.attlocal.net.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : Test"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : Test"
+  } ],
+  "parameters" : [ ]
+}

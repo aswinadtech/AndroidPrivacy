@@ -1,0 +1,289 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 132, Failures: 48, Errors: 0, Skipped: 0, Time elapsed: 3,086.622 sec <<< FAILURE!
+Verifying_Loatme_bcpcrwdcntrlnet_apiCall_presence_USA_CCPA_Privacy_StandardAdvertisingSettings(twc.Regression.TestCases.USA_CCPA_Run)  Time elapsed: 31.516 sec  <<< FAILURE!
+java.lang.AssertionError: https://bcp.crwdcntrl.net/ url was not trigred
+	at org.testng.Assert.fail(Assert.java:94)
+	at twc.Regression.General.Functions.validating_bcp_privacy_Optinmode_scenarion(Functions.java:3888)
+	at twc.Regression.TestCases.USA_CCPA_Run.Verifying_Loatme_bcpcrwdcntrlnet_apiCall_presence_USA_CCPA_Privacy_StandardAdvertisingSettings(USA_CCPA_Run.java:384)
+
+Verifying_Factual_locationwfxtriggerscom_apiCall_presence_USA_CCPA_Privacy_StandardAdvertisingSettings(twc.Regression.TestCases.USA_CCPA_Run)  Time elapsed: 0.054 sec  <<< FAILURE!
+java.lang.AssertionError: https://location.wfxtriggers.com url was not trigred
+	at org.testng.Assert.fail(Assert.java:94)
+	at twc.Regression.General.Functions.validating_Fatualcall_privacy_Optinmode_scenarion(Functions.java:3934)
+	at twc.Regression.TestCases.USA_CCPA_Run.Verifying_Factual_locationwfxtriggerscom_apiCall_presence_USA_CCPA_Privacy_StandardAdvertisingSettings(USA_CCPA_Run.java:394)
+
+Selecting_DoNotSellMyInformation_scenario(twc.Regression.TestCases.USA_Run)  Time elapsed: 100.485 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at twc.Regression.HandleWithCharles.CharlesFunctions.ClearSessions(CharlesFunctions.java:31)
+	at twc.Regression.TestCases.USA_Run.Selecting_DoNotSellMyInformation_scenario(USA_Run.java:98)
+
+Verifying_Loatme_adcrwdcntrlnet_apiCall_supressing_USA_Privacy_DoNotSellMyInformation(twc.Regression.TestCases.USA_Run)  Time elapsed: 1.011 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at twc.Regression.HandleWithCharles.CharlesFunctions.ClearSessions(CharlesFunctions.java:31)
+	at twc.Regression.TestCases.USA_Run.Verifying_Loatme_adcrwdcntrlnet_apiCall_supressing_USA_Privacy_DoNotSellMyInformation(USA_Run.java:110)
+
+Verifying_Loatme_bcpcrwdcntrlnet_apiCall_supressing_USA_Privacy_DoNotSellMyInformation(twc.Regression.TestCases.USA_Run)  Time elapsed: 0.004 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.validating_bcp_privacy_Optoutmode_scenarion(Functions.java:3073)
+	at twc.Regression.TestCases.USA_Run.Verifying_Loatme_bcpcrwdcntrlnet_apiCall_supressing_USA_Privacy_DoNotSellMyInformation(USA_Run.java:127)
+
+Verifying_Factual_locationwfxtriggerscom_apiCall_supressing_USA_Privacy_DoNotSellMyInformation(twc.Regression.TestCases.USA_Run)  Time elapsed: 0.004 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.validating_Fatualcall_privacy_Optoutmode_scenarion(Functions.java:3120)
+	at twc.Regression.TestCases.USA_Run.Verifying_Factual_locationwfxtriggerscom_apiCall_supressing_USA_Privacy_DoNotSellMyInformation(USA_Run.java:136)
+
+Verifying_Supress_amazon_Slotid_homescreenhourly_preload_adcall_USA_Privacy_DoNotSellMyInformation(twc.Regression.TestCases.USA_Run)  Time elapsed: 0.003 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.verifyaax_SlotId_supress(Functions.java:1557)
+	at twc.Regression.TestCases.USA_Run.Verifying_Supress_amazon_Slotid_homescreenhourly_preload_adcall_USA_Privacy_DoNotSellMyInformation(USA_Run.java:147)
+
+Verifying_supress_amazon_Slotid_feed1_preroladcall_USA_Privacy_DoNotSellMyInformation(twc.Regression.TestCases.USA_Run)  Time elapsed: 0.003 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.verifyaax_SlotId_supress(Functions.java:1557)
+	at twc.Regression.TestCases.USA_Run.Verifying_supress_amazon_Slotid_feed1_preroladcall_USA_Privacy_DoNotSellMyInformation(USA_Run.java:158)
+
+Verifying_supress_amazon_Slotid_feed2_preroladcall_USA_Privacy_DoNotSellMyInformation(twc.Regression.TestCases.USA_Run)  Time elapsed: 0.003 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.verifyaax_SlotId_supress(Functions.java:1557)
+	at twc.Regression.TestCases.USA_Run.Verifying_supress_amazon_Slotid_feed2_preroladcall_USA_Privacy_DoNotSellMyInformation(USA_Run.java:169)
+
+Verifying_Supress_amazon_Slotid_Hourlydetails_preload_adcall_USA_Privacy_DoNotSellMyInformation(twc.Regression.TestCases.USA_Run)  Time elapsed: 0.004 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.verifyaax_SlotId_supress(Functions.java:1557)
+	at twc.Regression.TestCases.USA_Run.Verifying_Supress_amazon_Slotid_Hourlydetails_preload_adcall_USA_Privacy_DoNotSellMyInformation(USA_Run.java:179)
+
+Verifying_Supress_amazon_Slotid_Hourly1_bigaddetails_preload_adcall_USA_Privacy_DoNotSellMyInformation(twc.Regression.TestCases.USA_Run)  Time elapsed: 0.003 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.verifyaax_SlotId_supress(Functions.java:1557)
+	at twc.Regression.TestCases.USA_Run.Verifying_Supress_amazon_Slotid_Hourly1_bigaddetails_preload_adcall_USA_Privacy_DoNotSellMyInformation(USA_Run.java:189)
+
+Verifying_supress_amazon_Slotid_Hourly2_bigaddetails_preload_adcall_USA_Privacy_DoNotSellMyInformation(twc.Regression.TestCases.USA_Run)  Time elapsed: 0.003 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.verifyaax_SlotId_supress(Functions.java:1557)
+	at twc.Regression.TestCases.USA_Run.Verifying_supress_amazon_Slotid_Hourly2_bigaddetails_preload_adcall_USA_Privacy_DoNotSellMyInformation(USA_Run.java:201)
+
+Verifying_supress_amazon_Slotid_Hourly3_bigaddetails_preload_adcall_USA_Privacy_DoNotSellMyInformation(twc.Regression.TestCases.USA_Run)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.verifyaax_SlotId_supress(Functions.java:1557)
+	at twc.Regression.TestCases.USA_Run.Verifying_supress_amazon_Slotid_Hourly3_bigaddetails_preload_adcall_USA_Privacy_DoNotSellMyInformation(USA_Run.java:213)
+
+Verifying_supress_amazon_Slotid_mapsdetails_preload_adcall_USA_Privacy_DoNotSellMyInformation(twc.Regression.TestCases.USA_Run)  Time elapsed: 0.003 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.verifyaax_SlotId_supress(Functions.java:1557)
+	at twc.Regression.TestCases.USA_Run.Verifying_supress_amazon_Slotid_mapsdetails_preload_adcall_USA_Privacy_DoNotSellMyInformation(USA_Run.java:225)
+
+Verifying_supress_amazon_Slotid_Dailydetails_preload_adcall_USA_Privacy_DoNotSellMyInformation(twc.Regression.TestCases.USA_Run)  Time elapsed: 0.004 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.verifyaax_SlotId_supress(Functions.java:1557)
+	at twc.Regression.TestCases.USA_Run.Verifying_supress_amazon_Slotid_Dailydetails_preload_adcall_USA_Privacy_DoNotSellMyInformation(USA_Run.java:235)
+
+Verifying_supress_amazon_Slotid_video_adcall_USA_Privacy_DoNotSellMyInformation(twc.Regression.TestCases.USA_Run)  Time elapsed: 0.004 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.verifyaax_SlotId_supress(Functions.java:1557)
+	at twc.Regression.TestCases.USA_Run.Verifying_supress_amazon_Slotid_video_adcall_USA_Privacy_DoNotSellMyInformation(USA_Run.java:244)
+
+Verifying_homescreenhourly_adCall_Presence_USA_Privacy_DoNotSellMyInformation(twc.Regression.TestCases.USA_Run)  Time elapsed: 0.004 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.finding_Homescreen_iu_value(Functions.java:3840)
+	at twc.Regression.TestCases.USA_Run.Verifying_homescreenhourly_adCall_Presence_USA_Privacy_DoNotSellMyInformation(USA_Run.java:254)
+
+Verifying_homescreenmarquee_adCall_Presence_USA_Privacy_DoNotSellMyInformation(twc.Regression.TestCases.USA_Run)  Time elapsed: 0.004 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.finding_Homescreen_marquee_iu_value(Functions.java:3181)
+	at twc.Regression.TestCases.USA_Run.Verifying_homescreenmarquee_adCall_Presence_USA_Privacy_DoNotSellMyInformation(USA_Run.java:263)
+
+Verifying_SOD_Cust_Param_homescreenmarquee_adCall_USA_Privacy_DoNotSellMyInformation(twc.Regression.TestCases.USA_Run)  Time elapsed: 0.006 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.validate_SOD_Cust_param_homescreenmarquee_Optoutmode(Functions.java:3274)
+	at twc.Regression.TestCases.USA_Run.Verifying_SOD_Cust_Param_homescreenmarquee_adCall_USA_Privacy_DoNotSellMyInformation(USA_Run.java:273)
+
+Verifying_SOD_Cust_Param_homescreenhourly_adCall_USA_Privacy_DoNotSellMyInformation(twc.Regression.TestCases.USA_Run)  Time elapsed: 0.006 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.validate_SOD_Cust_param_homescreenHourly_Optoutmode(Functions.java:3203)
+	at twc.Regression.TestCases.USA_Run.Verifying_SOD_Cust_Param_homescreenhourly_adCall_USA_Privacy_DoNotSellMyInformation(USA_Run.java:283)
+
+Verifying_SOD_Cust_Param_mapsdetails_adCall_USA_Privacy_DoNotSellMyInformation(twc.Regression.TestCases.USA_Run)  Time elapsed: 0.005 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.validate_SOD_Cust_param_deatiledfeed_Optoutmode(Functions.java:3341)
+	at twc.Regression.TestCases.USA_Run.Verifying_SOD_Cust_Param_mapsdetails_adCall_USA_Privacy_DoNotSellMyInformation(USA_Run.java:293)
+
+Verifying_rdp_equals_1_homescreenHourly_adCall_USA_Privacy_DoNotSellMyInformation(twc.Regression.TestCases.USA_Run)  Time elapsed: 0.004 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.validate_RDP_homescrenhourly_Optoutmode(Functions.java:3527)
+	at twc.Regression.TestCases.USA_Run.Verifying_rdp_equals_1_homescreenHourly_adCall_USA_Privacy_DoNotSellMyInformation(USA_Run.java:302)
+
+Verifying_rdp_equals_1_homescreenmarquee_adCall_USA_Privacy_DoNotSellMyInformation(twc.Regression.TestCases.USA_Run)  Time elapsed: 0.005 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.validate_RDP_homescreenmarquee_Optoutmode(Functions.java:3491)
+	at twc.Regression.TestCases.USA_Run.Verifying_rdp_equals_1_homescreenmarquee_adCall_USA_Privacy_DoNotSellMyInformation(USA_Run.java:312)
+
+Verifying_videos_adCall_Presence_USA_Privacy_DoNotSellMyInformation(twc.Regression.TestCases.USA_Run)  Time elapsed: 0.003 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.Verify_video_ad_call_Optoutmode(Functions.java:2963)
+	at twc.Regression.TestCases.USA_Run.Verifying_videos_adCall_Presence_USA_Privacy_DoNotSellMyInformation(USA_Run.java:323)
+
+Verifying_SOD_Cust_Param_videos_adCall_USA_Privacy_DoNotSellMyInformation(twc.Regression.TestCases.USA_Run)  Time elapsed: 0.003 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.validate_SOD_Cust_param_video_Optoutmode(Functions.java:3377)
+	at twc.Regression.TestCases.USA_Run.Verifying_SOD_Cust_Param_videos_adCall_USA_Privacy_DoNotSellMyInformation(USA_Run.java:332)
+
+Verifying_rdp_equals_1_Videos_adCall_USA_Privacy_DoNotSellMyInformation(twc.Regression.TestCases.USA_Run)  Time elapsed: 0.004 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.validate_RDP_video_ad_Optoutmode(Functions.java:3802)
+	at twc.Regression.TestCases.USA_Run.Verifying_rdp_equals_1_Videos_adCall_USA_Privacy_DoNotSellMyInformation(USA_Run.java:342)
+
+Verifying_Loatme_bcpcrwdcntrlnet_apiCall_presence_USA_Privacy_StandardAdvertisingSettings(twc.Regression.TestCases.USA_Run)  Time elapsed: 1.01 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at twc.Regression.HandleWithCharles.CharlesFunctions.ClearSessions(CharlesFunctions.java:31)
+	at twc.Regression.TestCases.USA_Run.Verifying_Loatme_bcpcrwdcntrlnet_apiCall_presence_USA_Privacy_StandardAdvertisingSettings(USA_Run.java:381)
+
+Verifying_Factual_locationwfxtriggerscom_apiCall_presence_USA_Privacy_StandardAdvertisingSettings(twc.Regression.TestCases.USA_Run)  Time elapsed: 0.005 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.validating_Fatualcall_privacy_Optinmode_scenarion(Functions.java:3924)
+	at twc.Regression.TestCases.USA_Run.Verifying_Factual_locationwfxtriggerscom_apiCall_presence_USA_Privacy_StandardAdvertisingSettings(USA_Run.java:397)
+
+Verifying_presence_amazon_Slotid_homescreenhourly_preload_adcall_USA_Privacy_StandardAdvertisingSettings(twc.Regression.TestCases.USA_Run)  Time elapsed: 0.003 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.verifyaax_SlotId_Presence(Functions.java:1575)
+	at twc.Regression.TestCases.USA_Run.Verifying_presence_amazon_Slotid_homescreenhourly_preload_adcall_USA_Privacy_StandardAdvertisingSettings(USA_Run.java:410)
+
+Verifying_presence_amazon_Slotid_feed1_preroladcall_USA_Privacy_StandardAdvertisingSettings(twc.Regression.TestCases.USA_Run)  Time elapsed: 0.003 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.verifyaax_SlotId_Presence(Functions.java:1575)
+	at twc.Regression.TestCases.USA_Run.Verifying_presence_amazon_Slotid_feed1_preroladcall_USA_Privacy_StandardAdvertisingSettings(USA_Run.java:421)
+
+Verifying_presence_amazon_Slotid_feed2_preroladcall_USA_Privacy_StandardAdvertisingSettings(twc.Regression.TestCases.USA_Run)  Time elapsed: 0.003 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.verifyaax_SlotId_Presence(Functions.java:1575)
+	at twc.Regression.TestCases.USA_Run.Verifying_presence_amazon_Slotid_feed2_preroladcall_USA_Privacy_StandardAdvertisingSettings(USA_Run.java:431)
+
+Verifying_presence_amazon_Slotid_Hourlydetails_preload_adcall_USA_Privacy_StandardAdvertisingSettings(twc.Regression.TestCases.USA_Run)  Time elapsed: 0.003 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.verifyaax_SlotId_Presence(Functions.java:1575)
+	at twc.Regression.TestCases.USA_Run.Verifying_presence_amazon_Slotid_Hourlydetails_preload_adcall_USA_Privacy_StandardAdvertisingSettings(USA_Run.java:440)
+
+Verifying_presence_amazon_Slotid_Hourly1_bigaddetails_preload_adcall_USA_Privacy_StandardAdvertisingSettings(twc.Regression.TestCases.USA_Run)  Time elapsed: 0.004 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.verifyaax_SlotId_Presence(Functions.java:1575)
+	at twc.Regression.TestCases.USA_Run.Verifying_presence_amazon_Slotid_Hourly1_bigaddetails_preload_adcall_USA_Privacy_StandardAdvertisingSettings(USA_Run.java:449)
+
+Verifying_presence_amazon_Slotid_Hourly2_bigaddetails_preload_adcall_USA_Privacy_StandardAdvertisingSettings(twc.Regression.TestCases.USA_Run)  Time elapsed: 0.004 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.verifyaax_SlotId_Presence(Functions.java:1575)
+	at twc.Regression.TestCases.USA_Run.Verifying_presence_amazon_Slotid_Hourly2_bigaddetails_preload_adcall_USA_Privacy_StandardAdvertisingSettings(USA_Run.java:460)
+
+Verifying_presence_amazon_Slotid_Hourly3_bigaddetails_preload_adcall_USA_Privacy_StandardAdvertisingSettings(twc.Regression.TestCases.USA_Run)  Time elapsed: 0.003 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.verifyaax_SlotId_Presence(Functions.java:1575)
+	at twc.Regression.TestCases.USA_Run.Verifying_presence_amazon_Slotid_Hourly3_bigaddetails_preload_adcall_USA_Privacy_StandardAdvertisingSettings(USA_Run.java:471)
+
+Verifying_presence_amazon_Slotid_mapsdetails_preload_adcall_USA_Privacy_StandardAdvertisingSettings(twc.Regression.TestCases.USA_Run)  Time elapsed: 0.004 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.get_aaxcal_map_details(Functions.java:4799)
+	at twc.Regression.TestCases.USA_Run.Verifying_presence_amazon_Slotid_mapsdetails_preload_adcall_USA_Privacy_StandardAdvertisingSettings(USA_Run.java:482)
+
+Verifying_presence_amazon_Slotid_Dailydetails_preload_adcall_USA_Privacy_StandardAdvertisingSettings(twc.Regression.TestCases.USA_Run)  Time elapsed: 0.003 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.verifyaax_SlotId_Presence(Functions.java:1575)
+	at twc.Regression.TestCases.USA_Run.Verifying_presence_amazon_Slotid_Dailydetails_preload_adcall_USA_Privacy_StandardAdvertisingSettings(USA_Run.java:492)
+
+Verifying_presence_amazon_Slotid_video_adcall_USA_Privacy_StandardAdvertisingSettings(twc.Regression.TestCases.USA_Run)  Time elapsed: 0.003 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.get_aaxcal_video_details(Functions.java:4816)
+	at twc.Regression.TestCases.USA_Run.Verifying_presence_amazon_Slotid_video_adcall_USA_Privacy_StandardAdvertisingSettings(USA_Run.java:500)
+
+Verifying_homescreenhourly_adCall_Presence_USA_Privacy_StandardAdvertisingSettings(twc.Regression.TestCases.USA_Run)  Time elapsed: 0.005 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.finding_Homescreen_marquee_iu_value(Functions.java:3181)
+	at twc.Regression.TestCases.USA_Run.Verifying_homescreenhourly_adCall_Presence_USA_Privacy_StandardAdvertisingSettings(USA_Run.java:513)
+
+Verifying_homescreenmarquee_adCall_Presence_USA_Privacy_StandardAdvertisingSettings(twc.Regression.TestCases.USA_Run)  Time elapsed: 0.004 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.finding_Homescreen_iu_value(Functions.java:3840)
+	at twc.Regression.TestCases.USA_Run.Verifying_homescreenmarquee_adCall_Presence_USA_Privacy_StandardAdvertisingSettings(USA_Run.java:522)
+
+Verifying_SOD_Cust_Param_homescreenmarquee_adCall_USA_Privacy_StandardAdvertisingSettings(twc.Regression.TestCases.USA_Run)  Time elapsed: 0.005 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.validate_SOD_Cust_param_homescreen_Optinmode(Functions.java:3985)
+	at twc.Regression.TestCases.USA_Run.Verifying_SOD_Cust_Param_homescreenmarquee_adCall_USA_Privacy_StandardAdvertisingSettings(USA_Run.java:531)
+
+Verifying_SOD_Cust_Param_homescreenhourly_adCall_USA_Privacy_StandardAdvertisingSettings(twc.Regression.TestCases.USA_Run)  Time elapsed: 0.006 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.validate_SOD_Cust_param_homescreenhourly_Optinmode(Functions.java:4021)
+	at twc.Regression.TestCases.USA_Run.Verifying_SOD_Cust_Param_homescreenhourly_adCall_USA_Privacy_StandardAdvertisingSettings(USA_Run.java:541)
+
+Verifying_rdp_keyword_supress_homescreenmarquee_adCall_USA_Privacy_StandardAdvertisingSettings(twc.Regression.TestCases.USA_Run)  Time elapsed: 0.006 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.validate_RDP_homescreen_Optinmode(Functions.java:4157)
+	at twc.Regression.TestCases.USA_Run.Verifying_rdp_keyword_supress_homescreenmarquee_adCall_USA_Privacy_StandardAdvertisingSettings(USA_Run.java:560)
+
+Verifying_rdp_keyword_supress_homescreenHourly_adCall_USA_Privacy_StandardAdvertisingSettings(twc.Regression.TestCases.USA_Run)  Time elapsed: 0.005 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.validate_RDP_homescreenhourly_Optinmode(Functions.java:4193)
+	at twc.Regression.TestCases.USA_Run.Verifying_rdp_keyword_supress_homescreenHourly_adCall_USA_Privacy_StandardAdvertisingSettings(USA_Run.java:570)
+
+Verifying_video_adCall_Presence_USA_Privacy_StandardAdvertisingSettings(twc.Regression.TestCases.USA_Run)  Time elapsed: 0.003 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.Verify_video_ad_call_Optoutmode(Functions.java:2963)
+	at twc.Regression.TestCases.USA_Run.Verifying_video_adCall_Presence_USA_Privacy_StandardAdvertisingSettings(USA_Run.java:583)
+
+Smoke_Test_Verifying_SOD_Cust_Param_videoad_Optin_mode_scenario(twc.Regression.TestCases.USA_Run)  Time elapsed: 0.004 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.validate_SOD_Cust_param_video_Optinmode(Functions.java:4122)
+	at twc.Regression.TestCases.USA_Run.Smoke_Test_Verifying_SOD_Cust_Param_videoad_Optin_mode_scenario(USA_Run.java:595)
+
+Verifying_rdp_keyword_supress_videos_Call_USA_Privacy_StandardAdvertisingSettings(twc.Regression.TestCases.USA_Run)  Time elapsed: 0.004 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.validate_RDP_video_ad_Optinmode(Functions.java:4575)
+	at twc.Regression.TestCases.USA_Run.Verifying_rdp_keyword_supress_videos_Call_USA_Privacy_StandardAdvertisingSettings(USA_Run.java:604)
+
+Verifying_SOD_Cust_Param_mapsdetails_adCall_USA_Privacy_StandardAdvertisingSettings(twc.Regression.TestCases.USA_Run)  Time elapsed: 0.005 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.validate_SOD_Cust_param_deatiledfeed_Optinmode(Functions.java:4087)
+	at twc.Regression.TestCases.USA_Run.Verifying_SOD_Cust_Param_mapsdetails_adCall_USA_Privacy_StandardAdvertisingSettings(USA_Run.java:550)
+

@@ -1,0 +1,89 @@
+{
+  "uid" : "a965cccfbb10b84a",
+  "name" : "Verifying_Supress_amazon_Slotid_Hourlydetails_preload_adcall_GDPRPrivacy",
+  "title" : "Verifying supress amazon SlotId for  hourly details preload ad call GDPR Privacy",
+  "time" : {
+    "start" : 1597955871224,
+    "stop" : 1597955871280,
+    "duration" : 56
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 2
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "c8a285747049d5a2",
+    "name" : "Suite : Test",
+    "title" : "Suite : Test"
+  },
+  "steps" : [ {
+    "name" : "logStep[Verifying supress amazon Slot Id for  hourly details preload ad call GDPR Privacy]",
+    "title" : "Verifying supress amazon Slot Id for  hourly details preload ad call GDPR Privacy",
+    "time" : {
+      "start" : 1597955871224,
+      "stop" : 1597955871224,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[slot id: 9be28769-4207-4d51-8063-dc8e645383b2 is  not present]",
+    "title" : "slot id: 9be28769-4207-4d51-8063-dc8e645383b2 is  not present",
+    "time" : {
+      "start" : 1597955871280,
+      "stop" : 1597955871280,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testGroup",
+    "value" : "Test"
+  }, {
+    "name" : "host",
+    "value" : "iosbuildserver.attlocal.net"
+  }, {
+    "name" : "thread",
+    "value" : "96905@iosbuildserver.attlocal.net.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verifying_Supress_amazon_Slotid_Hourlydetails_preload_adcall_GDPRPrivacy"
+  }, {
+    "name" : "testClass",
+    "value" : "twc.Regression.TestCases.GDPR_Run"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : Test"
+  } ],
+  "parameters" : [ ]
+}

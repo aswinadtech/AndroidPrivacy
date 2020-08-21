@@ -1,0 +1,89 @@
+{
+  "uid" : "8a2816dc67c47713",
+  "name" : "Verifying_Factual_locationwfxtriggerscom_apiCall_supressing_LGPD_Privacy",
+  "title" : "Verifying Factual location.wfxtriggers.com api call supressing for LGPD privacy",
+  "time" : {
+    "start" : 1597956061914,
+    "stop" : 1597956062349,
+    "duration" : 435
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 2
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "c8a285747049d5a2",
+    "name" : "Suite : Test",
+    "title" : "Suite : Test"
+  },
+  "steps" : [ {
+    "name" : "logStep[Verifying https://location.wfxtriggers.com api url]",
+    "title" : "Verifying https://location.wfxtriggers.com api url",
+    "time" : {
+      "start" : 1597956062287,
+      "stop" : 1597956062287,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[https://location.wfxtriggers.com url was not trigred]",
+    "title" : "https://location.wfxtriggers.com url was not trigred",
+    "time" : {
+      "start" : 1597956062349,
+      "stop" : 1597956062349,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testGroup",
+    "value" : "Test"
+  }, {
+    "name" : "host",
+    "value" : "iosbuildserver.attlocal.net"
+  }, {
+    "name" : "testClass",
+    "value" : "twc.Regression.TestCases.LGPD_Run"
+  }, {
+    "name" : "thread",
+    "value" : "96905@iosbuildserver.attlocal.net.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : Test"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verifying_Factual_locationwfxtriggerscom_apiCall_supressing_LGPD_Privacy"
+  } ],
+  "parameters" : [ ]
+}

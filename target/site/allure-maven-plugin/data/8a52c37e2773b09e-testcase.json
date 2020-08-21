@@ -1,0 +1,89 @@
+{
+  "uid" : "8a52c37e2773b09e",
+  "name" : "Verifying_Loatme_bcpcrwdcntrlnet_apiCall_supressing_GDPR_Privacy",
+  "title" : "Verifying Lotame bcp.crwdcntrl.net api call supressing for GDPR privacy",
+  "time" : {
+    "start" : 1597955870898,
+    "stop" : 1597955870971,
+    "duration" : 73
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 2
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "c8a285747049d5a2",
+    "name" : "Suite : Test",
+    "title" : "Suite : Test"
+  },
+  "steps" : [ {
+    "name" : "logStep[Verifying for  https://bcp.crwdcntrl.net api url]",
+    "title" : "Verifying for  https://bcp.crwdcntrl.net api url",
+    "time" : {
+      "start" : 1597955870961,
+      "stop" : 1597955870961,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[https://bcp.crwdcntrl.net/ url was not trigred]",
+    "title" : "https://bcp.crwdcntrl.net/ url was not trigred",
+    "time" : {
+      "start" : 1597955870971,
+      "stop" : 1597955870971,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testGroup",
+    "value" : "Test"
+  }, {
+    "name" : "host",
+    "value" : "iosbuildserver.attlocal.net"
+  }, {
+    "name" : "thread",
+    "value" : "96905@iosbuildserver.attlocal.net.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : Test"
+  }, {
+    "name" : "testClass",
+    "value" : "twc.Regression.TestCases.GDPR_Run"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verifying_Loatme_bcpcrwdcntrlnet_apiCall_supressing_GDPR_Privacy"
+  } ],
+  "parameters" : [ ]
+}

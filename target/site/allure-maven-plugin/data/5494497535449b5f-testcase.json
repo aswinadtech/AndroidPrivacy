@@ -1,0 +1,104 @@
+{
+  "uid" : "5494497535449b5f",
+  "name" : "Verifying_Factual_locationwfxtriggerscom_apiCall_supressing_USA_CCPA_Privacy_DoNotSellMyInformation",
+  "title" : "Verifying Factual location.wfxtriggers.com api call supressing for USA-CCPA privacy when Advertising option set to Do Not Sell My Information",
+  "time" : {
+    "start" : 1597956743176,
+    "stop" : 1597956743569,
+    "duration" : 393
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 3
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "c8a285747049d5a2",
+    "name" : "Suite : Test",
+    "title" : "Suite : Test"
+  },
+  "steps" : [ {
+    "name" : "logStep[Verifying Factual location.wfxtriggers.com api call supressing for USA-CCPA privacy when Advertising option set ...]",
+    "title" : "Verifying Factual location.wfxtriggers.com api call supressing for USA-CCPA privacy when Advertising option set to Do No...",
+    "time" : {
+      "start" : 1597956743177,
+      "stop" : 1597956743177,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Verifying https://location.wfxtriggers.com api url]",
+    "title" : "Verifying https://location.wfxtriggers.com api url",
+    "time" : {
+      "start" : 1597956743502,
+      "stop" : 1597956743502,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[https://location.wfxtriggers.com url was not trigred]",
+    "title" : "https://location.wfxtriggers.com url was not trigred",
+    "time" : {
+      "start" : 1597956743569,
+      "stop" : 1597956743569,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "twc.Regression.TestCases.USA_CCPA_Run"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testGroup",
+    "value" : "Test"
+  }, {
+    "name" : "host",
+    "value" : "iosbuildserver.attlocal.net"
+  }, {
+    "name" : "thread",
+    "value" : "96905@iosbuildserver.attlocal.net.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : Test"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verifying_Factual_locationwfxtriggerscom_apiCall_supressing_USA_CCPA_Privacy_DoNotSellMyInformation"
+  } ],
+  "parameters" : [ ]
+}

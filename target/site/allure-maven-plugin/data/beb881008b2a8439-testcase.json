@@ -1,0 +1,89 @@
+{
+  "uid" : "beb881008b2a8439",
+  "name" : "Verifying_Loatme_adcrwdcntrlnet_apiCall_supressing_LGPD_Privacy",
+  "title" : "Verifying Lotame ad.crwdcntrl.net api call supressing for LGPD privacy",
+  "time" : {
+    "start" : 1597956060873,
+    "stop" : 1597956061498,
+    "duration" : 625
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 2
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "c8a285747049d5a2",
+    "name" : "Suite : Test",
+    "title" : "Suite : Test"
+  },
+  "steps" : [ {
+    "name" : "logStep[Verifying  https://ad.crwdcntrl.net api url]",
+    "title" : "Verifying  https://ad.crwdcntrl.net api url",
+    "time" : {
+      "start" : 1597956061418,
+      "stop" : 1597956061418,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[https://ad.crwdcntrl.net/ url was  not trigred]",
+    "title" : "https://ad.crwdcntrl.net/ url was  not trigred",
+    "time" : {
+      "start" : 1597956061498,
+      "stop" : 1597956061498,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testGroup",
+    "value" : "Test"
+  }, {
+    "name" : "host",
+    "value" : "iosbuildserver.attlocal.net"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verifying_Loatme_adcrwdcntrlnet_apiCall_supressing_LGPD_Privacy"
+  }, {
+    "name" : "testClass",
+    "value" : "twc.Regression.TestCases.LGPD_Run"
+  }, {
+    "name" : "thread",
+    "value" : "96905@iosbuildserver.attlocal.net.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : Test"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : Test"
+  } ],
+  "parameters" : [ ]
+}

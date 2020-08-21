@@ -1,0 +1,74 @@
+{
+  "uid" : "80d364397bb14ac7",
+  "name" : "Verifying_Supress_amazon_Slotid_Hourly1_bigaddetails_preload_adcall_GDPRPrivacy",
+  "title" : "Verifying supress amazon SlotId for  hourly1 details big ad  preload call GDPR Privacy",
+  "time" : {
+    "start" : 1597955871281,
+    "stop" : 1597955871328,
+    "duration" : 47
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 1
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "c8a285747049d5a2",
+    "name" : "Suite : Test",
+    "title" : "Suite : Test"
+  },
+  "steps" : [ {
+    "name" : "logStep[slot id: 08f0ccea-cab5-449c-963d-dc57ed9ee87d is  not present]",
+    "title" : "slot id: 08f0ccea-cab5-449c-963d-dc57ed9ee87d is  not present",
+    "time" : {
+      "start" : 1597955871328,
+      "stop" : 1597955871328,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testGroup",
+    "value" : "Test"
+  }, {
+    "name" : "host",
+    "value" : "iosbuildserver.attlocal.net"
+  }, {
+    "name" : "thread",
+    "value" : "96905@iosbuildserver.attlocal.net.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : Test"
+  }, {
+    "name" : "testClass",
+    "value" : "twc.Regression.TestCases.GDPR_Run"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verifying_Supress_amazon_Slotid_Hourly1_bigaddetails_preload_adcall_GDPRPrivacy"
+  } ],
+  "parameters" : [ ]
+}

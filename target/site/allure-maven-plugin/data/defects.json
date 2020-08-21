@@ -1,0 +1,560 @@
+{
+  "defectsList" : [ {
+    "title" : "Product defects",
+    "status" : "FAILED",
+    "defects" : [ {
+      "uid" : "474b6508fd2d870b",
+      "failure" : {
+        "message" : "AssertionError: https://bcp.crwdcntrl.net/ url was not trigred",
+        "stackTrace" : "java.lang.AssertionError: https://bcp.crwdcntrl.net/ url was not trigred\n\tat org.testng.Assert.fail(Assert.java:94)\n\tat twc.Regression.General.Functions.validating_bcp_privacy_Optinmode_scenarion(Functions.java:3888)\n\tat twc.Regression.TestCases.USA_CCPA_Run.Verifying_Loatme_bcpcrwdcntrlnet_apiCall_presence_USA_CCPA_Privacy_StandardAdvertisingSettings(USA_CCPA_Run.java:384)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:659)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:771)\n\tat org.testng.TestRunner.run(TestRunner.java:621)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:357)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:259)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1124)\n\tat org.testng.TestNG.run(TestNG.java:1032)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:73)\n\tat org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:94)\n\tat org.apache.maven.surefire.Surefire.run(Surefire.java:169)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.apache.maven.surefire.booter.SurefireBooter.runSuitesInProcess(SurefireBooter.java:350)\n\tat org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:1021)\n"
+      },
+      "testCases" : [ {
+        "uid" : "bec9d29a64335ad6",
+        "name" : "Verifying_Loatme_bcpcrwdcntrlnet_apiCall_presence_USA_CCPA_Privacy_StandardAdvertisingSettings",
+        "title" : "Verifying Lotame bcp.crwdcntrl.net api call presence for USA-CCPA privacy when Advertising option set to Standard Advertising Settings",
+        "time" : {
+          "start" : 1597957096187,
+          "stop" : 1597957127703,
+          "duration" : 31516
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    }, {
+      "uid" : "e5e5ca13e4cc7e6a",
+      "failure" : {
+        "message" : "AssertionError: https://location.wfxtriggers.com url was not trigred",
+        "stackTrace" : "java.lang.AssertionError: https://location.wfxtriggers.com url was not trigred\n\tat org.testng.Assert.fail(Assert.java:94)\n\tat twc.Regression.General.Functions.validating_Fatualcall_privacy_Optinmode_scenarion(Functions.java:3934)\n\tat twc.Regression.TestCases.USA_CCPA_Run.Verifying_Factual_locationwfxtriggerscom_apiCall_presence_USA_CCPA_Privacy_StandardAdvertisingSettings(USA_CCPA_Run.java:394)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:659)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:771)\n\tat org.testng.TestRunner.run(TestRunner.java:621)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:357)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:259)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1124)\n\tat org.testng.TestNG.run(TestNG.java:1032)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:73)\n\tat org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:94)\n\tat org.apache.maven.surefire.Surefire.run(Surefire.java:169)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.apache.maven.surefire.booter.SurefireBooter.runSuitesInProcess(SurefireBooter.java:350)\n\tat org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:1021)\n"
+      },
+      "testCases" : [ {
+        "uid" : "6f97f71399d78054",
+        "name" : "Verifying_Factual_locationwfxtriggerscom_apiCall_presence_USA_CCPA_Privacy_StandardAdvertisingSettings",
+        "title" : "Verifying Factual location.wfxtriggers.com api call presence for USA-CCPA privacy when Advertising option set to Standard Advertising Settings",
+        "time" : {
+          "start" : 1597957127709,
+          "stop" : 1597957127757,
+          "duration" : 48
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    } ]
+  }, {
+    "title" : "Test defects",
+    "status" : "BROKEN",
+    "defects" : [ {
+      "uid" : "5f8b0632fa8c84ca",
+      "failure" : {
+        "message" : "NullPointerException: null",
+        "stackTrace" : "java.lang.NullPointerException\n\tat twc.Regression.HandleWithCharles.CharlesFunctions.ClearSessions(CharlesFunctions.java:31)\n\tat twc.Regression.TestCases.USA_Run.Selecting_DoNotSellMyInformation_scenario(USA_Run.java:98)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:659)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:771)\n\tat org.testng.TestRunner.run(TestRunner.java:621)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:357)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:259)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1124)\n\tat org.testng.TestNG.run(TestNG.java:1032)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:73)\n\tat org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:94)\n\tat org.apache.maven.surefire.Surefire.run(Surefire.java:169)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.apache.maven.surefire.booter.SurefireBooter.runSuitesInProcess(SurefireBooter.java:350)\n\tat org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:1021)\n"
+      },
+      "testCases" : [ {
+        "uid" : "a854e2714d4f55d0",
+        "name" : "Selecting_DoNotSellMyInformation_scenario",
+        "title" : "Selecting the  Do Not Sell My Information option  in the privacy card",
+        "time" : {
+          "start" : 1597957616066,
+          "stop" : 1597957716545,
+          "duration" : 100479
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "4e4fbfda641e5cfc",
+        "name" : "Verifying_Loatme_adcrwdcntrlnet_apiCall_supressing_USA_Privacy_DoNotSellMyInformation",
+        "title" : "Verifying Lotame ad.crwdcntrl.net api call supressing for USA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597957716550,
+          "stop" : 1597957717557,
+          "duration" : 1007
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "73225cb668c0696d",
+        "name" : "Verifying_Loatme_bcpcrwdcntrlnet_apiCall_supressing_USA_Privacy_DoNotSellMyInformation",
+        "title" : "Verifying Lotame bcp.crwdcntrl.net api call supressing for USA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597957717557,
+          "stop" : 1597957717561,
+          "duration" : 4
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "17342a9f55439248",
+        "name" : "Verifying_Factual_locationwfxtriggerscom_apiCall_supressing_USA_Privacy_DoNotSellMyInformation",
+        "title" : "Verifying Factual location.wfxtriggers.com api call supressing for USA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597957717562,
+          "stop" : 1597957717566,
+          "duration" : 4
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "bb4bffb1054881f0",
+        "name" : "Verifying_Supress_amazon_Slotid_homescreenhourly_preload_adcall_USA_Privacy_DoNotSellMyInformation",
+        "title" : "Verifying supress amazon slotid for  home screen hourly preload ad call  USA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597957717567,
+          "stop" : 1597957717570,
+          "duration" : 3
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "223088b636377543",
+        "name" : "Verifying_supress_amazon_Slotid_feed1_preroladcall_USA_Privacy_DoNotSellMyInformation",
+        "title" : "Verifying supress amazon Slot Id for  feed1 preload ad call  USA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597957717570,
+          "stop" : 1597957717573,
+          "duration" : 3
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "2fee22577056756f",
+        "name" : "Verifying_supress_amazon_Slotid_feed2_preroladcall_USA_Privacy_DoNotSellMyInformation",
+        "title" : "Verifying supress amazon SlotId for feed2 prerload ad call  USA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597957717574,
+          "stop" : 1597957717577,
+          "duration" : 3
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "4e8898e34a2e974c",
+        "name" : "Verifying_Supress_amazon_Slotid_Hourlydetails_preload_adcall_USA_Privacy_DoNotSellMyInformation",
+        "title" : "Verifying supress amazon SlotId for  hourly details preload ad call  USA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597957717578,
+          "stop" : 1597957717581,
+          "duration" : 3
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "8464e3e87a1c7c79",
+        "name" : "Verifying_Supress_amazon_Slotid_Hourly1_bigaddetails_preload_adcall_USA_Privacy_DoNotSellMyInformation",
+        "title" : "Verifying supress amazon SlotId for  hourly1 details big ad  preload call USA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597957717581,
+          "stop" : 1597957717584,
+          "duration" : 3
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "d0f71082009d98a8",
+        "name" : "Verifying_supress_amazon_Slotid_Hourly2_bigaddetails_preload_adcall_USA_Privacy_DoNotSellMyInformation",
+        "title" : "Verifying supress amazon SlotId for  hourly2 details big ad  preload call  USA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597957717585,
+          "stop" : 1597957717587,
+          "duration" : 2
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "6593c6e531e90ea8",
+        "name" : "Verifying_supress_amazon_Slotid_Hourly3_bigaddetails_preload_adcall_USA_Privacy_DoNotSellMyInformation",
+        "title" : "Verifying supress amazon SlotId for  hourly3 details big ad preload call USA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597957717588,
+          "stop" : 1597957717591,
+          "duration" : 3
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "af8740631cfc2ca0",
+        "name" : "Verifying_supress_amazon_Slotid_mapsdetails_preload_adcall_USA_Privacy_DoNotSellMyInformation",
+        "title" : "Verifying supress amazon SlotId for maps details preload ad call USA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597957717591,
+          "stop" : 1597957717594,
+          "duration" : 3
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "94cce54b55e11bd2",
+        "name" : "Verifying_supress_amazon_Slotid_Dailydetails_preload_adcall_USA_Privacy_DoNotSellMyInformation",
+        "title" : "Verifying supress amazon SlotId for daily details preload ad call USA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597957717595,
+          "stop" : 1597957717598,
+          "duration" : 3
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "e4d58bdea1bfbd3f",
+        "name" : "Verifying_supress_amazon_Slotid_video_adcall_USA_Privacy_DoNotSellMyInformation",
+        "title" : "Verifying supress amazon SlotId for videos preload ad call for USA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597957717599,
+          "stop" : 1597957717602,
+          "duration" : 3
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "4874c6a1b1619d9d",
+        "name" : "Verifying_homescreenhourly_adCall_Presence_USA_Privacy_DoNotSellMyInformation",
+        "title" : "Verifying home screen hourly ad call presense for USA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597957717602,
+          "stop" : 1597957717607,
+          "duration" : 5
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "c2f319db66e2041",
+        "name" : "Verifying_homescreenmarquee_adCall_Presence_USA_Privacy_DoNotSellMyInformation",
+        "title" : "Verifying home screen marquee ad call presense for USA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597957717607,
+          "stop" : 1597957717611,
+          "duration" : 4
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "e10b57c153572e4f",
+        "name" : "Verifying_SOD_Cust_Param_homescreenmarquee_adCall_USA_Privacy_DoNotSellMyInformation",
+        "title" : "Verifying SOD Cust param value in homescreen marquee call for  USA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597957717611,
+          "stop" : 1597957717617,
+          "duration" : 6
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "f670118fc79f7162",
+        "name" : "Verifying_SOD_Cust_Param_homescreenhourly_adCall_USA_Privacy_DoNotSellMyInformation",
+        "title" : "Verifying SOD Cust param value in homescreen hourly ad call for USA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597957717618,
+          "stop" : 1597957717623,
+          "duration" : 5
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "b3c2e42f8e4236a7",
+        "name" : "Verifying_SOD_Cust_Param_mapsdetails_adCall_USA_Privacy_DoNotSellMyInformation",
+        "title" : "Verifying SOD Cust param value in maps details page ad call for USA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597957717624,
+          "stop" : 1597957717629,
+          "duration" : 5
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "89d5f2d1192ca37d",
+        "name" : "Verifying_rdp_equals_1_homescreenHourly_adCall_USA_Privacy_DoNotSellMyInformation",
+        "title" : "Verifying rdp=1 in home screen hourly ad call for USA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597957717630,
+          "stop" : 1597957717634,
+          "duration" : 4
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "d54b240fc46361df",
+        "name" : "Verifying_rdp_equals_1_homescreenmarquee_adCall_USA_Privacy_DoNotSellMyInformation",
+        "title" : "Verifying rdp=1 in home screen marquee  ad call for USA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597957717635,
+          "stop" : 1597957717640,
+          "duration" : 5
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "6ba9f2233735cb57",
+        "name" : "Verifying_videos_adCall_Presence_USA_Privacy_DoNotSellMyInformation",
+        "title" : "Verifying videos ad call presense for USA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597957717640,
+          "stop" : 1597957717643,
+          "duration" : 3
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "8d57f37262427843",
+        "name" : "Verifying_SOD_Cust_Param_videos_adCall_USA_Privacy_DoNotSellMyInformation",
+        "title" : "Verifying SOD Cust param value in Videos  ad call for USA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597957717644,
+          "stop" : 1597957717648,
+          "duration" : 4
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "e4d964bbdcf69e6d",
+        "name" : "Verifying_rdp_equals_1_Videos_adCall_USA_Privacy_DoNotSellMyInformation",
+        "title" : "Verifying rdp=1 in videos  ad call for USA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597957717648,
+          "stop" : 1597957717652,
+          "duration" : 4
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "3fe8faf5ea61fb87",
+        "name" : "Verifying_Loatme_bcpcrwdcntrlnet_apiCall_presence_USA_Privacy_StandardAdvertisingSettings",
+        "title" : "Verifying Lotame bcp.crwdcntrl.net api call presence for USA privacy when Advertising option set to Standard Advertising Settings",
+        "time" : {
+          "start" : 1597958051590,
+          "stop" : 1597958052594,
+          "duration" : 1004
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "d1d015439f2ff243",
+        "name" : "Verifying_Factual_locationwfxtriggerscom_apiCall_presence_USA_Privacy_StandardAdvertisingSettings",
+        "title" : "Verifying Factual location.wfxtriggers.com api call presence for USA privacy when Advertising option set to Standard Advertising Settings",
+        "time" : {
+          "start" : 1597958052595,
+          "stop" : 1597958052599,
+          "duration" : 4
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "f06878d901ffc498",
+        "name" : "Verifying_presence_amazon_Slotid_homescreenhourly_preload_adcall_USA_Privacy_StandardAdvertisingSettings",
+        "title" : "Verifying presence amazon slotid for  home screen hourly preload ad call  USA privacy when Advertising option set to Standard Advertising Settings",
+        "time" : {
+          "start" : 1597958052599,
+          "stop" : 1597958052602,
+          "duration" : 3
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "d54e166b425ac63d",
+        "name" : "Verifying_presence_amazon_Slotid_feed1_preroladcall_USA_Privacy_StandardAdvertisingSettings",
+        "title" : "Verifying presence amazon SlotId for  feed1 preload ad call  USA privacy when Advertising option set to Standard Advertising Settings",
+        "time" : {
+          "start" : 1597958052603,
+          "stop" : 1597958052605,
+          "duration" : 2
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "bca92d178f2eacf5",
+        "name" : "Verifying_presence_amazon_Slotid_feed2_preroladcall_USA_Privacy_StandardAdvertisingSettings",
+        "title" : "Verifying presence amazon SlotId for feed2 prerload ad call  USA privacy when Advertising option set to  Standard Advertising Settings",
+        "time" : {
+          "start" : 1597958052606,
+          "stop" : 1597958052608,
+          "duration" : 2
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "57820e0c1613bd3f",
+        "name" : "Verifying_presence_amazon_Slotid_Hourlydetails_preload_adcall_USA_Privacy_StandardAdvertisingSettings",
+        "title" : "Verifying presence amazon SlotId for  hourly details preload ad call  USA privacy when Advertising option set to Standard Advertising Settings",
+        "time" : {
+          "start" : 1597958052609,
+          "stop" : 1597958052611,
+          "duration" : 2
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "9c8a9cec938333ce",
+        "name" : "Verifying_presence_amazon_Slotid_Hourly1_bigaddetails_preload_adcall_USA_Privacy_StandardAdvertisingSettings",
+        "title" : "Verifying presence amazon SlotId for  hourly1 details big ad  preload call USA privacy when Advertising option set to  Standard Advertising Settings",
+        "time" : {
+          "start" : 1597958052612,
+          "stop" : 1597958052616,
+          "duration" : 4
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "ba1473884befa5a9",
+        "name" : "Verifying_presence_amazon_Slotid_Hourly2_bigaddetails_preload_adcall_USA_Privacy_StandardAdvertisingSettings",
+        "title" : "Verifying presence amazon SlotId for  hourly2 details big ad  preload call  USA privacy when Advertising option set to  Standard Advertising Settings",
+        "time" : {
+          "start" : 1597958052616,
+          "stop" : 1597958052620,
+          "duration" : 4
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "43f49c6e80379cd2",
+        "name" : "Verifying_presence_amazon_Slotid_Hourly3_bigaddetails_preload_adcall_USA_Privacy_StandardAdvertisingSettings",
+        "title" : "Verifying presence amazon SlotId for  hourly3 details big ad preload call USA privacy when Advertising option set to  Standard Advertising Settings",
+        "time" : {
+          "start" : 1597958052620,
+          "stop" : 1597958052623,
+          "duration" : 3
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "b0e4b46700928381",
+        "name" : "Verifying_presence_amazon_Slotid_mapsdetails_preload_adcall_USA_Privacy_StandardAdvertisingSettings",
+        "title" : "Verifying presence amazon SlotId for maps details preload ad call USA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597958052623,
+          "stop" : 1597958052627,
+          "duration" : 4
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "fbf1c1e236b990f6",
+        "name" : "Verifying_presence_amazon_Slotid_Dailydetails_preload_adcall_USA_Privacy_StandardAdvertisingSettings",
+        "title" : "Verifying presence amazon SlotId for daily details preload ad call USA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597958052628,
+          "stop" : 1597958052632,
+          "duration" : 4
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "4a5afbee48d88eeb",
+        "name" : "Verifying_presence_amazon_Slotid_video_adcall_USA_Privacy_StandardAdvertisingSettings",
+        "title" : "Verifying presence amazon SlotId for videos preload ad call for USA privacy when Advertising option set to Do Not Sell My Information",
+        "time" : {
+          "start" : 1597958052632,
+          "stop" : 1597958052635,
+          "duration" : 3
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "f7fb888758669362",
+        "name" : "Verifying_homescreenhourly_adCall_Presence_USA_Privacy_StandardAdvertisingSettings",
+        "title" : "Verifying home screen hourly ad call presense for USA privacy when Advertising option set to Standard Advertising Settings",
+        "time" : {
+          "start" : 1597958052636,
+          "stop" : 1597958052640,
+          "duration" : 4
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "e1e4609710ddd023",
+        "name" : "Verifying_homescreenmarquee_adCall_Presence_USA_Privacy_StandardAdvertisingSettings",
+        "title" : "Verifying home screen marquee ad call presense for USA privacy when Advertising option set to Standard Advertising Settings",
+        "time" : {
+          "start" : 1597958052640,
+          "stop" : 1597958052644,
+          "duration" : 4
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "2fd229961cfc5f91",
+        "name" : "Verifying_SOD_Cust_Param_homescreenmarquee_adCall_USA_Privacy_StandardAdvertisingSettings",
+        "title" : "Verifying SOD custum param for  home screen marquee ad call USA privacy when Advertising option set to Standard Advertising Settings",
+        "time" : {
+          "start" : 1597958052645,
+          "stop" : 1597958052649,
+          "duration" : 4
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "3a259f05fae7c93e",
+        "name" : "Verifying_SOD_Cust_Param_homescreenhourly_adCall_USA_Privacy_StandardAdvertisingSettings",
+        "title" : "Verifying SOD custum param for  home screen hourly ad call USA privacy when Advertising option set to Standard Advertising Settings",
+        "time" : {
+          "start" : 1597958052650,
+          "stop" : 1597958052656,
+          "duration" : 6
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "f860bd504a64d0e6",
+        "name" : "Verifying_rdp_keyword_supress_homescreenmarquee_adCall_USA_Privacy_StandardAdvertisingSettings",
+        "title" : "Verifying rdp keyword supress in home screen marquee ad call for USA privacy when Advertising option set to Standard Advertising Settings",
+        "time" : {
+          "start" : 1597958052657,
+          "stop" : 1597958052662,
+          "duration" : 5
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "b18f74be4a99deb8",
+        "name" : "Verifying_rdp_keyword_supress_homescreenHourly_adCall_USA_Privacy_StandardAdvertisingSettings",
+        "title" : "Verifying rdp keyword supress in home screen hourly ad call for USA privacy when Advertising option set to Standard Advertising Settings",
+        "time" : {
+          "start" : 1597958052662,
+          "stop" : 1597958052668,
+          "duration" : 6
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "3e1ef62b69fd010",
+        "name" : "Verifying_video_adCall_Presence_USA_Privacy_StandardAdvertisingSettings",
+        "title" : "Verifying video call presense for USA privacy when Advertising option set to Standard Advertising Settings",
+        "time" : {
+          "start" : 1597958052668,
+          "stop" : 1597958052671,
+          "duration" : 3
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "790fa36f5e272785",
+        "name" : "Smoke_Test_Verifying_SOD_Cust_Param_videoad_Optin_mode_scenario",
+        "title" : "Verifying SOD custum param for  video ad call  USA privacy when Advertising option set to Standard Advertising Settings",
+        "time" : {
+          "start" : 1597958052672,
+          "stop" : 1597958052675,
+          "duration" : 3
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "8a39ac43f1b59be9",
+        "name" : "Verifying_rdp_keyword_supress_videos_Call_USA_Privacy_StandardAdvertisingSettings",
+        "title" : "Verifying rdp keyword supress in videos call for USA privacy when Advertising option set to Standard Advertising Settings",
+        "time" : {
+          "start" : 1597958052676,
+          "stop" : 1597958052680,
+          "duration" : 4
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "b1bcf056d1155b96",
+        "name" : "Verifying_SOD_Cust_Param_mapsdetails_adCall_USA_Privacy_StandardAdvertisingSettings",
+        "title" : "Verifying SOD custum param for  maps details page ad call USA privacy when Advertising option set to Standard Advertising Settings",
+        "time" : {
+          "start" : 1597958052680,
+          "stop" : 1597958052686,
+          "duration" : 6
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      } ]
+    } ]
+  } ]
+}

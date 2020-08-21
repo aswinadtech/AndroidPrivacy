@@ -1,0 +1,74 @@
+{
+  "uid" : "9a72d65c3b00cfa3",
+  "name" : "Verifying_supress_amazon_Slotid_Hourly2_bigaddetails_preload_adcall_USA_CCPA_Privacy_DoNotSellMyInformation",
+  "title" : "Verifying supress amazon SlotId for  hourly2 details big ad  preload call  USA-CCPA privacy when Advertising option set to Do Not Sell My Information",
+  "time" : {
+    "start" : 1597956744746,
+    "stop" : 1597956744993,
+    "duration" : 247
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 1
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "c8a285747049d5a2",
+    "name" : "Suite : Test",
+    "title" : "Suite : Test"
+  },
+  "steps" : [ {
+    "name" : "logStep[slot id: 08f0ccea-cab5-449c-963d-dc57ed9ee87d is  not present]",
+    "title" : "slot id: 08f0ccea-cab5-449c-963d-dc57ed9ee87d is  not present",
+    "time" : {
+      "start" : 1597956744992,
+      "stop" : 1597956744992,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "twc.Regression.TestCases.USA_CCPA_Run"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testGroup",
+    "value" : "Test"
+  }, {
+    "name" : "host",
+    "value" : "iosbuildserver.attlocal.net"
+  }, {
+    "name" : "thread",
+    "value" : "96905@iosbuildserver.attlocal.net.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verifying_supress_amazon_Slotid_Hourly2_bigaddetails_preload_adcall_USA_CCPA_Privacy_DoNotSellMyInformation"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : Test"
+  } ],
+  "parameters" : [ ]
+}

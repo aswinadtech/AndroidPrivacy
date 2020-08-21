@@ -1,0 +1,404 @@
+{
+  "uid" : "a019aec3269e13f2",
+  "name" : "preConditionsTest_for_LGPD",
+  "title" : "Pre conditions test for LGPD",
+  "time" : {
+    "start" : 1597955901660,
+    "stop" : 1597956060867,
+    "duration" : 159207
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 23
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "c8a285747049d5a2",
+    "name" : "Suite : Test",
+    "title" : "Suite : Test"
+  },
+  "steps" : [ {
+    "name" : "logStep[Url :http://control.charles/tools/rewrite/disable Responded with status code : 200]",
+    "title" : "Url :http://control.charles/tools/rewrite/disable Responded with status code : 200",
+    "time" : {
+      "start" : 1597955871572,
+      "stop" : 1597955871572,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Url :http://control.charles/quit Responded with status code : 200]",
+    "title" : "Url :http://control.charles/quit Responded with status code : 200",
+    "time" : {
+      "start" : 1597955871578,
+      "stop" : 1597955871578,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[****** GDPR Privacy Test Ended]",
+    "title" : "****** GDPR Privacy Test Ended",
+    "time" : {
+      "start" : 1597955871579,
+      "stop" : 1597955871579,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[****** LGPD Privacy Test Started]",
+    "title" : "****** LGPD Privacy Test Started",
+    "time" : {
+      "start" : 1597955871580,
+      "stop" : 1597955871580,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Starting Charles headless: false using port: 8222]",
+    "title" : "Starting Charles headless: false using port: 8222",
+    "time" : {
+      "start" : 1597955871603,
+      "stop" : 1597955871603,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Url :http://control.charles Responded with status code : 200]",
+    "title" : "Url :http://control.charles Responded with status code : 200",
+    "time" : {
+      "start" : 1597955871609,
+      "stop" : 1597955871609,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Url :http://control.charles/quit Responded with status code : 200]",
+    "title" : "Url :http://control.charles/quit Responded with status code : 200",
+    "time" : {
+      "start" : 1597955871615,
+      "stop" : 1597955871615,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[input command /Applications/Charles.app/Contents/MacOS/Charles -config enableLGPD.config.port8222]",
+    "title" : "input command /Applications/Charles.app/Contents/MacOS/Charles -config enableLGPD.config.port8222",
+    "time" : {
+      "start" : 1597955871615,
+      "stop" : 1597955871615,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Url :http://control.charles Responded with status code : 200]",
+    "title" : "Url :http://control.charles Responded with status code : 200",
+    "time" : {
+      "start" : 1597955901632,
+      "stop" : 1597955901632,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Url :http://control.charles/tools/rewrite/disable Responded with status code : 200]",
+    "title" : "Url :http://control.charles/tools/rewrite/disable Responded with status code : 200",
+    "time" : {
+      "start" : 1597955901638,
+      "stop" : 1597955901638,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Url :http://control.charles/recording/stop Responded with status code : 200]",
+    "title" : "Url :http://control.charles/recording/stop Responded with status code : 200",
+    "time" : {
+      "start" : 1597955901649,
+      "stop" : 1597955901649,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Url :http://control.charles/tools/map-local/disable Responded with status code : 200]",
+    "title" : "Url :http://control.charles/tools/map-local/disable Responded with status code : 200",
+    "time" : {
+      "start" : 1597955901654,
+      "stop" : 1597955901654,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Url :http://control.charles/tools/rewrite/enable Responded with status code : 200]",
+    "title" : "Url :http://control.charles/tools/rewrite/enable Responded with status code : 200",
+    "time" : {
+      "start" : 1597955901696,
+      "stop" : 1597955901696,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Url :http://control.charles/recording/start Responded with status code : 200]",
+    "title" : "Url :http://control.charles/recording/start Responded with status code : 200",
+    "time" : {
+      "start" : 1597955901705,
+      "stop" : 1597955901705,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Url :http://control.charles/session/clear Responded with status code : 200]",
+    "title" : "Url :http://control.charles/session/clear Responded with status code : 200",
+    "time" : {
+      "start" : 1597955901711,
+      "stop" : 1597955901711,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Url :http://control.charles/session/clear Responded with status code : 200]",
+    "title" : "Url :http://control.charles/session/clear Responded with status code : 200",
+    "time" : {
+      "start" : 1597956024977,
+      "stop" : 1597956024977,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Videos element clicked]",
+    "title" : "Videos element clicked",
+    "time" : {
+      "start" : 1597956059956,
+      "stop" : 1597956059956,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Charles Download path is: /Users/jenkins/Documents/projects/AndroidPrivacy/CapturedSessionFile/]",
+    "title" : "Charles Download path is: /Users/jenkins/Documents/projects/AndroidPrivacy/CapturedSessionFile/",
+    "time" : {
+      "start" : 1597956059964,
+      "stop" : 1597956059964,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[To be saved file: /Users/jenkins/Documents/projects/AndroidPrivacy/CapturedSessionFile/Charles20200820164059.chl...]",
+    "title" : "To be saved file: /Users/jenkins/Documents/projects/AndroidPrivacy/CapturedSessionFile/Charles20200820164059.chlsx",
+    "time" : {
+      "start" : 1597956059964,
+      "stop" : 1597956059964,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Create new file that is empty and writable]",
+    "title" : "Create new file that is empty and writable",
+    "time" : {
+      "start" : 1597956059965,
+      "stop" : 1597956059965,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Downloading Charles HAR file to: /Users/jenkins/Documents/projects/AndroidPrivacy/CapturedSessionFile/Charles202...]",
+    "title" : "Downloading Charles HAR file to: /Users/jenkins/Documents/projects/AndroidPrivacy/CapturedSessionFile/Charles20200820164...",
+    "time" : {
+      "start" : 1597956059965,
+      "stop" : 1597956059965,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[File download complete]",
+    "title" : "File download complete",
+    "time" : {
+      "start" : 1597956060866,
+      "stop" : 1597956060866,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Har file size (mb): 45.807240]",
+    "title" : "Har file size (mb): 45.807240",
+    "time" : {
+      "start" : 1597956060867,
+      "stop" : 1597956060867,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testGroup",
+    "value" : "Test"
+  }, {
+    "name" : "host",
+    "value" : "iosbuildserver.attlocal.net"
+  }, {
+    "name" : "testClass",
+    "value" : "twc.Regression.TestCases.LGPD_Run"
+  }, {
+    "name" : "thread",
+    "value" : "96905@iosbuildserver.attlocal.net.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : Test"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "preConditionsTest_for_LGPD"
+  } ],
+  "parameters" : [ ]
+}

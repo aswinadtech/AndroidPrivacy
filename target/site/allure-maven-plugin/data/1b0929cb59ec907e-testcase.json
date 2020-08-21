@@ -1,0 +1,89 @@
+{
+  "uid" : "1b0929cb59ec907e",
+  "name" : "Verifying_supress_amazon_Slotid_video_adcall_LGPDPrivacy",
+  "title" : "Verifying supress amazon SlotId for videos preload ad call for LGPD Privacy",
+  "time" : {
+    "start" : 1597956064790,
+    "stop" : 1597956065102,
+    "duration" : 312
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 2
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "c8a285747049d5a2",
+    "name" : "Suite : Test",
+    "title" : "Suite : Test"
+  },
+  "steps" : [ {
+    "name" : "logStep[Verifying supress amazon SlotId for videos preload ad call for LGPD Privacy]",
+    "title" : "Verifying supress amazon SlotId for videos preload ad call for LGPD Privacy",
+    "time" : {
+      "start" : 1597956064790,
+      "stop" : 1597956064790,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[slot id: f71b7e17-6e34-4f6c-98f6-bbbe9f55586c is  not present]",
+    "title" : "slot id: f71b7e17-6e34-4f6c-98f6-bbbe9f55586c is  not present",
+    "time" : {
+      "start" : 1597956065102,
+      "stop" : 1597956065102,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verifying_supress_amazon_Slotid_video_adcall_LGPDPrivacy"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testGroup",
+    "value" : "Test"
+  }, {
+    "name" : "host",
+    "value" : "iosbuildserver.attlocal.net"
+  }, {
+    "name" : "testClass",
+    "value" : "twc.Regression.TestCases.LGPD_Run"
+  }, {
+    "name" : "thread",
+    "value" : "96905@iosbuildserver.attlocal.net.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : Test"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : Test"
+  } ],
+  "parameters" : [ ]
+}

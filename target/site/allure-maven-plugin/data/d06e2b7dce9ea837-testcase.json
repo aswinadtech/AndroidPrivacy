@@ -1,0 +1,74 @@
+{
+  "uid" : "d06e2b7dce9ea837",
+  "name" : "Verifying_supress_amazon_Slotid_Hourly2_bigaddetails_preload_adcall_LGPDPrivacy",
+  "title" : "Verifying supress amazon SlotId for  hourly2 details big ad  preload call  LGPD Privacy",
+  "time" : {
+    "start" : 1597956063741,
+    "stop" : 1597956063994,
+    "duration" : 253
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 1
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "c8a285747049d5a2",
+    "name" : "Suite : Test",
+    "title" : "Suite : Test"
+  },
+  "steps" : [ {
+    "name" : "logStep[slot id: 4fbed16a-cc6f-4cb1-94f7-81465acbd47 is  not present]",
+    "title" : "slot id: 4fbed16a-cc6f-4cb1-94f7-81465acbd47 is  not present",
+    "time" : {
+      "start" : 1597956063994,
+      "stop" : 1597956063994,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verifying_supress_amazon_Slotid_Hourly2_bigaddetails_preload_adcall_LGPDPrivacy"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testGroup",
+    "value" : "Test"
+  }, {
+    "name" : "host",
+    "value" : "iosbuildserver.attlocal.net"
+  }, {
+    "name" : "testClass",
+    "value" : "twc.Regression.TestCases.LGPD_Run"
+  }, {
+    "name" : "thread",
+    "value" : "96905@iosbuildserver.attlocal.net.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : Test"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : Test"
+  } ],
+  "parameters" : [ ]
+}

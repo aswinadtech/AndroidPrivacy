@@ -36,6 +36,9 @@ public class GDPR_Run extends TwcAndroidBaseTest  {
 	public static String  ipAddress=null;
 	public static String  portNumber=null;
 	
+	public static String  defaultPortNumber=properties.getProperty("PortNumber");
+	public static String CurrentWifiName=null;
+	
 	@BeforeClass(alwaysRun = true)
 	public void beforeClass() {
 		System.out.println("****** GDPR Privacy Test Started");
@@ -54,7 +57,7 @@ public class GDPR_Run extends TwcAndroidBaseTest  {
 			this.configFile.delete();
 		}
 		this.proxy.disableRewriting();
-		//this.proxy.quitCharlesProxy();
+		this.proxy.quitCharlesProxy();
 		
 		System.out.println("****** GDPR Privacy Test Ended");
 		logStep("****** GDPR Privacy Test Ended");
@@ -67,34 +70,32 @@ public class GDPR_Run extends TwcAndroidBaseTest  {
 		this.proxy.enableRewriting();
 		this.proxy.startRecording();
 		this.proxy.clearCharlesSession();
-		AppiumFunctions.getIpaddress();		
+		
+		AppiumFunctions.getIpaddress();
 		Drivers.property();
-		String CurrentWifiName=properties.getProperty("deviceWifiName");
-		AppiumFunctions.LaunchSettingsAppWithFullReset();	
-		  AppiumFunctions.settingProxyOff("None");
-		AppiumFunctions.LaunchAppWithFirebaseFullReset();		
-		AppiumFunctions.installapk();	
+		 CurrentWifiName=properties.getProperty("deviceWifiName");
+		 System.out.println(CurrentWifiName);
 		AppiumFunctions.LaunchSettingsAppWithFullReset();
-		AppiumFunctions.settingProxyEnable("Manual",AppiumFunctions.current_IPAddress,AppiumFunctions.Android_PortNumber);
+		//proxy offf
+	    AppiumFunctions.settingProxyOff("None");
+	   AppiumFunctions.LaunchAppWithFirebaseFullReset();
+	    AppiumFunctions.installapk();
+	    AppiumFunctions.LaunchSettingsAppWithFullReset();
+	//proxyenable
+        AppiumFunctions.settingProxyEnable("Manual",AppiumFunctions.current_IPAddress,AppiumFunctions.defaultPortNumber);	
 		AppiumFunctions.LaunchAppWithFullReset();
 		  	AppiumFunctions.clickONNext();
 			AppiumFunctions.ClickonIUnderstand();
 			AppiumFunctions.ClickonIUnderstand();
+			AppiumFunctions.ClickonIUnderstand();
 			AppiumFunctions.clickOnAllow();
-		// Preconditions
-	//	Utils.getCurrentMacIPAddressAndSetiPhoneProxy(true, true);
-		//Functions.listFilesForFolder(Functions.folder);
-	//	Functions.archive_folder("Charles");
-		//Functions.launchtheApp("true");
 		System.out.println("App launched ");
+		CharlesFunctions.archive_folder("charles");
 		this.proxy.clearCharlesSession();
 		AppiumFunctions.Kill_Launch_App();
 		AppiumFunctions.ClickonIUnderstand();
-	//	Functions.close_launchApp();
-		//Utils.navigateToAllCards(false);
 		CharlesFunctions.archive_folder("charles");
 		this.proxy.getXml();
-		  Thread.sleep(40000);	
 	//	Utils.createXMLFileForCharlesSessionFile();
 	}
 	@Test(priority =2,enabled = true)  

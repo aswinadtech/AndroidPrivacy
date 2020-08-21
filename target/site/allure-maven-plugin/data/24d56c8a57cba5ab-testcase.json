@@ -1,0 +1,89 @@
+{
+  "uid" : "24d56c8a57cba5ab",
+  "name" : "Verifying_supress_amazon_Slotid_feed2_preroladcall_GDPRPrivacy",
+  "title" : "Verifying supress amazon SlotId for feed2 prerload ad call  GDPR Privacy",
+  "time" : {
+    "start" : 1597955871176,
+    "stop" : 1597955871222,
+    "duration" : 46
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 2
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "c8a285747049d5a2",
+    "name" : "Suite : Test",
+    "title" : "Suite : Test"
+  },
+  "steps" : [ {
+    "name" : "logStep[Verifying supress amazon SlotId for feed2 prerload ad call  GDPR Privacy]",
+    "title" : "Verifying supress amazon SlotId for feed2 prerload ad call  GDPR Privacy",
+    "time" : {
+      "start" : 1597955871176,
+      "stop" : 1597955871176,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[slot id: 752a96eb-3198-4991-b572-17ec04883b6c is  not present]",
+    "title" : "slot id: 752a96eb-3198-4991-b572-17ec04883b6c is  not present",
+    "time" : {
+      "start" : 1597955871222,
+      "stop" : 1597955871222,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testGroup",
+    "value" : "Test"
+  }, {
+    "name" : "host",
+    "value" : "iosbuildserver.attlocal.net"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verifying_supress_amazon_Slotid_feed2_preroladcall_GDPRPrivacy"
+  }, {
+    "name" : "thread",
+    "value" : "96905@iosbuildserver.attlocal.net.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : Test"
+  }, {
+    "name" : "testClass",
+    "value" : "twc.Regression.TestCases.GDPR_Run"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : Test"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,89 @@
+{
+  "uid" : "73114bbde47761d3",
+  "name" : "Verifying_supress_amazon_Slotid_mapsdetails_preload_adcall_GDPRPrivacy",
+  "title" : "Verifying supress amazon SlotId for maps details preload ad call GDPR Privacy",
+  "time" : {
+    "start" : 1597955871402,
+    "stop" : 1597955871441,
+    "duration" : 39
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 2
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "c8a285747049d5a2",
+    "name" : "Suite : Test",
+    "title" : "Suite : Test"
+  },
+  "steps" : [ {
+    "name" : "logStep[Verifying supress amazon SlotId for maps details preload ad call GDPR Privacy]",
+    "title" : "Verifying supress amazon SlotId for maps details preload ad call GDPR Privacy",
+    "time" : {
+      "start" : 1597955871403,
+      "stop" : 1597955871403,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[slot id: 2634dc9-b59f-4b2c-b281-bb3be291b7b6 is  not present]",
+    "title" : "slot id: 2634dc9-b59f-4b2c-b281-bb3be291b7b6 is  not present",
+    "time" : {
+      "start" : 1597955871440,
+      "stop" : 1597955871441,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testGroup",
+    "value" : "Test"
+  }, {
+    "name" : "host",
+    "value" : "iosbuildserver.attlocal.net"
+  }, {
+    "name" : "thread",
+    "value" : "96905@iosbuildserver.attlocal.net.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : Test"
+  }, {
+    "name" : "testClass",
+    "value" : "twc.Regression.TestCases.GDPR_Run"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verifying_supress_amazon_Slotid_mapsdetails_preload_adcall_GDPRPrivacy"
+  } ],
+  "parameters" : [ ]
+}

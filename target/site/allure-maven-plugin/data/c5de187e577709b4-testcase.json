@@ -1,0 +1,104 @@
+{
+  "uid" : "c5de187e577709b4",
+  "name" : "Verifying_SOD_Cust_Param_videos_adCall_USA_CCPA_Privacy_DoNotSellMyInformation",
+  "title" : "Verifying SOD Cust param value in Videos  ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information",
+  "time" : {
+    "start" : 1597956747931,
+    "stop" : 1597956748210,
+    "duration" : 279
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 3
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "c8a285747049d5a2",
+    "name" : "Suite : Test",
+    "title" : "Suite : Test"
+  },
+  "steps" : [ {
+    "name" : "logStep[Verifying SOD Cust param value in Videos  ad call for USA-CCPA privacy when Advertising option set to Do Not Sel...]",
+    "title" : "Verifying SOD Cust param value in Videos  ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Inf...",
+    "time" : {
+      "start" : 1597956747931,
+      "stop" : 1597956747931,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Verifying  SOD custum param for iu=%2F7646%2Fapp_android_us%2Fvideo ad call]",
+    "title" : "Verifying  SOD custum param for iu=%2F7646%2Fapp_android_us%2Fvideo ad call",
+    "time" : {
+      "start" : 1597956748130,
+      "stop" : 1597956748130,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fvideo ad call is sod=no]",
+    "title" : "SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fvideo ad call is sod=no",
+    "time" : {
+      "start" : 1597956748210,
+      "stop" : 1597956748210,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "twc.Regression.TestCases.USA_CCPA_Run"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testGroup",
+    "value" : "Test"
+  }, {
+    "name" : "host",
+    "value" : "iosbuildserver.attlocal.net"
+  }, {
+    "name" : "thread",
+    "value" : "96905@iosbuildserver.attlocal.net.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : Test"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verifying_SOD_Cust_Param_videos_adCall_USA_CCPA_Privacy_DoNotSellMyInformation"
+  } ],
+  "parameters" : [ ]
+}

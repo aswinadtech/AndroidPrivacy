@@ -44,7 +44,7 @@ public class USA_Run extends TwcAndroidBaseTest {
 			this.configFile.delete();
 		}
 		this.proxy.disableRewriting();
-	//	this.proxy.quitCharlesProxy();
+		this.proxy.quitCharlesProxy();
 		
 		System.out.println("****** USA Privacy Test Ended");
 		logStep("****** USA Privacy Test Ended");
@@ -81,7 +81,7 @@ public class USA_Run extends TwcAndroidBaseTest {
 	  @Title("Verifying Privacy Card is present on the screen") public void
 	 Verifying_PrivacyCard_PresenceonScreen() throws Exception {	  
 	 System.out. println("=================Verifying Privacy Card is present on the screen testcase started =========================" ); 
-	 AppiumFunctions. Kill_Launch_App();
+	 AppiumFunctions.Kill_Launch_App();
 	  Thread.sleep(40000);	  
 	  AppiumFunctions.SwipeUp_Counter_privacy(25);
 	  System.out. println("================= Verifying Privacy Card is present on the screen testcase End =========================" );
@@ -95,10 +95,10 @@ public class USA_Run extends TwcAndroidBaseTest {
 	  Functions.selecting_opt_out_mode(); 
 	  System.out.println("kill launch the app for two times");
 	  AppiumFunctions.Kill_Launch_App(); 
-		this.proxy.clearCharlesSession();
+	  this.proxy.clearCharlesSession();
 	  Thread.sleep(30000); 
 	   AppiumFunctions.Kill_Launch_App();  
-		this.proxy.clearCharlesSession();
+	  
 	  System.out.println("================= Slecting Optout mode scenario in privacy card  testcase End =========================");	  
 	  }
 	 // DoNotSellMyInformation
@@ -107,12 +107,13 @@ public class USA_Run extends TwcAndroidBaseTest {
 	  public void Verifying_Loatme_adcrwdcntrlnet_apiCall_supressing_USA_Privacy_DoNotSellMyInformation()  throws Exception {  
 	  logStep("Verifying Lotame ad.crwdcntrl.net api call supressing for USA privacy when Advertising option set to Do Not Sell My Information"); 
 	  System.out.println("=================Verifying Lotame ad.crwdcntrl.net api call supressing for USA privacy test case  started =========================");
-		this.proxy.clearCharlesSession();
+	  this.proxy.clearCharlesSession();
 	   AppiumFunctions.Kill_Launch_App();  
 	   AppiumFunctions.clickOnMaps_tile();
 	   AppiumFunctions.clickOnVideos_tile();
 		CharlesFunctions.archive_folder("charles");
 		this.proxy.getXml();
+	   CharlesFunctions.ExportSession();
 	  Functions.validating_adcrw_privacy_Optoutmode_scenarion(); 
 	  System.out.println("================= Verifying Lotame ad.crwdcntrl.net api call supressing for USA privacy test case End =========================");	  
 	  }
@@ -376,8 +377,9 @@ public class USA_Run extends TwcAndroidBaseTest {
 	  public void Verifying_Loatme_bcpcrwdcntrlnet_apiCall_presence_USA_Privacy_StandardAdvertisingSettings() throws  Exception { 
 	  logStep("Verifying Lotame bcp.crwdcntrl.net api call presence for USA privacy when Advertising option set to Standard Advertising Settings" ); 
 	  System.out.println("=================Verifying Lotame bcp.crwdcntrl.net api call presence for USA privacy when Advertising option set to Standard Advertising Settings test case started =========================");	  
-		this.proxy.clearCharlesSession();
-	   AppiumFunctions.Kill_Launch_App();  
+	  this.proxy.clearCharlesSession();
+	   AppiumFunctions.Kill_Launch_App(); 
+	   AppiumFunctions.Kill_Launch_App();
 		AppiumFunctions.clickOnMaps_tile();
 		AppiumFunctions.clickOnVideos_tile();		
 		CharlesFunctions.archive_folder("charles");

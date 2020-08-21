@@ -1,0 +1,89 @@
+{
+  "uid" : "32da105ec84704f9",
+  "name" : "Verifying_presence_amazon_Slotid_feed2_preroladcall_USA_CCPA_Privacy_StandardAdvertisingSettings",
+  "title" : "Verifying presence amazon SlotId for feed2 prerload ad call  USA-CCPA privacy when Advertising option set to  Standard Advertising Settings",
+  "time" : {
+    "start" : 1597957127837,
+    "stop" : 1597957127872,
+    "duration" : 35
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 2
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "c8a285747049d5a2",
+    "name" : "Suite : Test",
+    "title" : "Suite : Test"
+  },
+  "steps" : [ {
+    "name" : "logStep[Verifying presennce amazon SlotId for feed2 prerload ad call  USA-CCPA privacy when Advertising option set to  S...]",
+    "title" : "Verifying presennce amazon SlotId for feed2 prerload ad call  USA-CCPA privacy when Advertising option set to  Standard ...",
+    "time" : {
+      "start" : 1597957127838,
+      "stop" : 1597957127838,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[slot id: 752a96eb-3198-4991-b572-17ec04883b6c is present]",
+    "title" : "slot id: 752a96eb-3198-4991-b572-17ec04883b6c is present",
+    "time" : {
+      "start" : 1597957127872,
+      "stop" : 1597957127872,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "twc.Regression.TestCases.USA_CCPA_Run"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testGroup",
+    "value" : "Test"
+  }, {
+    "name" : "host",
+    "value" : "iosbuildserver.attlocal.net"
+  }, {
+    "name" : "thread",
+    "value" : "96905@iosbuildserver.attlocal.net.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verifying_presence_amazon_Slotid_feed2_preroladcall_USA_CCPA_Privacy_StandardAdvertisingSettings"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : Test"
+  } ],
+  "parameters" : [ ]
+}

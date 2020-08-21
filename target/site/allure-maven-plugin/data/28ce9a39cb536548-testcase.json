@@ -1,0 +1,104 @@
+{
+  "uid" : "28ce9a39cb536548",
+  "name" : "Verifying_homescreenmarquee_adCall_Presence_USA_CCPA_Privacy_StandardAdvertisingSettings",
+  "title" : "Verifying home screen marquee ad call presense for USA-CCPA privacy when Advertising option set to Standard Advertising Settings",
+  "time" : {
+    "start" : 1597957128230,
+    "stop" : 1597957128267,
+    "duration" : 37
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 3
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "c8a285747049d5a2",
+    "name" : "Suite : Test",
+    "title" : "Suite : Test"
+  },
+  "steps" : [ {
+    "name" : "logStep[Verifying home screen marquee ad call presense for USA-CCPA privacy when Advertising option set to Standard Adve...]",
+    "title" : "Verifying home screen marquee ad call presense for USA-CCPA privacy when Advertising option set to Standard Advertising ...",
+    "time" : {
+      "start" : 1597957128230,
+      "stop" : 1597957128230,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Verofying for  iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fhome_screen%2Fhourly ad call]",
+    "title" : "Verofying for  iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fhome_screen%2Fhourly ad call",
+    "time" : {
+      "start" : 1597957128265,
+      "stop" : 1597957128265,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[iu=7646/app_android_us/db_display/home_screen/hourly call was trigred]",
+    "title" : "iu=7646/app_android_us/db_display/home_screen/hourly call was trigred",
+    "time" : {
+      "start" : 1597957128266,
+      "stop" : 1597957128266,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "twc.Regression.TestCases.USA_CCPA_Run"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testGroup",
+    "value" : "Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verifying_homescreenmarquee_adCall_Presence_USA_CCPA_Privacy_StandardAdvertisingSettings"
+  }, {
+    "name" : "host",
+    "value" : "iosbuildserver.attlocal.net"
+  }, {
+    "name" : "thread",
+    "value" : "96905@iosbuildserver.attlocal.net.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : Test"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : Test"
+  } ],
+  "parameters" : [ ]
+}

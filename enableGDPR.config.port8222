@@ -122,6 +122,12 @@
     <checkUpdates>false</checkUpdates>
     <maximised>false</maximised>
     <fullscreen>false</fullscreen>
+    <mainWindow>
+      <x>20</x>
+      <y>42</y>
+      <width>900</width>
+      <height>700</height>
+    </mainWindow>
     <lastCheckUpdates>2017-06-30 06:35:41.478 UTC</lastCheckUpdates>
   </startupConfiguration>
   <userInterfaceConfiguration>
@@ -231,7 +237,7 @@
       <entry>
         <string>Rewrite</string>
         <rewrite>
-          <toolEnabled>true</toolEnabled>
+          <toolEnabled>false</toolEnabled>
           <debugging>false</debugging>
           <sets>
             <rewriteSet>
@@ -254,13 +260,30 @@
                   <active>true</active>
                   <ruleType>3</ruleType>
                   <matchHeader>twc-privacy</matchHeader>
-                  <matchValue>exempt</matchValue>
+                  <matchValue>usa</matchValue>
                   <matchHeaderRegex>false</matchHeaderRegex>
                   <matchValueRegex>false</matchValueRegex>
                   <matchRequest>false</matchRequest>
                   <matchResponse>true</matchResponse>
                   <newHeader>twc-privacy</newHeader>
                   <newValue>gdpr</newValue>
+                  <newHeaderRegex>false</newHeaderRegex>
+                  <newValueRegex>false</newValueRegex>
+                  <matchWholeValue>false</matchWholeValue>
+                  <caseSensitive>false</caseSensitive>
+                  <replaceType>1</replaceType>
+                </rewriteRule>
+                <rewriteRule>
+                  <active>true</active>
+                  <ruleType>3</ruleType>
+                  <matchHeader>twc-geoip-country</matchHeader>
+                  <matchValue>US</matchValue>
+                  <matchHeaderRegex>false</matchHeaderRegex>
+                  <matchValueRegex>false</matchValueRegex>
+                  <matchRequest>false</matchRequest>
+                  <matchResponse>true</matchResponse>
+                  <newHeader>twc-geoip-country</newHeader>
+                  <newValue>UK</newValue>
                   <newHeaderRegex>false</newHeaderRegex>
                   <newValueRegex>false</newValueRegex>
                   <matchWholeValue>false</matchWholeValue>

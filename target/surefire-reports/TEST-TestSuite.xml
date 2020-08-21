@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="132" failures="48" name="TestSuite" time="3,086.61" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.171-b11"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/jenkins/Documents/projects/AndroidPrivacy"/>
+    <property name="java.runtime.version" value="1.8.0_171-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="basedir" value="/Users/jenkins/Documents/projects/AndroidPrivacy"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="surefire.real.class.path" value="/var/folders/47/077fzm6n6zggxqzrdrzfz9fr0000gn/T/surefirebooter3874454976105647624.jar:/Users/jenkins/.m2/repository/org/aspectj/aspectjweaver/1.8.13/aspectjweaver-1.8.13.jar"/>
+    <property name="java.io.tmpdir" value="/var/folders/47/077fzm6n6zggxqzrdrzfz9fr0000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/jenkins/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="surefire.test.class.path" value="/Users/jenkins/Documents/projects/AndroidPrivacy/target/test-classes:/Users/jenkins/Documents/projects/AndroidPrivacy/target/classes:/Users/jenkins/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/Users/jenkins/.m2/repository/org/testng/testng/6.9.4/testng-6.9.4.jar:/Users/jenkins/.m2/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar:/Users/jenkins/.m2/repository/com/beust/jcommander/1.48/jcommander-1.48.jar:/Users/jenkins/.m2/repository/org/seleniumhq/selenium/selenium-java/2.51.0/selenium-java-2.51.0.jar:/Users/jenkins/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/2.51.0/selenium-chrome-driver-2.51.0.jar:/Users/jenkins/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/2.51.0/selenium-edge-driver-2.51.0.jar:/Users/jenkins/.m2/repository/org/seleniumhq/selenium/selenium-htmlunit-driver/2.51.0/selenium-htmlunit-driver-2.51.0.jar:/Users/jenkins/.m2/repository/net/sourceforge/htmlunit/htmlunit/2.18/htmlunit-2.18.jar:/Users/jenkins/.m2/repository/xalan/xalan/2.7.2/xalan-2.7.2.jar:/Users/jenkins/.m2/repository/xalan/serializer/2.7.2/serializer-2.7.2.jar:/Users/jenkins/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/Users/jenkins/.m2/repository/org/apache/httpcomponents/httpmime/4.5/httpmime-4.5.jar:/Users/jenkins/.m2/repository/net/sourceforge/htmlunit/htmlunit-core-js/2.17/htmlunit-core-js-2.17.jar:/Users/jenkins/.m2/repository/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0.jar:/Users/jenkins/.m2/repository/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar:/Users/jenkins/.m2/repository/net/sourceforge/nekohtml/nekohtml/1.9.22/nekohtml-1.9.22.jar:/Users/jenkins/.m2/repository/net/sourceforge/cssparser/cssparser/0.9.16/cssparser-0.9.16.jar:/Users/jenkins/.m2/repository/org/w3c/css/sac/1.3/sac-1.3.jar:/Users/jenkins/.m2/repository/org/eclipse/jetty/websocket/websocket-client/9.2.12.v20150709/websocket-client-9.2.12.v20150709.jar:/Users/jenkins/.m2/repository/org/eclipse/jetty/jetty-util/9.2.12.v20150709/jetty-util-9.2.12.v20150709.jar:/Users/jenkins/.m2/repository/org/eclipse/jetty/jetty-io/9.2.12.v20150709/jetty-io-9.2.12.v20150709.jar:/Users/jenkins/.m2/repository/org/eclipse/jetty/websocket/websocket-common/9.2.12.v20150709/websocket-common-9.2.12.v20150709.jar:/Users/jenkins/.m2/repository/org/eclipse/jetty/websocket/websocket-api/9.2.12.v20150709/websocket-api-9.2.12.v20150709.jar:/Users/jenkins/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/jenkins/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/2.51.0/selenium-ie-driver-2.51.0.jar:/Users/jenkins/.m2/repository/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar:/Users/jenkins/.m2/repository/net/java/dev/jna/jna-platform/4.1.0/jna-platform-4.1.0.jar:/Users/jenkins/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/2.51.0/selenium-safari-driver-2.51.0.jar:/Users/jenkins/.m2/repository/org/seleniumhq/selenium/selenium-support/2.51.0/selenium-support-2.51.0.jar:/Users/jenkins/.m2/repository/org/webbitserver/webbit/0.4.14/webbit-0.4.14.jar:/Users/jenkins/.m2/repository/io/netty/netty/3.5.2.Final/netty-3.5.2.Final.jar:/Users/jenkins/.m2/repository/org/seleniumhq/selenium/selenium-leg-rc/2.51.0/selenium-leg-rc-2.51.0.jar:/Users/jenkins/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/2.51.0/selenium-firefox-driver-2.51.0.jar:/Users/jenkins/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/2.51.0/selenium-remote-driver-2.51.0.jar:/Users/jenkins/.m2/repository/cglib/cglib-nodep/2.1_3/cglib-nodep-2.1_3.jar:/Users/jenkins/.m2/repository/org/seleniumhq/selenium/selenium-api/2.51.0/selenium-api-2.51.0.jar:/Users/jenkins/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar:/Users/jenkins/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/jenkins/.m2/repository/com/googlecode/json-simple/json-simple/1.1/json-simple-1.1.jar:/Users/jenkins/.m2/repository/org/apache/poi/poi/3.9/poi-3.9.jar:/Users/jenkins/.m2/repository/commons-codec/commons-codec/1.5/commons-codec-1.5.jar:/Users/jenkins/.m2/repository/io/appium/java-client/3.2.0/java-client-3.2.0.jar:/Users/jenkins/.m2/repository/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar:/Users/jenkins/.m2/repository/org/apache/httpcomponents/httpclient/4.3.3/httpclient-4.3.3.jar:/Users/jenkins/.m2/repository/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.jar:/Users/jenkins/.m2/repository/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar:/Users/jenkins/.m2/repository/com/google/guava/guava/17.0/guava-17.0.jar:/Users/jenkins/.m2/repository/cglib/cglib/3.1/cglib-3.1.jar:/Users/jenkins/.m2/repository/org/ow2/asm/asm/4.2/asm-4.2.jar:/Users/jenkins/.m2/repository/commons-validator/commons-validator/1.4.1/commons-validator-1.4.1.jar:/Users/jenkins/.m2/repository/commons-beanutils/commons-beanutils/1.8.3/commons-beanutils-1.8.3.jar:/Users/jenkins/.m2/repository/commons-digester/commons-digester/1.8.1/commons-digester-1.8.1.jar:/Users/jenkins/.m2/repository/ru/yandex/qatools/allure/allure-testng-adaptor/1.5.4/allure-testng-adaptor-1.5.4.jar:/Users/jenkins/.m2/repository/ru/yandex/qatools/allure/allure-java-aspects/1.5.4/allure-java-aspects-1.5.4.jar:/Users/jenkins/.m2/repository/ru/yandex/qatools/allure/allure-java-adaptor-api/1.5.4/allure-java-adaptor-api-1.5.4.jar:/Users/jenkins/.m2/repository/ru/yandex/qatools/allure/allure-java-annotations/1.5.4/allure-java-annotations-1.5.4.jar:/Users/jenkins/.m2/repository/ru/yandex/qatools/allure/allure-model/1.5.4/allure-model-1.5.4.jar:/Users/jenkins/.m2/repository/org/jvnet/jaxb2_commons/jaxb2-basics-runtime/0.9.3/jaxb2-basics-runtime-0.9.3.jar:/Users/jenkins/.m2/repository/ru/qatools/commons/properties/2.0.RC5/properties-2.0.RC5.jar:/Users/jenkins/.m2/repository/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.jar:/Users/jenkins/.m2/repository/org/apache/tika/tika-core/1.7/tika-core-1.7.jar:/Users/jenkins/.m2/repository/org/aspectj/aspectjrt/1.8.3/aspectjrt-1.8.3.jar:/Users/jenkins/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.15.6"/>
+    <property name="user.home" value="/Users/jenkins"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="jenkins"/>
+    <property name="java.class.path" value="/Users/jenkins/Documents/projects/AndroidPrivacy/target/test-classes:/Users/jenkins/Documents/projects/AndroidPrivacy/target/classes:/Users/jenkins/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/Users/jenkins/.m2/repository/org/testng/testng/6.9.4/testng-6.9.4.jar:/Users/jenkins/.m2/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar:/Users/jenkins/.m2/repository/com/beust/jcommander/1.48/jcommander-1.48.jar:/Users/jenkins/.m2/repository/org/seleniumhq/selenium/selenium-java/2.51.0/selenium-java-2.51.0.jar:/Users/jenkins/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/2.51.0/selenium-chrome-driver-2.51.0.jar:/Users/jenkins/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/2.51.0/selenium-edge-driver-2.51.0.jar:/Users/jenkins/.m2/repository/org/seleniumhq/selenium/selenium-htmlunit-driver/2.51.0/selenium-htmlunit-driver-2.51.0.jar:/Users/jenkins/.m2/repository/net/sourceforge/htmlunit/htmlunit/2.18/htmlunit-2.18.jar:/Users/jenkins/.m2/repository/xalan/xalan/2.7.2/xalan-2.7.2.jar:/Users/jenkins/.m2/repository/xalan/serializer/2.7.2/serializer-2.7.2.jar:/Users/jenkins/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/Users/jenkins/.m2/repository/org/apache/httpcomponents/httpmime/4.5/httpmime-4.5.jar:/Users/jenkins/.m2/repository/net/sourceforge/htmlunit/htmlunit-core-js/2.17/htmlunit-core-js-2.17.jar:/Users/jenkins/.m2/repository/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0.jar:/Users/jenkins/.m2/repository/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar:/Users/jenkins/.m2/repository/net/sourceforge/nekohtml/nekohtml/1.9.22/nekohtml-1.9.22.jar:/Users/jenkins/.m2/repository/net/sourceforge/cssparser/cssparser/0.9.16/cssparser-0.9.16.jar:/Users/jenkins/.m2/repository/org/w3c/css/sac/1.3/sac-1.3.jar:/Users/jenkins/.m2/repository/org/eclipse/jetty/websocket/websocket-client/9.2.12.v20150709/websocket-client-9.2.12.v20150709.jar:/Users/jenkins/.m2/repository/org/eclipse/jetty/jetty-util/9.2.12.v20150709/jetty-util-9.2.12.v20150709.jar:/Users/jenkins/.m2/repository/org/eclipse/jetty/jetty-io/9.2.12.v20150709/jetty-io-9.2.12.v20150709.jar:/Users/jenkins/.m2/repository/org/eclipse/jetty/websocket/websocket-common/9.2.12.v20150709/websocket-common-9.2.12.v20150709.jar:/Users/jenkins/.m2/repository/org/eclipse/jetty/websocket/websocket-api/9.2.12.v20150709/websocket-api-9.2.12.v20150709.jar:/Users/jenkins/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/jenkins/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/2.51.0/selenium-ie-driver-2.51.0.jar:/Users/jenkins/.m2/repository/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar:/Users/jenkins/.m2/repository/net/java/dev/jna/jna-platform/4.1.0/jna-platform-4.1.0.jar:/Users/jenkins/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/2.51.0/selenium-safari-driver-2.51.0.jar:/Users/jenkins/.m2/repository/org/seleniumhq/selenium/selenium-support/2.51.0/selenium-support-2.51.0.jar:/Users/jenkins/.m2/repository/org/webbitserver/webbit/0.4.14/webbit-0.4.14.jar:/Users/jenkins/.m2/repository/io/netty/netty/3.5.2.Final/netty-3.5.2.Final.jar:/Users/jenkins/.m2/repository/org/seleniumhq/selenium/selenium-leg-rc/2.51.0/selenium-leg-rc-2.51.0.jar:/Users/jenkins/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/2.51.0/selenium-firefox-driver-2.51.0.jar:/Users/jenkins/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/2.51.0/selenium-remote-driver-2.51.0.jar:/Users/jenkins/.m2/repository/cglib/cglib-nodep/2.1_3/cglib-nodep-2.1_3.jar:/Users/jenkins/.m2/repository/org/seleniumhq/selenium/selenium-api/2.51.0/selenium-api-2.51.0.jar:/Users/jenkins/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar:/Users/jenkins/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/jenkins/.m2/repository/com/googlecode/json-simple/json-simple/1.1/json-simple-1.1.jar:/Users/jenkins/.m2/repository/org/apache/poi/poi/3.9/poi-3.9.jar:/Users/jenkins/.m2/repository/commons-codec/commons-codec/1.5/commons-codec-1.5.jar:/Users/jenkins/.m2/repository/io/appium/java-client/3.2.0/java-client-3.2.0.jar:/Users/jenkins/.m2/repository/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar:/Users/jenkins/.m2/repository/org/apache/httpcomponents/httpclient/4.3.3/httpclient-4.3.3.jar:/Users/jenkins/.m2/repository/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.jar:/Users/jenkins/.m2/repository/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar:/Users/jenkins/.m2/repository/com/google/guava/guava/17.0/guava-17.0.jar:/Users/jenkins/.m2/repository/cglib/cglib/3.1/cglib-3.1.jar:/Users/jenkins/.m2/repository/org/ow2/asm/asm/4.2/asm-4.2.jar:/Users/jenkins/.m2/repository/commons-validator/commons-validator/1.4.1/commons-validator-1.4.1.jar:/Users/jenkins/.m2/repository/commons-beanutils/commons-beanutils/1.8.3/commons-beanutils-1.8.3.jar:/Users/jenkins/.m2/repository/commons-digester/commons-digester/1.8.1/commons-digester-1.8.1.jar:/Users/jenkins/.m2/repository/ru/yandex/qatools/allure/allure-testng-adaptor/1.5.4/allure-testng-adaptor-1.5.4.jar:/Users/jenkins/.m2/repository/ru/yandex/qatools/allure/allure-java-aspects/1.5.4/allure-java-aspects-1.5.4.jar:/Users/jenkins/.m2/repository/ru/yandex/qatools/allure/allure-java-adaptor-api/1.5.4/allure-java-adaptor-api-1.5.4.jar:/Users/jenkins/.m2/repository/ru/yandex/qatools/allure/allure-java-annotations/1.5.4/allure-java-annotations-1.5.4.jar:/Users/jenkins/.m2/repository/ru/yandex/qatools/allure/allure-model/1.5.4/allure-model-1.5.4.jar:/Users/jenkins/.m2/repository/org/jvnet/jaxb2_commons/jaxb2-basics-runtime/0.9.3/jaxb2-basics-runtime-0.9.3.jar:/Users/jenkins/.m2/repository/ru/qatools/commons/properties/2.0.RC5/properties-2.0.RC5.jar:/Users/jenkins/.m2/repository/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.jar:/Users/jenkins/.m2/repository/org/apache/tika/tika-core/1.7/tika-core-1.7.jar:/Users/jenkins/.m2/repository/org/aspectj/aspectjrt/1.8.3/aspectjrt-1.8.3.jar:/Users/jenkins/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="/var/folders/47/077fzm6n6zggxqzrdrzfz9fr0000gn/T/surefirebooter3874454976105647624.jar /var/folders/47/077fzm6n6zggxqzrdrzfz9fr0000gn/T/surefire8150186093212425442tmp /var/folders/47/077fzm6n6zggxqzrdrzfz9fr0000gn/T/surefire5573914537391278458tmp"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_171"/>
+    <property name="java.ext.dirs" value="/Users/jenkins/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="localRepository" value="/Users/jenkins/.m2/repository"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="twc.Regression.TestCases.GDPR_Run" name="preConditionsTest_for_GDPR" time="871.713"/>
+  <testcase classname="twc.Regression.TestCases.GDPR_Run" name="Verifying_Loatme_adcrwdcntrlnet_apiCall_supressing_GDPR_Privacy" time="0.168"/>
+  <testcase classname="twc.Regression.TestCases.GDPR_Run" name="Verifying_Loatme_bcpcrwdcntrlnet_apiCall_supressing_GDPR_Privacy" time="0.074"/>
+  <testcase classname="twc.Regression.TestCases.GDPR_Run" name="Verifying_Factual_locationwfxtriggerscom_apiCall_supressing_GDPR_Privacy" time="0.123"/>
+  <testcase classname="twc.Regression.TestCases.GDPR_Run" name="Verifying_Supress_amazon_Slotid_homescreenhourly_preload_adcall_GDPRPrivacy" time="0.041"/>
+  <testcase classname="twc.Regression.TestCases.GDPR_Run" name="Verifying_supress_amazon_Slotid_feed1_preroladcall_GDPRPrivacy" time="0.038"/>
+  <testcase classname="twc.Regression.TestCases.GDPR_Run" name="Verifying_supress_amazon_Slotid_feed2_preroladcall_GDPRPrivacy" time="0.047"/>
+  <testcase classname="twc.Regression.TestCases.GDPR_Run" name="Verifying_Supress_amazon_Slotid_Hourlydetails_preload_adcall_GDPRPrivacy" time="0.057"/>
+  <testcase classname="twc.Regression.TestCases.GDPR_Run" name="Verifying_Supress_amazon_Slotid_Hourly1_bigaddetails_preload_adcall_GDPRPrivacy" time="0.048"/>
+  <testcase classname="twc.Regression.TestCases.GDPR_Run" name="Verifying_supress_amazon_Slotid_Hourly2_bigaddetails_preload_adcall_GDPRPrivacy" time="0.044"/>
+  <testcase classname="twc.Regression.TestCases.GDPR_Run" name="Verifying_supress_amazon_Slotid_Hourly3_bigaddetails_preload_adcall_GDPRPrivacy" time="0.028"/>
+  <testcase classname="twc.Regression.TestCases.GDPR_Run" name="Verifying_supress_amazon_Slotid_mapsdetails_preload_adcall_GDPRPrivacy" time="0.039"/>
+  <testcase classname="twc.Regression.TestCases.GDPR_Run" name="Verifying_supress_amazon_Slotid_Dailydetails_preload_adcall_GDPRPrivacy" time="0.036"/>
+  <testcase classname="twc.Regression.TestCases.GDPR_Run" name="Verifying_supress_amazon_Slotid_video_adcall_GDPRPrivacy" time="0.056"/>
+  <testcase classname="twc.Regression.TestCases.LGPD_Run" name="preConditionsTest_for_LGPD" time="159.213"/>
+  <testcase classname="twc.Regression.TestCases.LGPD_Run" name="Verifying_Loatme_adcrwdcntrlnet_apiCall_supressing_LGPD_Privacy" time="0.631"/>
+  <testcase classname="twc.Regression.TestCases.LGPD_Run" name="Verifying_Loatme_bcpcrwdcntrlnet_apiCall_supressing_LGPD_Privacy" time="0.414"/>
+  <testcase classname="twc.Regression.TestCases.LGPD_Run" name="Verifying_Factual_locationwfxtriggerscom_apiCall_supressing_LGPD_Privacy" time="0.435"/>
+  <testcase classname="twc.Regression.TestCases.LGPD_Run" name="Verifying_Supress_amazon_Slotid_homescreenhourly_preload_adcall_LGPDPrivacy" time="0.239"/>
+  <testcase classname="twc.Regression.TestCases.LGPD_Run" name="Verifying_supress_amazon_Slotid_feed1_preroladcall_LGPDPrivacy" time="0.239"/>
+  <testcase classname="twc.Regression.TestCases.LGPD_Run" name="Verifying_supress_amazon_Slotid_feed2_preroladcall_LGPDPrivacy" time="0.271"/>
+  <testcase classname="twc.Regression.TestCases.LGPD_Run" name="Verifying_Supress_amazon_Slotid_Hourlydetails_preload_adcall_LGPDPrivacy" time="0.306"/>
+  <testcase classname="twc.Regression.TestCases.LGPD_Run" name="Verifying_Supress_amazon_Slotid_Hourly1_bigaddetails_preload_adcall_LGPDPrivacy" time="0.333"/>
+  <testcase classname="twc.Regression.TestCases.LGPD_Run" name="Verifying_supress_amazon_Slotid_Hourly2_bigaddetails_preload_adcall_LGPDPrivacy" time="0.254"/>
+  <testcase classname="twc.Regression.TestCases.LGPD_Run" name="Verifying_supress_amazon_Slotid_Hourly3_bigaddetails_preload_adcall_LGPDPrivacy" time="0.303"/>
+  <testcase classname="twc.Regression.TestCases.LGPD_Run" name="Verifying_supress_amazon_Slotid_mapsdetails_preload_adcall_LGPDPrivacy" time="0.215"/>
+  <testcase classname="twc.Regression.TestCases.LGPD_Run" name="Verifying_supress_amazon_Slotid_Dailydetails_preload_adcall_LGPDPrivacy" time="0.275"/>
+  <testcase classname="twc.Regression.TestCases.LGPD_Run" name="Verifying_supress_amazon_Slotid_video_adcall_LGPDPrivacy" time="0.312"/>
+  <testcase classname="twc.Regression.TestCases.LGPD_Run" name="Verifying_homescreenhourly_adCall_Presence_LGPDprivacy" time="0.219"/>
+  <testcase classname="twc.Regression.TestCases.LGPD_Run" name="Verifying_homescreenmarquee_adCall_Presence_LGPDprivacy" time="0.262"/>
+  <testcase classname="twc.Regression.TestCases.LGPD_Run" name="Verifying_npa_equals_1_homescreenHourly_adCall_LGPD_Privacy" time="0.368"/>
+  <testcase classname="twc.Regression.TestCases.LGPD_Run" name="Verifying_npa_equals_1_homescreenmarquee_adCall_LGPD_Privacy" time="0.212"/>
+  <testcase classname="twc.Regression.TestCases.LGPD_Run" name="Verifying_videos_adCall_Presence_LGPDprivacy" time="0.278"/>
+  <testcase classname="twc.Regression.TestCases.LGPD_Run" name="Verifying_npa_equals_1_videos_adCall_LGPD_Privacy" time="0.241"/>
+  <testcase classname="twc.Regression.TestCases.USA_CCPA_Run" name="preConditionsTest_for_USA_CCPA" time="175.74"/>
+  <testcase classname="twc.Regression.TestCases.USA_CCPA_Run" name="Verifying_PrivacyCard_PresenceonScreen" time="309.018"/>
+  <testcase classname="twc.Regression.TestCases.USA_CCPA_Run" name="Selecting_DoNotSellMyInformation_scenario" time="129.35"/>
+  <testcase classname="twc.Regression.TestCases.USA_CCPA_Run" name="Verifying_Loatme_adcrwdcntrlnet_apiCall_supressing_USA_CCPA_Privacy_DoNotSellMyInformation" time="31.944"/>
+  <testcase classname="twc.Regression.TestCases.USA_CCPA_Run" name="Verifying_Loatme_bcpcrwdcntrlnet_apiCall_supressing_USA_CCPA_Privacy_DoNotSellMyInformation" time="0.341"/>
+  <testcase classname="twc.Regression.TestCases.USA_CCPA_Run" name="Verifying_Factual_locationwfxtriggerscom_apiCall_supressing_USA_CCPA_Privacy_DoNotSellMyInformation" time="0.393"/>
+  <testcase classname="twc.Regression.TestCases.USA_CCPA_Run" name="Verifying_Supress_amazon_Slotid_homescreenhourly_preload_adcall_USA_CCPA_Privacy_DoNotSellMyInformation" time="0.235"/>
+  <testcase classname="twc.Regression.TestCases.USA_CCPA_Run" name="Verifying_supress_amazon_Slotid_feed1_preroladcall_USA_CCPA_Privacy_DoNotSellMyInformation" time="0.251"/>
+  <testcase classname="twc.Regression.TestCases.USA_CCPA_Run" name="Verifying_supress_amazon_Slotid_feed2_preroladcall_USA_CCPA_Privacy_DoNotSellMyInformation" time="0.238"/>
+  <testcase classname="twc.Regression.TestCases.USA_CCPA_Run" name="Verifying_Supress_amazon_Slotid_Hourlydetails_preload_adcall_USA_CCPA_Privacy_DoNotSellMyInformation" time="0.217"/>
+  <testcase classname="twc.Regression.TestCases.USA_CCPA_Run" name="Verifying_Supress_amazon_Slotid_Hourly1_bigaddetails_preload_adcall_USA_CCPA_Privacy_DoNotSellMyInformation" time="0.234"/>
+  <testcase classname="twc.Regression.TestCases.USA_CCPA_Run" name="Verifying_supress_amazon_Slotid_Hourly2_bigaddetails_preload_adcall_USA_CCPA_Privacy_DoNotSellMyInformation" time="0.247"/>
+  <testcase classname="twc.Regression.TestCases.USA_CCPA_Run" name="Verifying_supress_amazon_Slotid_Hourly3_bigaddetails_preload_adcall_USA_CCPA_Privacy_DoNotSellMyInformation" time="0.234"/>
+  <testcase classname="twc.Regression.TestCases.USA_CCPA_Run" name="Verifying_supress_amazon_Slotid_mapsdetails_preload_adcall_USA_CCPA_Privacy_DoNotSellMyInformation" time="0.241"/>
+  <testcase classname="twc.Regression.TestCases.USA_CCPA_Run" name="Verifying_supress_amazon_Slotid_Dailydetails_preload_adcall_USA_CCPA_Privacy_DoNotSellMyInformation" time="0.425"/>
+  <testcase classname="twc.Regression.TestCases.USA_CCPA_Run" name="Verifying_supress_amazon_Slotid_video_adcall_USA_CCPA_Privacy_DoNotSellMyInformation" time="0.232"/>
+  <testcase classname="twc.Regression.TestCases.USA_CCPA_Run" name="Verifying_homescreenhourly_adCall_Presence_USA_CCPA_Privacy_DoNotSellMyInformation" time="0.217"/>
+  <testcase classname="twc.Regression.TestCases.USA_CCPA_Run" name="Verifying_homescreenmarquee_adCall_Presence_USA_CCPA_Privacy_DoNotSellMyInformation" time="0.211"/>
+  <testcase classname="twc.Regression.TestCases.USA_CCPA_Run" name="Verifying_SOD_Cust_Param_homescreenmarquee_adCall_USA_CCPA_Privacy_DoNotSellMyInformation" time="0.237"/>
+  <testcase classname="twc.Regression.TestCases.USA_CCPA_Run" name="Verifying_SOD_Cust_Param_homescreenhourly_adCall_USA_CCPA_Privacy_DoNotSellMyInformation" time="0.232"/>
+  <testcase classname="twc.Regression.TestCases.USA_CCPA_Run" name="Verifying_SOD_Cust_Param_mapsdetails_adCall_USA_CCPA_Privacy_DoNotSellMyInformation" time="0.245"/>
+  <testcase classname="twc.Regression.TestCases.USA_CCPA_Run" name="Verifying_rdp_equals_1_homescreenHourly_adCall_USA_CCPA_Privacy_DoNotSellMyInformation" time="0.188"/>
+  <testcase classname="twc.Regression.TestCases.USA_CCPA_Run" name="Verifying_rdp_equals_1_homescreenmarquee_adCall_USA_CCPA_Privacy_DoNotSellMyInformation" time="0.245"/>
+  <testcase classname="twc.Regression.TestCases.USA_CCPA_Run" name="Verifying_videos_adCall_Presence_USA_CCPA_Privacy_DoNotSellMyInformation" time="0.224"/>
+  <testcase classname="twc.Regression.TestCases.USA_CCPA_Run" name="Verifying_SOD_Cust_Param_videos_adCall_USA_CCPA_Privacy_DoNotSellMyInformation" time="0.28"/>
+  <testcase classname="twc.Regression.TestCases.USA_CCPA_Run" name="Verifying_rdp_equals_1_Videos_adCall_USA_CCPA_Privacy_DoNotSellMyInformation" time="0.226"/>
+  <testcase classname="twc.Regression.TestCases.USA_CCPA_Run" name="Smoke_Test_Selecting_Optin_mode_scenario" time="347.744"/>
+  <testcase classname="twc.Regression.TestCases.USA_CCPA_Run" name="Verifying_Loatme_bcpcrwdcntrlnet_apiCall_presence_USA_CCPA_Privacy_StandardAdvertisingSettings" time="31.508">
+    <failure message="https://bcp.crwdcntrl.net/ url was not trigred" type="java.lang.AssertionError">java.lang.AssertionError: https://bcp.crwdcntrl.net/ url was not trigred
+	at org.testng.Assert.fail(Assert.java:94)
+	at twc.Regression.General.Functions.validating_bcp_privacy_Optinmode_scenarion(Functions.java:3888)
+	at twc.Regression.TestCases.USA_CCPA_Run.Verifying_Loatme_bcpcrwdcntrlnet_apiCall_presence_USA_CCPA_Privacy_StandardAdvertisingSettings(USA_CCPA_Run.java:384)
+</failure>
+    <system-out>=================Verifying Lotame bcp.crwdcntrl.net api call presence for USA-CCPA privacy when Advertising option set to Standard Advertising Settings test case started =========================
+Url :http://control.charles/session/clear Responded with status code : 200
+maps element clicked
+Videos element clicked
+Charles Download path is: /Users/jenkins/Documents/projects/AndroidPrivacy/CapturedSessionFile/
+To be saved file: /Users/jenkins/Documents/projects/AndroidPrivacy/CapturedSessionFile/Charles20200820165847.chlsx
+Create new file that is empty and writable
+Downloading Charles HAR file to: /Users/jenkins/Documents/projects/AndroidPrivacy/CapturedSessionFile/Charles20200820165847.chlsx
+File download complete
+Har file size (mb): 7.573686
+XML File Name is : Charles20200820165847.chlsx
+https://bcp.crwdcntrl.net/ url was not trigred
+</system-out>
+  </testcase>
+  <testcase classname="twc.Regression.TestCases.USA_CCPA_Run" name="Verifying_Factual_locationwfxtriggerscom_apiCall_presence_USA_CCPA_Privacy_StandardAdvertisingSettings" time="0.054">
+    <failure message="https://location.wfxtriggers.com url was not trigred" type="java.lang.AssertionError">java.lang.AssertionError: https://location.wfxtriggers.com url was not trigred
+	at org.testng.Assert.fail(Assert.java:94)
+	at twc.Regression.General.Functions.validating_Fatualcall_privacy_Optinmode_scenarion(Functions.java:3934)
+	at twc.Regression.TestCases.USA_CCPA_Run.Verifying_Factual_locationwfxtriggerscom_apiCall_presence_USA_CCPA_Privacy_StandardAdvertisingSettings(USA_CCPA_Run.java:394)
+</failure>
+    <system-out>=================Verifying Factual location.wfxtriggers.com api call presence for USA-CCPA privacy when Advertising option set to Standard Advertising Settings test case started =========================
+XML File Name is : Charles20200820165847.chlsx
+https://location.wfxtriggers.com url was not trigred
+</system-out>
+  </testcase>
+  <testcase classname="twc.Regression.TestCases.USA_CCPA_Run" name="Verifying_presence_amazon_Slotid_homescreenhourly_preload_adcall_USA_CCPA_Privacy_StandardAdvertisingSettings" time="0.043"/>
+  <testcase classname="twc.Regression.TestCases.USA_CCPA_Run" name="Verifying_presence_amazon_Slotid_feed1_preroladcall_USA_CCPA_Privacy_StandardAdvertisingSettings" time="0.035"/>
+  <testcase classname="twc.Regression.TestCases.USA_CCPA_Run" name="Verifying_presence_amazon_Slotid_feed2_preroladcall_USA_CCPA_Privacy_StandardAdvertisingSettings" time="0.035"/>
+  <testcase classname="twc.Regression.TestCases.USA_CCPA_Run" name="Verifying_presence_amazon_Slotid_Hourlydetails_preload_adcall_USA_CCPA_Privacy_StandardAdvertisingSettings" time="0.033"/>
+  <testcase classname="twc.Regression.TestCases.USA_CCPA_Run" name="Verifying_presence_amazon_Slotid_Hourly1_bigaddetails_preload_adcall_USA_CCPA_Privacy_StandardAdvertisingSettings" time="0.036"/>
+  <testcase classname="twc.Regression.TestCases.USA_CCPA_Run" name="Verifying_presence_amazon_Slotid_Hourly2_bigaddetails_preload_adcall_USA_CCPA_Privacy_StandardAdvertisingSettings" time="0.036"/>
+  <testcase classname="twc.Regression.TestCases.USA_CCPA_Run" name="Verifying_presence_amazon_Slotid_Hourly3_bigaddetails_preload_adcall_USA_CCPA_Privacy_StandardAdvertisingSettings" time="0.035"/>
+  <testcase classname="twc.Regression.TestCases.USA_CCPA_Run" name="Verifying_presence_amazon_Slotid_mapsdetails_preload_adcall_USA_CCPA_Privacy_StandardAdvertisingSettings" time="0.069"/>
+  <testcase classname="twc.Regression.TestCases.USA_CCPA_Run" name="Verifying_presence_amazon_Slotid_Dailydetails_preload_adcall_USA_CCPA_Privacy_StandardAdvertisingSettings" time="0.037"/>
+  <testcase classname="twc.Regression.TestCases.USA_CCPA_Run" name="Verifying_presence_amazon_Slotid_video_adcall_USA_CCPA_Privacy_StandardAdvertisingSettings" time="0.076"/>
+  <testcase classname="twc.Regression.TestCases.USA_CCPA_Run" name="Verifying_homescreenhourly_adCall_Presence_USA_CCPA_Privacy_StandardAdvertisingSettings" time="0.034"/>
+  <testcase classname="twc.Regression.TestCases.USA_CCPA_Run" name="Verifying_homescreenmarquee_adCall_Presence_USA_CCPA_Privacy_StandardAdvertisingSettings" time="0.037"/>
+  <testcase classname="twc.Regression.TestCases.USA_CCPA_Run" name="Verifying_SOD_Cust_Param_homescreenmarquee_adCall_USA_CCPA_Privacy_StandardAdvertisingSettings" time="0.041"/>
+  <testcase classname="twc.Regression.TestCases.USA_CCPA_Run" name="Verifying_SOD_Cust_Param_homescreenhourly_adCall_USA_CCPA_Privacy_StandardAdvertisingSettings" time="0.038"/>
+  <testcase classname="twc.Regression.TestCases.USA_CCPA_Run" name="Verifying_SOD_Cust_Param_mapsdetails_adCall_USACCPA_Privacy_StandardAdvertisingSettings" time="0.039"/>
+  <testcase classname="twc.Regression.TestCases.USA_CCPA_Run" name="Verifying_rdp_keyword_supress_homescreenmarquee_adCall_USA_CCPA_Privacy_StandardAdvertisingSettings" time="0.034"/>
+  <testcase classname="twc.Regression.TestCases.USA_CCPA_Run" name="Verifying_rdp_keyword_supress_homescreenHourly_adCall_USA_CCPA_Privacy_StandardAdvertisingSettings" time="0.035"/>
+  <testcase classname="twc.Regression.TestCases.USA_CCPA_Run" name="Verifying_video_adCall_Presence_USA_CCPA_Privacy_StandardAdvertisingSettings" time="0.04"/>
+  <testcase classname="twc.Regression.TestCases.USA_CCPA_Run" name="Smoke_Test_Verifying_SOD_Cust_Param_videoad_Optin_mode_scenario" time="0.044"/>
+  <testcase classname="twc.Regression.TestCases.USA_CCPA_Run" name="Verifying_rdp_keyword_supress_videos_Call_USA_CCPA_Privacy_StandardAdvertisingSettings" time="0.044"/>
+  <testcase classname="twc.Regression.TestCases.USA_Run" name="preConditionsTest_for_USA" time="165.779"/>
+  <testcase classname="twc.Regression.TestCases.USA_Run" name="Verifying_PrivacyCard_PresenceonScreen" time="291.592"/>
+  <testcase classname="twc.Regression.TestCases.USA_Run" name="Selecting_DoNotSellMyInformation_scenario" time="100.484">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at twc.Regression.HandleWithCharles.CharlesFunctions.ClearSessions(CharlesFunctions.java:31)
+	at twc.Regression.TestCases.USA_Run.Selecting_DoNotSellMyInformation_scenario(USA_Run.java:98)
+</failure>
+    <system-out>=================Slecting Opt out mode scenario in privacy card testcase started =========================
+Selecting  Opt out  mode option in privacy card
+kill launch the app for two times
+</system-out>
+  </testcase>
+  <testcase classname="twc.Regression.TestCases.USA_Run" name="Verifying_Loatme_adcrwdcntrlnet_apiCall_supressing_USA_Privacy_DoNotSellMyInformation" time="1.011">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at twc.Regression.HandleWithCharles.CharlesFunctions.ClearSessions(CharlesFunctions.java:31)
+	at twc.Regression.TestCases.USA_Run.Verifying_Loatme_adcrwdcntrlnet_apiCall_supressing_USA_Privacy_DoNotSellMyInformation(USA_Run.java:110)
+</failure>
+    <system-out>=================Verifying Lotame ad.crwdcntrl.net api call supressing for USA privacy test case  started =========================
+</system-out>
+  </testcase>
+  <testcase classname="twc.Regression.TestCases.USA_Run" name="Verifying_Loatme_bcpcrwdcntrlnet_apiCall_supressing_USA_Privacy_DoNotSellMyInformation" time="0.004">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.validating_bcp_privacy_Optoutmode_scenarion(Functions.java:3073)
+	at twc.Regression.TestCases.USA_Run.Verifying_Loatme_bcpcrwdcntrlnet_apiCall_supressing_USA_Privacy_DoNotSellMyInformation(USA_Run.java:127)
+</failure>
+    <system-out>=================Verifying BCP api call when user selecting Optoutmode scenario in privacy card started =========================
+No Data Found in XML File
+</system-out>
+  </testcase>
+  <testcase classname="twc.Regression.TestCases.USA_Run" name="Verifying_Factual_locationwfxtriggerscom_apiCall_supressing_USA_Privacy_DoNotSellMyInformation" time="0.004">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.validating_Fatualcall_privacy_Optoutmode_scenarion(Functions.java:3120)
+	at twc.Regression.TestCases.USA_Run.Verifying_Factual_locationwfxtriggerscom_apiCall_supressing_USA_Privacy_DoNotSellMyInformation(USA_Run.java:136)
+</failure>
+    <system-out>=================Verifying Fatual api call when user selecting Optoutmode scenario in privacy card started =========================
+No Data Found in XML File
+</system-out>
+  </testcase>
+  <testcase classname="twc.Regression.TestCases.USA_Run" name="Verifying_Supress_amazon_Slotid_homescreenhourly_preload_adcall_USA_Privacy_DoNotSellMyInformation" time="0.003">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.verifyaax_SlotId_supress(Functions.java:1557)
+	at twc.Regression.TestCases.USA_Run.Verifying_Supress_amazon_Slotid_homescreenhourly_preload_adcall_USA_Privacy_DoNotSellMyInformation(USA_Run.java:147)
+</failure>
+    <system-out>=================Verifying supress amazon slotid for  home screen hourly preload ad call  USA privacy when Advertising option set to Do Not Sell My Information test case Started=========================
+No Data Found in XML File
+</system-out>
+  </testcase>
+  <testcase classname="twc.Regression.TestCases.USA_Run" name="Verifying_supress_amazon_Slotid_feed1_preroladcall_USA_Privacy_DoNotSellMyInformation" time="0.003">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.verifyaax_SlotId_supress(Functions.java:1557)
+	at twc.Regression.TestCases.USA_Run.Verifying_supress_amazon_Slotid_feed1_preroladcall_USA_Privacy_DoNotSellMyInformation(USA_Run.java:158)
+</failure>
+    <system-out>=================Verifying supress amazon Slot Id for  feed1 preload ad call USA privacy when Advertising option set to Do Not Sell My Information testcase Started =========================
+No Data Found in XML File
+</system-out>
+  </testcase>
+  <testcase classname="twc.Regression.TestCases.USA_Run" name="Verifying_supress_amazon_Slotid_feed2_preroladcall_USA_Privacy_DoNotSellMyInformation" time="0.003">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.verifyaax_SlotId_supress(Functions.java:1557)
+	at twc.Regression.TestCases.USA_Run.Verifying_supress_amazon_Slotid_feed2_preroladcall_USA_Privacy_DoNotSellMyInformation(USA_Run.java:169)
+</failure>
+    <system-out>=================Verifying supress amazon SlotId for feed2 prerload ad call  USA privacy when Advertising option set to Do Not Sell My Information testcase Started =========================
+No Data Found in XML File
+</system-out>
+  </testcase>
+  <testcase classname="twc.Regression.TestCases.USA_Run" name="Verifying_Supress_amazon_Slotid_Hourlydetails_preload_adcall_USA_Privacy_DoNotSellMyInformation" time="0.003">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.verifyaax_SlotId_supress(Functions.java:1557)
+	at twc.Regression.TestCases.USA_Run.Verifying_Supress_amazon_Slotid_Hourlydetails_preload_adcall_USA_Privacy_DoNotSellMyInformation(USA_Run.java:179)
+</failure>
+    <system-out>=================Verifying supress amazon Slot Id for  hourly details preload ad call USA privacy when Advertising option set to Do Not Sell My Information testcase  Started =========================
+No Data Found in XML File
+</system-out>
+  </testcase>
+  <testcase classname="twc.Regression.TestCases.USA_Run" name="Verifying_Supress_amazon_Slotid_Hourly1_bigaddetails_preload_adcall_USA_Privacy_DoNotSellMyInformation" time="0.003">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.verifyaax_SlotId_supress(Functions.java:1557)
+	at twc.Regression.TestCases.USA_Run.Verifying_Supress_amazon_Slotid_Hourly1_bigaddetails_preload_adcall_USA_Privacy_DoNotSellMyInformation(USA_Run.java:189)
+</failure>
+    <system-out>=================Verifying supress amazon SlotId for  hourly1 details big ad  preload call USA privacy when Advertising option set to Do Not Sell My Information  test case Started =========================
+No Data Found in XML File
+</system-out>
+  </testcase>
+  <testcase classname="twc.Regression.TestCases.USA_Run" name="Verifying_supress_amazon_Slotid_Hourly2_bigaddetails_preload_adcall_USA_Privacy_DoNotSellMyInformation" time="0.003">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.verifyaax_SlotId_supress(Functions.java:1557)
+	at twc.Regression.TestCases.USA_Run.Verifying_supress_amazon_Slotid_Hourly2_bigaddetails_preload_adcall_USA_Privacy_DoNotSellMyInformation(USA_Run.java:201)
+</failure>
+    <system-out>=================Verifying supress amazon SlotId for  hourly2 details big ad  preload call  USA privacy when Advertising option set to Do Not Sell My Information test case Started =========================
+No Data Found in XML File
+</system-out>
+  </testcase>
+  <testcase classname="twc.Regression.TestCases.USA_Run" name="Verifying_supress_amazon_Slotid_Hourly3_bigaddetails_preload_adcall_USA_Privacy_DoNotSellMyInformation" time="0.002">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.verifyaax_SlotId_supress(Functions.java:1557)
+	at twc.Regression.TestCases.USA_Run.Verifying_supress_amazon_Slotid_Hourly3_bigaddetails_preload_adcall_USA_Privacy_DoNotSellMyInformation(USA_Run.java:213)
+</failure>
+    <system-out>=================Verifying supress amazon SlotId for  hourly3 details big ad preload call USA privacy when Advertising option set to Do Not Sell My Information test case  Started =========================
+No Data Found in XML File
+</system-out>
+  </testcase>
+  <testcase classname="twc.Regression.TestCases.USA_Run" name="Verifying_supress_amazon_Slotid_mapsdetails_preload_adcall_USA_Privacy_DoNotSellMyInformation" time="0.003">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.verifyaax_SlotId_supress(Functions.java:1557)
+	at twc.Regression.TestCases.USA_Run.Verifying_supress_amazon_Slotid_mapsdetails_preload_adcall_USA_Privacy_DoNotSellMyInformation(USA_Run.java:225)
+</failure>
+    <system-out>=================Verifying supress amazon SlotId for maps details preload ad call USA privacy when Advertising option set to Do Not Sell My Information  testcase  Started =========================
+No Data Found in XML File
+</system-out>
+  </testcase>
+  <testcase classname="twc.Regression.TestCases.USA_Run" name="Verifying_supress_amazon_Slotid_Dailydetails_preload_adcall_USA_Privacy_DoNotSellMyInformation" time="0.004">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.verifyaax_SlotId_supress(Functions.java:1557)
+	at twc.Regression.TestCases.USA_Run.Verifying_supress_amazon_Slotid_Dailydetails_preload_adcall_USA_Privacy_DoNotSellMyInformation(USA_Run.java:235)
+</failure>
+    <system-out>=================Verifying supress amazon SlotId for daily details preload ad call USA privacy when Advertising option set to Do Not Sell My Information testcase Started =========================
+No Data Found in XML File
+</system-out>
+  </testcase>
+  <testcase classname="twc.Regression.TestCases.USA_Run" name="Verifying_supress_amazon_Slotid_video_adcall_USA_Privacy_DoNotSellMyInformation" time="0.003">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.verifyaax_SlotId_supress(Functions.java:1557)
+	at twc.Regression.TestCases.USA_Run.Verifying_supress_amazon_Slotid_video_adcall_USA_Privacy_DoNotSellMyInformation(USA_Run.java:244)
+</failure>
+    <system-out>=================Verifying supress amazon SlotId for videos preload ad call for USA privacy when Advertising option set to Do Not Sell My Information testcase Started =========================
+No Data Found in XML File
+</system-out>
+  </testcase>
+  <testcase classname="twc.Regression.TestCases.USA_Run" name="Verifying_homescreenhourly_adCall_Presence_USA_Privacy_DoNotSellMyInformation" time="0.004">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.finding_Homescreen_iu_value(Functions.java:3840)
+	at twc.Regression.TestCases.USA_Run.Verifying_homescreenhourly_adCall_Presence_USA_Privacy_DoNotSellMyInformation(USA_Run.java:254)
+</failure>
+    <system-out>=================Verifying home screen hourly ad call presense for USA privacy when Advertising option set to Do Not Sell My Information  testcase started =========================
+No Data Found in XML File
+</system-out>
+  </testcase>
+  <testcase classname="twc.Regression.TestCases.USA_Run" name="Verifying_homescreenmarquee_adCall_Presence_USA_Privacy_DoNotSellMyInformation" time="0.004">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.finding_Homescreen_marquee_iu_value(Functions.java:3181)
+	at twc.Regression.TestCases.USA_Run.Verifying_homescreenmarquee_adCall_Presence_USA_Privacy_DoNotSellMyInformation(USA_Run.java:263)
+</failure>
+    <system-out>=================Verifying home screen marquee ad call presense for USA privacy when Advertising option set to Do Not Sell My Information test case started =========================
+No Data Found in XML File
+</system-out>
+  </testcase>
+  <testcase classname="twc.Regression.TestCases.USA_Run" name="Verifying_SOD_Cust_Param_homescreenmarquee_adCall_USA_Privacy_DoNotSellMyInformation" time="0.006">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.validate_SOD_Cust_param_homescreenmarquee_Optoutmode(Functions.java:3274)
+	at twc.Regression.TestCases.USA_Run.Verifying_SOD_Cust_Param_homescreenmarquee_adCall_USA_Privacy_DoNotSellMyInformation(USA_Run.java:273)
+</failure>
+    <system-out>=================Verifying SOD Cust param value in homescreen marquee call for  USA privacy when Advertising option set to Do Not Sell My Information test case  started =========================
+No Data Found in XML File
+</system-out>
+  </testcase>
+  <testcase classname="twc.Regression.TestCases.USA_Run" name="Verifying_SOD_Cust_Param_homescreenhourly_adCall_USA_Privacy_DoNotSellMyInformation" time="0.006">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.validate_SOD_Cust_param_homescreenHourly_Optoutmode(Functions.java:3203)
+	at twc.Regression.TestCases.USA_Run.Verifying_SOD_Cust_Param_homescreenhourly_adCall_USA_Privacy_DoNotSellMyInformation(USA_Run.java:283)
+</failure>
+    <system-out>================= Verifying SOD Cust param value in homescreen hourly ad call for USA privacy when Advertising option set to Do Not Sell My Information test case started =========================
+No Data Found in XML File
+</system-out>
+  </testcase>
+  <testcase classname="twc.Regression.TestCases.USA_Run" name="Verifying_SOD_Cust_Param_mapsdetails_adCall_USA_Privacy_DoNotSellMyInformation" time="0.005">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.validate_SOD_Cust_param_deatiledfeed_Optoutmode(Functions.java:3341)
+	at twc.Regression.TestCases.USA_Run.Verifying_SOD_Cust_Param_mapsdetails_adCall_USA_Privacy_DoNotSellMyInformation(USA_Run.java:293)
+</failure>
+    <system-out>================= Verifying SOD Cust param value in homescreen hourly ad call for USA privacy when Advertising option set to Do Not Sell My Information test case started =========================
+No Data Found in XML File
+</system-out>
+  </testcase>
+  <testcase classname="twc.Regression.TestCases.USA_Run" name="Verifying_rdp_equals_1_homescreenHourly_adCall_USA_Privacy_DoNotSellMyInformation" time="0.004">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.validate_RDP_homescrenhourly_Optoutmode(Functions.java:3527)
+	at twc.Regression.TestCases.USA_Run.Verifying_rdp_equals_1_homescreenHourly_adCall_USA_Privacy_DoNotSellMyInformation(USA_Run.java:302)
+</failure>
+    <system-out>================= Verifying rdp=1 in home screen hourly ad call for USA privacy when Advertising option set to Do Not Sell My Information test case  started =========================
+No Data Found in XML File
+</system-out>
+  </testcase>
+  <testcase classname="twc.Regression.TestCases.USA_Run" name="Verifying_rdp_equals_1_homescreenmarquee_adCall_USA_Privacy_DoNotSellMyInformation" time="0.005">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.validate_RDP_homescreenmarquee_Optoutmode(Functions.java:3491)
+	at twc.Regression.TestCases.USA_Run.Verifying_rdp_equals_1_homescreenmarquee_adCall_USA_Privacy_DoNotSellMyInformation(USA_Run.java:312)
+</failure>
+    <system-out>================= Verifying rdp=1 in home screen marquee  ad call for USA privacy when Advertising option set to Do Not Sell My Information test case started =========================
+No Data Found in XML File
+</system-out>
+  </testcase>
+  <testcase classname="twc.Regression.TestCases.USA_Run" name="Verifying_videos_adCall_Presence_USA_Privacy_DoNotSellMyInformation" time="0.003">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.Verify_video_ad_call_Optoutmode(Functions.java:2963)
+	at twc.Regression.TestCases.USA_Run.Verifying_videos_adCall_Presence_USA_Privacy_DoNotSellMyInformation(USA_Run.java:323)
+</failure>
+    <system-out>=================Verifying videos ad call presense for USA privacy when Advertising option set to Do Not Sell My Information test case started =========================
+No Data Found in XML File
+</system-out>
+  </testcase>
+  <testcase classname="twc.Regression.TestCases.USA_Run" name="Verifying_SOD_Cust_Param_videos_adCall_USA_Privacy_DoNotSellMyInformation" time="0.003">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.validate_SOD_Cust_param_video_Optoutmode(Functions.java:3377)
+	at twc.Regression.TestCases.USA_Run.Verifying_SOD_Cust_Param_videos_adCall_USA_Privacy_DoNotSellMyInformation(USA_Run.java:332)
+</failure>
+    <system-out>================= Verifying SOD Cust param value in Videos  ad call for USA privacy when Advertising option set to Do Not Sell My Information test case started =========================
+No Data Found in XML File
+</system-out>
+  </testcase>
+  <testcase classname="twc.Regression.TestCases.USA_Run" name="Verifying_rdp_equals_1_Videos_adCall_USA_Privacy_DoNotSellMyInformation" time="0.004">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.validate_RDP_video_ad_Optoutmode(Functions.java:3802)
+	at twc.Regression.TestCases.USA_Run.Verifying_rdp_equals_1_Videos_adCall_USA_Privacy_DoNotSellMyInformation(USA_Run.java:342)
+</failure>
+    <system-out>================= Verifying rdp=1 in videos  ad call for USA privacy when Advertising option set to Do Not Sell My Information test case started =========================
+No Data Found in XML File
+</system-out>
+  </testcase>
+  <testcase classname="twc.Regression.TestCases.USA_Run" name="Smoke_Test_Selecting_Optin_mode_scenario" time="333.931"/>
+  <testcase classname="twc.Regression.TestCases.USA_Run" name="Verifying_Loatme_bcpcrwdcntrlnet_apiCall_presence_USA_Privacy_StandardAdvertisingSettings" time="1.01">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at twc.Regression.HandleWithCharles.CharlesFunctions.ClearSessions(CharlesFunctions.java:31)
+	at twc.Regression.TestCases.USA_Run.Verifying_Loatme_bcpcrwdcntrlnet_apiCall_presence_USA_Privacy_StandardAdvertisingSettings(USA_Run.java:381)
+</failure>
+    <system-out>=================Verifying Lotame bcp.crwdcntrl.net api call presence for USA privacy when Advertising option set to Standard Advertising Settings test case started =========================
+</system-out>
+  </testcase>
+  <testcase classname="twc.Regression.TestCases.USA_Run" name="Verifying_Factual_locationwfxtriggerscom_apiCall_presence_USA_Privacy_StandardAdvertisingSettings" time="0.005">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.validating_Fatualcall_privacy_Optinmode_scenarion(Functions.java:3924)
+	at twc.Regression.TestCases.USA_Run.Verifying_Factual_locationwfxtriggerscom_apiCall_presence_USA_Privacy_StandardAdvertisingSettings(USA_Run.java:397)
+</failure>
+    <system-out>=================Verifying Factual location.wfxtriggers.com api call presence for USA privacy when Advertising option set to Standard Advertising Settings test case started =========================
+No Data Found in XML File
+</system-out>
+  </testcase>
+  <testcase classname="twc.Regression.TestCases.USA_Run" name="Verifying_presence_amazon_Slotid_homescreenhourly_preload_adcall_USA_Privacy_StandardAdvertisingSettings" time="0.003">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.verifyaax_SlotId_Presence(Functions.java:1575)
+	at twc.Regression.TestCases.USA_Run.Verifying_presence_amazon_Slotid_homescreenhourly_preload_adcall_USA_Privacy_StandardAdvertisingSettings(USA_Run.java:410)
+</failure>
+    <system-out>=================Verifying presence amazon slotid for  home screen hourly preload ad call  USA privacy when Advertising option set to Standard Advertising Settings test case Started=========================
+No Data Found in XML File
+</system-out>
+  </testcase>
+  <testcase classname="twc.Regression.TestCases.USA_Run" name="Verifying_presence_amazon_Slotid_feed1_preroladcall_USA_Privacy_StandardAdvertisingSettings" time="0.003">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.verifyaax_SlotId_Presence(Functions.java:1575)
+	at twc.Regression.TestCases.USA_Run.Verifying_presence_amazon_Slotid_feed1_preroladcall_USA_Privacy_StandardAdvertisingSettings(USA_Run.java:421)
+</failure>
+    <system-out>=================Verifying presence amazon SlotId for  feed1 preload ad call  USA privacy when Advertising option set to Standard Advertising Settings testcase Started =========================
+No Data Found in XML File
+</system-out>
+  </testcase>
+  <testcase classname="twc.Regression.TestCases.USA_Run" name="Verifying_presence_amazon_Slotid_feed2_preroladcall_USA_Privacy_StandardAdvertisingSettings" time="0.003">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.verifyaax_SlotId_Presence(Functions.java:1575)
+	at twc.Regression.TestCases.USA_Run.Verifying_presence_amazon_Slotid_feed2_preroladcall_USA_Privacy_StandardAdvertisingSettings(USA_Run.java:431)
+</failure>
+    <system-out>=================Verifying prence amazon SlotId for feed2 prerload ad call  USA privacy when Advertising option set to  Standard Advertising Settings testcase Started =========================
+No Data Found in XML File
+</system-out>
+  </testcase>
+  <testcase classname="twc.Regression.TestCases.USA_Run" name="Verifying_presence_amazon_Slotid_Hourlydetails_preload_adcall_USA_Privacy_StandardAdvertisingSettings" time="0.003">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.verifyaax_SlotId_Presence(Functions.java:1575)
+	at twc.Regression.TestCases.USA_Run.Verifying_presence_amazon_Slotid_Hourlydetails_preload_adcall_USA_Privacy_StandardAdvertisingSettings(USA_Run.java:440)
+</failure>
+    <system-out>=================Verifying presence amazon SlotId for  hourly details preload ad call  USA privacy when Advertising option set to Standard Advertising Settings test case  Started =========================
+No Data Found in XML File
+</system-out>
+  </testcase>
+  <testcase classname="twc.Regression.TestCases.USA_Run" name="Verifying_presence_amazon_Slotid_Hourly1_bigaddetails_preload_adcall_USA_Privacy_StandardAdvertisingSettings" time="0.003">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.verifyaax_SlotId_Presence(Functions.java:1575)
+	at twc.Regression.TestCases.USA_Run.Verifying_presence_amazon_Slotid_Hourly1_bigaddetails_preload_adcall_USA_Privacy_StandardAdvertisingSettings(USA_Run.java:449)
+</failure>
+    <system-out>=================Verifying presence amazon SlotId for  hourly1 details big ad  preload call USA privacy when Advertising option set to  Standard Advertising Settings  test case Started =========================
+No Data Found in XML File
+</system-out>
+  </testcase>
+  <testcase classname="twc.Regression.TestCases.USA_Run" name="Verifying_presence_amazon_Slotid_Hourly2_bigaddetails_preload_adcall_USA_Privacy_StandardAdvertisingSettings" time="0.003">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.verifyaax_SlotId_Presence(Functions.java:1575)
+	at twc.Regression.TestCases.USA_Run.Verifying_presence_amazon_Slotid_Hourly2_bigaddetails_preload_adcall_USA_Privacy_StandardAdvertisingSettings(USA_Run.java:460)
+</failure>
+    <system-out>=================Verifying presence amazon SlotId for  hourly2 details big ad  preload call  USA privacy when Advertising option set to  Standard Advertising Settings test case Started =========================
+No Data Found in XML File
+</system-out>
+  </testcase>
+  <testcase classname="twc.Regression.TestCases.USA_Run" name="Verifying_presence_amazon_Slotid_Hourly3_bigaddetails_preload_adcall_USA_Privacy_StandardAdvertisingSettings" time="0.003">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.verifyaax_SlotId_Presence(Functions.java:1575)
+	at twc.Regression.TestCases.USA_Run.Verifying_presence_amazon_Slotid_Hourly3_bigaddetails_preload_adcall_USA_Privacy_StandardAdvertisingSettings(USA_Run.java:471)
+</failure>
+    <system-out>=================Verifying v amazon SlotId for  hourly3 details big ad preload call USA privacy when Advertising option set to  Standard Advertising Settings test case  Started =========================
+No Data Found in XML File
+</system-out>
+  </testcase>
+  <testcase classname="twc.Regression.TestCases.USA_Run" name="Verifying_presence_amazon_Slotid_mapsdetails_preload_adcall_USA_Privacy_StandardAdvertisingSettings" time="0.004">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.get_aaxcal_map_details(Functions.java:4799)
+	at twc.Regression.TestCases.USA_Run.Verifying_presence_amazon_Slotid_mapsdetails_preload_adcall_USA_Privacy_StandardAdvertisingSettings(USA_Run.java:482)
+</failure>
+    <system-out>=================Verifying presence amazon SlotId for maps details preload ad call USA privacy when Advertising option set to  Standard Advertising Settings  testcase  Started =========================
+No Data Found in XML File
+</system-out>
+  </testcase>
+  <testcase classname="twc.Regression.TestCases.USA_Run" name="Verifying_presence_amazon_Slotid_Dailydetails_preload_adcall_USA_Privacy_StandardAdvertisingSettings" time="0.003">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.verifyaax_SlotId_Presence(Functions.java:1575)
+	at twc.Regression.TestCases.USA_Run.Verifying_presence_amazon_Slotid_Dailydetails_preload_adcall_USA_Privacy_StandardAdvertisingSettings(USA_Run.java:492)
+</failure>
+    <system-out>=================Verifying presence amazon SlotId for daily details preload ad call USA privacy when Advertising option set to  Standard Advertising Settings  testcase Started =========================
+No Data Found in XML File
+</system-out>
+  </testcase>
+  <testcase classname="twc.Regression.TestCases.USA_Run" name="Verifying_presence_amazon_Slotid_video_adcall_USA_Privacy_StandardAdvertisingSettings" time="0.003">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.get_aaxcal_video_details(Functions.java:4816)
+	at twc.Regression.TestCases.USA_Run.Verifying_presence_amazon_Slotid_video_adcall_USA_Privacy_StandardAdvertisingSettings(USA_Run.java:500)
+</failure>
+    <system-out>=================Verifying presence amazon SlotId for videos preload ad call for USA privacy when Advertising option set to  Standard Advertising Settings testcase Started =========================
+No Data Found in XML File
+</system-out>
+  </testcase>
+  <testcase classname="twc.Regression.TestCases.USA_Run" name="Verifying_homescreenhourly_adCall_Presence_USA_Privacy_StandardAdvertisingSettings" time="0.004">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.finding_Homescreen_marquee_iu_value(Functions.java:3181)
+	at twc.Regression.TestCases.USA_Run.Verifying_homescreenhourly_adCall_Presence_USA_Privacy_StandardAdvertisingSettings(USA_Run.java:513)
+</failure>
+    <system-out>=================Verifying home screen hourly ad call presense for USA privacy when Advertising option set to Standard Advertising Settings test case  started =========================
+No Data Found in XML File
+</system-out>
+  </testcase>
+  <testcase classname="twc.Regression.TestCases.USA_Run" name="Verifying_homescreenmarquee_adCall_Presence_USA_Privacy_StandardAdvertisingSettings" time="0.004">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.finding_Homescreen_iu_value(Functions.java:3840)
+	at twc.Regression.TestCases.USA_Run.Verifying_homescreenmarquee_adCall_Presence_USA_Privacy_StandardAdvertisingSettings(USA_Run.java:522)
+</failure>
+    <system-out>=================Verifying home screen marquee ad call presense for USA privacy when Advertising option set to Standard Advertising Settings test case started =========================
+No Data Found in XML File
+</system-out>
+  </testcase>
+  <testcase classname="twc.Regression.TestCases.USA_Run" name="Verifying_SOD_Cust_Param_homescreenmarquee_adCall_USA_Privacy_StandardAdvertisingSettings" time="0.005">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.validate_SOD_Cust_param_homescreen_Optinmode(Functions.java:3985)
+	at twc.Regression.TestCases.USA_Run.Verifying_SOD_Cust_Param_homescreenmarquee_adCall_USA_Privacy_StandardAdvertisingSettings(USA_Run.java:531)
+</failure>
+    <system-out>=================Verifying SOD custum param for  home screen marquee ad call USA privacy when Advertising option set to Standard Advertising Settings  test case started =========================
+No Data Found in XML File
+</system-out>
+  </testcase>
+  <testcase classname="twc.Regression.TestCases.USA_Run" name="Verifying_SOD_Cust_Param_homescreenhourly_adCall_USA_Privacy_StandardAdvertisingSettings" time="0.006">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.validate_SOD_Cust_param_homescreenhourly_Optinmode(Functions.java:4021)
+	at twc.Regression.TestCases.USA_Run.Verifying_SOD_Cust_Param_homescreenhourly_adCall_USA_Privacy_StandardAdvertisingSettings(USA_Run.java:541)
+</failure>
+    <system-out>================= Verifying SOD custum param for  home screen hourly ad call USA privacy when Advertising option set to Standard Advertising Settings test case started =========================
+No Data Found in XML File
+</system-out>
+  </testcase>
+  <testcase classname="twc.Regression.TestCases.USA_Run" name="Verifying_rdp_keyword_supress_homescreenmarquee_adCall_USA_Privacy_StandardAdvertisingSettings" time="0.005">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.validate_RDP_homescreen_Optinmode(Functions.java:4157)
+	at twc.Regression.TestCases.USA_Run.Verifying_rdp_keyword_supress_homescreenmarquee_adCall_USA_Privacy_StandardAdvertisingSettings(USA_Run.java:560)
+</failure>
+    <system-out>================= Verifying rdp keyword supress in home screen marquee ad call for USA privacy when Advertising option set to Standard Advertising Settings test case started =========================
+No Data Found in XML File
+</system-out>
+  </testcase>
+  <testcase classname="twc.Regression.TestCases.USA_Run" name="Verifying_rdp_keyword_supress_homescreenHourly_adCall_USA_Privacy_StandardAdvertisingSettings" time="0.005">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.validate_RDP_homescreenhourly_Optinmode(Functions.java:4193)
+	at twc.Regression.TestCases.USA_Run.Verifying_rdp_keyword_supress_homescreenHourly_adCall_USA_Privacy_StandardAdvertisingSettings(USA_Run.java:570)
+</failure>
+    <system-out>================= Verifying rdp keyword supress in home screen hourly ad call for USA privacy when Advertising option set to Standard Advertising Settings test case  started =========================
+No Data Found in XML File
+</system-out>
+  </testcase>
+  <testcase classname="twc.Regression.TestCases.USA_Run" name="Verifying_video_adCall_Presence_USA_Privacy_StandardAdvertisingSettings" time="0.003">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.Verify_video_ad_call_Optoutmode(Functions.java:2963)
+	at twc.Regression.TestCases.USA_Run.Verifying_video_adCall_Presence_USA_Privacy_StandardAdvertisingSettings(USA_Run.java:583)
+</failure>
+    <system-out>=================Verifying video call presense for USA privacy when Advertising option set to Standard Advertising Settings test case started =========================
+No Data Found in XML File
+</system-out>
+  </testcase>
+  <testcase classname="twc.Regression.TestCases.USA_Run" name="Smoke_Test_Verifying_SOD_Cust_Param_videoad_Optin_mode_scenario" time="0.004">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.validate_SOD_Cust_param_video_Optinmode(Functions.java:4122)
+	at twc.Regression.TestCases.USA_Run.Smoke_Test_Verifying_SOD_Cust_Param_videoad_Optin_mode_scenario(USA_Run.java:595)
+</failure>
+    <system-out>=================Verifying SOD custum param for  video ad call  USA privacy when Advertising option set to Standard Advertising Settings test case  started =========================
+No Data Found in XML File
+</system-out>
+  </testcase>
+  <testcase classname="twc.Regression.TestCases.USA_Run" name="Verifying_rdp_keyword_supress_videos_Call_USA_Privacy_StandardAdvertisingSettings" time="0.003">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.validate_RDP_video_ad_Optinmode(Functions.java:4575)
+	at twc.Regression.TestCases.USA_Run.Verifying_rdp_keyword_supress_videos_Call_USA_Privacy_StandardAdvertisingSettings(USA_Run.java:604)
+</failure>
+    <system-out>================= Verifying rdp keyword supress in videos call for USA privacy when Advertising option set to Standard Advertising Settings test case started =========================
+No Data Found in XML File
+</system-out>
+  </testcase>
+  <testcase classname="twc.Regression.TestCases.USA_Run" name="Verifying_SOD_Cust_Param_mapsdetails_adCall_USA_Privacy_StandardAdvertisingSettings" time="0.005">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at twc.Regression.ReadDataFromFile.read_xml_data_into_buffer.read_xml_file_into_buffer_string(read_xml_data_into_buffer.java:118)
+	at twc.Regression.General.Functions.validate_SOD_Cust_param_deatiledfeed_Optinmode(Functions.java:4087)
+	at twc.Regression.TestCases.USA_Run.Verifying_SOD_Cust_Param_mapsdetails_adCall_USA_Privacy_StandardAdvertisingSettings(USA_Run.java:550)
+</failure>
+    <system-out>================= Verifying SOD custum param for  maps details page ad call USA privacy when Advertising option set to Standard Advertising Settings test case started =========================
+No Data Found in XML File
+</system-out>
+  </testcase>
+</testsuite>

@@ -1,0 +1,119 @@
+{
+  "uid" : "f27ac5ee7b9f4926",
+  "name" : "Verifying_videos_adCall_Presence_USA_CCPA_Privacy_DoNotSellMyInformation",
+  "title" : "Verifying videos ad call presense for USA-CCPA privacy when Advertising option set to Do Not Sell My Information",
+  "time" : {
+    "start" : 1597956747705,
+    "stop" : 1597956747929,
+    "duration" : 224
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 4
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "c8a285747049d5a2",
+    "name" : "Suite : Test",
+    "title" : "Suite : Test"
+  },
+  "steps" : [ {
+    "name" : "logStep[Verifying videos ad call presense for USA-CCPA privacy when Advertising option set to Do Not Sell My Information]",
+    "title" : "Verifying videos ad call presense for USA-CCPA privacy when Advertising option set to Do Not Sell My Information",
+    "time" : {
+      "start" : 1597956747706,
+      "stop" : 1597956747706,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Verifying supress of normal amazon slotid in feed_1  for USA-CCPA privacy when Advertising option set to Do Not ...]",
+    "title" : "Verifying supress of normal amazon slotid in feed_1  for USA-CCPA privacy when Advertising option set to Do Not Sell My ...",
+    "time" : {
+      "start" : 1597956747706,
+      "stop" : 1597956747706,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Verifying iu=%2F7646%2Fapp_android_us%2Fvideo ad calll]",
+    "title" : "Verifying iu=%2F7646%2Fapp_android_us%2Fvideo ad calll",
+    "time" : {
+      "start" : 1597956747921,
+      "stop" : 1597956747921,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[iu=/7646/app_android_us/video call was trigred]",
+    "title" : "iu=/7646/app_android_us/video call was trigred",
+    "time" : {
+      "start" : 1597956747926,
+      "stop" : 1597956747926,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "twc.Regression.TestCases.USA_CCPA_Run"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testGroup",
+    "value" : "Test"
+  }, {
+    "name" : "host",
+    "value" : "iosbuildserver.attlocal.net"
+  }, {
+    "name" : "thread",
+    "value" : "96905@iosbuildserver.attlocal.net.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verifying_videos_adCall_Presence_USA_CCPA_Privacy_DoNotSellMyInformation"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : Test"
+  } ],
+  "parameters" : [ ]
+}

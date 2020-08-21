@@ -36,8 +36,10 @@ import org.testng.Assert;
 //import twc.Automation.RetryAnalyzer.RetryAnalyzer;
 import twc.Regression.Driver.Drivers;
 import twc.Regression.ReadDataFromFile.read_excel_data;
+import twc.Regression.TestCases.GDPR_Run;
 import twc.Regression.utils.ReadExcelData;
 import twc.Regression.General.DeviceStatus;
+import twc.Regression.General.Functions;
 import twc.Regression.HandleWithCharles.CharlesFunctions;
 
 public class AppiumFunctions extends Drivers{
@@ -47,6 +49,7 @@ public class AppiumFunctions extends Drivers{
 		public static String current_IPAddress = null;
 		public static String Android_PortNumber = "8222";
 	 public static final int maxTimeout = 60;
+	 public static String defaultPortNumber = "8222";
 //	public static void verifyAdPresentOnExtendedPage(String excel_sheet_name) throws Exception{
 //		DeviceStatus device_status = new DeviceStatus();
 //		int Cap = device_status.Device_Status();
@@ -590,7 +593,7 @@ public static void killADB() throws IOException, Exception{
     		    ClickonIUnderstand();
         		clickOnAllow();		
     			Thread.sleep(10000);
-    			System.out.println("Capabilities have been launched  with fullreset ");
+    			System.out.println("Capabilities have been launched  with no reset ");
 			}
 		
 		
@@ -766,8 +769,8 @@ public static void killADB() throws IOException, Exception{
 	public static void clickOnAllow() throws Exception{
 
 		try{
-			if((Ad.findElementById("com.android.permissioncontroller:id/permission_allow_foreground_only_button").isDisplayed())){
-				Ad.findElementById("com.android.permissioncontroller:id/permission_allow_foreground_only_button").click();
+			if((Ad.findElementById("com.android.packageinstaller:id/permission_allow_button").isDisplayed())){
+				Ad.findElementById("ccom.android.packageinstaller:id/permission_allow_button").click();
 				Thread.sleep(2000);
 			}
 		}catch(Exception e){
@@ -1725,7 +1728,7 @@ catch(Exception e1) {
 
  				//capabilities.setCapability(capabilitydata[1][0], capabilitydata[1][Cap]);
  				capabilities.setCapability("platformName", "Android"); 
- 				capabilities.setCapability("platformVersion", "11..0");
+ 				capabilities.setCapability("platformVersion", "8.0");
  				capabilities.setCapability("deviceName", "Samsung"); 
  				capabilities.setCapability("noReset","true");
  			//	capabilities.setCapability("app",app.getAbsolutePath() );
@@ -1770,7 +1773,7 @@ catch(Exception e1) {
 
  				//capabilities.setCapability(capabilitydata[1][0], capabilitydata[1][Cap]);
  				capabilities.setCapability("platformName", "Android"); 
- 				capabilities.setCapability("platformVersion", "11.0");
+ 				capabilities.setCapability("platformVersion", "8.0");
  				capabilities.setCapability("deviceName", "Samsung"); 
  				capabilities.setCapability("noReset","true");
  			//	capabilities.setCapability("app",app.getAbsolutePath() );
@@ -1796,7 +1799,7 @@ catch(Exception e1) {
  		}
  	}
   	
- 	public static void settingProxyEnable(String type,String ipAddress,String portNumber) throws Exception{
+ 	/*public static void settingProxyEnable(String type,String ipAddress,String portNumber) throws Exception{
 		//clicking network and internet
 		clickRequiredEleemntononSettingsapp("Network & internet");	
 		Thread.sleep(8000);
@@ -1817,6 +1820,44 @@ catch(Exception e1) {
 		 clickRequiredproxyOption(type);
 		Thread.sleep(8000);
 		enterIpAddressPortNumber(ipAddress, portNumber); 
+		Ad.findElementById("android:id/button1").click();
+		Thread.sleep(8000);
+		}*/
+ 	
+	public static void settingProxyEnable(String type,String ipAddress,String portNumber) throws Exception{
+ 		//clicking connection option on settings app
+		clickRequiredEleemntononSettingsapp("Connections");	
+		Thread.sleep(8000);
+		//clicking wifi option
+		clickRequiredEleemntononSettingsapp("Wi-Fi");
+		Thread.sleep(8000);
+		//clicking on wifi name
+		clickRequiredEleemntononSettingsapp(GDPR_Run.CurrentWifiName);		
+		Thread.sleep(10000);
+		
+		//clicking on edit
+		try {
+		Ad.findElementById("android:id/button2").click();
+		Thread.sleep(10000);
+		}catch(Exception e) {
+			
+		}
+		//clicking on advaced option
+		try {
+			Ad.findElementById("com.android.settings:id/wifi_advanced_togglebox").click();
+			Thread.sleep(10000);
+		}catch(Exception e) {
+			
+		}    		
+		
+		//clicking on proxy fields drop down
+		Ad.findElementById("com.android.settings:id/proxy_settings").click();
+		Thread.sleep(10000);
+		//clicking on None option;
+		 Thread.sleep(10000);
+		 clickRequiredproxyOption(type);
+		Thread.sleep(8000);
+		enterIpAddressPortNumber(current_IPAddress, defaultPortNumber); 
 		Ad.findElementById("android:id/button1").click();
 		Thread.sleep(8000);
 		}
@@ -1858,7 +1899,7 @@ catch(Exception e1) {
     	Ad.findElementById("com.android.settings:id/proxy_port").sendKeys(PortNumber);
 	}
 	
-	public static void settingProxyOff(String None) throws Exception{
+	/*public static void settingProxyOff(String None) throws Exception{
 		System.out.println("turn off the device proxy");
 		//clicking network and internet
 		clickRequiredEleemntononSettingsapp("Network & internet");	
@@ -1889,9 +1930,45 @@ catch(Exception e1) {
 		Ad.findElementById("android:id/button1").click();
 		Thread.sleep(8000);
 		System.out.println("turned off the device proxy");
+		}*/
+	public static void settingProxyOff(String None) throws Exception{
+		//clicking connection option on settings app
+		clickRequiredEleemntononSettingsapp("Connections");	
+		Thread.sleep(8000);
+		//clicking wifi option
+		clickRequiredEleemntononSettingsapp("Wi-Fi");
+		Thread.sleep(8000);
+		//clicking on wifi name
+		clickRequiredEleemntononSettingsapp(GDPR_Run.CurrentWifiName);		
+		Thread.sleep(10000);
+		
+		//clicking on edit
+		try {
+		Ad.findElementById("android:id/button2").click();
+		Thread.sleep(10000);
+		}catch(Exception e) {
+			
+		}
+		//clicking on advaced option
+		try {
+			Ad.findElementById("com.android.settings:id/wifi_advanced_togglebox").click();
+			Thread.sleep(10000);
+		}catch(Exception e) {
+			
+		}    		
+		
+		//clicking on proxy fileds drop down
+		Ad.findElementById("com.android.settings:id/proxy_settings").click();
+		Thread.sleep(10000);
+		//clicking on None option
+		 clickRequiredproxyOption(None);
+		 Thread.sleep(10000);
+	//clicking on save button
+		 Ad.findElementById("android:id/button2").click();
+		Thread.sleep(8000);
 		}
 	
-	public static void installapk() throws Exception
+	/*public static void installapk() throws Exception
  	{
 		System.out.println("Downloading the apk build");
 		try {
@@ -1950,7 +2027,57 @@ catch(Exception e1) {
 		Thread.sleep(60000);
 		System.out.println("Installed the apk in the device");
 		//Thread.sleep(60000);
+ 	}*/
+	
+	public static void installapk() throws Exception
+ 	{
+		try {
+			System.out.println("checking for Firebase App is properly launched or not on the device");
+			logStep("checking for Firebase App is properly launched or not on the device");
+			Ad.findElementById("dev.firebase.appdistribution:id/retry_list_button").click();
+			Thread.sleep(30000);
+			System.out.println("Clicked the Retry button on the device");
+			System.out.println("Clicked the Retry button on the device");
+	
+		}
+		catch(Exception e) {
+			
+		}
+		System.out.println("clicking the The weather channel release debug");
+		logStep("clicking the The weather channel release debug");
+		List<WebElement> apptypes=Ad.findElementsById("dev.firebase.appdistribution:id/app_name");
+		for(WebElement apptype:apptypes) {
+			if(apptype.getText().contains("The Weather Channel ReleaseDEBUG")) {
+		//if(apptype.getText().contains("The Weather Channel DEBUG")) {
+				apptype.click();
+				Thread.sleep(30000);
+			}
+		}
+		try {
+			Ad.findElementById("dev.firebase.appdistribution:id/retry_list_button").click();
+			Thread.sleep(30000);
+			System.out.println("Clicked the Retry button on the device");
+			System.out.println("Clicked the Retry button on the device");
+	
+		}
+		catch(Exception e) {
+			
+		}
+		System.out.println("clicking the the download button");
+		logStep("clicking the the download button");
+		Ad.findElementById("dev.firebase.appdistribution:id/download_button").click();
+		Thread.sleep(60000);
+		System.out.println("clicking the the install button");
+		logStep("clicking the the install button");
+		new WebDriverWait(Ad, Functions.maxTimeout).until(ExpectedConditions.elementToBeClickable(Ad.findElementById("com.android.packageinstaller:id/ok_button")));
+		Ad.findElementById("com.android.packageinstaller:id/ok_button").click();	
+	     //Ad.isAppInstalled("");
+
+		//Ad.findElementById("android:id/button1").click();
+		Thread.sleep(60000);
+		//Thread.sleep(60000);
  	}
+ 	
 }
  
 

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]" parallel="none">
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="twc.Regression.TestCases.USA_CCPA_Run">
+        <methods>
+          <include name="afterClass"/>
+          <include name="Verifying_Factual_locationwfxtriggerscom_apiCall_presence_USA_CCPA_Privacy_StandardAdvertisingSettings"/>
+          <include name="Verifying_Loatme_bcpcrwdcntrlnet_apiCall_presence_USA_CCPA_Privacy_StandardAdvertisingSettings"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- twc.Regression.TestCases.USA_CCPA_Run -->
+      <class name="twc.Regression.TestCases.LGPD_Run">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- twc.Regression.TestCases.LGPD_Run -->
+      <class name="twc.Regression.TestCases.GDPR_Run">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- twc.Regression.TestCases.GDPR_Run -->
+      <class name="twc.Regression.TestCases.USA_Run">
+        <methods>
+          <include name="Verifying_SOD_Cust_Param_mapsdetails_adCall_USA_Privacy_DoNotSellMyInformation"/>
+          <include name="Verifying_supress_amazon_Slotid_feed1_preroladcall_USA_Privacy_DoNotSellMyInformation"/>
+          <include name="Verifying_rdp_keyword_supress_homescreenmarquee_adCall_USA_Privacy_StandardAdvertisingSettings"/>
+          <include name="Verifying_Loatme_bcpcrwdcntrlnet_apiCall_presence_USA_Privacy_StandardAdvertisingSettings"/>
+          <include name="Verifying_presence_amazon_Slotid_Hourly2_bigaddetails_preload_adcall_USA_Privacy_StandardAdvertisingSettings"/>
+          <include name="Verifying_supress_amazon_Slotid_mapsdetails_preload_adcall_USA_Privacy_DoNotSellMyInformation"/>
+          <include name="Verifying_homescreenhourly_adCall_Presence_USA_Privacy_DoNotSellMyInformation"/>
+          <include name="Smoke_Test_Verifying_SOD_Cust_Param_videoad_Optin_mode_scenario"/>
+          <include name="Verifying_SOD_Cust_Param_homescreenhourly_adCall_USA_Privacy_StandardAdvertisingSettings"/>
+          <include name="Verifying_supress_amazon_Slotid_feed2_preroladcall_USA_Privacy_DoNotSellMyInformation"/>
+          <include name="Verifying_Loatme_adcrwdcntrlnet_apiCall_supressing_USA_Privacy_DoNotSellMyInformation"/>
+          <include name="Selecting_DoNotSellMyInformation_scenario"/>
+          <include name="Verifying_SOD_Cust_Param_mapsdetails_adCall_USA_Privacy_StandardAdvertisingSettings"/>
+          <include name="Verifying_Supress_amazon_Slotid_homescreenhourly_preload_adcall_USA_Privacy_DoNotSellMyInformation"/>
+          <include name="Verifying_presence_amazon_Slotid_video_adcall_USA_Privacy_StandardAdvertisingSettings"/>
+          <include name="Verifying_rdp_keyword_supress_videos_Call_USA_Privacy_StandardAdvertisingSettings"/>
+          <include name="Verifying_SOD_Cust_Param_homescreenhourly_adCall_USA_Privacy_DoNotSellMyInformation"/>
+          <include name="Verifying_homescreenmarquee_adCall_Presence_USA_Privacy_DoNotSellMyInformation"/>
+          <include name="Verifying_presence_amazon_Slotid_Hourlydetails_preload_adcall_USA_Privacy_StandardAdvertisingSettings"/>
+          <include name="Verifying_rdp_equals_1_homescreenmarquee_adCall_USA_Privacy_DoNotSellMyInformation"/>
+          <include name="Verifying_videos_adCall_Presence_USA_Privacy_DoNotSellMyInformation"/>
+          <include name="Verifying_presence_amazon_Slotid_mapsdetails_preload_adcall_USA_Privacy_StandardAdvertisingSettings"/>
+          <include name="Verifying_Factual_locationwfxtriggerscom_apiCall_presence_USA_Privacy_StandardAdvertisingSettings"/>
+          <include name="Verifying_Loatme_bcpcrwdcntrlnet_apiCall_supressing_USA_Privacy_DoNotSellMyInformation"/>
+          <include name="Verifying_presence_amazon_Slotid_feed2_preroladcall_USA_Privacy_StandardAdvertisingSettings"/>
+          <include name="Verifying_supress_amazon_Slotid_video_adcall_USA_Privacy_DoNotSellMyInformation"/>
+          <include name="Verifying_rdp_equals_1_homescreenHourly_adCall_USA_Privacy_DoNotSellMyInformation"/>
+          <include name="Verifying_Factual_locationwfxtriggerscom_apiCall_supressing_USA_Privacy_DoNotSellMyInformation"/>
+          <include name="afterClass"/>
+          <include name="Verifying_Supress_amazon_Slotid_Hourly1_bigaddetails_preload_adcall_USA_Privacy_DoNotSellMyInformation"/>
+          <include name="Verifying_rdp_keyword_supress_homescreenHourly_adCall_USA_Privacy_StandardAdvertisingSettings"/>
+          <include name="Verifying_presence_amazon_Slotid_Hourly1_bigaddetails_preload_adcall_USA_Privacy_StandardAdvertisingSettings"/>
+          <include name="beforeClass"/>
+          <include name="Verifying_SOD_Cust_Param_homescreenmarquee_adCall_USA_Privacy_StandardAdvertisingSettings"/>
+          <include name="Verifying_homescreenhourly_adCall_Presence_USA_Privacy_StandardAdvertisingSettings"/>
+          <include name="Verifying_rdp_equals_1_Videos_adCall_USA_Privacy_DoNotSellMyInformation"/>
+          <include name="Verifying_supress_amazon_Slotid_Dailydetails_preload_adcall_USA_Privacy_DoNotSellMyInformation"/>
+          <include name="Verifying_presence_amazon_Slotid_Dailydetails_preload_adcall_USA_Privacy_StandardAdvertisingSettings"/>
+          <include name="Verifying_homescreenmarquee_adCall_Presence_USA_Privacy_StandardAdvertisingSettings"/>
+          <include name="Verifying_SOD_Cust_Param_homescreenmarquee_adCall_USA_Privacy_DoNotSellMyInformation"/>
+          <include name="Verifying_Supress_amazon_Slotid_Hourlydetails_preload_adcall_USA_Privacy_DoNotSellMyInformation"/>
+          <include name="Verifying_SOD_Cust_Param_videos_adCall_USA_Privacy_DoNotSellMyInformation"/>
+          <include name="Verifying_presence_amazon_Slotid_feed1_preroladcall_USA_Privacy_StandardAdvertisingSettings"/>
+          <include name="Verifying_presence_amazon_Slotid_Hourly3_bigaddetails_preload_adcall_USA_Privacy_StandardAdvertisingSettings"/>
+          <include name="Verifying_supress_amazon_Slotid_Hourly3_bigaddetails_preload_adcall_USA_Privacy_DoNotSellMyInformation"/>
+          <include name="Verifying_video_adCall_Presence_USA_Privacy_StandardAdvertisingSettings"/>
+          <include name="Verifying_presence_amazon_Slotid_homescreenhourly_preload_adcall_USA_Privacy_StandardAdvertisingSettings"/>
+          <include name="Verifying_supress_amazon_Slotid_Hourly2_bigaddetails_preload_adcall_USA_Privacy_DoNotSellMyInformation"/>
+        </methods>
+      </class> <!-- twc.Regression.TestCases.USA_Run -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
