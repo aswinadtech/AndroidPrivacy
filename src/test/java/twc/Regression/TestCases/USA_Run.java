@@ -111,7 +111,7 @@ public class USA_Run extends TwcAndroidBaseTest {
 	   AppiumFunctions.Kill_Launch_App();  
 	   AppiumFunctions.clickOnMaps_tile();
 	   AppiumFunctions.clickOnVideos_tile();
-		CharlesFunctions.archive_folder("charles");
+		//CharlesFunctions.archive_folder("charles");
 		this.proxy.getXml();
 	   CharlesFunctions.ExportSession();
 	  Functions.validating_adcrw_privacy_Optoutmode_scenarion(); 
@@ -382,7 +382,7 @@ public class USA_Run extends TwcAndroidBaseTest {
 	   AppiumFunctions.Kill_Launch_App();
 		AppiumFunctions.clickOnMaps_tile();
 		AppiumFunctions.clickOnVideos_tile();		
-		CharlesFunctions.archive_folder("charles");
+		//CharlesFunctions.archive_folder("charles");
 		this.proxy.getXml();
 	  Functions.validating_bcp_privacy_Optinmode_scenarion();
 	  System.out.println("================= Verifying Lotame bcp.crwdcntrl.net api call presence for USA privacy when Advertising option set to Standard Advertising Settings test case End =========================" );
