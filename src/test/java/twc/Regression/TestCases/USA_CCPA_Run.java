@@ -35,7 +35,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 		System.out.println("****** USA CCPA  Privacy Test Started");
 		logStep("****** LGPD Privacy Test Started");
 		this.configFile = this.rewriteRuleToEnableUSACCPA(CONFIG_FILE_PATH);
-		this.proxy = new CharlesProxy("localhost", 8222, CONFIG_FILE_PATH);
+		this.proxy = new CharlesProxy("localhost", 8333, CONFIG_FILE_PATH);
 
 		this.proxy.startCharlesProxyWithUI();
 		this.proxy.disableRewriting();
