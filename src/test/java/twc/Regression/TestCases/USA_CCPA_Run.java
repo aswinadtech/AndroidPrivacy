@@ -61,7 +61,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 		// Enable rewriting on Charles install/launch TWC
 		this.proxy.enableRewriting();
 		this.proxy.startRecording();
-		CharlesFunctions.archive_folder("charles");
+		//CharlesFunctions.archive_folder("charles");
 		this.proxy.clearCharlesSession();
 		AppiumFunctions.LaunchAppWithFullReset();
 		   AppiumFunctions.resetApp();
@@ -109,7 +109,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 	  AppiumFunctions.Kill_Launch_App();  
 	   AppiumFunctions.clickOnMaps_tile();
 		AppiumFunctions.clickOnVideos_tile();
-		CharlesFunctions.archive_folder("charles");
+		//CharlesFunctions.archive_folder("charles");
 		this.proxy.getXml();
 	  Functions.validating_adcrw_privacy_Optoutmode_scenarion(); 
 	  System.out.println("================= Verifying Lotame ad.crwdcntrl.net api call supressing for USA-CCPA privacy test case End =========================");	  
@@ -355,7 +355,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 	  logStep("Selecting the Standard Advertising Settings  in the privacy card");
      System.out. println("=================Slecting Standard Advertising Settings  in privacy card testcase started =========================");
 	 AppiumFunctions. Kill_Launch_App();
-		CharlesFunctions.archive_folder("charles");
+		//CharlesFunctions.archive_folder("charles");
 	  Thread.sleep(40000);	  
 	  AppiumFunctions.SwipeUp_Counter_privacy(25);
 	  Thread.sleep(10000); 
@@ -379,7 +379,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 		  AppiumFunctions.Kill_Launch_App();  
 		   AppiumFunctions.clickOnMaps_tile();
 			AppiumFunctions.clickOnVideos_tile();
-			CharlesFunctions.archive_folder("charles");
+			//CharlesFunctions.archive_folder("charles");
 			this.proxy.getXml();
 	  Functions.validating_bcp_privacy_Optinmode_scenarion();
 	  System.out.println("================= Verifying Lotame bcp.crwdcntrl.net api call presence for USA-CCPA privacy when Advertising option set to Standard Advertising Settings test case End =========================" );
