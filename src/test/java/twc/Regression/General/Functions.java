@@ -3675,7 +3675,7 @@ public static void validate_npa_video_ad_dontsellmyinformation() throws Exceptio
 			//String Read_API_Call_Data = sb.toString().substring(sb.toString().indexOf("slotname=%2F7646%2Fapp_android_us%2Fvideo"),sb.toString().indexOf("npa=1"));
 			String Read_API_Call_Data = sb.toString().substring(sb.toString().indexOf("iu=%2F7646%2Fapp_android_us%2Fvideo"));
 		if	(Read_API_Call_Data.contains("npa=1")){
-			System.out.println("RDP value for iu=%2F7646%2Fapp_android_us%2Fvideo  ad call is " +"1");	
+			System.out.println("npa value for iu=%2F7646%2Fapp_android_us%2Fvideo  ad call is " +"1");	
 			logStep("npa value for iu=%2F7646%2Fapp_android_us%2Fvideo ad call is " +"1");
 			}
 		else {
