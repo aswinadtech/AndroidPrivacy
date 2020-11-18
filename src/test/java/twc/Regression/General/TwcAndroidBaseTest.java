@@ -129,7 +129,7 @@ public class TwcAndroidBaseTest extends Drivers{
 	// Create Charles config with header response rewrite for twc-privacy:exempt -> twc-privacy:gdpr
 	CharlesConfiguration config = new CharlesConfiguration();
 	//config.addRule(RewriteRuleType.MODIFY_HEADER, false, true, "twc-privacy", false, "exempt", false, false, false, "twc-privacy", false, "lgpd", false, RewriteRuleReplaceType.ONLY_FIRST);
-	config.addRule(RewriteRuleType.MODIFY_HEADER, false, true, "twc-privacy", false, "usa", false, false, false, "twc-privacy", false, "lgpd", false, RewriteRuleReplaceType.ONLY_FIRST);
+	   config.addRule(RewriteRuleType.MODIFY_HEADER, false, true, "twc-privacy", false, "usa", false, false, false, "twc-privacy", false, "lgpd", false, RewriteRuleReplaceType.ONLY_FIRST);
 	config.addRule(RewriteRuleType.MODIFY_HEADER, false, true, "twc-geoip-country", false, "US", false, false, false, "twc-geoip-country", false, "BR", false, RewriteRuleReplaceType.ONLY_FIRST);
 	config.addLocation(Protocol.HTTPS, "dsx.weather.com", "", "/cms/v5/privacy/en_US/twc-android-flagship/3", "");
 
