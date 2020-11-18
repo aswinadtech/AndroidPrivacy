@@ -92,8 +92,9 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 	 System.out. println("=================Slecting Opt out mode scenario in privacy card testcase started =========================" );
 	  Thread.sleep(20000); 
 	  Functions.selecting_opt_out_mode(); 
-	  System.out.println("kill launch the app for two times");
-		this.proxy.clearCharlesSession(); 
+			  System.out.println("kill launch the app for two times");
+		    Thread.sleep(20000);		
+		  this.proxy.clearCharlesSession(); 
 	  Thread.sleep(30000); 
 	   AppiumFunctions.Kill_Launch_App();  
 		this.proxy.clearCharlesSession();
@@ -109,7 +110,8 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 	  AppiumFunctions.Kill_Launch_App();  
 	   AppiumFunctions.clickOnMaps_tile();
 		AppiumFunctions.clickOnVideos_tile();
-		//CharlesFunctions.archive_folder("charles");
+		    Thread.sleep(20000);		
+		  //CharlesFunctions.archive_folder("charles");
 		this.proxy.getXml();
 	  Functions.validating_adcrw_privacy_Optoutmode_scenarion(); 
 	  System.out.println("================= Verifying Lotame ad.crwdcntrl.net api call supressing for USA-CCPA privacy test case End =========================");	  
@@ -358,9 +360,10 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 		//CharlesFunctions.archive_folder("charles");
 	  Thread.sleep(40000);	  
 	  AppiumFunctions.SwipeUp_Counter_privacy(25);
-	  Thread.sleep(10000); 
+	  Thread.sleep(40000); 
 	  Functions.selecting_opt_in_mode();
-	  AppiumFunctions.Kill_Launch_App();
+		   Thread.sleep(40000); 		  	
+		  AppiumFunctions.Kill_Launch_App();
 		this.proxy.clearCharlesSession();
 	  AppiumFunctions.Kill_Launch_App();
 		this.proxy.clearCharlesSession();
@@ -379,7 +382,8 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 		  AppiumFunctions.Kill_Launch_App();  
 		   AppiumFunctions.clickOnMaps_tile();
 			AppiumFunctions.clickOnVideos_tile();
-			//CharlesFunctions.archive_folder("charles");
+		    Thread.sleep(20000);			
+		  //CharlesFunctions.archive_folder("charles");
 			this.proxy.getXml();
 	  Functions.validating_bcp_privacy_Optinmode_scenarion();
 	  System.out.println("================= Verifying Lotame bcp.crwdcntrl.net api call presence for USA-CCPA privacy when Advertising option set to Standard Advertising Settings test case End =========================" );
