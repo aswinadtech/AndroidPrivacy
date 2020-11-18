@@ -71,7 +71,7 @@ public class GDPR_Run extends TwcAndroidBaseTest  {
 		this.proxy.startRecording();
 		this.proxy.clearCharlesSession();
 		
-		AppiumFunctions.getIpaddress();
+		/*AppiumFunctions.getIpaddress();
 		Drivers.property();
 		 CurrentWifiName=properties.getProperty("deviceWifiName");
 		 System.out.println(CurrentWifiName);
@@ -82,7 +82,7 @@ public class GDPR_Run extends TwcAndroidBaseTest  {
 	    AppiumFunctions.installapk();
 	    AppiumFunctions.LaunchSettingsAppWithFullReset();
 	//proxyenable
-        AppiumFunctions.settingProxyEnable("Manual",AppiumFunctions.current_IPAddress,AppiumFunctions.defaultPortNumber);	
+        AppiumFunctions.settingProxyEnable("Manual",AppiumFunctions.current_IPAddress,AppiumFunctions.defaultPortNumber);*/	
 		AppiumFunctions.LaunchAppWithFullReset();
 		  	AppiumFunctions.clickONNext();
 			AppiumFunctions.ClickonIUnderstand();
