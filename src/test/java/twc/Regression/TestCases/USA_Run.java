@@ -111,7 +111,7 @@ public class USA_Run extends TwcAndroidBaseTest {
 	   AppiumFunctions.Kill_Launch_App();  
 	   AppiumFunctions.clickOnMaps_tile();
 	   AppiumFunctions.clickOnVideos_tile();
-		  	  Thread.sleep(40000);			
+		  	  Thread.sleep(80000);			
 		  //CharlesFunctions.archive_folder("charles");
 		this.proxy.getXml();
 	   CharlesFunctions.ExportSession();
@@ -360,7 +360,7 @@ public class USA_Run extends TwcAndroidBaseTest {
      System.out. println("=================Slecting Standard Advertising Settings  in privacy card testcase started =========================");
 	 AppiumFunctions. Kill_Launch_App();
 	//  AppFunctions. Kill_Launch_App();
-	  Thread.sleep(40000);	  
+	  Thread.sleep(80000);	  
 	  AppiumFunctions.SwipeUp_Counter_privacy(25);
 	  Thread.sleep(40000); 
 	 // Functions.selecting_opt_in_mode();
@@ -395,7 +395,7 @@ public class USA_Run extends TwcAndroidBaseTest {
 	   AppiumFunctions.Kill_Launch_App();
 		AppiumFunctions.clickOnMaps_tile();
 		AppiumFunctions.clickOnVideos_tile();	
-		  	  Thread.sleep(40000);	
+		  	  Thread.sleep(80000);	
 		//CharlesFunctions.archive_folder("charles");
 		this.proxy.getXml();		  
 		  Functions.validating_Fatualcall_privacy_Optinmode_scenarion(); 
