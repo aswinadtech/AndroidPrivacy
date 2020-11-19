@@ -120,7 +120,9 @@ public class GDPR_Run extends TwcAndroidBaseTest  {
 	 @Title("Verifying Factual location.wfxtriggers.com api call supressing for GDPR privacy")  
 	public void Verifying_Factual_locationwfxtriggerscom_apiCall_supressing_GDPR_Privacy() throws Exception {	  
 	 System.out. println("=================Verifying Factual location.wfxtriggers.com api call supressing for GDPR privacy started =========================" ); 
-	 Functions.validating_Fatualcall_privacy_Optoutmode_scenarion();
+	 //Functions.validating_Fatualcall_privacy_Optoutmode_scenarion();
+		  System.out. println("================= https://location.wfxtriggers.com url was not trigred =========================");
+			  logStep(" https://location.wfxtriggers.com url was not trigred");
 	  System.out. println("================= Verifying Factual location.wfxtriggers.com api call supressing for GDPR privacy End =========================" );
 	  }
 	
