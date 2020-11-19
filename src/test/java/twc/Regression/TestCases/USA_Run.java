@@ -114,7 +114,7 @@ public class USA_Run extends TwcAndroidBaseTest {
 		  	  Thread.sleep(80000);			
 		  //CharlesFunctions.archive_folder("charles");
 		this.proxy.getXml();
-	   CharlesFunctions.ExportSession();
+	//   CharlesFunctions.ExportSession();
 	 // Functions.validating_adcrw_privacy_Optoutmode_scenarion(); 
          logStep("https://ad.crwdcntrl.net/ url was  not trigred");
 	  System.out.println("================= Verifying Lotame ad.crwdcntrl.net api call supressing for USA privacy test case End =========================");	  
