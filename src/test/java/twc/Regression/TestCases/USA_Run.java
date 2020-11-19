@@ -361,8 +361,8 @@ public class USA_Run extends TwcAndroidBaseTest {
 	//  AppFunctions. Kill_Launch_App();
 	  Thread.sleep(40000);	  
 	  AppiumFunctions.SwipeUp_Counter_privacy(25);
-	  Thread.sleep(10000); 
-	  Functions.selecting_opt_in_mode();
+	  Thread.sleep(40000); 
+	 // Functions.selecting_opt_in_mode();
 	  AppiumFunctions.Kill_Launch_App();
 		this.proxy.clearCharlesSession();
 	  AppiumFunctions.Kill_Launch_App();
