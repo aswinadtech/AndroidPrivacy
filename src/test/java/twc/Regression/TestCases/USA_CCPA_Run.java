@@ -373,29 +373,30 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 
 	
 	  
-	  @Test(priority = 162, enabled = true)	  
+	/*  @Test(priority = 162, enabled = true)	  
 	  @Title("Verifying Lotame bcp.crwdcntrl.net api call presence for USA-CCPA privacy when Advertising option set to Standard Advertising Settings")
 	  public void Verifying_Loatme_bcpcrwdcntrlnet_apiCall_presence_USA_CCPA_Privacy_StandardAdvertisingSettings() throws  Exception { 
 	  logStep("Verifying Lotame bcp.crwdcntrl.net api call presence for USA-CCPA privacy when Advertising option set to Standard Advertising Settings" ); 
 	  System.out.println("=================Verifying Lotame bcp.crwdcntrl.net api call presence for USA-CCPA privacy when Advertising option set to Standard Advertising Settings test case started =========================");	  
-		this.proxy.clearCharlesSession();
-		  AppiumFunctions.Kill_Launch_App();  
-		   AppiumFunctions.clickOnMaps_tile();
-			AppiumFunctions.clickOnVideos_tile();
-		    Thread.sleep(20000);			
-		  //CharlesFunctions.archive_folder("charles");
-			this.proxy.getXml();
+		
 	  Functions.validating_bcp_privacy_Optinmode_scenarion();
 	  System.out.println("================= Verifying Lotame bcp.crwdcntrl.net api call presence for USA-CCPA privacy when Advertising option set to Standard Advertising Settings test case End =========================" );
 	  
-	  }
+	  }*/
 	  
 	  @Test(priority = 164, enabled = true)	  
 	  @Title("Verifying Factual location.wfxtriggers.com api call presence for USA-CCPA privacy when Advertising option set to Standard Advertising Settings")
 	  public void  Verifying_Factual_locationwfxtriggerscom_apiCall_presence_USA_CCPA_Privacy_StandardAdvertisingSettings() throws Exception {
 	   logStep("Verifying Factual location.wfxtriggers.com api call presence for USA-CCPA privacy when Advertising option set to Standard Advertising Settings"); 
 	   System.out.println("=================Verifying Factual location.wfxtriggers.com api call presence for USA-CCPA privacy when Advertising option set to Standard Advertising Settings test case started =========================");
-	   Functions.validating_Fatualcall_privacy_Optinmode_scenarion(); 
+	this.proxy.clearCharlesSession();
+		  AppiumFunctions.Kill_Launch_App();  
+		   AppiumFunctions.clickOnMaps_tile();
+			AppiumFunctions.clickOnVideos_tile();
+		    Thread.sleep(20000);			
+		  //CharlesFunctions.archive_folder("charles");
+			this.proxy.getXml();		
+		  Functions.validating_Fatualcall_privacy_Optinmode_scenarion(); 
 	   System.out. println("================= Verifying Factual location.wfxtriggers.com api call presence for USA-CCPA privacy when Advertising option set to Standard Advertising Settings test case End =========================" );
 	 
 	  }
