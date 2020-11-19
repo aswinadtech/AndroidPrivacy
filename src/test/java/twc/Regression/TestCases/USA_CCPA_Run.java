@@ -361,7 +361,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 	  Thread.sleep(40000);	  
 	  AppiumFunctions.SwipeUp_Counter_privacy(25);
 	  Thread.sleep(40000); 
-	  Functions.selecting_opt_in_mode();
+	 // Functions.selecting_opt_in_mode();
 		   Thread.sleep(40000); 		  	
 		  AppiumFunctions.Kill_Launch_App();
 		this.proxy.clearCharlesSession();
