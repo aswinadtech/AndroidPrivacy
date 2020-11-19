@@ -360,7 +360,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
      System.out. println("=================Slecting Standard Advertising Settings  in privacy card testcase started =========================");
 	 AppiumFunctions. Kill_Launch_App();
 		//CharlesFunctions.archive_folder("charles");
-	  Thread.sleep(40000);	  
+	  Thread.sleep(100000);	  
 	  AppiumFunctions.SwipeUp_Counter_privacy(25);
 	  Thread.sleep(40000); 
 	 // Functions.selecting_opt_in_mode();
