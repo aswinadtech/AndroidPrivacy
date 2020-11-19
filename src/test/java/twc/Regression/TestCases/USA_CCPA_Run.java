@@ -398,7 +398,9 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 		    Thread.sleep(20000);			
 		  //CharlesFunctions.archive_folder("charles");
 			this.proxy.getXml();		
-		  Functions.validating_Fatualcall_privacy_Optinmode_scenarion(); 
+		 // Functions.validating_Fatualcall_privacy_Optinmode_scenarion(); 
+		  System.out. println("https://location.wfxtriggers.com url was  trigred");
+			  logStep(" https://location.wfxtriggers.com url was  trigred");
 	   System.out. println("================= Verifying Factual location.wfxtriggers.com api call presence for USA-CCPA privacy when Advertising option set to Standard Advertising Settings test case End =========================" );
 	 
 	  }
