@@ -214,6 +214,138 @@ public class TwcAndroidBaseTest extends Drivers{
 	return configFile;
 }
 	
+		public File rewriteRuleToEnableLATAMPE(String fileName) {
+
+		final List<File> configFiles = new ArrayList<File>();
+		final File parentDir = new File(Constants.PATH_USER_HOME);
+		parentDir.mkdirs();
+		final File configFile = new File(parentDir, fileName);
+	configFile.setWritable(true);
+		// Create Charles config with header response rewrite for twc-privacy:exempt -> twc-privacy:gdpr
+		CharlesConfiguration config = new CharlesConfiguration();
+		//config.addRule(RewriteRuleType.MODIFY_HEADER, false, true, "twc-privacy", false, "exempt", false, false, false, "twc-privacy", false, "lgpd", false, RewriteRuleReplaceType.ONLY_FIRST);
+		config.addRule(RewriteRuleType.MODIFY_HEADER, false, true, "twc-privacy", false, "[A-Za-z0-9\\.\\-]+", true, false, false, "twc-privacy", false, "latam-pe", false, RewriteRuleReplaceType.ONLY_FIRST);
+		config.addRule(RewriteRuleType.MODIFY_HEADER, false, true, "twc-geoip-country", false, "[A-Za-z0-9\\.\\-]+", true, false, false, "twc-geoip-country", false, "PE", false, RewriteRuleReplaceType.ONLY_FIRST);
+		config.addLocation(Protocol.HTTPS, "dsx.weather.com", "", "/cms/v5/privacy/en_US/twc-android-flagship/3", "");
+	config.saveConfigurations(fileName);
+
+		return configFile;
+
+	}
+	
+	public File rewriteRuleToEnableLATAMDR(String fileName) {
+
+		final List<File> configFiles = new ArrayList<File>();
+		final File parentDir = new File(Constants.PATH_USER_HOME);
+		parentDir.mkdirs();
+		final File configFile = new File(parentDir, fileName);
+		configFile.setWritable(true);
+		// Create Charles config with header response rewrite for twc-privacy:exempt -> twc-privacy:gdpr
+
+		CharlesConfiguration config = new CharlesConfiguration();
+
+		//config.addRule(RewriteRuleType.MODIFY_HEADER, false, true, "twc-privacy", false, "exempt", false, false, false, "twc-privacy", false, "lgpd", false, RewriteRuleReplaceType.ONLY_FIRST);
+
+		config.addRule(RewriteRuleType.MODIFY_HEADER, false, true, "twc-privacy", false, "[A-Za-z0-9\\.\\-]+", true, false, false, "twc-privacy", false, "latam-do", false, RewriteRuleReplaceType.ONLY_FIRST);
+
+		config.addRule(RewriteRuleType.MODIFY_HEADER, false, true, "twc-geoip-country", false, "[A-Za-z0-9\\.\\-]+", true, false, false, "twc-geoip-country", false, "DR", false, RewriteRuleReplaceType.ONLY_FIRST);
+
+		config.addLocation(Protocol.HTTPS, "dsx.weather.com", "", "/cms/v5/privacy/en_US/twc-android-flagship/3", "");
+
+		config.saveConfigurations(fileName);
+		return configFile;
+
+	}
+	
+	/**
+
+	 * Create a Charles configuration to rewrite privacy regime to the given regime (Latain America Colorado) values. 
+
+	 * @param fileName
+
+	 *            - Name of file (.config extension) to store configuration. Will be created in user.dir
+
+	 * @return Config Files (for deletion in After method)
+
+	 */
+
+	public File rewriteRuleToEnableLATAMCO(String fileName) {
+
+		final List<File> configFiles = new ArrayList<File>();
+
+		final File parentDir = new File(Constants.PATH_USER_HOME);
+
+		parentDir.mkdirs();
+	final File configFile = new File(parentDir, fileName);
+		configFile.setWritable(true);
+		// Create Charles config with header response rewrite for twc-privacy:exempt -> twc-privacy:gdpr
+
+		CharlesConfiguration config = new CharlesConfiguration();
+
+		//config.addRule(RewriteRuleType.MODIFY_HEADER, false, true, "twc-privacy", false, "exempt", false, false, false, "twc-privacy", false, "lgpd", false, RewriteRuleReplaceType.ONLY_FIRST);
+
+		config.addRule(RewriteRuleType.MODIFY_HEADER, false, true, "twc-privacy", false, "[A-Za-z0-9\\.\\-]+", true, false, false, "twc-privacy", false, "latam-co", false, RewriteRuleReplaceType.ONLY_FIRST);
+
+		config.addRule(RewriteRuleType.MODIFY_HEADER, false, true, "twc-geoip-country", false, "[A-Za-z0-9\\.\\-]+", true, false, false, "twc-geoip-country", false, "CO", false, RewriteRuleReplaceType.ONLY_FIRST);
+
+		config.addLocation(Protocol.HTTPS, "dsx.weather.com", "", "/cms/v5/privacy/en_US/twc-android-flagship/3", "");
+
+		config.saveConfigurations(fileName);
+	return configFile;
+
+	}
+	
+	/**
+
+	 * Create a Charles configuration to rewrite privacy regime to the given regime (EXEMPT) values. 
+
+	 * @param fileName
+
+	 *            - Name of file (.config extension) to store configuration. Will be created in user.dir
+
+	 * @return Config Files (for deletion in After method)
+
+	 */
+
+	public File rewriteRuleToEnableEXEMPT(String fileName) {
+
+		final List<File> configFiles = new ArrayList<File>();
+
+		final File parentDir = new File(Constants.PATH_USER_HOME);
+
+		parentDir.mkdirs();
+
+		final File configFile = new File(parentDir, fileName);
+
+		configFile.setWritable(true);
+
+
+
+		// Create Charles config with header response rewrite for twc-privacy:exempt -> twc-privacy:gdpr
+
+		CharlesConfiguration config = new CharlesConfiguration();
+
+		//config.addRule(RewriteRuleType.MODIFY_HEADER, false, true, "twc-privacy", false, "exempt", false, false, false, "twc-privacy", false, "lgpd", false, RewriteRuleReplaceType.ONLY_FIRST);
+
+		config.addRule(RewriteRuleType.MODIFY_HEADER, false, true, "twc-privacy", false, "[A-Za-z0-9\\.\\-]+", true, false, false, "twc-privacy", false, "exempt", false, RewriteRuleReplaceType.ONLY_FIRST);
+
+		config.addRule(RewriteRuleType.MODIFY_HEADER, false, true, "twc-geoip-country", false, "[A-Za-z0-9\\.\\-]+", true, false, false, "twc-geoip-country", false, "CA", false, RewriteRuleReplaceType.ONLY_FIRST);
+
+		//config.addRule(RewriteRuleType.MODIFY_HEADER, false, true, "twc-geoip-region", false, "[A-Za-z0-9\\.\\-]+", false, false, false, "twc-geoip-region", false, "ON", false, RewriteRuleReplaceType.ONLY_FIRST);
+
+		config.addLocation(Protocol.HTTPS, "dsx.weather.com", "", "/cms/v5/privacy/en_US/twc-android-flagship/3", "");
+
+
+
+		config.saveConfigurations(fileName);
+
+
+
+
+
+		return configFile;
+
+	}
 	
 	/**
 	 * Create a Charles configuration to rewrite vt1ContentMode mode to the given content mode. Rewrite to severe1 or severe2 to show Breaking

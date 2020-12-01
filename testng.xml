@@ -3,10 +3,9 @@
 <suite name="Suite" >
   <test thread-count="5" name="Test">
     <classes>
-      <class name="twc.Regression.TestCases.GDPR_Run"/>
-        <class name="twc.Regression.TestCases.LGPD_Run"/>
-        <class name="twc.Regression.TestCases.USA_CCPA_Run"/>
-            <class name="twc.Regression.TestCases.USA_Run"/>
+         <class name="twc.Regression.TestCases.LATAM_CO_Run"/>
+      <class name="twc.Regression.TestCases.LATAM_DO_Run"/>
+      <class name="twc.Regression.TestCases.LATAM_PE_Run"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
