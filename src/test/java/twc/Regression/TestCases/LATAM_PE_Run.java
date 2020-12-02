@@ -23,7 +23,7 @@ public class LATAM_PE_Run extends TwcAndroidBaseTest {
 		System.out.println("****** LATAM PE Privacy Test Started");
 		logStep("****** LATAM PE  Privacy Test Started");
 		this.configFile = this.rewriteRuleToEnableLATAMPE(CONFIG_FILE_PATH);
-		this.proxy = new CharlesProxy("localhost", 8222, CONFIG_FILE_PATH);
+		this.proxy = new CharlesProxy("localhost", 8333, CONFIG_FILE_PATH);
 
 		this.proxy.startCharlesProxyWithUI();
 		this.proxy.disableRewriting();
