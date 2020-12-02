@@ -479,7 +479,7 @@ public class USA_Run extends TwcAndroidBaseTest {
 
 		
 		@Test(priority = 420, enabled = true)
-		@Title("Verifying presence amazon SlotId for maps details preload ad call USA privacy when Advertising option set to Do Not Sell My Information")
+		@Title("Verifying presence amazon SlotId for maps details preload ad call USA privacy when Advertising option set to Standard Advertising Settings")
 		public void Verifying_presence_amazon_Slotid_mapsdetails_preload_adcall_USA_Privacy_StandardAdvertisingSettings() throws Exception {
 			System.out.println("=================Verifying presence amazon SlotId for maps details preload ad call USA privacy when Advertising option set to  Standard Advertising Settings  testcase  Started =========================");
 			logStep("Verifying presence amazon SlotId for maps details preload ad call USA privacy when Advertising option set to Do Not Sell My Information");
@@ -489,7 +489,7 @@ public class USA_Run extends TwcAndroidBaseTest {
 		}
 	
 		@Test(priority = 422, enabled = true)
-		@Title("Verifying presence amazon SlotId for daily details preload ad call USA privacy when Advertising option set to Do Not Sell My Information")
+		@Title("Verifying presence amazon SlotId for daily details preload ad call USA privacy when Advertising option set to Standard Advertising Settings")
 		public void Verifying_presence_amazon_Slotid_Dailydetails_preload_adcall_USA_Privacy_StandardAdvertisingSettings() throws Exception {
 			System.out.println("=================Verifying presence amazon SlotId for daily details preload ad call USA privacy when Advertising option set to  Standard Advertising Settings  testcase Started =========================");
 			logStep("Verifying presence amazon SlotId for daily details preload ad call USA privacy when Advertising option set to Do Not Sell My Information");
@@ -497,7 +497,7 @@ public class USA_Run extends TwcAndroidBaseTest {
 			System.out.println("=================Verifying presence amazon SlotId for daily details preload ad call USA privacy when Advertising option set to  Standard Advertising Settings testcase End =========================");
 		}
 		@Test(priority = 424, enabled = true)
-		@Title("Verifying presence amazon SlotId for videos preload ad call for USA privacy when Advertising option set to Do Not Sell My Information")
+		@Title("Verifying presence amazon SlotId for videos preload ad call for USA privacy when Advertising option set to Standard Advertising Settings")
 		public void Verifying_presence_amazon_Slotid_video_adcall_USA_Privacy_StandardAdvertisingSettings() throws Exception {
 			System.out.println("=================Verifying presence amazon SlotId for videos preload ad call for USA privacy when Advertising option set to  Standard Advertising Settings testcase Started =========================");
 			logStep("Verifying presence amazon SlotId for videos preload ad call for USA privacy when Advertising option set to Do Not Sell My Information");
