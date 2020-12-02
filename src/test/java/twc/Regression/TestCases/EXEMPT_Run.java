@@ -24,7 +24,7 @@ public class EXEMPT_Run extends TwcAndroidBaseTest {
 		System.out.println("****** EXEMPT Privacy Test Started");
 		logStep("****** EXEMPT  Privacy Test Started");
 		this.configFile = this.rewriteRuleToEnableEXEMPT(CONFIG_FILE_PATH);
-		this.proxy = new CharlesProxy("localhost", 8222, CONFIG_FILE_PATH);
+		this.proxy = new CharlesProxy("localhost", 8333, CONFIG_FILE_PATH);
 
 		this.proxy.startCharlesProxyWithUI();
 		this.proxy.disableRewriting();
