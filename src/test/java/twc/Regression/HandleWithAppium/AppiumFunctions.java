@@ -1735,7 +1735,7 @@ catch(Exception e1) {
  				capabilities.setCapability("appPackage","com.android.settings");
  	         capabilities.setCapability("appActivity","com.android.settings.Settings");
  			//	capabilities.setCapability("appActivity","dev.firebase.appdistribution.main.MainActivity");
- 			capabilities.setCapability("automationName","UiAutomator2");  			
+ 			//capabilities.setCapability("automationName","UiAutomator2");  			
  				capabilities.setCapability("newCommandTimeout","10000");
  				capabilities.setCapability("autoLaunch","true");    				
  				Thread.sleep(5000);    				
