@@ -68,7 +68,7 @@ public class LATAM_PE_Run extends TwcAndroidBaseTest {
 
 	//	Functions.close_launchApp();
 		//Utils.navigateToAllCards(false);
-		CharlesFunctions.archive_folder("charles");
+		//CharlesFunctions.archive_folder("charles");
 		this.proxy.getXml();
 	//	Utils.createXMLFileForCharlesSessionFile();
 	}
