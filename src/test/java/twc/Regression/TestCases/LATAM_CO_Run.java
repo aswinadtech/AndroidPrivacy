@@ -70,7 +70,7 @@ public class LATAM_CO_Run extends TwcAndroidBaseTest {
 		AppiumFunctions.ClickonIUnderstand();
 	//	Functions.close_launchApp();
 		//Utils.navigateToAllCards(false);
-		CharlesFunctions.archive_folder("charles");
+		//CharlesFunctions.archive_folder("charles");
 		this.proxy.getXml();
 	//	Utils.createXMLFileForCharlesSessionFile();
 	}
