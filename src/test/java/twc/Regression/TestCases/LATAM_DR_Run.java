@@ -23,7 +23,7 @@ public class LATAM_DR_Run extends TwcAndroidBaseTest {
 		System.out.println("****** LATAM DR Privacy Test Started");
 		logStep("****** LATAM DR  Privacy Test Started");
 		this.configFile = this.rewriteRuleToEnableLATAMDR(CONFIG_FILE_PATH);
-		this.proxy = new CharlesProxy("localhost", 8222, CONFIG_FILE_PATH);
+		this.proxy = new CharlesProxy("localhost", 8333, CONFIG_FILE_PATH);
 
 		this.proxy.startCharlesProxyWithUI();
 		this.proxy.disableRewriting();
