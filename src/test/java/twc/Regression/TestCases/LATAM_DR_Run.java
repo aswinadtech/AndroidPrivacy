@@ -65,6 +65,7 @@ public class LATAM_DR_Run extends TwcAndroidBaseTest {
 		this.proxy.clearCharlesSession();
 		AppiumFunctions.Kill_Launch_App();
 		AppiumFunctions.ClickonIUnderstand();
+		AppiumFunctions.gettingApkVersion() ;
 	//	Functions.close_launchApp();
 		//Utils.navigateToAllCards(false);
 		CharlesFunctions.archive_folder("charles");
