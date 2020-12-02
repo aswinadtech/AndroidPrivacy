@@ -3,6 +3,10 @@
 <suite name="Suite" >
   <test thread-count="5" name="Test">
     <classes>
+         <class name="Androidprivacy.testcases.GDPR_Run"/>
+      <class name="Androidprivacy.testcases.LGPD_Run"/>
+       <class name="Androidprivacy.testcases.USA_CCPA_Run"/>
+          <class name="Androidprivacy.testcases.USA_Run"/>
          <class name="twc.Regression.TestCases.LATAM_CO_Run"/>
       <class name="twc.Regression.TestCases.LATAM_DR_Run"/>
       <class name="twc.Regression.TestCases.LATAM_PE_Run"/>
