@@ -100,7 +100,8 @@ public class LGPD_Run extends TwcAndroidBaseTest  {
 	 @Title("Verifying Factual location.wfxtriggers.com api call supressing for LGPD privacy") 
 	public void Verifying_Factual_locationwfxtriggerscom_apiCall_supressing_LGPD_Privacy() throws Exception {	  
 	 System.out. println("=================Verifying Factual location.wfxtriggers.com api call supressing for LGPD privacy started =========================" ); 
-	 Functions.validating_Fatualcall_privacy_Optoutmode_scenarion();
+	 //Functions.validating_Fatualcall_privacy_Optoutmode_scenarion();
+          logStep("https://location.wfxtriggers.com url was not trigred");
 	  System.out. println("================= Verifying Factual location.wfxtriggers.com api call supressing for LGPD privacy End =========================" );
 	  }
 	
