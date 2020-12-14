@@ -646,13 +646,13 @@ public static void killADB() throws IOException, Exception{
 	
 	public static void clickOnVideos_tile() throws Exception{
 		try {
-		Ad.findElementByAccessibilityId("Videos").click();	
+		Ad.findElementByAccessibilityId("Winter").click();	
 		Thread.sleep(5000);
 		System.out.println("Videos element clicked");
 		logStep("Videos element clicked");
 		}catch(Exception e) {
 			try {
-				Ad.findElementByAccessibilityId("Videos").click();	
+				Ad.findElementByAccessibilityId("Winter").click();	
 				Thread.sleep(5000);
 				System.out.println("Videos element clicked");
 				logStep("Videos element clicked");
