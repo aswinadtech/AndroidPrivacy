@@ -375,34 +375,36 @@ public class USA_Run extends TwcAndroidBaseTest {
 
 	
 	  
-	 /* @Test(priority = 402, enabled = true)	  
+	 @Test(priority = 402, enabled = true)	  
 	  @Title("Verifying Lotame bcp.crwdcntrl.net api call presence for USA privacy when Advertising option set to Standard Advertising Settings")
 	  public void Verifying_Loatme_bcpcrwdcntrlnet_apiCall_presence_USA_Privacy_StandardAdvertisingSettings() throws  Exception { 
 	  logStep("Verifying Lotame bcp.crwdcntrl.net api call presence for USA privacy when Advertising option set to Standard Advertising Settings" ); 
 	  System.out.println("=================Verifying Lotame bcp.crwdcntrl.net api call presence for USA privacy when Advertising option set to Standard Advertising Settings test case started =========================");	  
-	 
-	  Functions.validating_bcp_privacy_Optinmode_scenarion();
-	  System.out.println("================= Verifying Lotame bcp.crwdcntrl.net api call presence for USA privacy when Advertising option set to Standard Advertising Settings test case End =========================" );
-	  
-	  }*/
-	  
-	  @Test(priority = 404, enabled = true)	  
-	  @Title("Verifying Factual location.wfxtriggers.com api call presence for USA privacy when Advertising option set to Standard Advertising Settings")
-	  public void  Verifying_Factual_locationwfxtriggerscom_apiCall_presence_USA_Privacy_StandardAdvertisingSettings() throws Exception {
-	   logStep("Verifying Factual location.wfxtriggers.com api call presence for USA privacy when Advertising option set to Standard Advertising Settings"); 
-	   System.out.println("=================Verifying Factual location.wfxtriggers.com api call presence for USA privacy when Advertising option set to Standard Advertising Settings test case started =========================");
-	   this.proxy.clearCharlesSession();
+	 	System.out.println("https://bcp.crwdcntrl.net/ url was trigred");
+		logStep("https://bcp.crwdcntrl.net/ url was trigred");
+		     this.proxy.clearCharlesSession();
 	   AppiumFunctions.Kill_Launch_App(); 
 	   AppiumFunctions.Kill_Launch_App();
 		AppiumFunctions.clickOnMaps_tile();
 		AppiumFunctions.clickOnVideos_tile();	
 		  	  Thread.sleep(80000);	
 		//CharlesFunctions.archive_folder("charles");
-		this.proxy.getXml();		  
+		this.proxy.getXml();	
+	  Functions.validating_bcp_privacy_Optinmode_scenarion();
+	  System.out.println("================= Verifying Lotame bcp.crwdcntrl.net api call presence for USA privacy when Advertising option set to Standard Advertising Settings test case End =========================" );
+	  
+	  }
+	  
+	/*  @Test(priority = 404, enabled = true)	  
+	  @Title("Verifying Factual location.wfxtriggers.com api call presence for USA privacy when Advertising option set to Standard Advertising Settings")
+	  public void  Verifying_Factual_locationwfxtriggerscom_apiCall_presence_USA_Privacy_StandardAdvertisingSettings() throws Exception {
+	   logStep("Verifying Factual location.wfxtriggers.com api call presence for USA privacy when Advertising option set to Standard Advertising Settings"); 
+	   System.out.println("=================Verifying Factual location.wfxtriggers.com api call presence for USA privacy when Advertising option set to Standard Advertising Settings test case started =========================");
+		  
 		  Functions.validating_Fatualcall_privacy_Optinmode_scenarion(); 
 	   System.out. println("================= Verifying Factual location.wfxtriggers.com api call presence for USA privacy when Advertising option set to Standard Advertising Settings test case End =========================" );
 	 
-	  }
+	  }*/
 	  
 	 
 	  
