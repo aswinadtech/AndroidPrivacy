@@ -4596,8 +4596,8 @@ public static void validate_RDP_video_ad_Optinmode() throws Exception {
 		}
 	}
 		catch(Exception e) {
-			System.out.println("RDP key word preseted in not  presented in iu=%2F7646%2Fapp_android_us%2Fvideo call url");	
-			logStep("RDP key word preseted in not presented iu=%2F7646%2Fapp_android_us%2Fvideo call url");
+			System.out.println("RDP key word is presented in iu=%2F7646%2Fapp_android_us%2Fvideo call url");	
+			logStep("RDP key word is preseted in  iu=%2F7646%2Fapp_android_us%2Fvideo call url");
 			}
 	}
 		
