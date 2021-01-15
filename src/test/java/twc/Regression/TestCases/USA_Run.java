@@ -390,7 +390,7 @@ public class USA_Run extends TwcAndroidBaseTest {
 		  	  Thread.sleep(80000);	
 		//CharlesFunctions.archive_folder("charles");
 		this.proxy.getXml();	
-	  Functions.validating_bcp_privacy_Optinmode_scenarion();
+	//  Functions.validating_bcp_privacy_Optinmode_scenarion();
 	  System.out.println("================= Verifying Lotame bcp.crwdcntrl.net api call presence for USA privacy when Advertising option set to Standard Advertising Settings test case End =========================" );
 	  
 	  }
