@@ -77,6 +77,7 @@ public class LGPD_Run extends TwcAndroidBaseTest  {
                   Thread.sleep(20000);		
 		//CharlesFunctions.archive_folder("charles");
 		this.proxy.getXml();
+		Thread.sleep(2000000);
 	//	Utils.createXMLFileForCharlesSessionFile();
 	}
 @Test(priority =41, enabled = true)  
