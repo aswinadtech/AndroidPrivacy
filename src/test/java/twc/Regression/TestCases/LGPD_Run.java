@@ -246,7 +246,7 @@ public class LGPD_Run extends TwcAndroidBaseTest  {
 			 System.out. println("=================Verifying npa=1 in home screen marquee ad call for LGPD privacy  testcase started =========================" ); 
 			 Functions.validate_npa_homescreenmarquee_dontsellmyinformation();
 			  System.out. println("=================Verifying npa=1 in home screen marquee ad call for LGPD privacy  testcase End =========================" );
-			Thread.sleep(5000000000000);
+			Thread.sleep(500000);
 			
 			}
 		  
