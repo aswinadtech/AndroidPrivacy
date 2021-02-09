@@ -60,6 +60,7 @@ public class LGPD_Run extends TwcAndroidBaseTest  {
 		// Enable rewriting on Charles install/launch TWC
 		this.proxy.enableRewriting();
 		this.proxy.startRecording();
+		Thread.sleep(5000000);
 		this.proxy.clearCharlesSession();
 		AppiumFunctions.LaunchAppWithFullReset();
 		System.out.println("Launching the app with full reset");
