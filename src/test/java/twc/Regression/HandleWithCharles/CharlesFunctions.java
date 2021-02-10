@@ -186,12 +186,12 @@ public class CharlesFunctions extends Drivers{
 	
 		String[][] paths = read_excel_data.exceldataread("Paths");
 		String downloadPath = null;
-		///Users/aswinikumar/Documents/adsandroid-automation-master/AndroidPrivacy/ArchivedSessions
-		//String archivedSessions = System.getProperty("user.dir") + "/ArchivedSessions";
-		String archivedSessions = "/Users/aswinikumar/Documents/adsandroid-automation-master/AndroidPrivacy/ArchivedSessions/ArchivedSessions";
+		
+		String archivedSessions = System.getProperty("user.dir") + "/ArchivedSessions";
+	//	String archivedSessions = "/Users/aswinikumar/Documents/adsandroid-automation-master/AndroidPrivacy/ArchivedSessions/ArchivedSessions";
 		final String filePath=paths[4][2];
-		downloadPath ="/Users/aswinikumar/Desktop/ArceivedsessionsPrivacy/";
-		//downloadPath =filePath+ "/CapturedSessionFile/";
+	//	downloadPath ="/Users/aswinikumar/Desktop/ArceivedsessionsPrivacy/";
+		downloadPath =filePath+ "/CapturedSessionFile/";
 		//downloadPath = System.getProperty("user.dir") + "/CapturedSessionFile/";
 
 		// String Screenshots = readExcelValues.data[16][Cap];
