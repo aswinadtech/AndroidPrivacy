@@ -146,7 +146,7 @@ public class CharlesFunctions extends Drivers{
 	}
 	
 	// Archives Charles session xml files
-	public static void archive_folder(String folderType) throws Exception {
+	/*public static void archive_folder(String folderType) throws Exception {
 		DeviceStatus device_status = new DeviceStatus();
 		int Cap = device_status.Device_Status();
 
@@ -175,9 +175,45 @@ public class CharlesFunctions extends Drivers{
 				}
 			}
 		}
+	}*/
+	
+	
+	// Archives Charles session xml files
+	public static void archive_folder(String folderType) throws Exception {
+		DeviceStatus device_status = new DeviceStatus();
+		int Cap = device_status.Device_Status();
+	
+	
+		String[][] paths = read_excel_data.exceldataread("Paths");
+		String downloadPath = null;
+		///Users/aswinikumar/Documents/adsandroid-automation-master/AndroidPrivacy/ArchivedSessions
+		//String archivedSessions = System.getProperty("user.dir") + "/ArchivedSessions";
+		String archivedSessions = "/Users/aswinikumar/Documents/adsandroid-automation-master/AndroidPrivacy/ArchivedSessions/ArchivedSessions";
+		final String filePath=paths[4][2];
+		downloadPath ="/Users/aswinikumar/Desktop/ArceivedsessionsPrivacy/";
+		//downloadPath =filePath+ "/CapturedSessionFile/";
+		//downloadPath = System.getProperty("user.dir") + "/CapturedSessionFile/";
+
+		// String Screenshots = readExcelValues.data[16][Cap];
+
+		File index = new File(downloadPath);
+
+		for (final File fileEntry : index.listFiles()) {
+			if (fileEntry.isDirectory()) {
+
+				// listFilesForFolder(fileEntry);
+				// listFilesForFolder(fileEntry);
+				// archive_folder(fileEntry.toString());
+				FileUtils.moveDirectoryToDirectory(fileEntry, new File(archivedSessions), true);
+
+			} else {
+				if (fileEntry.toString().contains("chlsx")) {
+
+					FileUtils.moveFileToDirectory(fileEntry, new File(archivedSessions), true);
+				}
+			}
+		}
 	}
-	
-	
 	
 	public static void startSessionBrowserData2() throws Exception{
 
