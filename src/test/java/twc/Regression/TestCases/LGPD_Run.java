@@ -60,7 +60,7 @@ public class LGPD_Run extends TwcAndroidBaseTest  {
 		// Enable rewriting on Charles install/launch TWC
 		this.proxy.enableRewriting();
 		this.proxy.startRecording();
-		Thread.sleep(5000000);
+		
 		this.proxy.clearCharlesSession();
 		AppiumFunctions.LaunchAppWithFullReset();
 		System.out.println("Launching the app with full reset");
@@ -78,7 +78,7 @@ public class LGPD_Run extends TwcAndroidBaseTest  {
                   Thread.sleep(20000);		
 		//CharlesFunctions.archive_folder("charles");
 		this.proxy.getXml();
-		Thread.sleep(2000000);
+		Thread.sleep(20000);
 	//	Utils.createXMLFileForCharlesSessionFile();
 	}
 @Test(priority =41, enabled = true)  
@@ -248,7 +248,7 @@ public class LGPD_Run extends TwcAndroidBaseTest  {
 			 System.out. println("=================Verifying npa=1 in home screen marquee ad call for LGPD privacy  testcase started =========================" ); 
 			 Functions.validate_npa_homescreenmarquee_dontsellmyinformation();
 			  System.out. println("=================Verifying npa=1 in home screen marquee ad call for LGPD privacy  testcase End =========================" );
-			Thread.sleep(500000);
+		
 			
 			}
 		  
