@@ -75,7 +75,7 @@ public class LGPD_Run extends TwcAndroidBaseTest  {
 		AppiumFunctions.Kill_Launch_App();
 		AppiumFunctions.ClickonIUnderstand();
 		AppiumFunctions.clickOnVideos_tile();
-                  Thread.sleep(20000);		
+                  Thread.sleep(80000);		
 		//CharlesFunctions.archive_folder("charles");
 		this.proxy.getXml();
 		Thread.sleep(20000);
