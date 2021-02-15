@@ -69,6 +69,7 @@ public class LATAM_PE_Run extends TwcAndroidBaseTest {
 	//	Functions.close_launchApp();
 		//Utils.navigateToAllCards(false);
 		//CharlesFunctions.archive_folder("charles");
+		AppiumFunctions.clickOnVideos_tile();
 		this.proxy.getXml();
 	//	Utils.createXMLFileForCharlesSessionFile();
 	}
@@ -204,4 +205,67 @@ public class LATAM_PE_Run extends TwcAndroidBaseTest {
 			 Functions.verifyaax_SlotId_supress("f71b7e17-6e34-4f6c-98f6-bbbe9f55586c");
 			System.out.println("=================Verifying supress amazon SlotId for videos preload ad call for LATAM_PE Privacy testcase  End =========================");
 		}	 
+	
+	
+	@Test(priority =728, enabled = true)  
+		  @Title("Verifying home screen hourly ad call presense for Latam_PE_privacy") 
+		  public void  Verifying_homescreenhourly_adCall_Presence_Latam_PE_privacy()throws Exception {
+	   System.out.println("=================Verifying home screen hourly ad call presense for Latam_PE_privacy() privacy  testcase started =========================" );
+		  logStep("Verifying home screen hourly ad call presense for Latam_PE_privacy() privacy");
+		  Functions.finding_Homescreen_iu_value();
+		  System.out.println("=================Verifying home screen hourly ad call presense for Latam_PE_privacy() privacy  testcase  End =========================" );	  
+		  }
+		  
+		  @Test(priority = 730, enabled = true)	  
+		  @Title("Verifying home screen marquee ad call presense for Latam_PE_privacy")	
+		  public void Verifying_homescreenmarquee_adCall_Presence_Latam_PE_privacy() throws	 Exception {
+		  logStep("Verifying home screen marquee ad call presense for Latam_PE_privacy() privacy" ); 
+		  System.out. println("=================Verifying home screen marquee ad call presense for Latam_PE_privacy() privacy test case started =========================" );  
+		  Functions.finding_Homescreen_marquee_iu_value();
+		  System.out.println("=================Verifying home screen marquee ad call presense for Latam_PE_privacy() privacy test case End =========================" );	  
+		  }
+		
+
+			@Test(priority =732, enabled = true)  
+			 @Title("Verifying npa=1 in home screen hourly ad call for Latam_PE_privacy") 
+			public void Verifying_npa_equals_1_homescreenHourly_adCall_Latam_PE_privacy()throws Exception {	  
+			 System.out. println("=================Verifying npa=1 in home screen hourly ad call for Latam_PE_privacy() privacy  testcase started =========================" ); 
+			  Functions.validate_npa_homescrenhourly_dontsellmyinformation();
+			  System.out. println("=================Verifying npa=1 in home screen hourly ad call for Latam_PE_privacy() privacy  testcase End =========================" );
+			  }
+		  
+			@Test(priority =734, enabled = true)  
+			 @Title("Verifying npa=1 in home screen marquee ad call for Latam_PE_privacy") 
+			public void Verifying_npa_equals_1_homescreenmarquee_adCall_Latam_PE_privacy()throws Exception {	  
+			 System.out. println("=================Verifying npa=1 in home screen marquee ad call for Latam_PE_privacy() privacy  testcase started =========================" ); 
+			 Functions.validate_npa_homescreenmarquee_dontsellmyinformation();
+			  System.out. println("=================Verifying npa=1 in home screen marquee ad call for Latam_PE_privacy() privacy  testcase End =========================" );
+			  }
+			  
+			  		  @Test(priority = 736, enabled = true)	  
+		  @Title("Verifying videos ad call presense for Latam_PE_privacy") 
+		  public void Verifying_videos_adCall_Presence_Latam_PE_privacy() throws   Exception {
+		System.out. println("=================Verifying videos ad call presense for Latam_PE_privacy() privacy test case started =========================" );
+		  logStep("Verifying videos ad call presense for Latam_PE_privacy() privacy"); 	
+			/*CharlesFunctions.ClearSessions();
+			AppiumFunctions.Kill_Launch_App();
+			CharlesFunctions.startSessionBrowserData();
+			AppiumFunctions.clickOnVideos_tile();
+			CharlesFunctions.archive_folder("charles");
+			CharlesFunctions.ExportSession();*/
+		  Functions.Verify_video_ad_call_Optoutmode(); 
+		  System.out.println("=================Verifying videos ad call presense for Latam_PE_privacy() privacy test case started End =========================" );  
+		  }
+		  
+		  
+		  @Test(priority =738, enabled = true)  
+	 @Title("Verifying npa=1 in videos ad call for Latam_PE_privacy") 
+	public void Verifying_npa_equals_1_videos_adCall_Latam_PE_privacy()throws Exception {	  
+	 System.out. println("=================Verifying npa=1 in detailed page ad call for Latam_PE_privacy() privacy testcase started =========================" ); 
+	 Functions.validate_npa_video_ad_dontsellmyinformation();
+	  System.out. println("=================Verifying npa=1 in detailed page ad call for Latam_PE_privacy() privacy testcase End =========================" );
+	  }
+	
+	
+	
 }
