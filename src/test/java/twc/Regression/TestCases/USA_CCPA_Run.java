@@ -27,7 +27,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 	
 	
 	private static final String CONFIG_FILE_PATH = "enableUSACCPA.config";
-	private static final String CONFIG_FILE_PATH1 = "enableLGPD.config";
+	private static final String LGPD_CONFIG_FILE_PATH = "enableLGPD.config";
 	private CharlesProxy proxy;
 	private File configFile;
 	
@@ -355,12 +355,12 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 				logStep("Enable Preconfiguration for USACCPA Travel Scenario");
 				proxy.quitCharlesProxy();
 				// Ad.closeApp();
-				this.configFile = this.rewriteRuleToEnableLGPD(CONFIG_FILE_PATH1);
-				this.proxy = new CharlesProxy("localhost", 8333, CONFIG_FILE_PATH1);
-				this.proxy.startCharlesProxyWithUI();
-				this.proxy.disableRewriting();
-				this.proxy.stopRecording();
-				this.proxy.disableMapLocal();
+				this.configFile = this.rewriteRuleToEnableLGPD(LGPD_CONFIG_FILE_PATH);
+				this.proxy = new CharlesProxy("localhost", 8333, LGPD_CONFIG_FILE_PATH);
+				proxy.startCharlesProxyWithUI();
+		                proxy.enableRewriting();
+		                proxy.startRecording();
+		                proxy.disableMapLocal();
 				// Ad.launchApp();
 				AppiumFunctions.Kill_Launch_App();
 				AppiumFunctions.ClickonIUnderstand();
