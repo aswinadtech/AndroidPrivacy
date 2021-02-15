@@ -27,6 +27,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 	
 	
 	private static final String CONFIG_FILE_PATH = "enableUSACCPA.config";
+	private static final String CONFIG_FILE_PATH1 = "enableLGPD.config";
 	private CharlesProxy proxy;
 	private File configFile;
 	
