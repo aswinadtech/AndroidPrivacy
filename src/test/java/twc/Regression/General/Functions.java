@@ -3217,9 +3217,9 @@ public static void validate_SOD_Cust_param_homescreenHourly_Optoutmode() throws 
 				logStep("SOD cust param value for   iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fhome_screen%%2Fhourly  is " +SOD);
 			}
 			else {
-				System.out.println("SOD cust param value for   iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fhome_screen%2Fhourly   is not matchged with"     +SOD);
-				logStep("SOD cust param value for   iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fhome_screen%2Fhourly  is not matchged with"     +SOD);
-				Assert.fail("SOD cust param value for   iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fhome_screen%2Fhourly  is not matchged with"     +SOD);
+				System.out.println("SOD cust param value for   iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fhome_screen%2Fhourly   is not matched with"     +SOD);
+				logStep("SOD cust param value for   iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fhome_screen%2Fhourly  is not matched with"     +SOD);
+				Assert.fail("SOD cust param value for   iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fhome_screen%2Fhourly  is not matched with"     +SOD);
 			}
 			//System.out.println(expectedValues);
 			
@@ -3421,9 +3421,9 @@ public static void validate_npa_homescreen_Optoutmode() throws Exception {
 			logStep("npa value for feed_1 ad call is " +"1");
 			}
 		else {
-				System.out.println("npa  value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Ffeed%2Ffeed_1 ad call is not matchged with"     +"1");
-				logStep("npa  value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Ffeed%2Ffeed_1 ad call is not matchged with"     +"1");
-				Assert.fail("npa  value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Ffeed%2Ffeed_1 ad call is not matchged with"     +"1");
+				System.out.println("npa  value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Ffeed%2Ffeed_1 ad call is not matched with"     +"1");
+				logStep("npa  value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Ffeed%2Ffeed_1 ad call is not matched with"     +"1");
+				Assert.fail("npa  value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Ffeed%2Ffeed_1 ad call is not matched with"     +"1");
 			}
 			
 		}
@@ -3472,9 +3472,9 @@ public static void validate_npa_homescreenmarquee_Optoutmode() throws Exception 
 			logStep("npa value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fhome_screen%2Fmarquee  ad call is " +"1");
 			}
 		else {
-				System.out.println("npa  value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fhome_screen%2Fmarquee ad call is not matchged with"     +"1");
-				logStep("npa  value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fhome_screen%2Fmarquee ad call is not matchged with"     +"1");
-				Assert.fail("npa  value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fhome_screen%2Fmarquee ad call is not matchged with"     +"1");
+				System.out.println("npa  value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fhome_screen%2Fmarquee ad call is not matched with"     +"1");
+				logStep("npa  value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fhome_screen%2Fmarquee ad call is not matched with"     +"1");
+				Assert.fail("npa  value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fhome_screen%2Fmarquee ad call is not matched with"     +"1");
 			}
 			
 		}
@@ -3715,9 +3715,9 @@ public static void validate_RDP_feed_Optoutmode() throws Exception {
 			logStep("RDP value for feed ad call is " +"1");
 			}
 		else {
-				System.out.println("RDP  value for feed ad call is not matchged with"     +"1");
-				logStep("RDP  value for feed ad call is not matchged with"     +"1");
-				Assert.fail("RDP for feed ad call call  is not matchged with"     +"1");
+				System.out.println("RDP  value for feed ad call is not matched with"     +"1");
+				logStep("RDP  value for feed ad call is not matched with"     +"1");
+				Assert.fail("RDP for feed ad call call  is not matched with"     +"1");
 			}
 			
 		}
@@ -3740,8 +3740,8 @@ public static void validate_npa_detailed_feed_Optoutmode() throws Exception {
 			logStep("RDP value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fmaps ad call is " +"1");
 			}
 		else {
-				System.out.println("RDP  value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fmaps ad call is not matchged with"     +"1");
-				logStep("RDP  value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fmaps ad call is not matchged with"     +"1");
+				System.out.println("RDP  value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fmaps ad call is not matched with"     +"1");
+				logStep("RDP  value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fmaps ad call is not matched with"     +"1");
 				Assert.fail("RDP for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fmaps ad call  is not matched with"     +"1");
 			}
 			
@@ -3764,8 +3764,8 @@ public static void validate_RDP_detailed_feed_Optoutmode() throws Exception {
 			logStep("RDP value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fmaps ad call is " +"1");
 			}
 		else {
-				System.out.println("RDP  value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fmaps ad call is not matchged with"     +"1");
-				logStep("RDP  value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fmaps ad call is not matchged with"     +"1");
+				System.out.println("RDP  value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fmaps ad call is not matched with"     +"1");
+				logStep("RDP  value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fmaps ad call is not matched with"     +"1");
 				Assert.fail("RDP for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fmaps ad call  is not matched with"     +"1");
 			}
 			
@@ -3788,9 +3788,9 @@ public static void validate_npa_video_ad_Optoutmode() throws Exception {
 			logStep("npa value for iu=%2F7646%2Fapp_android_us%2Fvideo ad call is " +"1");
 			}
 		else {
-				System.out.println("npa  value for iu=%2F7646%2Fapp_android_us%2Fvideo ad call is not matchged with"     +"1");
-				logStep("npa  value for iu=%2F7646%2Fapp_android_us%2Fvideo ad call is not matchged with"     +"1");
-				Assert.fail("npa for iu=%2F7646%2Fapp_android_us%2Fvideo ad call  is not matchged with"     +"1");
+				System.out.println("npa  value for iu=%2F7646%2Fapp_android_us%2Fvideo ad call is not matched with"     +"1");
+				logStep("npa  value for iu=%2F7646%2Fapp_android_us%2Fvideo ad call is not matched with"     +"1");
+				Assert.fail("npa for iu=%2F7646%2Fapp_android_us%2Fvideo ad call  is not matched with"     +"1");
 			}
 			
 		}
@@ -3810,21 +3810,21 @@ public static void validate_RDP_video_ad_Optoutmode() throws Exception {
 			logStep("RDP value for iu=%2F7646%2Fapp_android_us%2Fvideo ad call is " +"1");
 			}
 		else {
-			System.out.println("RDP  value for iu=%2F7646%2Fapp_android_us%2Fvideo ad call is not matchged with"     +"1");
-			logStep("RDP  value for iu=%2F7646%2Fapp_android_us%2Fvideo ad call is not matchged with"     +"1");
-			Assert.fail("RDP for iu=%2F7646%2Fapp_android_us%2Fvideo ad call  is not matchged with"     +"1");
+			System.out.println("RDP  value for iu=%2F7646%2Fapp_android_us%2Fvideo ad call is not matched with"     +"1");
+			logStep("RDP  value for iu=%2F7646%2Fapp_android_us%2Fvideo ad call is not matched with"     +"1");
+			Assert.fail("RDP for iu=%2F7646%2Fapp_android_us%2Fvideo ad call  is not matched with"     +"1");
 		}
 	}
 	else {
-		System.out.println("RDP  value for iu=%2F7646%2Fapp_android_us%2Fvideo ad call is not matchged with"     +"1");
-		logStep("RDP  value for iu=%2F7646%2Fapp_android_us%2Fvideo ad call is not matchged with"     +"1");
-		Assert.fail("RDP for iu=%2F7646%2Fapp_android_us%2Fvideo ad call  is not matchged with"     +"1");
+		System.out.println("RDP  value for iu=%2F7646%2Fapp_android_us%2Fvideo ad call is not matched with"     +"1");
+		logStep("RDP  value for iu=%2F7646%2Fapp_android_us%2Fvideo ad call is not matched with"     +"1");
+		Assert.fail("RDP for iu=%2F7646%2Fapp_android_us%2Fvideo ad call  is not matched with"     +"1");
 	}
 	}
 		catch(Exception e) {
-				System.out.println("RDP  value for iu=%2F7646%2Fapp_android_us%2Fvideo ad call is not matchged with"     +"1");
-				logStep("RDP  value for iu=%2F7646%2Fapp_android_us%2Fvideo ad call is not matchged with"     +"1");
-				Assert.fail("RDP for iu=%2F7646%2Fapp_android_us%2Fvideo ad call  is not matchged with"     +"1");
+				System.out.println("RDP  value for iu=%2F7646%2Fapp_android_us%2Fvideo ad call is not matched with"     +"1");
+				logStep("RDP  value for iu=%2F7646%2Fapp_android_us%2Fvideo ad call is not matched with"     +"1");
+				Assert.fail("RDP for iu=%2F7646%2Fapp_android_us%2Fvideo ad call  is not matched with"     +"1");
 			}
 			
 		}
@@ -3999,9 +3999,9 @@ public static void validate_SOD_Cust_param_homescreen_Optinmode() throws Excepti
 				logStep("SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fhome_screen%2Fmarquee call is " +SOD);
 			}
 			else {
-				System.out.println("SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fhome_screen%2Fmarquee call is not matchged with"     +SOD);
-				logStep("SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fhome_screen%2Fmarquee call is not matchged with"     +SOD);
-				Assert.fail("SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fhome_screen%2Fmarquee call is not matchged with"     +SOD);
+				System.out.println("SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fhome_screen%2Fmarquee call is not matched with"     +SOD);
+				logStep("SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fhome_screen%2Fmarquee call is not matched with"     +SOD);
+				Assert.fail("SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fhome_screen%2Fmarquee call is not matched with"     +SOD);
 			}
 			//System.out.println(expectedValues);
 			
@@ -4035,9 +4035,9 @@ public static void validate_SOD_Cust_param_homescreenhourly_Optinmode() throws E
 				logStep("SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fhome_screen%2Fhourly call is " +SOD);
 			}
 			else {
-				System.out.println("SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fhome_screen%2Fhourly call is not matchged with"     +SOD);
-				logStep("SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fhome_screen%2Fhourly call is not matchged with"     +SOD);
-				Assert.fail("SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fhome_screen%2Fhourly call is not matchged with"     +SOD);
+				System.out.println("SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fhome_screen%2Fhourly call is not matched with"     +SOD);
+				logStep("SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fhome_screen%2Fhourly call is not matched with"     +SOD);
+				Assert.fail("SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fhome_screen%2Fhourly call is not matched with"     +SOD);
 			}
 			//System.out.println(expectedValues);
 			
@@ -4070,9 +4070,9 @@ public static void validate_SOD_Cust_param_feed_Optinmode() throws Exception {
 				logStep("SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Ffeed%2Ffeed_1 call is " +SOD);
 			}
 			else {
-				System.out.println("SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Ffeed%2Ffeed_1 call is not matchged with"     + SOD);
-				logStep("SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Ffeed%2Ffeed_1 call is not matchged with"     + SOD);
-				Assert.fail("SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Ffeed%2Ffeed_1 call is not matchged with"     + SOD);
+				System.out.println("SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Ffeed%2Ffeed_1 call is not matched with"     + SOD);
+				logStep("SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Ffeed%2Ffeed_1 call is not matched with"     + SOD);
+				Assert.fail("SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Ffeed%2Ffeed_1 call is not matched with"     + SOD);
 			}
 			//System.out.println(expectedValues);
 			
@@ -4101,9 +4101,9 @@ public static void validate_SOD_Cust_param_deatiledfeed_Optinmode() throws Excep
 				logStep("SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fmaps ad call is " +SOD);
 			}
 			else {
-				System.out.println("SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fmaps ad call is not matchged with"     + SOD);
-				logStep("SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fmaps ad call is not matchged with"     + SOD);
-				Assert.fail("SOD cust param value for deatiled iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fmaps call is not matchged with"     + SOD);
+				System.out.println("SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fmaps ad call is not matched with"     + SOD);
+				logStep("SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fmaps ad call is not matched with"     + SOD);
+				Assert.fail("SOD cust param value for deatiled iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fmaps call is not matched with"     + SOD);
 			}
 			//System.out.println(expectedValues);
 			
@@ -4136,9 +4136,9 @@ public static void validate_SOD_Cust_param_video_Optinmode() throws Exception {
 				logStep("SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fvideo ad call is " +SOD);
 			}
 			else {
-				System.out.println("SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fvideo ad call is not matchged with"     + SOD);
-				logStep("SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fvideo ad call is not matchged with"     + SOD);
-				Assert.fail("SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fvideo ad call is not matchged with"     + SOD);
+				System.out.println("SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fvideo ad call is not matched with"     + SOD);
+				logStep("SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fvideo ad call is not matched with"     + SOD);
+				Assert.fail("SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fvideo ad call is not matched with"     + SOD);
 			}
 			//System.out.println(expectedValues);
 			
