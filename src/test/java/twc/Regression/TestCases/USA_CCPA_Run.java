@@ -358,9 +358,11 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 				this.configFile = this.rewriteRuleToEnableLGPD(LGPD_CONFIG_FILE_PATH);
 				this.proxy = new CharlesProxy("localhost", 8333, LGPD_CONFIG_FILE_PATH);
 				proxy.startCharlesProxyWithUI();
+				this.proxy.disableRewriting();
+		                 this.proxy.stopRecording();
+		                this.proxy.disableMapLocal();
 		                proxy.enableRewriting();
 		                proxy.startRecording();
-		                proxy.disableMapLocal();
 				// Ad.launchApp();
 				AppiumFunctions.Kill_Launch_App();
 				AppiumFunctions.ClickonIUnderstand();
