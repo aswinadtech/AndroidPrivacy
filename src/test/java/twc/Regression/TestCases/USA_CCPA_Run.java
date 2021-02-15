@@ -365,6 +365,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 		                proxy.startRecording();
 				// Ad.launchApp();
 				AppiumFunctions.Kill_Launch_App();
+				
 				AppiumFunctions.ClickonIUnderstand();
 				
 			}
