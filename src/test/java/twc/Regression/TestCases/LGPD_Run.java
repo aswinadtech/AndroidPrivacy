@@ -60,7 +60,6 @@ public class LGPD_Run extends TwcAndroidBaseTest  {
 		// Enable rewriting on Charles install/launch TWC
 		this.proxy.enableRewriting();
 		this.proxy.startRecording();
-		CharlesFunctions.archive_folder(“Charles”);
 		this.proxy.clearCharlesSession();
 		AppiumFunctions.LaunchAppWithFullReset();
 		System.out.println("Launching the app with full reset");
@@ -337,7 +336,7 @@ public class LGPD_Run extends TwcAndroidBaseTest  {
 	 System.out. println("=================Verifying npa=1 in detailed page ad call for LGPD privacy testcase started =========================" ); 
 	 Functions.validate_npa_video_ad_dontsellmyinformation();
 	  System.out. println("=================Verifying npa=1 in detailed page ad call for LGPD privacy testcase End =========================" );
-	  CharlesFunctions.archive_folder(“Charles”);
+	 
 	  }
 	
 	/*@BeforeTest
