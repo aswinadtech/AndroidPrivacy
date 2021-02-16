@@ -70,7 +70,7 @@ public class EXEMPT_Run extends TwcAndroidBaseTest {
 		//Utils.navigateToAllCards(false);
 		//CharlesFunctions.archive_folder("charles");
 		this.proxy.getXml();
-	AppiumFunctions.clickOnVideos_tile();
+	//AppiumFunctions.clickOnVideos_tile();
 	//	Utils.createXMLFileForCharlesSessionFile();
 	}
 	@Test(priority =802,enabled = true)  
@@ -206,64 +206,7 @@ public class EXEMPT_Run extends TwcAndroidBaseTest {
 			System.out.println("=================Verifying supress amazon SlotId for videos preload ad call for EXEMPT Privacy testcase  End =========================");
 		}	
 	
-	@Test(priority =828, enabled = true)  
-		  @Title("Verifying home screen hourly ad call presense for EXEMPT_privacy") 
-		  public void  Verifying_homescreenhourly_adCall_Presence_EXEMPT_privacy()throws Exception {
-	   System.out.println("=================Verifying home screen hourly ad call presense for EXEMPT_privacy() privacy  testcase started =========================" );
-		  logStep("Verifying home screen hourly ad call presense for EXEMPT_privacy() privacy");
-		  Functions.finding_Homescreen_iu_value();
-		  System.out.println("=================Verifying home screen hourly ad call presense for EXEMPT_privacy() privacy  testcase  End =========================" );	  
-		  }
-		  
-		  @Test(priority = 830, enabled = true)	  
-		  @Title("Verifying home screen marquee ad call presense for EXEMPT_privacy")	
-		  public void Verifying_homescreenmarquee_adCall_Presence_EXEMPT_privacy() throws	 Exception {
-		  logStep("Verifying home screen marquee ad call presense for EXEMPT_privacy() privacy" ); 
-		  System.out. println("=================Verifying home screen marquee ad call presense for EXEMPT_privacy() privacy test case started =========================" );  
-		  Functions.finding_Homescreen_marquee_iu_value();
-		  System.out.println("=================Verifying home screen marquee ad call presense for EXEMPT_privacy() privacy test case End =========================" );	  
-		  }
-		
-
-			@Test(priority =832, enabled = true)  
-			 @Title("Verifying npa=1 in home screen hourly ad call for EXEMPT_privacy") 
-			public void Verifying_npa_equals_1_homescreenHourly_adCall_EXEMPT_privacy()throws Exception {	  
-			 System.out. println("=================Verifying npa=1 in home screen hourly ad call for EXEMPT_privacy() privacy  testcase started =========================" ); 
-			  Functions.validate_npa_homescrenhourly_dontsellmyinformation();
-			  System.out. println("=================Verifying npa=1 in home screen hourly ad call for EXEMPT_privacy() privacy  testcase End =========================" );
-			  }
-		  
-			@Test(priority =834, enabled = true)  
-			 @Title("Verifying npa=1 in home screen marquee ad call for EXEMPT_privacy") 
-			public void Verifying_npa_equals_1_homescreenmarquee_adCall_EXEMPT_privacy()throws Exception {	  
-			 System.out. println("=================Verifying npa=1 in home screen marquee ad call for EXEMPT_privacy() privacy  testcase started =========================" ); 
-			 Functions.validate_npa_homescreenmarquee_dontsellmyinformation();
-			  System.out. println("=================Verifying npa=1 in home screen marquee ad call for EXEMPT_privacy() privacy  testcase End =========================" );
-			  }
-			  
-			  		  @Test(priority = 836, enabled = true)	  
-		  @Title("Verifying videos ad call presense for EXEMPT_privacy") 
-		  public void Verifying_videos_adCall_Presence_EXEMPT_privacy() throws   Exception {
-		System.out. println("=================Verifying videos ad call presense for EXEMPT_privacy() privacy test case started =========================" );
-		  logStep("Verifying videos ad call presense for EXEMPT_privacy() privacy"); 	
-			/*CharlesFunctions.ClearSessions();
-			AppiumFunctions.Kill_Launch_App();
-			CharlesFunctions.startSessionBrowserData();
-			AppiumFunctions.clickOnVideos_tile();
-			CharlesFunctions.archive_folder("charles");
-			CharlesFunctions.ExportSession();*/
-		  Functions.Verify_video_ad_call_Optoutmode(); 
-		  System.out.println("=================Verifying videos ad call presense for EXEMPT_privacy() privacy test case started End =========================" );  
-		  }
-		  
-		  
-		  @Test(priority =838, enabled = true)  
-	 @Title("Verifying npa=1 in videos ad call for EXEMPT_privacy") 
-	public void Verifying_npa_equals_1_videos_adCall_EXEMPT_privacy()throws Exception {	  
-	 System.out. println("=================Verifying npa=1 in detailed page ad call for EXEMPT_privacy() privacy testcase started =========================" ); 
-	 Functions.validate_npa_video_ad_dontsellmyinformation();
-	  System.out. println("=================Verifying npa=1 in detailed page ad call for EXEMPT_privacy() privacy testcase End =========================" );
-	  }
+	
 
 
 }
