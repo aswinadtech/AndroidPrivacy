@@ -381,6 +381,13 @@ public class USA_Run extends TwcAndroidBaseTest {
 		  System.out.println("=================Verifying Lotame ad.crwdcntrl.net api call supressing for USA-CCPA privacy test case  started =========================");
 			this.proxy.clearCharlesSession();
 		  AppiumFunctions.Kill_Launch_App();  
+			  AppiumFunctions.Kill_Launch_App();  
+			  AppiumFunctions.Kill_Launch_App();
+			  AppiumFunctions.Kill_Launch_App();
+			  AppiumFunctions.Kill_Launch_App();
+			  this.proxy.clearCharlesSession();
+			  AppiumFunctions.Kill_Launch_App();
+			  AppiumFunctions.Kill_Launch_App();
 		   AppiumFunctions.clickOnMaps_tile();
 			AppiumFunctions.clickOnVideos_tile();
 			//CharlesFunctions.archive_folder("charles");
