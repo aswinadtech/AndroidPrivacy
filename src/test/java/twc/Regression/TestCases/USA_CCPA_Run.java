@@ -660,7 +660,6 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 					this.proxy.disableMapLocal();
 					this.proxy.enableRewriting();
 	          	         this.proxy.startRecording();
-				CharlesFunctions.archive_folder(“Charles”);
 		               this.proxy.clearCharlesSession();
 				//	Functions.close_launchApp();
 					//Utils.navigateToAllCards(false);
