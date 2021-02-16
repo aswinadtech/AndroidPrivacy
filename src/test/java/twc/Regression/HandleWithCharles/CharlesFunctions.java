@@ -178,7 +178,7 @@ public class CharlesFunctions extends Drivers{
 	}*/
 	
 	
-	// Archives Charles session xml files
+// Archives Charles session xml files
 		public static void archive_folder(String folderType) throws Exception {
 			DeviceStatus device_status = new DeviceStatus();
 			int Cap = device_status.Device_Status();
