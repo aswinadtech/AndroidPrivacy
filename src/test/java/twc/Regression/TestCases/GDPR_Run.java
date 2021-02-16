@@ -91,7 +91,7 @@ public class GDPR_Run extends TwcAndroidBaseTest  {
 			AppiumFunctions.clickOnAllow();
 		System.out.println("App launched ");
 		AppiumFunctions.gettingApkVersion();		
-		//CharlesFunctions.archive_folder("charles");
+		CharlesFunctions.archive_folder("charles");
 		this.proxy.clearCharlesSession();
 		AppiumFunctions.Kill_Launch_App();
 		AppiumFunctions.ClickonIUnderstand();
