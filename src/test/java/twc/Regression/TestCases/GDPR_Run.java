@@ -231,7 +231,9 @@ public class GDPR_Run extends TwcAndroidBaseTest  {
 			System.out.println("=================Verifying supress amazon SlotId for videos preload ad call for GDPR Privacy testcase Started =========================");
 			logStep("Verifying supress amazon SlotId for videos preload ad call for GDPR Privacy");
 			 Functions.verifyaax_SlotId_supress("f71b7e17-6e34-4f6c-98f6-bbbe9f55586c");
+			CharlesFunctions.archive_folder(“Charles”);
 			System.out.println("=================Verifying supress amazon SlotId for videos preload ad call for GDPR Privacy testcase  End =========================");
+			
 		    
 		}	 
 	
