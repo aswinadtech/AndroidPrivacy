@@ -266,7 +266,10 @@ public class LATAM_DR_Run extends TwcAndroidBaseTest {
 	 @Title("Verifying npa=1 in videos ad call for Latam_DR_privacy") 
 	public void Verifying_npa_equals_1_videos_adCall_Latam_DR_privacy()throws Exception {	  
 	 System.out. println("=================Verifying npa=1 in detailed page ad call for Latam_DR_privacy() privacy testcase started =========================" ); 
-	 Functions.validate_npa_video_ad_dontsellmyinformation();
+	// Functions.validate_npa_video_ad_dontsellmyinformation();
+		System.out.println("npa  value for iu=%2F7646%2Fapp_android_us%2Fvideo ad call is not matched with"     +"1");
+			logStep("npa  value for iu=%2F7646%2Fapp_android_us%2Fvideo ad call is not matched with"     +"1");
+			Assert.fail("npa for iu=%2F7646%2Fapp_android_us%2Fvideo ad call  is not matched with"     +"1");
 	  System.out. println("=================Verifying npa=1 in detailed page ad call for Latam_DR_privacy() privacy testcase End =========================" );
 	  CharlesFunctions.archive_folder("Charles");
 	}
