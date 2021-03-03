@@ -62,6 +62,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 		// Enable rewriting on Charles install/launch TWC
 		this.proxy.enableRewriting();
 		this.proxy.startRecording();
+		CharlesFunctions.archive_folder("Charles");
 		this.proxy.clearCharlesSession();
 		AppiumFunctions.LaunchAppWithFullReset();
 		   AppiumFunctions.resetApp();
@@ -69,7 +70,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 			AppiumFunctions.ClickonIUnderstand();
 			AppiumFunctions.ClickonIUnderstand();
 			AppiumFunctions.clickOnAllow();
-		
+		attachScreen();
 		System.out.println("App launched ");
 		this.proxy.clearCharlesSession();
 		AppiumFunctions.Kill_Launch_App();
@@ -343,6 +344,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 		  System.out. println("================= Verifying rdp=1 in videos  ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information test case started =========================");
 		  Functions.validate_RDP_video_ad_Optoutmode();
 		  System.out. println("================= Verifying rdp=1 in videos  ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information test case End =========================");
+		 CharlesFunctions.archive_folder("Charles");
 		  }
 		  
 	  
@@ -374,7 +376,8 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 		  public void Verifying_Loatme_adcrwdcntrlnet_apiCall_supressing_USA_CCPA_Privacy_DoNotSellMyInformation_for_USACCPA_Travel_Scenario()  throws Exception {  
 		  logStep("Verifying Lotame ad.crwdcntrl.net api call supressing for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA Travel Scenario"); 
 		  System.out.println("=================Verifying Lotame ad.crwdcntrl.net api call supressing for USA-CCPA privacy test case  started =========================");
-			this.proxy.clearCharlesSession();
+			CharlesFunctions.archive_folder("Charles");
+			  this.proxy.clearCharlesSession();
 		  AppiumFunctions.Kill_Launch_App();  
 			  AppiumFunctions.Kill_Launch_App();
 			  AppiumFunctions.Kill_Launch_App();
@@ -643,7 +646,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 				  System.out. println("================= Verifying rdp=1 in videos  ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA Travel Scenario test case started =========================");
 				 Functions.validate_npa_video_ad_dontsellmyinformation();
 				 System.out. println("================= Verifying rdp=1 in videos  ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA Travel Scenario test case End =========================");
-				
+				CharlesFunctions.archive_folder("Charles");
 				 }
 		 
 
@@ -660,6 +663,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 					this.proxy.disableMapLocal();
 					this.proxy.enableRewriting();
 	          	         this.proxy.startRecording();
+					CharlesFunctions.archive_folder("Charles");
 		               this.proxy.clearCharlesSession();
 				//	Functions.close_launchApp();
 					//Utils.navigateToAllCards(false);
@@ -930,7 +934,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 			  logStep("Verifying rdp keyword supress in videos call for USA-CCPA privacy when Advertising option set to Standard Advertising Settings");
 			  Functions.validate_RDP_video_ad_Optinmode(); 
 			  System.out. println("================= Verifying rdp keyword supress in videos call for USA-CCPA privacy when Advertising option set to Standard Advertising Settings test case End =========================" );
-		
+		          CharlesFunctions.archive_folder("Charles");
 			  }
 			  
 
