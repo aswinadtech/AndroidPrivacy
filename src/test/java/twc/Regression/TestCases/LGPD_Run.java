@@ -73,7 +73,9 @@ public class LGPD_Run extends TwcAndroidBaseTest  {
 		this.proxy.clearCharlesSession();
 		AppiumFunctions.Kill_Launch_App();
 		AppiumFunctions.ClickonIUnderstand();
+		attachScreen();
 		AppiumFunctions.clickOnVideos_tile();
+		attachScreen();
                   Thread.sleep(80000);		
 		//CharlesFunctions.archive_folder("charles");
 		this.proxy.getXml();
