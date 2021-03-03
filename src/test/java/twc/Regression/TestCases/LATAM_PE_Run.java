@@ -49,6 +49,7 @@ public class LATAM_PE_Run extends TwcAndroidBaseTest {
 		// Enable rewriting on Charles install/launch TWC
 		this.proxy.enableRewriting();
 		this.proxy.startRecording();
+		CharlesFunctions.archive_folder("Charles");
 		this.proxy.clearCharlesSession();
 		AppiumFunctions.LaunchAppWithFullReset();
 		   AppiumFunctions.resetApp();
@@ -263,6 +264,7 @@ public class LATAM_PE_Run extends TwcAndroidBaseTest {
 	public void Verifying_npa_equals_1_videos_adCall_Latam_PE_privacy()throws Exception {	  
 	 System.out. println("=================Verifying npa=1 in detailed page ad call for Latam_PE_privacy() privacy testcase started =========================" ); 
 	 Functions.validate_npa_video_ad_dontsellmyinformation();
+		CharlesFunctions.archive_folder("Charles");
 	  System.out. println("=================Verifying npa=1 in detailed page ad call for Latam_PE_privacy() privacy testcase End =========================" );
 	  }
 	
