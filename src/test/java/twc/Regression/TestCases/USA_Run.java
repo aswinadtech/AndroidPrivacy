@@ -668,7 +668,7 @@ public class USA_Run extends TwcAndroidBaseTest {
 	//==========================================================================================================//
 	  
 				@Test(priority = 416,enabled = true)
-				public void preConditionsTest_for_USA_CCPA1() throws Exception {
+				public void preConditionsTest_for_USA1() throws Exception {
 					proxy.quitCharlesProxy();
 					this.configFile = this.rewriteRuleToEnableUSA(CONFIG_FILE_PATH);
 					this.proxy = new CharlesProxy("localhost", 8333, CONFIG_FILE_PATH);
