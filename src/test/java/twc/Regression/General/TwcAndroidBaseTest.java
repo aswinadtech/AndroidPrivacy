@@ -248,7 +248,7 @@ public class TwcAndroidBaseTest extends Drivers{
 
 		config.addRule(RewriteRuleType.MODIFY_HEADER, false, true, "twc-privacy", false, "[A-Za-z0-9\\.\\-]+", true, false, false, "twc-privacy", false, "latam-do", false, RewriteRuleReplaceType.ONLY_FIRST);
 
-		config.addRule(RewriteRuleType.MODIFY_HEADER, false, true, "twc-geoip-country", false, "[A-Za-z0-9\\.\\-]+", true, false, false, "twc-geoip-country", false, "DR", false, RewriteRuleReplaceType.ONLY_FIRST);
+		config.addRule(RewriteRuleType.MODIFY_HEADER, false, true, "twc-geoip-country", false, "[A-Za-z0-9\\.\\-]+", true, false, false, "twc-geoip-country", false, "DO", false, RewriteRuleReplaceType.ONLY_FIRST);
 
 		config.addLocation(Protocol.HTTPS, "dsx.weather.com", "", "/cms/v5/privacy/en_US/twc-android-flagship/3", "");
 
