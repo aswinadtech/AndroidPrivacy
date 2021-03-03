@@ -85,16 +85,22 @@ public class GDPR_Run extends TwcAndroidBaseTest  {
         AppiumFunctions.settingProxyEnable("Manual",AppiumFunctions.current_IPAddress,AppiumFunctions.defaultPortNumber);*/	
 		AppiumFunctions.LaunchAppWithFullReset();
 		  	AppiumFunctions.clickONNext();
+		
 			AppiumFunctions.ClickonIUnderstand();
+		
 			AppiumFunctions.ClickonIUnderstand();
+		attachScreen();
 			AppiumFunctions.ClickonIUnderstand();
 			AppiumFunctions.clickOnAllow();
+		attachScreen();
 		System.out.println("App launched ");
-		AppiumFunctions.gettingApkVersion();		
+		AppiumFunctions.gettingApkVersion();
+		attachScreen();
 		CharlesFunctions.archive_folder("Charles");
 		this.proxy.clearCharlesSession();
 		AppiumFunctions.Kill_Launch_App();
 		AppiumFunctions.ClickonIUnderstand();
+		attachScreen();
 		//CharlesFunctions.archive_folder("charles");
 		this.proxy.getXml();
 		//CharlesFunctions.archive_folder("charles");
@@ -233,7 +239,7 @@ public class GDPR_Run extends TwcAndroidBaseTest  {
 			 Functions.verifyaax_SlotId_supress("f71b7e17-6e34-4f6c-98f6-bbbe9f55586c");
 			//CharlesFunctions.archive_folder(“Charles”);
 			System.out.println("=================Verifying supress amazon SlotId for videos preload ad call for GDPR Privacy testcase  End =========================");
-				//CharlesFunctions.archive_folder("Charles");
+				CharlesFunctions.archive_folder("Charles");
 		    
 		}	 
 	
