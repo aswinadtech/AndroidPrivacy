@@ -49,6 +49,7 @@ public class LATAM_DR_Run extends TwcAndroidBaseTest {
 		// Enable rewriting on Charles install/launch TWC
 		this.proxy.enableRewriting();
 		this.proxy.startRecording();
+		CharlesFunctions.archive_folder("Charles");
 		this.proxy.clearCharlesSession();
 		AppiumFunctions.LaunchAppWithFullReset();
 		   AppiumFunctions.resetApp();
@@ -264,6 +265,7 @@ public class LATAM_DR_Run extends TwcAndroidBaseTest {
 	 System.out. println("=================Verifying npa=1 in detailed page ad call for Latam_DR_privacy() privacy testcase started =========================" ); 
 	 Functions.validate_npa_video_ad_dontsellmyinformation();
 	  System.out. println("=================Verifying npa=1 in detailed page ad call for Latam_DR_privacy() privacy testcase End =========================" );
-	  }
+	  CharlesFunctions.archive_folder("Charles");
+	}
 	
 }
