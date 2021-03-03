@@ -338,7 +338,7 @@ public class LGPD_Run extends TwcAndroidBaseTest  {
 	 System.out. println("=================Verifying npa=1 in detailed page ad call for LGPD privacy testcase started =========================" ); 
 	 Functions.validate_npa_video_ad_dontsellmyinformation();
 	  System.out. println("=================Verifying npa=1 in detailed page ad call for LGPD privacy testcase End =========================" );
-		CharlesFunctions.archive_folder("charles");
+	CharlesFunctions.archive_folder("Charles");
 	 
 	  }
 	
