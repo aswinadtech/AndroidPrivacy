@@ -5,7 +5,7 @@ import java.io.File;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-
+import org.testng.Assert;
 import ru.yandex.qatools.allure.annotations.Title;
 import twc.Regression.General.Functions;
 import twc.Regression.General.TwcAndroidBaseTest;
