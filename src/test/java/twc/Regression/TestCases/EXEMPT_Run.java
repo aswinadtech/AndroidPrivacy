@@ -50,6 +50,7 @@ public class EXEMPT_Run extends TwcAndroidBaseTest {
 		// Enable rewriting on Charles install/launch TWC
 		this.proxy.enableRewriting();
 		this.proxy.startRecording();
+		CharlesFunctions.archive_folder("Charles");
 		this.proxy.clearCharlesSession();
 		AppiumFunctions.LaunchAppWithFullReset();
 		   AppiumFunctions.resetApp();
@@ -204,6 +205,7 @@ public class EXEMPT_Run extends TwcAndroidBaseTest {
 			logStep("Verifying supress amazon SlotId for videos preload ad call for EXEMPT Privacy");
 			 Functions.verifyaax_SlotId_supress("f71b7e17-6e34-4f6c-98f6-bbbe9f55586c");
 			System.out.println("=================Verifying supress amazon SlotId for videos preload ad call for EXEMPT Privacy testcase  End =========================");
+		        CharlesFunctions.archive_folder("Charles");
 		}	
 	
 	
