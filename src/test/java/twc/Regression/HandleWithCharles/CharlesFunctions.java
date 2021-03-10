@@ -22,6 +22,7 @@ import twc.Regression.ReadDataFromFile.write_excel_data;
 
 public class CharlesFunctions extends Drivers{
 	
+	public static File outfile = null;
 	
 	public static void ClearSessions() throws Exception{
 
