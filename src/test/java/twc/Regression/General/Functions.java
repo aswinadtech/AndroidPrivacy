@@ -5243,5 +5243,198 @@ public static void verifyCriteo_config_app_Call(String sheetName, boolean expect
 	}
 
 }
+	
+	public static boolean verifyAPICalWithHostandPath(String host, String path) throws Exception {
+	// readExcelValues.excelValues(excelName, sheetName);
+	File fXmlFile = new File(CharlesFunctions.outfile.getName());
+
+	DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
+	dbFactory.setValidating(false);
+	dbFactory.setNamespaceAware(true);
+	dbFactory.setFeature("http://xml.org/sax/features/namespaces", false);
+	// dbFactory.setNamespaceAware(true);
+	dbFactory.setFeature("http://xml.org/sax/features/validation", false);
+	dbFactory.setFeature("http://apache.org/xml/features/nonvalidating/load-dtd-grammar", false);
+	dbFactory.setFeature("http://apache.org/xml/features/nonvalidating/load-external-dtd", false);
+
+	DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
+
+	Document doc = dBuilder.parse(fXmlFile);
+// Getting the transaction element by passing xpath expression
+	NodeList nodeList = doc.getElementsByTagName("transaction");
+	String xpathExpression = "charles-session/transaction/@host";
+	List<String> getQueryList = evaluateXPath(doc, xpathExpression);
+
+// Getting custom_params amzn_b values
+	List<String> customParamsList = new ArrayList<String>();
+
+	// String iuId = null;
+
+	boolean iuExists = false;
+	for (String qry : getQueryList) {
+		if (qry.contains(host)) {
+			iuExists = true;
+			break;
+		}
+	}
+	boolean hflag = false;
+	boolean pflag = false;
+	boolean resflag = false;
+
+	if (iuExists) {
+		System.out.println(host + "  call is present");
+		logStep(host + "  call is present");
+		outerloop: for (int p = 0; p < nodeList.getLength(); p++) {
+			// System.out.println("Total transactions: "+nodeList.getLength());
+			if (nodeList.item(p) instanceof Node) {
+				Node node = nodeList.item(p);
+				if (node.hasChildNodes()) {
+					NodeList nl = node.getChildNodes();
+					for (int j = 0; j < nl.getLength(); j++) {
+						// System.out.println("node1 length is: "+nl.getLength());
+						Node innernode = nl.item(j);
+						if (innernode != null) {
+							// System.out.println("Innernode name is: "+innernode.getNodeName());
+							if (innernode.getNodeName().equals("request")) {
+								if (innernode.hasChildNodes()) {
+									NodeList n2 = innernode.getChildNodes();
+									for (int k = 0; k < n2.getLength(); k++) {
+										// System.out.println("node2 length is: "+n2.getLength());
+										Node innernode2 = n2.item(k);
+										if (innernode2 != null) {
+											// System.out.println("Innernode2 name is: "+innernode2.getNodeName());
+											if (innernode2.getNodeType() == Node.ELEMENT_NODE) {
+												Element eElement = (Element) innernode2;
+												// System.out.println("Innernode2 element name is:
+												// "+eElement.getNodeName());
+												if (eElement.getNodeName().equals("headers")) {
+													if (innernode2.hasChildNodes()) {
+														NodeList n3 = innernode2.getChildNodes();
+														for (int q = 0; q < n3.getLength(); q++) {
+															// System.out.println("node3 length is:
+															// "+n3.getLength());
+															Node innernode3 = n3.item(q);
+															if (innernode3 != null) {
+																// System.out.println("Innernode3 name is:
+																// "+innernode3.getNodeName());
+																if (innernode3.getNodeType() == Node.ELEMENT_NODE) {
+																	Element eElement1 = (Element) innernode3;
+																	// System.out.println("Innernode3 element name
+																	// is: "+eElement1.getNodeName());
+																	if (eElement1.getNodeName().equals("header")) {
+																		String content = eElement1.getTextContent();
+																		// System.out.println("request body
+																		// "+content);
+
+																		if (content.contains(host)) {
+																			hflag = true;
+																			// System.out.println("request body
+																			// found "
+																			// + content);
+
+																		} else if (content.contains(path)) {
+																			pflag = true;
+																			// System.out.println("request body
+																			// found "
+																			// + content);
+																		}
+																	}
+																	//if(hflag && !pflag) {
+																		if (eElement1.getNodeName().equals("first-line")) {
+																			String content = eElement1.getTextContent();
+																			// System.out.println("request body
+																			// "+content);
+
+																			if (content.contains(path)) {
+																				pflag = true;
+																				// System.out.println("request body
+																				// found "
+																				// + content);
+																			}
+																		}
+																	//}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+
+							/*
+							 * if (flag) { // System.out.println("Exiting after found true "); //
+							 * System.out.println("checking innernode name is: "+innernode.getNodeName());
+							 * if (innernode.getNodeName().equals("response")) { //
+							 * System.out.println(innernode.getNodeName()); if (innernode.hasChildNodes()) {
+							 * NodeList n2 = innernode.getChildNodes(); for (int k = 0; k < n2.getLength();
+							 * k++) { Node innernode2 = n2.item(k); if (innernode2 != null) { if
+							 * (innernode2.getNodeType() == Node.ELEMENT_NODE) { Element eElement =
+							 * (Element) innernode2; if (eElement.getNodeName().equals("body")) { String
+							 * content = eElement.getTextContent(); //
+							 * System.out.println("response body "+content); if
+							 * (content.contains(readExcelValues.data[13][Cap])) { resflag = true; break
+							 * outerloop;
+							 * 
+							 * } } } } } } }
+							 * 
+							 * }
+							 */
+							if (hflag && pflag) {
+								resflag = true;
+								break outerloop;
+							}
+						}
+					}
+				}
+			}
+			// flag = false;
+		}
+
+	} else {
+		System.out.println(host + " ad call is not present");
+		logStep(host + " ad call is not present");
+
+	}
+
+	return resflag;
+
+	// Get Pubad call from
+
+	/*
+	 * if (resflag) { System.out.println(host + path
+	 * +" call is present in Charles session"); logStep(host + path
+	 * +" call is present in Charles session"); return resflag;
+	 * 
+	 * } else { System.out .println(host + path
+	 * +" call is not present in Charles session"); logStep(host + path
+	 * +" call is not present in Charles session"); return resflag;
+	 * //Assert.fail(host + path +" call is not present in Charles session");
+	 * 
+	 * }
+	 */
+
+}
+private static List<String> evaluateXPath(Document document, String xpathExpression) throws Exception {
+	// Create XPathFactory object
+	XPathFactory xpathFactory = XPathFactory.newInstance();
+	// Create XPath object
+	XPath xpath = xpathFactory.newXPath();
+	List<String> values = new ArrayList<String>();
+	try {
+		// Create XPathExpression object
+		XPathExpression expr = xpath.compile(xpathExpression);
+		NodeList nodes = (NodeList) expr.evaluate(document, XPathConstants.NODESET);
+		for (int i = 0; i < nodes.getLength(); i++) {
+			values.add(nodes.item(i).getNodeValue());
+		}
+	} catch (XPathExpressionException e) {
+		e.printStackTrace();
+	}
+	return values;
+}
+
 
 }
