@@ -243,7 +243,28 @@ public class GDPR_Run extends TwcAndroidBaseTest  {
 		    
 		}	 
 	
-		
+				@Test(priority = 27, enabled = true)
+		@Title("Verify Criteo SDK inapp v2 call")
+		public void Verify_Criteo_SDK_inapp_v2_Call_privacy_optout_for_GDPR() throws Exception {
+			System.out.println("==============================================");
+			System.out.println("=========================== Criteo SDK inapp/v2 call ====================");
+			System.out.println("****** Criteo SDK inapp/v2 call validation Started");
+			logStep("****** Criteo SDK inapp/v2 call validation Started");
+			CharlesFunctions.createXMLFileForCharlesSessionFile();
+			Functions.verifyCriteo_inapp_v2_Call("Criteo", false);
+
+		}
+
+		@Test(priority = 28, enabled = true)
+		@Title("Verify Criteo SDK config app call")
+		public void Verify_Criteo_SDK_config_app_Call_privacy_optout_for_GDPR() throws Exception {
+			System.out.println("==============================================");
+			System.out.println("=========================== Criteo SDK config/app call ====================");
+			System.out.println("****** Criteo SDK config/app call validation Started");
+			logStep("****** Criteo SDK config/app call validation Started");
+			Functions.verifyCriteo_config_app_Call( "Criteo", false);
+
+		}
 		
 
 }
