@@ -23,6 +23,11 @@ import javax.naming.spi.ObjectFactoryBuilder;
 import javax.net.ssl.HostnameVerifier;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.xpath.XPath;
+import javax.xml.xpath.XPathConstants;
+import javax.xml.xpath.XPathExpression;
+import javax.xml.xpath.XPathExpressionException;
+import javax.xml.xpath.XPathFactory;
 
 import junit.framework.ComparisonFailure;
 
@@ -51,7 +56,7 @@ import org.w3c.dom.NodeList;
 
 import twc.Regression.General.DeviceStatus;
 import twc.Regression.HandleWithAppium.AppiumFunctions;
-
+import twc.Regression.HandleWithCharles.CharlesFunctions;
 import twc.Regression.Driver.Drivers;
 import twc.Regression.ReadDataFromFile.read_excel_data;
 import twc.Regression.ReadDataFromFile.read_xml_data_into_buffer;
