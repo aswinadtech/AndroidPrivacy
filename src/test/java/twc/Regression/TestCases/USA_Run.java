@@ -694,7 +694,7 @@ public class USA_Run extends TwcAndroidBaseTest {
 	  logStep("Selecting the Standard Advertising Settings  in the privacy card");
      System.out. println("=================Slecting Standard Advertising Settings  in privacy card testcase started =========================");
 	Ad.resetApp();
-		   Thread.sleep(30000);	
+		   Thread.sleep(80000);	
 		  AppiumFunctions. Kill_Launch_App();
 	//  AppFunctions. Kill_Launch_App();
 	  Thread.sleep(80000);	  
