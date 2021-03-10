@@ -262,8 +262,10 @@ public class GDPR_Run extends TwcAndroidBaseTest  {
 			System.out.println("=========================== Criteo SDK config/app call ====================");
 			System.out.println("****** Criteo SDK config/app call validation Started");
 			logStep("****** Criteo SDK config/app call validation Started");
-			Functions.verifyCriteo_config_app_Call( "Criteo", false);
 			CharlesFunctions.archive_folder("Charles");
+			Functions.verifyCriteo_config_app_Call( "Criteo", false);
+			
+			
 
 		}
 		
