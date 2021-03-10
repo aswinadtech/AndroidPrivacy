@@ -5170,5 +5170,78 @@ public static void get_aaxcal_feed2() throws Exception {
 		Assert.fail("slotID 752a96eb-3198-4991-b572-17ec04883b6c is not trigred for aax call db_display/feed/feed_2");
 		}
 }
+	
+	public static void verifyCriteo_inapp_v2_Call(String sheetName, boolean expected)
+		throws Exception {
+	String[][] data = read_excel_data.exceldataread(sheetName);
+	DeviceStatus device_status = new DeviceStatus();
+	int Cap = device_status.Device_Status();
+	//readExcelValues.excelValues(excelName, sheetName);
+	String host =data[2][Cap];
+	String path =data[3][Cap];
+	boolean flag = verifyAPICalWithHostandPath(host, path);
+	if (flag) {
+		System.out.println(host + path + " call is present in Charles session");
+		logStep(host + path + " call is present in Charles session");
+
+	} else {
+		System.out.println(host + path + " call is not present in Charles session");
+		logStep(host + path + " call is not present in Charles session");
+	}
+
+	if (expected == flag) {
+		System.out.println(host + path + " :API Call Verification is successfull");
+		logStep(host + path + " :API Call Verification is successfull");
+
+	} else {
+		System.out.println(host + path + " :API Call Verification is failed");
+		logStep(host + path + " :API Call Verification is failed");
+		if (expected) {
+			System.out.println(host + path + " :API Call expected to present but it not exists");
+			logStep(host + path + " :API Call expected to present but it not exists");
+			Assert.fail(host + path + " :API Call expected to present but it not exists");
+		} else {
+			System.out.println(host + path + " :API Call is not expected to present but it exists");
+			logStep(host + path + " :API Call is not expected to present but it exists");
+			Assert.fail(host + path + " :API Call is not expected to present but it exists");
+		}
+	}
+}
+
+public static void verifyCriteo_config_app_Call(String sheetName, boolean expected)
+		throws Exception {
+	String[][] data = read_excel_data.exceldataread(sheetName);
+	DeviceStatus device_status = new DeviceStatus();
+	int Cap = device_status.Device_Status();
+	String host = data[2][Cap];
+	String path = data[4][Cap];
+	boolean flag = verifyAPICalWithHostandPath(host, path);
+	if (flag) {
+		System.out.println(host + path + " call is present in Charles session");
+		logStep(host + path + " call is present in Charles session");
+
+	} else {
+		System.out.println(host + path + " call is not present in Charles session");
+		logStep(host + path + " call is not present in Charles session");
+	}
+	if (expected == flag) {
+		System.out.println(host + path + " :API Call Verification is successfull");
+		logStep(host + path + " :API Call Verification is successfull");
+
+	} else {
+		System.out.println(host + path + " :API Call Verification is failed");
+		logStep(host + path + " :API Call Verification is failed");
+		if (expected) {
+			System.out.println(host + path + " :API Call expected to present but it not exists");
+			logStep(host + path + " :API Call expected to present but it not exists");
+			Assert.fail(host + path + " :API Call expected to present but it not exists");
+		} else {
+			System.out.println(host + path + " :API Call is not expected to present but it exists");
+			logStep(host + path + " :API Call is not expected to present but it exists");
+			Assert.fail(host + path + " :API Call is not expected to present but it exists");
+		}
+	}
+
+}
 
 }
