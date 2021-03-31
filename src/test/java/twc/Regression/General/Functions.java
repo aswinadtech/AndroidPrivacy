@@ -5182,8 +5182,8 @@ public static void get_aaxcal_feed2() throws Exception {
 	DeviceStatus device_status = new DeviceStatus();
 	int Cap = device_status.Device_Status();
 	//readExcelValues.excelValues(excelName, sheetName);
-	String host =data[2][Cap];
-	String path =data[3][Cap];
+	String host =data[2][1];
+	String path =data[3][1];
 	boolean flag = verifyAPICalWithHostandPath(host, path);
 	if (flag) {
 		System.out.println(host + path + " call is present in Charles session");
@@ -5218,8 +5218,8 @@ public static void verifyCriteo_config_app_Call(String sheetName, boolean expect
 	String[][] data = read_excel_data.exceldataread(sheetName);
 	DeviceStatus device_status = new DeviceStatus();
 	int Cap = device_status.Device_Status();
-	String host = data[2][Cap];
-	String path = data[4][Cap];
+	String host = data[2][1];
+	String path = data[4][1];
 	boolean flag = verifyAPICalWithHostandPath(host, path);
 	if (flag) {
 		System.out.println(host + path + " call is present in Charles session");
