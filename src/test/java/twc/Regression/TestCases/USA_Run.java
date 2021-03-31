@@ -949,8 +949,37 @@ public class USA_Run extends TwcAndroidBaseTest {
 			  logStep("Verifying rdp keyword supress in videos call for USA privacy when Advertising option set to Standard Advertising Settings");
 			  Functions.validate_RDP_video_ad_Optinmode(); 
 			  System.out. println("================= Verifying rdp keyword supress in videos call for USA privacy when Advertising option set to Standard Advertising Settings test case End =========================" );
-			  CharlesFunctions.archive_folder("Charles");
+			 
 			  }
+	
+	
+	
+		@Test(priority = 473, enabled = true)
+	@Description("Verify Criteo SDK inapp v2 call")
+	public void Verify_Criteo_SDK_inapp_v2_Call() throws Exception {
+		System.out.println("==============================================");
+		System.out.println("=========================== Criteo SDK inapp/v2 call ====================");
+
+		System.out.println("****** Criteo SDK inapp/v2 call validation Started");
+		logStep("****** Criteo SDK inapp/v2 call validation Started");
+		
+		Functions.verifyCriteo_inapp_v2_Call("Criteo", false);
+
+	}
+
+	@Test(priority = 474, enabled = true)
+	@Description("Verify Criteo SDK config app call")
+	public void Verify_Criteo_SDK_config_app_Call() throws Exception {
+		System.out.println("==============================================");
+		System.out.println("=========================== Criteo SDK config/app call ====================");
+
+		System.out.println("****** Criteo SDK config/app call validation Started");
+		logStep("****** Criteo SDK config/app call validation Started");
+
+			Functions.verifyCriteo_config_app_Call("Criteo", false);
+		 CharlesFunctions.archive_folder("Charles");
+
+	}
 			  
 
 	  
