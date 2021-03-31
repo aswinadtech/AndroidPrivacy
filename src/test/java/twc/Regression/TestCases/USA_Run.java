@@ -348,7 +348,7 @@ public class USA_Run extends TwcAndroidBaseTest {
 		  logStep("Verifying rdp=1 in videos  ad call for USA privacy when Advertising option set to Do Not Sell My Information" );  
 		  System.out. println("================= Verifying rdp=1 in videos  ad call for USA privacy when Advertising option set to Do Not Sell My Information test case started =========================");
 		  Functions.validate_RDP_video_ad_Optoutmode();
-			  CharlesFunctions.archive_folder("Charles");
+			
 		  System.out. println("================= Verifying rdp=1 in videos  ad call for USA privacy when Advertising option set to Do Not Sell My Information test case End =========================");
 		  }
 		  
@@ -376,6 +376,7 @@ public class USA_Run extends TwcAndroidBaseTest {
 		System.out.println("****** Criteo SDK config/app call when privacy optout validation Started");
 		logStep("****** Criteo SDK config/app call when privacy optout validation Started");
 			Functions.verifyCriteo_config_app_Call("Criteo", false);
+		  CharlesFunctions.archive_folder("Charles");
 
 	}
 
@@ -1018,7 +1019,7 @@ public class USA_Run extends TwcAndroidBaseTest {
 		System.out.println("****** Criteo SDK inapp/v2 call validation Started");
 		logStep("****** Criteo SDK inapp/v2 call validation Started");
 		
-		Functions.verifyCriteo_inapp_v2_Call("Criteo", false);
+		Functions.verifyCriteo_inapp_v2_Call("Criteo", true);
 
 	}
 
@@ -1031,7 +1032,7 @@ public class USA_Run extends TwcAndroidBaseTest {
 		System.out.println("****** Criteo SDK config/app call validation Started");
 		logStep("****** Criteo SDK config/app call validation Started");
 
-			Functions.verifyCriteo_config_app_Call("Criteo", false);
+			Functions.verifyCriteo_config_app_Call("Criteo", true);
 		 CharlesFunctions.archive_folder("Charles");
 
 	}
