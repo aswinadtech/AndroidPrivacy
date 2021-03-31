@@ -344,9 +344,33 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 		  System.out. println("================= Verifying rdp=1 in videos  ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information test case started =========================");
 		  Functions.validate_RDP_video_ad_Optoutmode();
 		  System.out. println("================= Verifying rdp=1 in videos  ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information test case End =========================");
-		 CharlesFunctions.archive_folder("Charles");
+		
 		  }
 		  
+		@Test(priority = 151, enabled = true)
+	@Description("Verify Criteo SDK inapp v2 call when privacy optout")
+	public void Verify_Criteo_SDK_inapp_v2_Call_privacy_optout_for_USACCPA() throws Exception {
+		System.out.println("==============================================");
+		System.out.println(
+				"=========================== Criteo SDK inapp/v2 call when privacy optout ====================");
+		System.out.println("****** Criteo SDK inapp/v2 call when privacy optout validation Started");
+		logStep("****** Criteo SDK inapp/v2 call when privacy optout validation Started");
+						Functions.verifyCriteo_inapp_v2_Call("Criteo", false);
+		 CharlesFunctions.archive_folder("Charles");
+
+	}
+
+	@Test(priority = 152, enabled = true)
+	@Description("Verify Criteo SDK config app call when privacy optout")
+	public void Verify_Criteo_SDK_config_app_Call_privacy_optout_for_USACCPA() throws Exception {
+		System.out.println("==============================================");
+		System.out.println(
+				"=========================== Criteo SDK config/app call when privacy optout====================");
+		System.out.println("****** Criteo SDK config/app call when privacy optout validation Started");
+		logStep("****** Criteo SDK config/app call when privacy optout validation Started");
+		Utils.verifyCriteo_config_app_Call("Criteo", false);
+
+	}
 	  
 		 @Test(priority = 200, enabled = true)
 		 @Title("Enabling Preconfiguration for USACCPA Travel Scenario")
