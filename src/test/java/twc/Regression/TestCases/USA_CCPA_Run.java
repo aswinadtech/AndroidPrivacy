@@ -940,7 +940,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 			  }
 	
 	
-			  		@Test(priority = 51, enabled = true)
+			  		@Test(priority = 297, enabled = true)
 			@Title("Verify Criteo SDK inapp v2 call when privacy optin")
 			public void Verify_Criteo_SDK_inapp_v2_Call_privacy_optin_for_USACCPA() throws Exception {
 				System.out.println("==============================================");
@@ -952,7 +952,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 
 			}
 
-			@Test(priority = 52, enabled = true)
+			@Test(priority = 298, enabled = true)
 			@Title("Verify Criteo SDK config app call when privacy optin")
 			public void Verify_Criteo_SDK_config_app_Call_privacy_optin_for_USACCPA() throws Exception {
 				System.out.println("==============================================");
