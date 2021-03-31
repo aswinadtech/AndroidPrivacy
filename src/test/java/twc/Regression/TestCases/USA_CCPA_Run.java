@@ -936,9 +936,35 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 			  logStep("Verifying rdp keyword supress in videos call for USA-CCPA privacy when Advertising option set to Standard Advertising Settings");
 			  Functions.validate_RDP_video_ad_Optinmode(); 
 			  System.out. println("================= Verifying rdp keyword supress in videos call for USA-CCPA privacy when Advertising option set to Standard Advertising Settings test case End =========================" );
-		          CharlesFunctions.archive_folder("Charles");
+		         // CharlesFunctions.archive_folder("Charles");
 			  }
-			  
+	
+	
+			  		@Test(priority = 51, enabled = true)
+			@Title("Verify Criteo SDK inapp v2 call when privacy optin")
+			public void Verify_Criteo_SDK_inapp_v2_Call_privacy_optin_for_USACCPA() throws Exception {
+				System.out.println("==============================================");
+				System.out
+						.println("=========================== Criteo SDK inapp/v2 call when privacy optin====================");
+				System.out.println("****** Criteo SDK inapp/v2 call when privacy optin validation Started");
+				logStep("****** Criteo SDK inapp/v2 call when privacy optin validation Started");
+				Functions.verifyCriteo_inapp_v2_Call("Criteo", true);
+
+			}
+
+			@Test(priority = 52, enabled = true)
+			@Title("Verify Criteo SDK config app call when privacy optin")
+			public void Verify_Criteo_SDK_config_app_Call_privacy_optin_for_USACCPA() throws Exception {
+				System.out.println("==============================================");
+				System.out.println(
+						"=========================== Criteo SDK config/app call when privacy optin====================");
+				System.out.println("****** Criteo SDK config/app call when privacy optin validation Started");
+				logStep("****** Criteo SDK config/app call when privacy optin validation Started");
+				Functions.verifyCriteo_config_app_Call("Criteo", true);
+				CharlesFunctions.archive_folder("Charles");
+				
+
+			}
 
 	  
 		/*@BeforeTest
