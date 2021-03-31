@@ -356,7 +356,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 		System.out.println("****** Criteo SDK inapp/v2 call when privacy optout validation Started");
 		logStep("****** Criteo SDK inapp/v2 call when privacy optout validation Started");
 						Functions.verifyCriteo_inapp_v2_Call("Criteo", false);
-		 CharlesFunctions.archive_folder("Charles");
+		
 
 	}
 
@@ -368,7 +368,8 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 				"=========================== Criteo SDK config/app call when privacy optout====================");
 		System.out.println("****** Criteo SDK config/app call when privacy optout validation Started");
 		logStep("****** Criteo SDK config/app call when privacy optout validation Started");
-		Utils.verifyCriteo_config_app_Call("Criteo", false);
+			Functions.verifyCriteo_config_app_Call("Criteo", false);
+		 CharlesFunctions.archive_folder("Charles");
 
 	}
 	  
@@ -671,7 +672,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 				  System.out. println("================= Verifying rdp=1 in videos  ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA Travel Scenario test case started =========================");
 				 Functions.validate_npa_video_ad_dontsellmyinformation();
 				 System.out. println("================= Verifying rdp=1 in videos  ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA Travel Scenario test case End =========================");
-				CharlesFunctions.archive_folder("Charles");
+				
 				 }
 	
 		@Test(priority = 242, enabled = true)
@@ -697,6 +698,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 							"****** Criteo SDK config/app call when privacy optout for USACCPA Travel Scenario validation Started");
 					logStep("****** Criteo SDK config/app call when privacy optout for USACCPA Travel Scenario validation Started");
 					Functions.verifyCriteo_config_app_Call("Criteo", false);
+					CharlesFunctions.archive_folder("Charles");
 
 				}
 		 
