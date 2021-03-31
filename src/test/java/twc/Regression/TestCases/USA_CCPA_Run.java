@@ -640,7 +640,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 		      }
 			  
 				
-				@Test(priority =250, enabled = true)  
+				@Test(priority =240, enabled = true)  
 				 @Title("Verifying npa=1 in videos  ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA Travel Scenario") 
 				 public void Verifying_npa_equals_1_Videos_adCall_USA_CCPA_Privacy_DoNotSellMyInformation_for_USACCPA_Travel_Scenario() throws Exception {
 				 logStep("Verifying npa=1 in videos  ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA Travel Scenario" );  	  
@@ -649,6 +649,33 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 				 System.out. println("================= Verifying rdp=1 in videos  ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA Travel Scenario test case End =========================");
 				CharlesFunctions.archive_folder("Charles");
 				 }
+	
+		@Test(priority = 242, enabled = true)
+				@Title("Verify Criteo SDK inapp v2 call when privacy optout for USACCPA Travel Scenario")
+				public void Verify_Criteo_SDK_inapp_v2_Call_privacy_optout_for_USACCPA_Travel_Scenario() throws Exception {
+					System.out.println("==============================================");
+					System.out.println(
+							"=========================== Criteo SDK inapp/v2 call when privacy optout for USACCPA Travel Scenario====================");
+					System.out.println(
+							"****** Criteo SDK inapp/v2 call when privacy optout for USACCPA Travel Scenario validation Started");
+					logStep("****** Criteo SDK inapp/v2 call when privacy optout for USACCPA Travel Scenario validation Started");
+			Functions.verifyCriteo_inapp_v2_Call("Criteo", false);
+
+				}
+
+				@Test(priority = 244, enabled = true)
+				@Title("Verify Criteo SDK config app call when privacy optout for USACCPA Travel Scenario")
+				public void Verify_Criteo_SDK_config_app_Call_privacy_optout_for_USACCPA_Travel_Scenario() throws Exception {
+					System.out.println("==============================================");
+					System.out.println(
+							"=========================== Criteo SDK config/app call when privacy optout for USACCPA Travel Scenario====================");
+					System.out.println(
+							"****** Criteo SDK config/app call when privacy optout for USACCPA Travel Scenario validation Started");
+					logStep("****** Criteo SDK config/app call when privacy optout for USACCPA Travel Scenario validation Started");
+					Functions.verifyCriteo_config_app_Call("Criteo", false);
+
+				}
+		 
 		 
 
 	 
