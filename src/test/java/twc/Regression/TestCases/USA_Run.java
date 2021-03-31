@@ -322,7 +322,7 @@ public class USA_Run extends TwcAndroidBaseTest {
       }
 	  
 	  
-	  @Test(priority = 346, enabled = true)	  
+	  @Test(priority = 345, enabled = true)	  
 	  @Title("Verifying videos ad call presense for USA privacy when Advertising option set to Do Not Sell My Information") 
 	  public void Verifying_videos_adCall_Presence_USA_Privacy_DoNotSellMyInformation()  throws   Exception {
 	System.out. println("=================Verifying videos ad call presense for USA privacy when Advertising option set to Do Not Sell My Information test case started =========================" );
@@ -332,7 +332,7 @@ public class USA_Run extends TwcAndroidBaseTest {
 	  System.out.println("=================Verifying videos ad call presense for USA privacy when Advertising option set to Do Not Sell My Information test case started End =========================" );  
 	  }
 	
-	  @Test(priority = 348, enabled = true)	  
+	  @Test(priority = 346, enabled = true)	  
 	  @Title("Verifying SOD Cust param value in Videos  ad call for USA privacy when Advertising option set to Do Not Sell My Information" ) 
 	  public void  Verifying_SOD_Cust_Param_videos_adCall_USA_Privacy_DoNotSellMyInformation() throws Exception {
 	  logStep("Verifying SOD Cust param value in Videos  ad call for USA privacy when Advertising option set to Do Not Sell My Information" ); 
@@ -342,7 +342,7 @@ public class USA_Run extends TwcAndroidBaseTest {
 	  }
 	
 
-		 @Test(priority = 350, enabled = true)	  
+		 @Test(priority = 347, enabled = true)	  
 		  @Title("Verifying rdp=1 in videos  ad call for USA privacy when Advertising option set to Do Not Sell My Information" ) 
 		  public void Verifying_rdp_equals_1_Videos_adCall_USA_Privacy_DoNotSellMyInformation() throws Exception {
 		  logStep("Verifying rdp=1 in videos  ad call for USA privacy when Advertising option set to Do Not Sell My Information" );  
@@ -354,6 +354,30 @@ public class USA_Run extends TwcAndroidBaseTest {
 		  
 	  
 		
+	
+		@Test(priority = 348, enabled = true)
+	@Description("Verify Criteo SDK inapp v2 call when privacy optout")
+	public void Verify_Criteo_SDK_inapp_v2_Call_privacy_optout_for_USA() throws Exception {
+		System.out.println("==============================================");
+		System.out.println(
+				"=========================== Criteo SDK inapp/v2 call when privacy optout ====================");
+		System.out.println("****** Criteo SDK inapp/v2 call when privacy optout validation Started");
+		logStep("****** Criteo SDK inapp/v2 call when privacy optout validation Started");
+				Functions.verifyCriteo_inapp_v2_Call("Criteo", false);
+
+	}
+
+	@Test(priority = 349, enabled = true)
+	@Description("Verify Criteo SDK config app call when privacy optout")
+	public void Verify_Criteo_SDK_config_app_Call_privacy_optout_for_USA() throws Exception {
+		System.out.println("==============================================");
+		System.out.println(
+				"=========================== Criteo SDK config/app call when privacy optout====================");
+		System.out.println("****** Criteo SDK config/app call when privacy optout validation Started");
+		logStep("****** Criteo SDK config/app call when privacy optout validation Started");
+			Functions.verifyCriteo_config_app_Call("Criteo", false);
+
+	}
 
 	 
 	//==========================================================================================================//
@@ -633,7 +657,7 @@ public class USA_Run extends TwcAndroidBaseTest {
 			  
 
 		
-			  @Test(priority = 410, enabled = true)	  
+			  @Test(priority = 409, enabled = true)	  
 			  @Title("Verifying npa=1 in home screen hourly ad call for USA privacy when Advertising option set to Do Not Sell My Information for USA Travel Scenario") 
 			  public void  Verifying_npa_equals_1_homescreenHourly_adCall_USA_Privacy_DoNotSellMyInformation_for_USA_Travel_Scenario() throws  Exception {
 			  logStep("Verifying npa=1 in home screen hourly ad call for USA privacy when Advertising option set to Do Not Sell My Information for USA Travel Scenario"); 
@@ -642,7 +666,7 @@ public class USA_Run extends TwcAndroidBaseTest {
 			  System.out. println("================= Verifying npa=1 in home screen hourly ad call for USA privacy when Advertising option set to Do Not Sell My Information for USA Travel Scenario test case  End =========================");
 		      }
 			  
-			  @Test(priority = 412, enabled = true)	  
+			  @Test(priority = 410, enabled = true)	  
 			  @Title("Verifying npa=1 in home screen marquee  ad call for USA privacy when Advertising option set to Do Not Sell My Information for USA Travel Scenario") 
 			  public void Verifying_npa_equals_1_homescreenmarquee_adCall_USA_Privacy_DoNotSellMyInformation_for_USA_Travel_Scenario() throws  Exception {
 			  logStep("Verifying npa=1 in home screen marquee  ad call for USA privacy when Advertising option set to Do Not Sell My Information for USA Travel Scenario"); 
@@ -652,17 +676,48 @@ public class USA_Run extends TwcAndroidBaseTest {
 		      }
 			  
 				
-				@Test(priority =414, enabled = true)  
+				@Test(priority =411, enabled = true)  
 				 @Title("Verifying npa=1 in videos  ad call for USA privacy when Advertising option set to Do Not Sell My Information for USA Travel Scenario") 
 				 public void Verifying_npa_equals_1_Videos_adCall_USA_Privacy_DoNotSellMyInformation_for_USA_Travel_Scenario() throws Exception {
 				 logStep("Verifying npa=1 in videos  ad call for USA privacy when Advertising option set to Do Not Sell My Information for USA Travel Scenario" );  	  
 				  System.out. println("================= Verifying rdp=1 in videos  ad call for USA privacy when Advertising option set to Do Not Sell My Information for USA Travel Scenario test case started =========================");
 				 Functions.validate_npa_video_ad_dontsellmyinformation();
 				 System.out. println("================= Verifying rdp=1 in videos  ad call for USA privacy when Advertising option set to Do Not Sell My Information for USATravel Scenario test case End =========================");
-				 CharlesFunctions.archive_folder("Charles");
+				
 				 }
 		 
+	
+		@Test(priority = 412, enabled = true)
+	@Description("Verify Criteo SDK inapp v2 call when privacy optout for USA Travel Scenario")
+	public void Verify_Criteo_SDK_inapp_v2_Call_privacy_optout_for_USA_Travel_Scenario() throws Exception {
+		System.out.println("==============================================");
+		System.out.println(
+				"=========================== Criteo SDK inapp/v2 call when privacy optout for USA Travel Scenario====================");
+		System.out.println(
+				"****** Criteo SDK inapp/v2 call when privacy optout for USA Travel Scenario validation Started");
+		logStep("****** Criteo SDK inapp/v2 call when privacy optout for USA Travel Scenario validation Started");
+		Functions.verifyCriteo_inapp_v2_Call("Criteo", false);
 
+	}
+
+	@Test(priority = 413, enabled = true)
+	@Description("Verify Criteo SDK config app call when privacy optout for USA Travel Scenario")
+	public void Verify_Criteo_SDK_config_app_Call_privacy_optout_for_USA_Travel_Scenario() throws Exception {
+		System.out.println("==============================================");
+		System.out.println(
+				"=========================== Criteo SDK config/app call when privacy optout for USA Travel Scenario====================");
+		System.out.println(
+				"****** Criteo SDK config/app call when privacy optout for USA Travel Scenario validation Started");
+		logStep("****** Criteo SDK config/app call when privacy optout for USA Travel Scenario validation Started");
+		Functions.verifyCriteo_config_app_Call("Criteo", false);
+		 CharlesFunctions.archive_folder("Charles");
+
+	}
+
+	
+	
+	
+	
 
 	 
 	//==========================================================================================================//
