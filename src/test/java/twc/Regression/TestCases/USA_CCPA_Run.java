@@ -355,6 +355,8 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 				"=========================== Criteo SDK inapp/v2 call when privacy optout ====================");
 		System.out.println("****** Criteo SDK inapp/v2 call when privacy optout validation Started");
 		logStep("****** Criteo SDK inapp/v2 call when privacy optout validation Started");
+		
+			CharlesFunctions.createXMLFileForCharlesSessionFile();
 						Functions.verifyCriteo_inapp_v2_Call("Criteo", false);
 		
 
@@ -684,7 +686,9 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 					System.out.println(
 							"****** Criteo SDK inapp/v2 call when privacy optout for USACCPA Travel Scenario validation Started");
 					logStep("****** Criteo SDK inapp/v2 call when privacy optout for USACCPA Travel Scenario validation Started");
-			Functions.verifyCriteo_inapp_v2_Call("Criteo", false);
+		
+			CharlesFunctions.createXMLFileForCharlesSessionFile();
+					Functions.verifyCriteo_inapp_v2_Call("Criteo", false);
 
 				}
 
@@ -1001,6 +1005,8 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 						.println("=========================== Criteo SDK inapp/v2 call when privacy optin====================");
 				System.out.println("****** Criteo SDK inapp/v2 call when privacy optin validation Started");
 				logStep("****** Criteo SDK inapp/v2 call when privacy optin validation Started");
+				
+			CharlesFunctions.createXMLFileForCharlesSessionFile();
 				Functions.verifyCriteo_inapp_v2_Call("Criteo", true);
 
 			}
