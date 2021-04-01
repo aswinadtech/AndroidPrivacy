@@ -356,7 +356,7 @@ public class USA_Run extends TwcAndroidBaseTest {
 		
 	
 		@Test(priority = 348, enabled = true)
-	@Description("Verify Criteo SDK inapp v2 call when privacy optout")
+		@Title("Verify Criteo SDK inapp v2 call when privacy optout")
 	public void Verify_Criteo_SDK_inapp_v2_Call_privacy_optout_for_USA() throws Exception {
 		System.out.println("==============================================");
 		System.out.println(
@@ -368,7 +368,7 @@ public class USA_Run extends TwcAndroidBaseTest {
 	}
 
 	@Test(priority = 349, enabled = true)
-	@Description("Verify Criteo SDK config app call when privacy optout")
+		@Title("Verify Criteo SDK config app call when privacy optout")
 	public void Verify_Criteo_SDK_config_app_Call_privacy_optout_for_USA() throws Exception {
 		System.out.println("==============================================");
 		System.out.println(
@@ -689,7 +689,7 @@ public class USA_Run extends TwcAndroidBaseTest {
 		 
 	
 		@Test(priority = 412, enabled = true)
-	@Description("Verify Criteo SDK inapp v2 call when privacy optout for USA Travel Scenario")
+		@Title("Verify Criteo SDK inapp v2 call when privacy optout for USA Travel Scenario")
 	public void Verify_Criteo_SDK_inapp_v2_Call_privacy_optout_for_USA_Travel_Scenario() throws Exception {
 		System.out.println("==============================================");
 		System.out.println(
@@ -702,7 +702,7 @@ public class USA_Run extends TwcAndroidBaseTest {
 	}
 
 	@Test(priority = 413, enabled = true)
-	@Description("Verify Criteo SDK config app call when privacy optout for USA Travel Scenario")
+		@Title("Verify Criteo SDK config app call when privacy optout for USA Travel Scenario")
 	public void Verify_Criteo_SDK_config_app_Call_privacy_optout_for_USA_Travel_Scenario() throws Exception {
 		System.out.println("==============================================");
 		System.out.println(
@@ -1011,7 +1011,7 @@ public class USA_Run extends TwcAndroidBaseTest {
 	
 	
 		@Test(priority = 473, enabled = true)
-	@Description("Verify Criteo SDK inapp v2 call")
+		@Title("Verify Criteo SDK inapp v2 call")
 	public void Verify_Criteo_SDK_inapp_v2_Call() throws Exception {
 		System.out.println("==============================================");
 		System.out.println("=========================== Criteo SDK inapp/v2 call ====================");
@@ -1024,7 +1024,7 @@ public class USA_Run extends TwcAndroidBaseTest {
 	}
 
 	@Test(priority = 474, enabled = true)
-	@Description("Verify Criteo SDK config app call")
+		@Title("Verify Criteo SDK config app call")
 	public void Verify_Criteo_SDK_config_app_Call() throws Exception {
 		System.out.println("==============================================");
 		System.out.println("=========================== Criteo SDK config/app call ====================");
