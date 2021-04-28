@@ -85,8 +85,9 @@ public class USA_Run extends TwcAndroidBaseTest {
 	 System.out. println("=================Verifying Privacy Card is present on the screen testcase started =========================" ); 
 	 AppiumFunctions.Kill_Launch_App();
 	  Thread.sleep(40000);	  
-	  AppiumFunctions.SwipeUp_Counter_privacy(25);
-		  attachScreen();
+	 // AppiumFunctions.SwipeUp_Counter_privacy(25);
+		    Thread.sleep(40000);	 
+		//  attachScreen();
 	  System.out. println("================= Verifying Privacy Card is present on the screen testcase End =========================" );
 	  }
 	  
@@ -758,7 +759,8 @@ public class USA_Run extends TwcAndroidBaseTest {
 		  AppiumFunctions. Kill_Launch_App();
 	//  AppFunctions. Kill_Launch_App();
 	  Thread.sleep(80000);	  
-	  AppiumFunctions.SwipeUp_Counter_privacy(25);
+	//  AppiumFunctions.SwipeUp_Counter_privacy(25);
+		    Thread.sleep(80000);
 	  Thread.sleep(40000); 
 	 // Functions.selecting_opt_in_mode();
 	  AppiumFunctions.Kill_Launch_App();
