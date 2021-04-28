@@ -24,7 +24,7 @@ public class EXEMPT_Run extends TwcAndroidBaseTest {
 		System.out.println("****** EXEMPT Privacy Test Started");
 		logStep("****** EXEMPT  Privacy Test Started");
 		this.configFile = this.rewriteRuleToEnableEXEMPT(CONFIG_FILE_PATH);
-		this.proxy = new CharlesProxy("localhost", 8222, CONFIG_FILE_PATH);
+		this.proxy = new CharlesProxy("localhost", 8333, CONFIG_FILE_PATH);
 
 		this.proxy.startCharlesProxyWithUI();
 		this.proxy.disableRewriting();
@@ -50,6 +50,7 @@ public class EXEMPT_Run extends TwcAndroidBaseTest {
 		// Enable rewriting on Charles install/launch TWC
 		this.proxy.enableRewriting();
 		this.proxy.startRecording();
+		CharlesFunctions.archive_folder("Charles");
 		this.proxy.clearCharlesSession();
 		AppiumFunctions.LaunchAppWithFullReset();
 		   AppiumFunctions.resetApp();
@@ -66,10 +67,12 @@ public class EXEMPT_Run extends TwcAndroidBaseTest {
 		this.proxy.clearCharlesSession();
 		AppiumFunctions.Kill_Launch_App();
 		AppiumFunctions.ClickonIUnderstand();
+		attachScreen();
 	//	Functions.close_launchApp();
 		//Utils.navigateToAllCards(false);
 		//CharlesFunctions.archive_folder("charles");
 		this.proxy.getXml();
+	//AppiumFunctions.clickOnVideos_tile();
 	//	Utils.createXMLFileForCharlesSessionFile();
 	}
 	@Test(priority =802,enabled = true)  
@@ -203,7 +206,10 @@ public class EXEMPT_Run extends TwcAndroidBaseTest {
 			logStep("Verifying supress amazon SlotId for videos preload ad call for EXEMPT Privacy");
 			 Functions.verifyaax_SlotId_supress("f71b7e17-6e34-4f6c-98f6-bbbe9f55586c");
 			System.out.println("=================Verifying supress amazon SlotId for videos preload ad call for EXEMPT Privacy testcase  End =========================");
-		}	 
+		        CharlesFunctions.archive_folder("Charles");
+		}	
+	
+	
 
 
 }

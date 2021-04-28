@@ -85,18 +85,25 @@ public class GDPR_Run extends TwcAndroidBaseTest  {
         AppiumFunctions.settingProxyEnable("Manual",AppiumFunctions.current_IPAddress,AppiumFunctions.defaultPortNumber);*/	
 		AppiumFunctions.LaunchAppWithFullReset();
 		  	AppiumFunctions.clickONNext();
+		
 			AppiumFunctions.ClickonIUnderstand();
+		
 			AppiumFunctions.ClickonIUnderstand();
+		attachScreen();
 			AppiumFunctions.ClickonIUnderstand();
 			AppiumFunctions.clickOnAllow();
+		attachScreen();
 		System.out.println("App launched ");
-		AppiumFunctions.gettingApkVersion();		
-		//CharlesFunctions.archive_folder("charles");
+		AppiumFunctions.gettingApkVersion();
+		attachScreen();
+		CharlesFunctions.archive_folder("Charles");
 		this.proxy.clearCharlesSession();
 		AppiumFunctions.Kill_Launch_App();
 		AppiumFunctions.ClickonIUnderstand();
+		attachScreen();
 		//CharlesFunctions.archive_folder("charles");
 		this.proxy.getXml();
+		//CharlesFunctions.archive_folder("charles");
 	//	Utils.createXMLFileForCharlesSessionFile();
 	}
 	@Test(priority =2,enabled = true)  
@@ -230,10 +237,39 @@ public class GDPR_Run extends TwcAndroidBaseTest  {
 			System.out.println("=================Verifying supress amazon SlotId for videos preload ad call for GDPR Privacy testcase Started =========================");
 			logStep("Verifying supress amazon SlotId for videos preload ad call for GDPR Privacy");
 			 Functions.verifyaax_SlotId_supress("f71b7e17-6e34-4f6c-98f6-bbbe9f55586c");
+			//CharlesFunctions.archive_folder(“Charles”);
 			System.out.println("=================Verifying supress amazon SlotId for videos preload ad call for GDPR Privacy testcase  End =========================");
+				//CharlesFunctions.archive_folder("Charles");
+		    
 		}	 
 	
-		
+		@Test(priority = 27, enabled = true)
+		@Title("Verify Criteo SDK inapp v2 call")
+		public void Verify_Criteo_SDK_inapp_v2_Call_privacy_optout_for_GDPR() throws Exception {
+			System.out.println("==============================================");
+			System.out.println("=========================== Criteo SDK inapp/v2 call ====================");
+			System.out.println("****** Criteo SDK inapp/v2 call validation Started");
+			logStep("****** Criteo SDK inapp/v2 call validation Started");
+			CharlesFunctions.createXMLFileForCharlesSessionFile();
+			Functions.verifyCriteo_inapp_v2_Call("Criteo", false);
+
+		}
+
+		@Test(priority = 28, enabled = true)
+		@Title("Verify Criteo SDK config app call")
+		public void Verify_Criteo_SDK_config_app_Call_privacy_optout_for_GDPR() throws Exception {
+			System.out.println("==============================================");
+			System.out.println("=========================== Criteo SDK config/app call ====================");
+			System.out.println("****** Criteo SDK config/app call validation Started");
+			logStep("****** Criteo SDK config/app call validation Started");
+			Functions.verifyCriteo_config_app_Call("Criteo", false);
+			CharlesFunctions.archive_folder("Charles");
+			
+
+		}
+
+	
+	
 		
 
 }

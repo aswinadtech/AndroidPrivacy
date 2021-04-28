@@ -2,15 +2,23 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite" >
   <test thread-count="5" name="Test">
-    <classes>
-         <class name="Androidprivacy.testcases.GDPR_Run"/>
-      <class name="Androidprivacy.testcases.LGPD_Run"/>
-       <class name="Androidprivacy.testcases.USA_CCPA_Run"/>
-          <class name="Androidprivacy.testcases.USA_Run"/>
+    <classes> 
+        <class name="twc.Regression.TestCases.GDPR_Run"/>
+
+      <class name="twc.Regression.TestCases.LGPD_Run"/>
+
+       <class name="twc.Regression.TestCases.USA_CCPA_Run"/>
+
+          <class name="twc.Regression.TestCases.USA_Run"/>
+
          <class name="twc.Regression.TestCases.LATAM_CO_Run"/>
+
       <class name="twc.Regression.TestCases.LATAM_DR_Run"/>
+
       <class name="twc.Regression.TestCases.LATAM_PE_Run"/>
+
       <class name="twc.Regression.TestCases.EXEMPT_Run"/>
+ 
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

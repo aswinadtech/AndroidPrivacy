@@ -5,7 +5,7 @@ import java.io.File;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-
+import org.testng.Assert;
 import ru.yandex.qatools.allure.annotations.Title;
 import twc.Regression.General.Functions;
 import twc.Regression.General.TwcAndroidBaseTest;
@@ -23,7 +23,7 @@ public class LATAM_DR_Run extends TwcAndroidBaseTest {
 		System.out.println("****** LATAM DR Privacy Test Started");
 		logStep("****** LATAM DR  Privacy Test Started");
 		this.configFile = this.rewriteRuleToEnableLATAMDR(CONFIG_FILE_PATH);
-		this.proxy = new CharlesProxy("localhost", 8222, CONFIG_FILE_PATH);
+		this.proxy = new CharlesProxy("localhost", 8333, CONFIG_FILE_PATH);
 
 		this.proxy.startCharlesProxyWithUI();
 		this.proxy.disableRewriting();
@@ -49,6 +49,7 @@ public class LATAM_DR_Run extends TwcAndroidBaseTest {
 		// Enable rewriting on Charles install/launch TWC
 		this.proxy.enableRewriting();
 		this.proxy.startRecording();
+		CharlesFunctions.archive_folder("Charles");
 		this.proxy.clearCharlesSession();
 		AppiumFunctions.LaunchAppWithFullReset();
 		   AppiumFunctions.resetApp();
@@ -65,10 +66,14 @@ public class LATAM_DR_Run extends TwcAndroidBaseTest {
 		this.proxy.clearCharlesSession();
 		AppiumFunctions.Kill_Launch_App();
 		AppiumFunctions.ClickonIUnderstand();
+		attachScreen();
 		//AppiumFunctions.gettingApkVersion() ;
 	//	Functions.close_launchApp();
 		//Utils.navigateToAllCards(false);
 		//CharlesFunctions.archive_folder("charles");
+		AppiumFunctions.clickOnVideos_tile();
+		attachScreen();
+		Thread.sleep(80000);
 		this.proxy.getXml();
 	//	Utils.createXMLFileForCharlesSessionFile();
 	}
@@ -204,4 +209,68 @@ public class LATAM_DR_Run extends TwcAndroidBaseTest {
 			 Functions.verifyaax_SlotId_supress("f71b7e17-6e34-4f6c-98f6-bbbe9f55586c");
 			System.out.println("=================Verifying supress amazon SlotId for videos preload ad call for LATAM_DR Privacy testcase  End =========================");
 		}	 
+	
+	
+	@Test(priority =628, enabled = true)  
+		  @Title("Verifying home screen hourly ad call presense for Latam_DR_privacy") 
+		  public void  Verifying_homescreenhourly_adCall_Presence_Latam_DR_privacy()throws Exception {
+	   System.out.println("=================Verifying home screen hourly ad call presense for Latam_DR_privacy() privacy  testcase started =========================" );
+		  logStep("Verifying home screen hourly ad call presense for Latam_DR_privacy() privacy");
+		  Functions.finding_Homescreen_iu_value();
+		  System.out.println("=================Verifying home screen hourly ad call presense for Latam_DR_privacy() privacy  testcase  End =========================" );	  
+		  }
+		  
+		  @Test(priority = 630, enabled = true)	  
+		  @Title("Verifying home screen marquee ad call presense for Latam_DR_privacy")	
+		  public void Verifying_homescreenmarquee_adCall_Presence_Latam_DR_privacy() throws	 Exception {
+		  logStep("Verifying home screen marquee ad call presense for Latam_DR_privacy() privacy" ); 
+		  System.out. println("=================Verifying home screen marquee ad call presense for Latam_DR_privacy() privacy test case started =========================" );  
+		  Functions.finding_Homescreen_marquee_iu_value();
+		  System.out.println("=================Verifying home screen marquee ad call presense for Latam_DR_privacy() privacy test case End =========================" );	  
+		  }
+		
+
+			@Test(priority =632, enabled = true)  
+			 @Title("Verifying npa=1 in home screen hourly ad call for Latam_DR_privacy") 
+			public void Verifying_npa_equals_1_homescreenHourly_adCall_Latam_DR_privacy()throws Exception {	  
+			 System.out. println("=================Verifying npa=1 in home screen hourly ad call for Latam_DR_privacy() privacy  testcase started =========================" ); 
+			  Functions.validate_npa_homescrenhourly_dontsellmyinformation();
+			  System.out. println("=================Verifying npa=1 in home screen hourly ad call for Latam_DR_privacy() privacy  testcase End =========================" );
+			  }
+		  
+			@Test(priority =634, enabled = true)  
+			 @Title("Verifying npa=1 in home screen marquee ad call for Latam_DR_privacy") 
+			public void Verifying_npa_equals_1_homescreenmarquee_adCall_Latam_DR_privacy()throws Exception {	  
+			 System.out. println("=================Verifying npa=1 in home screen marquee ad call for Latam_DR_privacy() privacy  testcase started =========================" ); 
+			 Functions.validate_npa_homescreenmarquee_dontsellmyinformation();
+			  System.out. println("=================Verifying npa=1 in home screen marquee ad call for Latam_DR_privacy() privacy  testcase End =========================" );
+			  }
+			  
+			  		  @Test(priority = 636, enabled = true)	  
+		  @Title("Verifying videos ad call presense for Latam_DR_privacy") 
+		  public void Verifying_videos_adCall_Presence_Latam_DR_privacy() throws   Exception {
+		System.out. println("=================Verifying videos ad call presense for Latam_DR_privacy() privacy test case started =========================" );
+		  logStep("Verifying videos ad call presense for Latam_DR_privacy() privacy"); 	
+			/*CharlesFunctions.ClearSessions();
+			AppiumFunctions.Kill_Launch_App();
+			CharlesFunctions.startSessionBrowserData();
+			AppiumFunctions.clickOnVideos_tile();
+			CharlesFunctions.archive_folder("charles");
+			CharlesFunctions.ExportSession();*/
+		  Functions.Verify_video_ad_call_Optoutmode(); 
+		  System.out.println("=================Verifying videos ad call presense for Latam_DR_privacy() privacy test case started End =========================" );  
+		  }
+		  
+		  
+		  @Test(priority =638, enabled = true)  
+	 @Title("Verifying npa=1 in videos ad call for Latam_DR_privacy") 
+	public void Verifying_npa_equals_1_videos_adCall_Latam_DR_privacy()throws Exception {	  
+	 System.out. println("=================Verifying npa=1 in detailed page ad call for Latam_DR_privacy() privacy testcase started =========================" ); 
+	Functions.validate_npa_video_ad_dontsellmyinformation();
+		
+			
+	  System.out. println("=================Verifying npa=1 in detailed page ad call for Latam_DR_privacy() privacy testcase End =========================" );
+	  CharlesFunctions.archive_folder("Charles");
+	}
+	
 }

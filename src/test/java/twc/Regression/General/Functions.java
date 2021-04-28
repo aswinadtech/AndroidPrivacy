@@ -23,6 +23,11 @@ import javax.naming.spi.ObjectFactoryBuilder;
 import javax.net.ssl.HostnameVerifier;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.xpath.XPath;
+import javax.xml.xpath.XPathConstants;
+import javax.xml.xpath.XPathExpression;
+import javax.xml.xpath.XPathExpressionException;
+import javax.xml.xpath.XPathFactory;
 
 import junit.framework.ComparisonFailure;
 
@@ -51,7 +56,7 @@ import org.w3c.dom.NodeList;
 
 import twc.Regression.General.DeviceStatus;
 import twc.Regression.HandleWithAppium.AppiumFunctions;
-
+import twc.Regression.HandleWithCharles.CharlesFunctions;
 import twc.Regression.Driver.Drivers;
 import twc.Regression.ReadDataFromFile.read_excel_data;
 import twc.Regression.ReadDataFromFile.read_xml_data_into_buffer;
@@ -3217,9 +3222,9 @@ public static void validate_SOD_Cust_param_homescreenHourly_Optoutmode() throws 
 				logStep("SOD cust param value for   iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fhome_screen%%2Fhourly  is " +SOD);
 			}
 			else {
-				System.out.println("SOD cust param value for   iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fhome_screen%2Fhourly   is not matchged with"     +SOD);
-				logStep("SOD cust param value for   iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fhome_screen%2Fhourly  is not matchged with"     +SOD);
-				Assert.fail("SOD cust param value for   iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fhome_screen%2Fhourly  is not matchged with"     +SOD);
+				System.out.println("SOD cust param value for   iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fhome_screen%2Fhourly   is not matched with"     +SOD);
+				logStep("SOD cust param value for   iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fhome_screen%2Fhourly  is not matched with"     +SOD);
+				Assert.fail("SOD cust param value for   iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fhome_screen%2Fhourly  is not matched with"     +SOD);
 			}
 			//System.out.println(expectedValues);
 			
@@ -3421,9 +3426,9 @@ public static void validate_npa_homescreen_Optoutmode() throws Exception {
 			logStep("npa value for feed_1 ad call is " +"1");
 			}
 		else {
-				System.out.println("npa  value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Ffeed%2Ffeed_1 ad call is not matchged with"     +"1");
-				logStep("npa  value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Ffeed%2Ffeed_1 ad call is not matchged with"     +"1");
-				Assert.fail("npa  value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Ffeed%2Ffeed_1 ad call is not matchged with"     +"1");
+				System.out.println("npa  value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Ffeed%2Ffeed_1 ad call is not matched with"     +"1");
+				logStep("npa  value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Ffeed%2Ffeed_1 ad call is not matched with"     +"1");
+				Assert.fail("npa  value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Ffeed%2Ffeed_1 ad call is not matched with"     +"1");
 			}
 			
 		}
@@ -3472,9 +3477,9 @@ public static void validate_npa_homescreenmarquee_Optoutmode() throws Exception 
 			logStep("npa value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fhome_screen%2Fmarquee  ad call is " +"1");
 			}
 		else {
-				System.out.println("npa  value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fhome_screen%2Fmarquee ad call is not matchged with"     +"1");
-				logStep("npa  value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fhome_screen%2Fmarquee ad call is not matchged with"     +"1");
-				Assert.fail("npa  value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fhome_screen%2Fmarquee ad call is not matchged with"     +"1");
+				System.out.println("npa  value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fhome_screen%2Fmarquee ad call is not matched with"     +"1");
+				logStep("npa  value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fhome_screen%2Fmarquee ad call is not matched with"     +"1");
+				Assert.fail("npa  value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fhome_screen%2Fmarquee ad call is not matched with"     +"1");
 			}
 			
 		}
@@ -3601,9 +3606,9 @@ public static void validate_npa_homescrenhourly_dontsellmyinformation() throws E
 			logStep("npa value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fhome_screen%2Fhourly ad call is " +"1");
 			}
 		else{
-			System.out.println("npa  value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fhome_screen%2Fmarquee ad call is not matched with"     +"1");
-			logStep("npa  value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fhome_screen%2Fmarquee ad call is not matched with"     +"1");
-			Assert.fail("npa  value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fhome_screen%2Fmarquee ad call is not matched with"     +"1");
+			System.out.println("npa  value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fhome_screen%2Fhourly ad call is not matched with"     +"1");
+			logStep("npa  value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fhome_screen%2Fhourly ad call is not matched with"     +"1");
+			Assert.fail("npa  value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fhome_screen%2Fhourly ad call is not matched with"     +"1");
 		}
 	}
 	else {
@@ -3715,9 +3720,9 @@ public static void validate_RDP_feed_Optoutmode() throws Exception {
 			logStep("RDP value for feed ad call is " +"1");
 			}
 		else {
-				System.out.println("RDP  value for feed ad call is not matchged with"     +"1");
-				logStep("RDP  value for feed ad call is not matchged with"     +"1");
-				Assert.fail("RDP for feed ad call call  is not matchged with"     +"1");
+				System.out.println("RDP  value for feed ad call is not matched with"     +"1");
+				logStep("RDP  value for feed ad call is not matched with"     +"1");
+				Assert.fail("RDP for feed ad call call  is not matched with"     +"1");
 			}
 			
 		}
@@ -3740,8 +3745,8 @@ public static void validate_npa_detailed_feed_Optoutmode() throws Exception {
 			logStep("RDP value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fmaps ad call is " +"1");
 			}
 		else {
-				System.out.println("RDP  value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fmaps ad call is not matchged with"     +"1");
-				logStep("RDP  value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fmaps ad call is not matchged with"     +"1");
+				System.out.println("RDP  value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fmaps ad call is not matched with"     +"1");
+				logStep("RDP  value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fmaps ad call is not matched with"     +"1");
 				Assert.fail("RDP for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fmaps ad call  is not matched with"     +"1");
 			}
 			
@@ -3764,8 +3769,8 @@ public static void validate_RDP_detailed_feed_Optoutmode() throws Exception {
 			logStep("RDP value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fmaps ad call is " +"1");
 			}
 		else {
-				System.out.println("RDP  value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fmaps ad call is not matchged with"     +"1");
-				logStep("RDP  value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fmaps ad call is not matchged with"     +"1");
+				System.out.println("RDP  value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fmaps ad call is not matched with"     +"1");
+				logStep("RDP  value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fmaps ad call is not matched with"     +"1");
 				Assert.fail("RDP for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fmaps ad call  is not matched with"     +"1");
 			}
 			
@@ -3788,9 +3793,9 @@ public static void validate_npa_video_ad_Optoutmode() throws Exception {
 			logStep("npa value for iu=%2F7646%2Fapp_android_us%2Fvideo ad call is " +"1");
 			}
 		else {
-				System.out.println("npa  value for iu=%2F7646%2Fapp_android_us%2Fvideo ad call is not matchged with"     +"1");
-				logStep("npa  value for iu=%2F7646%2Fapp_android_us%2Fvideo ad call is not matchged with"     +"1");
-				Assert.fail("npa for iu=%2F7646%2Fapp_android_us%2Fvideo ad call  is not matchged with"     +"1");
+				System.out.println("npa  value for iu=%2F7646%2Fapp_android_us%2Fvideo ad call is not matched with"     +"1");
+				logStep("npa  value for iu=%2F7646%2Fapp_android_us%2Fvideo ad call is not matched with"     +"1");
+				Assert.fail("npa for iu=%2F7646%2Fapp_android_us%2Fvideo ad call  is not matched with"     +"1");
 			}
 			
 		}
@@ -3810,21 +3815,21 @@ public static void validate_RDP_video_ad_Optoutmode() throws Exception {
 			logStep("RDP value for iu=%2F7646%2Fapp_android_us%2Fvideo ad call is " +"1");
 			}
 		else {
-			System.out.println("RDP  value for iu=%2F7646%2Fapp_android_us%2Fvideo ad call is not matchged with"     +"1");
-			logStep("RDP  value for iu=%2F7646%2Fapp_android_us%2Fvideo ad call is not matchged with"     +"1");
-			Assert.fail("RDP for iu=%2F7646%2Fapp_android_us%2Fvideo ad call  is not matchged with"     +"1");
+			System.out.println("RDP  value for iu=%2F7646%2Fapp_android_us%2Fvideo ad call is not matched with"     +"1");
+			logStep("RDP  value for iu=%2F7646%2Fapp_android_us%2Fvideo ad call is not matched with"     +"1");
+			Assert.fail("RDP for iu=%2F7646%2Fapp_android_us%2Fvideo ad call  is not matched with"     +"1");
 		}
 	}
 	else {
-		System.out.println("RDP  value for iu=%2F7646%2Fapp_android_us%2Fvideo ad call is not matchged with"     +"1");
-		logStep("RDP  value for iu=%2F7646%2Fapp_android_us%2Fvideo ad call is not matchged with"     +"1");
-		Assert.fail("RDP for iu=%2F7646%2Fapp_android_us%2Fvideo ad call  is not matchged with"     +"1");
+		System.out.println("RDP  value for iu=%2F7646%2Fapp_android_us%2Fvideo ad call is not matched with"     +"1");
+		logStep("RDP  value for iu=%2F7646%2Fapp_android_us%2Fvideo ad call is not matched with"     +"1");
+		Assert.fail("RDP for iu=%2F7646%2Fapp_android_us%2Fvideo ad call  is not matched with"     +"1");
 	}
 	}
 		catch(Exception e) {
-				System.out.println("RDP  value for iu=%2F7646%2Fapp_android_us%2Fvideo ad call is not matchged with"     +"1");
-				logStep("RDP  value for iu=%2F7646%2Fapp_android_us%2Fvideo ad call is not matchged with"     +"1");
-				Assert.fail("RDP for iu=%2F7646%2Fapp_android_us%2Fvideo ad call  is not matchged with"     +"1");
+				System.out.println("RDP  value for iu=%2F7646%2Fapp_android_us%2Fvideo ad call is not matched with"     +"1");
+				logStep("RDP  value for iu=%2F7646%2Fapp_android_us%2Fvideo ad call is not matched with"     +"1");
+				Assert.fail("RDP for iu=%2F7646%2Fapp_android_us%2Fvideo ad call  is not matched with"     +"1");
 			}
 			
 		}
@@ -3999,9 +4004,9 @@ public static void validate_SOD_Cust_param_homescreen_Optinmode() throws Excepti
 				logStep("SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fhome_screen%2Fmarquee call is " +SOD);
 			}
 			else {
-				System.out.println("SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fhome_screen%2Fmarquee call is not matchged with"     +SOD);
-				logStep("SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fhome_screen%2Fmarquee call is not matchged with"     +SOD);
-				Assert.fail("SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fhome_screen%2Fmarquee call is not matchged with"     +SOD);
+				System.out.println("SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fhome_screen%2Fmarquee call is not matched with"     +SOD);
+				logStep("SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fhome_screen%2Fmarquee call is not matched with"     +SOD);
+				Assert.fail("SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fhome_screen%2Fmarquee call is not matched with"     +SOD);
 			}
 			//System.out.println(expectedValues);
 			
@@ -4035,9 +4040,9 @@ public static void validate_SOD_Cust_param_homescreenhourly_Optinmode() throws E
 				logStep("SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fhome_screen%2Fhourly call is " +SOD);
 			}
 			else {
-				System.out.println("SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fhome_screen%2Fhourly call is not matchged with"     +SOD);
-				logStep("SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fhome_screen%2Fhourly call is not matchged with"     +SOD);
-				Assert.fail("SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fhome_screen%2Fhourly call is not matchged with"     +SOD);
+				System.out.println("SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fhome_screen%2Fhourly call is not matched with"     +SOD);
+				logStep("SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fhome_screen%2Fhourly call is not matched with"     +SOD);
+				Assert.fail("SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fhome_screen%2Fhourly call is not matched with"     +SOD);
 			}
 			//System.out.println(expectedValues);
 			
@@ -4070,9 +4075,9 @@ public static void validate_SOD_Cust_param_feed_Optinmode() throws Exception {
 				logStep("SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Ffeed%2Ffeed_1 call is " +SOD);
 			}
 			else {
-				System.out.println("SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Ffeed%2Ffeed_1 call is not matchged with"     + SOD);
-				logStep("SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Ffeed%2Ffeed_1 call is not matchged with"     + SOD);
-				Assert.fail("SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Ffeed%2Ffeed_1 call is not matchged with"     + SOD);
+				System.out.println("SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Ffeed%2Ffeed_1 call is not matched with"     + SOD);
+				logStep("SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Ffeed%2Ffeed_1 call is not matched with"     + SOD);
+				Assert.fail("SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Ffeed%2Ffeed_1 call is not matched with"     + SOD);
 			}
 			//System.out.println(expectedValues);
 			
@@ -4101,9 +4106,9 @@ public static void validate_SOD_Cust_param_deatiledfeed_Optinmode() throws Excep
 				logStep("SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fmaps ad call is " +SOD);
 			}
 			else {
-				System.out.println("SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fmaps ad call is not matchged with"     + SOD);
-				logStep("SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fmaps ad call is not matchged with"     + SOD);
-				Assert.fail("SOD cust param value for deatiled iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fmaps call is not matchged with"     + SOD);
+				System.out.println("SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fmaps ad call is not matched with"     + SOD);
+				logStep("SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fmaps ad call is not matched with"     + SOD);
+				Assert.fail("SOD cust param value for deatiled iu=%2F7646%2Fapp_android_us%2Fdb_display%2Fdetails%2Fmaps call is not matched with"     + SOD);
 			}
 			//System.out.println(expectedValues);
 			
@@ -4136,9 +4141,9 @@ public static void validate_SOD_Cust_param_video_Optinmode() throws Exception {
 				logStep("SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fvideo ad call is " +SOD);
 			}
 			else {
-				System.out.println("SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fvideo ad call is not matchged with"     + SOD);
-				logStep("SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fvideo ad call is not matchged with"     + SOD);
-				Assert.fail("SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fvideo ad call is not matchged with"     + SOD);
+				System.out.println("SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fvideo ad call is not matched with"     + SOD);
+				logStep("SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fvideo ad call is not matched with"     + SOD);
+				Assert.fail("SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fvideo ad call is not matched with"     + SOD);
 			}
 			//System.out.println(expectedValues);
 			
@@ -4596,8 +4601,8 @@ public static void validate_RDP_video_ad_Optinmode() throws Exception {
 		}
 	}
 		catch(Exception e) {
-			System.out.println("RDP key word preseted in not  presented in iu=%2F7646%2Fapp_android_us%2Fvideo call url");	
-			logStep("RDP key word preseted in not presented iu=%2F7646%2Fapp_android_us%2Fvideo call url");
+			System.out.println("RDP key word is presented in iu=%2F7646%2Fapp_android_us%2Fvideo call url");	
+			logStep("RDP key word is preseted in  iu=%2F7646%2Fapp_android_us%2Fvideo call url");
 			}
 	}
 		
@@ -5170,5 +5175,271 @@ public static void get_aaxcal_feed2() throws Exception {
 		Assert.fail("slotID 752a96eb-3198-4991-b572-17ec04883b6c is not trigred for aax call db_display/feed/feed_2");
 		}
 }
+	
+	public static void verifyCriteo_inapp_v2_Call(String sheetName, boolean expected)
+		throws Exception {
+	String[][] data = read_excel_data.exceldataread(sheetName);
+	DeviceStatus device_status = new DeviceStatus();
+	int Cap = device_status.Device_Status();
+	//readExcelValues.excelValues(excelName, sheetName);
+	String host =data[2][1];
+	String path =data[3][1];
+	boolean flag = verifyAPICalWithHostandPath(host, path);
+	if (flag) {
+		System.out.println(host + path + " call is present in Charles session");
+		logStep(host + path + " call is present in Charles session");
+
+	} else {
+		System.out.println(host + path + " call is not present in Charles session");
+		logStep(host + path + " call is not present in Charles session");
+	}
+
+	if (expected == flag) {
+		System.out.println(host + path + " :API Call Verification is successfull");
+		logStep(host + path + " :API Call Verification is successfull");
+
+	} else {
+		System.out.println(host + path + " :API Call Verification is failed");
+		logStep(host + path + " :API Call Verification is failed");
+		if (expected) {
+			System.out.println(host + path + " :API Call expected to present but it not exists");
+			logStep(host + path + " :API Call expected to present but it not exists");
+			Assert.fail(host + path + " :API Call expected to present but it not exists");
+		} else {
+			System.out.println(host + path + " :API Call is not expected to present but it exists");
+			logStep(host + path + " :API Call is not expected to present but it exists");
+			Assert.fail(host + path + " :API Call is not expected to present but it exists");
+		}
+	}
+}
+
+public static void verifyCriteo_config_app_Call(String sheetName, boolean expected)
+		throws Exception {
+	String[][] data = read_excel_data.exceldataread(sheetName);
+	DeviceStatus device_status = new DeviceStatus();
+	int Cap = device_status.Device_Status();
+	String host = data[2][1];
+	String path = data[4][1];
+	boolean flag = verifyAPICalWithHostandPath(host, path);
+	if (flag) {
+		System.out.println(host + path + " call is present in Charles session");
+		logStep(host + path + " call is present in Charles session");
+
+	} else {
+		System.out.println(host + path + " call is not present in Charles session");
+		logStep(host + path + " call is not present in Charles session");
+	}
+	if (expected == flag) {
+		System.out.println(host + path + " :API Call Verification is successfull");
+		logStep(host + path + " :API Call Verification is successfull");
+
+	} else {
+		System.out.println(host + path + " :API Call Verification is failed");
+		logStep(host + path + " :API Call Verification is failed");
+		if (expected) {
+			System.out.println(host + path + " :API Call expected to present but it not exists");
+			logStep(host + path + " :API Call expected to present but it not exists");
+			Assert.fail(host + path + " :API Call expected to present but it not exists");
+		} else {
+			System.out.println(host + path + " :API Call is not expected to present but it exists");
+			logStep(host + path + " :API Call is not expected to present but it exists");
+			Assert.fail(host + path + " :API Call is not expected to present but it exists");
+		}
+	}
+
+}
+	
+	public static boolean verifyAPICalWithHostandPath(String host, String path) throws Exception {
+	// readExcelValues.excelValues(excelName, sheetName);
+	File fXmlFile = new File(CharlesFunctions.outfile.getName());
+
+	DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
+	dbFactory.setValidating(false);
+	dbFactory.setNamespaceAware(true);
+	dbFactory.setFeature("http://xml.org/sax/features/namespaces", false);
+	// dbFactory.setNamespaceAware(true);
+	dbFactory.setFeature("http://xml.org/sax/features/validation", false);
+	dbFactory.setFeature("http://apache.org/xml/features/nonvalidating/load-dtd-grammar", false);
+	dbFactory.setFeature("http://apache.org/xml/features/nonvalidating/load-external-dtd", false);
+
+	DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
+
+	Document doc = dBuilder.parse(fXmlFile);
+// Getting the transaction element by passing xpath expression
+	NodeList nodeList = doc.getElementsByTagName("transaction");
+	String xpathExpression = "charles-session/transaction/@host";
+	List<String> getQueryList = evaluateXPath(doc, xpathExpression);
+
+// Getting custom_params amzn_b values
+	List<String> customParamsList = new ArrayList<String>();
+
+	// String iuId = null;
+
+	boolean iuExists = false;
+	for (String qry : getQueryList) {
+		if (qry.contains(host)) {
+			iuExists = true;
+			break;
+		}
+	}
+	boolean hflag = false;
+	boolean pflag = false;
+	boolean resflag = false;
+
+	if (iuExists) {
+		System.out.println(host + "  call is present");
+		logStep(host + "  call is present");
+		outerloop: for (int p = 0; p < nodeList.getLength(); p++) {
+			// System.out.println("Total transactions: "+nodeList.getLength());
+			if (nodeList.item(p) instanceof Node) {
+				Node node = nodeList.item(p);
+				if (node.hasChildNodes()) {
+					NodeList nl = node.getChildNodes();
+					for (int j = 0; j < nl.getLength(); j++) {
+						// System.out.println("node1 length is: "+nl.getLength());
+						Node innernode = nl.item(j);
+						if (innernode != null) {
+							// System.out.println("Innernode name is: "+innernode.getNodeName());
+							if (innernode.getNodeName().equals("request")) {
+								if (innernode.hasChildNodes()) {
+									NodeList n2 = innernode.getChildNodes();
+									for (int k = 0; k < n2.getLength(); k++) {
+										// System.out.println("node2 length is: "+n2.getLength());
+										Node innernode2 = n2.item(k);
+										if (innernode2 != null) {
+											// System.out.println("Innernode2 name is: "+innernode2.getNodeName());
+											if (innernode2.getNodeType() == Node.ELEMENT_NODE) {
+												Element eElement = (Element) innernode2;
+												// System.out.println("Innernode2 element name is:
+												// "+eElement.getNodeName());
+												if (eElement.getNodeName().equals("headers")) {
+													if (innernode2.hasChildNodes()) {
+														NodeList n3 = innernode2.getChildNodes();
+														for (int q = 0; q < n3.getLength(); q++) {
+															// System.out.println("node3 length is:
+															// "+n3.getLength());
+															Node innernode3 = n3.item(q);
+															if (innernode3 != null) {
+																// System.out.println("Innernode3 name is:
+																// "+innernode3.getNodeName());
+																if (innernode3.getNodeType() == Node.ELEMENT_NODE) {
+																	Element eElement1 = (Element) innernode3;
+																	// System.out.println("Innernode3 element name
+																	// is: "+eElement1.getNodeName());
+																	if (eElement1.getNodeName().equals("header")) {
+																		String content = eElement1.getTextContent();
+																		// System.out.println("request body
+																		// "+content);
+
+																		if (content.contains(host)) {
+																			hflag = true;
+																			// System.out.println("request body
+																			// found "
+																			// + content);
+
+																		} else if (content.contains(path)) {
+																			pflag = true;
+																			// System.out.println("request body
+																			// found "
+																			// + content);
+																		}
+																	}
+																	//if(hflag && !pflag) {
+																		if (eElement1.getNodeName().equals("first-line")) {
+																			String content = eElement1.getTextContent();
+																			// System.out.println("request body
+																			// "+content);
+
+																			if (content.contains(path)) {
+																				pflag = true;
+																				// System.out.println("request body
+																				// found "
+																				// + content);
+																			}
+																		}
+																	//}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+
+							/*
+							 * if (flag) { // System.out.println("Exiting after found true "); //
+							 * System.out.println("checking innernode name is: "+innernode.getNodeName());
+							 * if (innernode.getNodeName().equals("response")) { //
+							 * System.out.println(innernode.getNodeName()); if (innernode.hasChildNodes()) {
+							 * NodeList n2 = innernode.getChildNodes(); for (int k = 0; k < n2.getLength();
+							 * k++) { Node innernode2 = n2.item(k); if (innernode2 != null) { if
+							 * (innernode2.getNodeType() == Node.ELEMENT_NODE) { Element eElement =
+							 * (Element) innernode2; if (eElement.getNodeName().equals("body")) { String
+							 * content = eElement.getTextContent(); //
+							 * System.out.println("response body "+content); if
+							 * (content.contains(readExcelValues.data[13][Cap])) { resflag = true; break
+							 * outerloop;
+							 * 
+							 * } } } } } } }
+							 * 
+							 * }
+							 */
+							if (hflag && pflag) {
+								resflag = true;
+								break outerloop;
+							}
+						}
+					}
+				}
+			}
+			// flag = false;
+		}
+
+	} else {
+		System.out.println(host + " ad call is not present");
+		logStep(host + " ad call is not present");
+
+	}
+
+	return resflag;
+
+	// Get Pubad call from
+
+	/*
+	 * if (resflag) { System.out.println(host + path
+	 * +" call is present in Charles session"); logStep(host + path
+	 * +" call is present in Charles session"); return resflag;
+	 * 
+	 * } else { System.out .println(host + path
+	 * +" call is not present in Charles session"); logStep(host + path
+	 * +" call is not present in Charles session"); return resflag;
+	 * //Assert.fail(host + path +" call is not present in Charles session");
+	 * 
+	 * }
+	 */
+
+}
+private static List<String> evaluateXPath(Document document, String xpathExpression) throws Exception {
+	// Create XPathFactory object
+	XPathFactory xpathFactory = XPathFactory.newInstance();
+	// Create XPath object
+	XPath xpath = xpathFactory.newXPath();
+	List<String> values = new ArrayList<String>();
+	try {
+		// Create XPathExpression object
+		XPathExpression expr = xpath.compile(xpathExpression);
+		NodeList nodes = (NodeList) expr.evaluate(document, XPathConstants.NODESET);
+		for (int i = 0; i < nodes.getLength(); i++) {
+			values.add(nodes.item(i).getNodeValue());
+		}
+	} catch (XPathExpressionException e) {
+		e.printStackTrace();
+	}
+	return values;
+}
+
 
 }

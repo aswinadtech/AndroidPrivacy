@@ -1,6 +1,7 @@
 package twc.Regression.HandleWithCharles;
 
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -22,6 +23,7 @@ import twc.Regression.ReadDataFromFile.write_excel_data;
 
 public class CharlesFunctions extends Drivers{
 	
+	public static File outfile = null;
 	
 	public static void ClearSessions() throws Exception{
 
@@ -146,7 +148,7 @@ public class CharlesFunctions extends Drivers{
 	}
 	
 	// Archives Charles session xml files
-	public static void archive_folder(String folderType) throws Exception {
+	/*public static void archive_folder(String folderType) throws Exception {
 		DeviceStatus device_status = new DeviceStatus();
 		int Cap = device_status.Device_Status();
 
@@ -175,9 +177,43 @@ public class CharlesFunctions extends Drivers{
 				}
 			}
 		}
-	}
+	}*/
 	
 	
+// Archives Charles session xml files
+		public static void archive_folder(String folderType) throws Exception {
+			DeviceStatus device_status = new DeviceStatus();
+			int Cap = device_status.Device_Status();
+
+			String[][] paths = read_excel_data.exceldataread("Paths");
+			String downloadPath = null;
+			String archivedSessions = System.getProperty("user.dir") + "/ArchivedSessions";
+
+			if (folderType.equals("Charles")) {
+				downloadPath = paths[4][Cap];
+			}
+			
+
+			// String Screenshots = readExcelValues.data[16][Cap];
+
+			File index = new File(downloadPath);
+
+			for (final File fileEntry : index.listFiles()) {
+				if (fileEntry.isDirectory()) {
+
+					// listFilesForFolder(fileEntry);
+					// listFilesForFolder(fileEntry);
+					// archive_folder(fileEntry.toString());
+					FileUtils.moveDirectoryToDirectory(fileEntry, new File(archivedSessions), true);
+
+				} else {
+					if (fileEntry.toString().contains("chlsx")) {
+
+						FileUtils.moveFileToDirectory(fileEntry, new File(archivedSessions), true);
+					}
+				}
+			}
+		}
 	
 	public static void startSessionBrowserData2() throws Exception{
 
@@ -577,6 +613,66 @@ public static void downloadApp_TheWeatherChannelFlagshippp(WebDriver driver) thr
 				//System.out.println("No need to Download the Beta - Build, because same Build already existed.");
 			}		
 	}
+	
+	public static boolean createXMLFileForCharlesSessionFile() throws Exception {
+	FileInputStream instream = null;
+	FileOutputStream outstream = null;
+	read_excel_data.exceldataread("Paths");
+	String[][] paths = read_excel_data.exceldataread("Paths");
+	DeviceStatus device_status = new DeviceStatus();
+	int Cap = device_status.Device_Status();
+	// String path = System.getProperty("user.dir") + "/CapturedSessionFile/";
+	// Read the file name from the folder
+	File folder = new File(paths[4][Cap]);
+	// File folder = new File(path);
+	File[] listOfFiles = folder.listFiles();
+	String fileName = null;
+	for (File file : listOfFiles) {
+		if (file.isFile()) {
+			fileName = file.getName();
+			System.out.println("File Name is : " + fileName);
+			logStep("File Name is : " + fileName);
+		}
+	}
+	try {
+		// File file = new File(System.getProperty("user.dir")+"/DataFile.Properties");
+		// File infile = new File(path + fileName);
+		File infile = new File(paths[4][Cap] + fileName);
+		// File infile = new
+		// File("/Users/narasimhanukala/git/ads-automation/ios_Smoke_Automation/ArchivedSessions/charles202002212053.chlsx");
+		// File outfile = new
+		// File("/Users/narasimhanukala/git/ads-automation/ios_Smoke_Automation/charles/myoutputFile.xml");
+		outfile = new File(System.getProperty("user.dir") + "/myoutputFile.xml");
+
+		instream = new FileInputStream(infile);
+		outstream = new FileOutputStream(outfile);
+
+		byte[] buffer = new byte[1024];
+
+		int length;
+		/*
+		 * copying the contents from input stream to output stream using read and write
+		 * methods
+		 */
+		while ((length = instream.read(buffer)) > 0) {
+			outstream.write(buffer, 0, length);
+		}
+
+		// Closing the input/output file streams
+		instream.close();
+		outstream.close();
+
+		System.out.println("Successfully Generated XML file from Charles session file!!");
+		logStep("Successfully Generated XML file from Charles session file!!");
+		return true;
+	} catch (Exception e) {
+		System.out.println("Failed to Generate XML file from Charles session file");
+		logStep("Failed to Generate XML file from Charles session file");
+		e.printStackTrace();
+		return false;
+	}
+
+}
 public static void ExportSession() throws Exception{
 
 	String[][] charlesdata = read_excel_data.exceldataread("Charlesdeatils");
