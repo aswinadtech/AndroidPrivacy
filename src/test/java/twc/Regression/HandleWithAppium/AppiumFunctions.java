@@ -645,6 +645,8 @@ public static void killADB() throws IOException, Exception{
 	}
 	
 	public static void clickOnVideos_tile() throws Exception{
+		System.out.println("Videos element clicking");
+		logStep("Videos element clicking");
 		try {
 		Ad.findElementByAccessibilityId("Videos Tab").click();	
 		Thread.sleep(5000);
