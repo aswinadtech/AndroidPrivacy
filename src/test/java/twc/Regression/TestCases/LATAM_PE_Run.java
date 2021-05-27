@@ -64,6 +64,7 @@ public class LATAM_PE_Run extends TwcAndroidBaseTest {
 		//Functions.launchtheApp("true");
 		System.out.println("App launched ");
 		this.proxy.clearCharlesSession();
+		Thread.sleep(100000);
 		AppiumFunctions.Kill_Launch_App();
 		AppiumFunctions.ClickonIUnderstand();
 		attachScreen();
