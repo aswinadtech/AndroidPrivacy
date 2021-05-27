@@ -627,13 +627,13 @@ public static void killADB() throws IOException, Exception{
 	
 	public static void clickOnMaps_tile() throws Exception{
 		try {
-		Ad.findElementByAccessibilityId("Radar").click();	
+		Ad.findElementByAccessibilityId("Radar Tab").click();	
 		Thread.sleep(5000);
 		System.out.println("maps element clicked");
 		logStep("maps element clicked");
 		}catch(Exception e) {
 			try {
-				Ad.findElementByAccessibilityId("Radar").click();	
+				Ad.findElementByAccessibilityId("Radar Tab").click();	
 				Thread.sleep(5000);
 				System.out.println("maps element clicked");
 				logStep("maps element clicked");
