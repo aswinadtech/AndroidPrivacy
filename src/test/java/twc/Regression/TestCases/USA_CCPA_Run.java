@@ -73,6 +73,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 		attachScreen();
 		System.out.println("App launched ");
 		this.proxy.clearCharlesSession();
+		Thread.sleep(100000);
 		AppiumFunctions.Kill_Launch_App();
 		AppiumFunctions.ClickonIUnderstand();
 	
@@ -393,7 +394,9 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 		                proxy.enableRewriting();
 		                proxy.startRecording();
 				// Ad.launchApp();
+				Thread.sleep(100000);
 				AppiumFunctions.Kill_Launch_App();
+				Thread.sleep(10000);
 				AppiumFunctions.Kill_Launch_App();
 				AppiumFunctions.ClickonIUnderstand();
 				
@@ -738,6 +741,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 	  logStep("Selecting the Standard Advertising Settings  in the privacy card");
      System.out. println("=================Slecting Standard Advertising Settings  in privacy card testcase started =========================");
 	Ad.resetApp();
+		  Thread.sleep(100000);
 		  AppiumFunctions. Kill_Launch_App();
 		//CharlesFunctions.archive_folder("charles");
 	  Thread.sleep(100000);	  
