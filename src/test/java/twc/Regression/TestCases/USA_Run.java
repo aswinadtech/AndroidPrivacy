@@ -62,6 +62,7 @@ public class USA_Run extends TwcAndroidBaseTest {
 		AppiumFunctions.LaunchAppWithFullReset();
 		   AppiumFunctions.resetApp();
 		Thread.sleep(100000);
+		Thread.sleep(100000);
 		  	AppiumFunctions.clickONNext();
 			AppiumFunctions.ClickonIUnderstand();
 			AppiumFunctions.ClickonIUnderstand();
