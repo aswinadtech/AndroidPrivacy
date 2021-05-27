@@ -660,7 +660,8 @@ public static void killADB() throws IOException, Exception{
 				logStep("Videos element clicked");
 			}
 		catch(Exception e1) {
-			
+			System.out.println("Videos element not clicked");
+				logStep("Videos element not clicked");
 		}
 		}
 	}
