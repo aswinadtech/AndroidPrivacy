@@ -61,6 +61,7 @@ public class USA_Run extends TwcAndroidBaseTest {
 		this.proxy.clearCharlesSession();
 		AppiumFunctions.LaunchAppWithFullReset();
 		   AppiumFunctions.resetApp();
+		Thread.sleep(100000);
 		  	AppiumFunctions.clickONNext();
 			AppiumFunctions.ClickonIUnderstand();
 			AppiumFunctions.ClickonIUnderstand();
@@ -404,6 +405,7 @@ public class USA_Run extends TwcAndroidBaseTest {
 		                proxy.startRecording();
 				// Ad.launchApp();
 				AppiumFunctions.Kill_Launch_App();
+				Thread.sleep(100000);
 				AppiumFunctions.ClickonIUnderstand();
 				
 			}
@@ -415,6 +417,7 @@ public class USA_Run extends TwcAndroidBaseTest {
 		  System.out.println("=================Verifying Lotame ad.crwdcntrl.net api call supressing for USA privacy test case  started =========================");
 			CharlesFunctions.archive_folder("Charles");
 			  this.proxy.clearCharlesSession();
+			  Thread.sleep(100000);
 		  AppiumFunctions.Kill_Launch_App();  
 			  AppiumFunctions.Kill_Launch_App();  
 			  AppiumFunctions.Kill_Launch_App();
@@ -755,7 +758,9 @@ public class USA_Run extends TwcAndroidBaseTest {
 	  logStep("Selecting the Standard Advertising Settings  in the privacy card");
      System.out. println("=================Slecting Standard Advertising Settings  in privacy card testcase started =========================");
 	Ad.resetApp();
-		   Thread.sleep(80000);	
+		  
+		Thread.sleep(100000);
+		  Thread.sleep(100000);
 		  AppiumFunctions. Kill_Launch_App();
 	//  AppFunctions. Kill_Launch_App();
 	  Thread.sleep(80000);	  
