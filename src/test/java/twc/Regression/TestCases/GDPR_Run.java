@@ -98,6 +98,7 @@ public class GDPR_Run extends TwcAndroidBaseTest  {
 		attachScreen();
 		CharlesFunctions.archive_folder("Charles");
 		this.proxy.clearCharlesSession();
+			Thread.sleep(100000);
 		AppiumFunctions.Kill_Launch_App();
 		AppiumFunctions.ClickonIUnderstand();
 		attachScreen();
