@@ -52,8 +52,9 @@ public class EXEMPT_Run extends TwcAndroidBaseTest {
 		this.proxy.startRecording();
 		CharlesFunctions.archive_folder("Charles");
 		this.proxy.clearCharlesSession();
+		Thread.sleep(100000);
 		AppiumFunctions.LaunchAppWithFullReset();
-		   AppiumFunctions.resetApp();
+		 //  AppiumFunctions.resetApp();
 		  	AppiumFunctions.clickONNext();
 			AppiumFunctions.ClickonIUnderstand();
 			AppiumFunctions.ClickonIUnderstand();
