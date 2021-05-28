@@ -52,8 +52,9 @@ public class LATAM_PE_Run extends TwcAndroidBaseTest {
 		CharlesFunctions.archive_folder("Charles");
 		this.proxy.clearCharlesSession();
 		AppiumFunctions.LaunchAppWithFullReset();
-		Thread.sleep(100000);
-		 //  AppiumFunctions.resetApp();
+		//Thread.sleep(100000);
+		   AppiumFunctions.resetApp();
+		Thread.sleep(10000);
 		  	AppiumFunctions.clickONNext();
 			AppiumFunctions.ClickonIUnderstand();
 			AppiumFunctions.ClickonIUnderstand();
