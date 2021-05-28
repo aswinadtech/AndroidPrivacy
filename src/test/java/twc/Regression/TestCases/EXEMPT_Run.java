@@ -52,9 +52,10 @@ public class EXEMPT_Run extends TwcAndroidBaseTest {
 		this.proxy.startRecording();
 		CharlesFunctions.archive_folder("Charles");
 		this.proxy.clearCharlesSession();
-		Thread.sleep(100000);
+	
 		AppiumFunctions.LaunchAppWithFullReset();
-		 //  AppiumFunctions.resetApp();
+		  AppiumFunctions.resetApp();
+			Thread.sleep(10000);
 		  	AppiumFunctions.clickONNext();
 			AppiumFunctions.ClickonIUnderstand();
 			AppiumFunctions.ClickonIUnderstand();
@@ -66,7 +67,7 @@ public class EXEMPT_Run extends TwcAndroidBaseTest {
 		//Functions.launchtheApp("true");
 		System.out.println("App launched ");
 		this.proxy.clearCharlesSession();
-		Thread.sleep(100000);
+	
 		AppiumFunctions.Kill_Launch_App();
 		AppiumFunctions.ClickonIUnderstand();
 		attachScreen();
