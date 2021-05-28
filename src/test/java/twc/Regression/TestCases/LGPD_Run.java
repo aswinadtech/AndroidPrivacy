@@ -72,7 +72,7 @@ public class LGPD_Run extends TwcAndroidBaseTest  {
 			System.out.println("App launched ");
 			//CharlesFunctions.archive_folder("charles");
 		this.proxy.clearCharlesSession();
-		     Thread.sleep(100000);	
+		     Thread.sleep(5000);	
 		AppiumFunctions.Kill_Launch_App();
 		AppiumFunctions.ClickonIUnderstand();
 		attachScreen();
