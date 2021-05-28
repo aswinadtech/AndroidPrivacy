@@ -74,7 +74,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 		attachScreen();
 		System.out.println("App launched ");
 		this.proxy.clearCharlesSession();
-		Thread.sleep(100000);
+		Thread.sleep(10000);
 		AppiumFunctions.Kill_Launch_App();
 		AppiumFunctions.ClickonIUnderstand();
 	
@@ -395,7 +395,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 		                proxy.enableRewriting();
 		                proxy.startRecording();
 				// Ad.launchApp();
-				Thread.sleep(100000);
+				Thread.sleep(10000);
 				AppiumFunctions.Kill_Launch_App();
 				Thread.sleep(10000);
 				AppiumFunctions.Kill_Launch_App();
