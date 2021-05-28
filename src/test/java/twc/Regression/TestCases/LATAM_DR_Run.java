@@ -52,7 +52,7 @@ public class LATAM_DR_Run extends TwcAndroidBaseTest {
 		CharlesFunctions.archive_folder("Charles");
 		this.proxy.clearCharlesSession();
 		AppiumFunctions.LaunchAppWithFullReset();
-		 //  AppiumFunctions.resetApp();
+		  AppiumFunctions.resetApp();
 		  	AppiumFunctions.clickONNext();
 			AppiumFunctions.ClickonIUnderstand();
 			AppiumFunctions.ClickonIUnderstand();
@@ -64,7 +64,7 @@ public class LATAM_DR_Run extends TwcAndroidBaseTest {
 		//Functions.launchtheApp("true");
 		System.out.println("App launched ");
 		this.proxy.clearCharlesSession();
-		Thread.sleep(100000);
+		Thread.sleep(10000);
 		AppiumFunctions.Kill_Launch_App();
 		AppiumFunctions.ClickonIUnderstand();
 		attachScreen();
