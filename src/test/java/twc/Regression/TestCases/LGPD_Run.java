@@ -61,9 +61,10 @@ public class LGPD_Run extends TwcAndroidBaseTest  {
 		this.proxy.enableRewriting();
 		this.proxy.startRecording();
 		this.proxy.clearCharlesSession();
+		     Thread.sleep(100000);
 		AppiumFunctions.LaunchAppWithFullReset();
 		System.out.println("Launching the app with full reset");
-		   AppiumFunctions.resetApp();
+		  // AppiumFunctions.resetApp();
 		  	AppiumFunctions.clickONNext();
 			AppiumFunctions.ClickonIUnderstand();
 			AppiumFunctions.ClickonIUnderstand();
