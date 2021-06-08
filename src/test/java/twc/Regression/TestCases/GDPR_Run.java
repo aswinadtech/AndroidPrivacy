@@ -102,6 +102,9 @@ public class GDPR_Run extends TwcAndroidBaseTest  {
 		AppiumFunctions.Kill_Launch_App();
 		AppiumFunctions.ClickonIUnderstand();
 		attachScreen();
+		AppiumFunctions.clickOnVideos_tile();
+		attachScreen();
+		Thread.sleep(100000);
 		//CharlesFunctions.archive_folder("charles");
 		this.proxy.getXml();
 		//CharlesFunctions.archive_folder("charles");
@@ -244,7 +247,54 @@ public class GDPR_Run extends TwcAndroidBaseTest  {
 		    
 		}	 
 	
-		@Test(priority = 27, enabled = true)
+	
+	
+	@Test(priority =28, enabled = true)  
+		  @Title("Verifying home screen hourly ad call presense for GDPR privacy" ) 
+		  public void  Verifying_homescreenhourly_adCall_Presence_GDPR_privacy() throws Exception {
+	   System.out.println("=================Verifying home screen hourly ad call presense for GDPR privacy  testcase started =========================" );
+		  logStep("Verifying home screen hourly ad call presense for GDPR privacy");
+		  Functions.finding_Homescreen_iu_value();
+		  System.out.println("=================Verifying home screen hourly ad call presense for GDPR privacy  testcase  End =========================" );	  
+		  }
+		  
+		  @Test(priority = 30, enabled = true)	  
+		  @Title("Verifying home screen marquee ad call presense for GDPR privacy" )	
+		  public void Verifying_homescreenmarquee_adCall_Presence_GDPR_privacy()  throws Exception {
+		  logStep("Verifying home screen marquee ad call presense for GDPR privacy" ); 
+		  System.out. println("=================Verifying home screen marquee ad call presense for GDPR privacy test case started =========================" );  
+		  Functions.finding_Homescreen_marquee_iu_value();
+		  System.out.println("=================Verifying home screen marquee ad call presense for GDPR privacy test case End =========================" );	  
+		  }
+		
+
+			@Test(priority =32, enabled = true)  
+			 @Title("Verifying npa=1 in home screen hourly ad call for GDPR privacy") 
+			public void Verifying_npa_equals_1_homescreenHourly_adCall_GDPR_Privacy() throws Exception {	  
+			 System.out. println("=================Verifying npa=1 in home screen hourly ad call for GDPR privacy  testcase started =========================" ); 
+			  Functions.validate_npa_homescrenhourly_dontsellmyinformation();
+			  System.out. println("=================Verifying npa=1 in home screen hourly ad call for GDPR privacy  testcase End =========================" );
+			  }
+		  
+			@Test(priority =34, enabled = true)  
+			 @Title("Verifying npa=1 in home screen marquee ad call for GDPR privacy") 
+			public void Verifying_npa_equals_1_homescreenmarquee_adCall_GDPR_Privacy() throws Exception {	  
+			 System.out. println("=================Verifying npa=1 in home screen marquee ad call for GDPR privacy  testcase started =========================" ); 
+			 Functions.validate_npa_homescreenmarquee_dontsellmyinformation();
+			  System.out. println("=================Verifying npa=1 in home screen marquee ad call for GDPR privacy  testcase End =========================" );
+			  }
+		
+		
+			
+			@Test(priority =36, enabled = true)  
+			 @Title("Verifying npa=1 in videos ad call for GDPR privacy") 
+			public void Verifying_npa_equals_1_videos_adCall_GDPR_Privacy() throws Exception {	  
+			 System.out. println("=================Verifying npa=1 in detailed page ad call for GDPR privacy testcase started =========================" ); 
+			 Functions.validate_npa_video_ad_dontsellmyinformation();
+			  System.out. println("=================Verifying npa=1 in detailed page ad call for GDPR privacy testcase End =========================" );
+			  }
+	
+		@Test(priority = 38, enabled = true)
 		@Title("Verify Criteo SDK inapp v2 call")
 		public void Verify_Criteo_SDK_inapp_v2_Call_privacy_optout_for_GDPR() throws Exception {
 			System.out.println("==============================================");
@@ -256,7 +306,7 @@ public class GDPR_Run extends TwcAndroidBaseTest  {
 
 		}
 
-		@Test(priority = 28, enabled = true)
+		@Test(priority = 40, enabled = true)
 		@Title("Verify Criteo SDK config app call")
 		public void Verify_Criteo_SDK_config_app_Call_privacy_optout_for_GDPR() throws Exception {
 			System.out.println("==============================================");
