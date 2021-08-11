@@ -2966,17 +2966,17 @@ AppiumFunctions.clickOnRadarMaps();
 public static void Verify_video_ad_call_Optoutmode( )throws Exception{
 	  read_xml_data_into_buffer xml_data_into_buffer = new read_xml_data_into_buffer();
 		String sb = xml_data_into_buffer.read_xml_file_into_buffer_string();
-		System.out.println("Verifying   iu=%2F7646%2Fapp_android_us%2Fvideo  ad call");
-		logStep("Verifying iu=%2F7646%2Fapp_android_us%2Fvideo ad calll");
-	if(sb.contains("%2F7646%2Fapp_android_us%2Fvideo")) {
-	System.out.println("iu=/7646/app_android_us/video call was trigred");
-	logStep("iu=/7646/app_android_us/video call was trigred");
+		System.out.println("Verifying  iu=%2F7646%2Fapp_android_us%2Fweather%2Fsevere%2Ftropical  ad call");
+		logStep("Verifying iu=%2F7646%2Fapp_android_us%2Fweather%2Fsevere%2Ftropical ad calll");
+	if(sb.contains("iu=%2F7646%2Fapp_android_us%2Fweather%2Fsevere%2Ftropical")) {
+	System.out.println("iu=%2F7646%2Fapp_android_us%2Fweather%2Fsevere%2Ftropical call was trigred");
+	logStep("iu=%2F7646%2Fapp_android_us%2Fweather%2Fsevere%2Ftropical call was trigred");
 	}
 
-	if(!sb.contains("%2F7646%2Fapp_android_us%2Fvideo")) {
-	System.out.println("iu=/7646/app_android_us/video call was not trigred");
-	logStep("iu=/7646/app_android_us/video call was not trigred");
-	Assert.fail("iu=/7646/app_android_us/video call was not trigred");
+	if(!sb.contains("iu=%2F7646%2Fapp_android_us%2Fweather%2Fsevere%2Ftropical")) {
+	System.out.println("iu=%2F7646%2Fapp_android_us%2Fweather%2Fsevere%2Ftropical call was not trigred");
+	logStep("iu=%2F7646%2Fapp_android_us%2Fweather%2Fsevere%2Ftropical call was not trigred");
+	Assert.fail("iu=%2F7646%2Fapp_android_us%2Fweather%2Fsevere%2Ftropical call was not trigred");
 
 	}
 
