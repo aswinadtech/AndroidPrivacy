@@ -3381,9 +3381,9 @@ public static void validate_SOD_Cust_param_video_Optoutmode() throws Exception {
 	read_xml_data_into_buffer xml_data_into_buffer = new read_xml_data_into_buffer();
 	String sb = xml_data_into_buffer.read_xml_file_into_buffer_string();
 	String[][] exceldata=read_excel_data.exceldataread("NextGenIM");
-	logStep("Verifying  SOD custum param for iu=%2F7646%2Fapp_android_us%2Fvideo ad call");
-		if(sb.toString().contains("iu=%2F7646%2Fapp_android_us%2Fvideo")){
-			String Read_API_Call_Data = sb.toString().substring(sb.toString().lastIndexOf("iu=%2F7646%2Fapp_android_us%2Fvideo"));
+	logStep("Verifying  SOD custum param for iu=%2F7646%2Fapp_android_us%2Fweather%2Fsevere%2Ftropical ad call");
+		if(sb.toString().contains("iu=%2F7646%2Fapp_android_us%2Fweather%2Fsevere%2Ftropical")){
+			String Read_API_Call_Data = sb.toString().substring(sb.toString().lastIndexOf("iu=%2F7646%2Fapp_android_us%2Fweather%2Fsevere%2Ftropical"));
 			String required_info = Read_API_Call_Data.toString().substring(Read_API_Call_Data.toString().indexOf("cust_params="));
 			String expected_data = required_info.toString().substring(required_info.indexOf("sod%3D"),required_info.indexOf("&amp"));
 			
@@ -3392,20 +3392,20 @@ public static void validate_SOD_Cust_param_video_Optoutmode() throws Exception {
 			String SOD=expectedValues.replaceAll("%3D", "=");
 			
 			if(SOD.contains("no")) {
-				System.out.println("SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fvideo ad call is " +SOD);
-				logStep("SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fvideo ad call is " +SOD);
+				System.out.println("SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fweather%2Fsevere%2Ftropical ad call is " +SOD);
+				logStep("SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fweather%2Fsevere%2Ftropical ad call is " +SOD);
 			}
 			else {
-				System.out.println("SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fvideo ad call is not matchged with"     + SOD);
-				logStep("SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fvideo ad call is not matchged with"     + SOD);
-				Assert.fail("SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fvideo ad call is not matchged with"     + SOD);
+				System.out.println("SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fweather%2Fsevere%2Ftropical ad call is not matchged with"     + SOD);
+				logStep("SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fweather%2Fsevere%2Ftropical  ad call is not matchged with"     + SOD);
+				Assert.fail("SOD cust param value for iu=%2F7646%2Fapp_android_us%2Fweather%2Fsevere%2Ftropical  ad call is not matchged with"     + SOD);
 			}
 			//System.out.println(expectedValues);
 			
 		}else {
-			System.out.println("iu=%2F7646%2Fapp_android_us%2Fvideo ad call was not trigred");
-			logStep("iu=%2F7646%2Fapp_android_us%2Fvideo ad call ad call was not trigred");
-			Assert.fail("iu=%2F7646%2Fapp_android_us%2Fvideo ad call ad call was not trigred");
+			System.out.println("iu=%2F7646%2Fapp_android_us%2Fweather%2Fsevere%2Ftropical ad call was not trigred");
+			logStep("iu=%2F7646%2Fapp_android_us%2Fweather%2Fsevere%2Ftropical ad call ad call was not trigred");
+			Assert.fail("iu=%2F7646%2Fapp_android_us%2Fweather%2Fsevere%2Ftropical ad call ad call was not trigred");
 		}
 }
 
