@@ -53,7 +53,7 @@ public class USA_Run extends TwcAndroidBaseTest {
 	
 	
 	@Test(priority = 300)
-	public void preConditionsTest_for_USA() throws Exception {
+		public void preConditionsTest_for_USA_slecting_DoNotSellMyInformation() throws Exception {
 		// Enable rewriting on Charles install/launch TWC
 		this.proxy.enableRewriting();
 		this.proxy.startRecording();
