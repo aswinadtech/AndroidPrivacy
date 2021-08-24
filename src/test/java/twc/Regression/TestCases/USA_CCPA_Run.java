@@ -717,7 +717,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 	//==========================================================================================================//
 	 
 				@Test(priority = 251)
-				public void preConditionsTest_for_USA_CCPA1() throws Exception {
+				public void preConditionsTest_for_USA_CCPA_slecting_StandardAdvertisingSettings() throws Exception{
 					proxy.quitCharlesProxy();
 					this.configFile = this.rewriteRuleToEnableUSACCPA(CONFIG_FILE_PATH);
 					this.proxy = new CharlesProxy("localhost", 8333, CONFIG_FILE_PATH);
