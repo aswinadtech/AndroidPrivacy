@@ -3806,30 +3806,30 @@ public static void validate_RDP_video_ad_Optoutmode() throws Exception {
 	read_xml_data_into_buffer xml_data_into_buffer = new read_xml_data_into_buffer();
 	String sb = xml_data_into_buffer.read_xml_file_into_buffer_string();
 	//String[][] exceldata=read_excel_data.exceldataread("NextGenIM");
-	logStep("Verifying RDP keyword in iu=%2F7646%2Fapp_android_us%2Fvideo ad call url");
+	logStep("Verifying RDP keyword in iu=%2F7646%2Fapp_android_us%2Fweather%2Fsevere%2Ftropical ad call url");
 	try {
-	if(sb.toString().contains("iu=%2F7646%2Fapp_android_us%2Fvideo")){
-			String Read_API_Call_Data = sb.toString().substring(sb.toString().lastIndexOf("iu=%2F7646%2Fapp_android_us%2Fvideo"));		
+	if(sb.toString().contains("iu=%2F7646%2Fapp_android_us%2Fweather%2Fsevere%2Ftropical")){
+			String Read_API_Call_Data = sb.toString().substring(sb.toString().lastIndexOf("iu=%2F7646%2Fapp_android_us%2Fweather%2Fsevere%2Ftropical"));		
 		if	(Read_API_Call_Data.contains("rdp=1")){
-			System.out.println("RDP value for iu=%2F7646%2Fapp_android_us%2Fvideo  ad call is " +"1");	
-			logStep("RDP value for iu=%2F7646%2Fapp_android_us%2Fvideo ad call is " +"1");
+			System.out.println("RDP value for iu=%2F7646%2Fapp_android_us%2Fweather%2Fsevere%2Ftropical  ad call is " +"1");	
+			logStep("RDP value for iu=%2F7646%2Fapp_android_us%2Fweather%2Fsevere%2Ftropical ad call is " +"1");
 			}
 		else {
-			System.out.println("RDP  value for iu=%2F7646%2Fapp_android_us%2Fvideo ad call is not matched with"     +"1");
-			logStep("RDP  value for iu=%2F7646%2Fapp_android_us%2Fvideoad call is not matched with"     +"1");
-			Assert.fail("RDP for iu=%2F7646%2Fapp_android_us%2Fvideoad call  is not matched with"     +"1");
+			System.out.println("RDP  value for iu=%2F7646%2Fapp_android_us%2Fweather%2Fsevere%2Ftropical ad call is not matched with"     +"1");
+			logStep("RDP  value for iu=%2F7646%2Fapp_android_us%2Fweather%2Fsevere%2Ftropical ad call is not matched with"     +"1");
+			Assert.fail("RDP for iu=%2F7646%2Fapp_android_us%2Fweather%2Fsevere%2Ftropical ad call  is not matched with"     +"1");
 		}
 	}
 	else {
-		System.out.println("RDP  value for iu=%2F7646%2Fapp_android_us%2Fvideo ad call is not matched with"     +"1");
-		logStep("RDP  value for iu=%2F7646%2Fapp_android_us%2Fvideo ad call is not matched with"     +"1");
-		Assert.fail("RDP for iu=%2F7646%2Fapp_android_us%2Fvideo ad call  is not matched with"     +"1");
+		System.out.println("RDP  value for iu=%2F7646%2Fapp_android_us%2Fweather%2Fsevere%2Ftropical ad call is not matched with"     +"1");
+		logStep("RDP  value for iu=%2F7646%2Fapp_android_us%2Fweather%2Fsevere%2Ftropical  ad call is not matched with"     +"1");
+		Assert.fail("RDP for iu=%2F7646%2Fapp_android_us%2Fweather%2Fsevere%2Ftropical ad call  is not matched with"     +"1");
 	}
 	}
 		catch(Exception e) {
-				System.out.println("RDP  value for iu=%2F7646%2Fapp_android_us%2Fvideo ad call is not matched with"     +"1");
-				logStep("RDP  value for iu=%2F7646%2Fapp_android_us%2Fvideo ad call is not matched with"     +"1");
-				Assert.fail("RDP for iu=%2F7646%2Fapp_android_us%2Fvideo ad call  is not matched with"     +"1");
+				System.out.println("RDP  value for iu=%2F7646%2Fapp_android_us%2Fweather%2Fsevere%2Ftropical ad call is not matched with"     +"1");
+				logStep("RDP  value for iu=%2F7646%2Fapp_android_us%2Fweather%2Fsevere%2Ftropical ad call is not matched with"     +"1");
+				Assert.fail("RDP for iu=%2F7646%2Fapp_android_us%2Fweather%2Fsevere%2Ftropical  ad call  is not matched with"     +"1");
 			}
 			
 		}
