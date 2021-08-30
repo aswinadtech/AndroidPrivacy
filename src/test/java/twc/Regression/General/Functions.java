@@ -3673,32 +3673,32 @@ public static void validate_npa_video_ad_dontsellmyinformation() throws Exceptio
 	read_xml_data_into_buffer xml_data_into_buffer = new read_xml_data_into_buffer();
 	String sb = xml_data_into_buffer.read_xml_file_into_buffer_string();
 	//String[][] exceldata=read_excel_data.exceldataread("NextGenIM");
-	logStep("Verifying npa=1 keyword in iu=%2F7646%2Fapp_android_us%2Fvideo  ad call url");
-	System.out.println("Verifying npa=1 keyword in iu=%2F7646%2Fapp_android_us%2Fvideo ad call url");
+	logStep("Verifying npa=1 keyword in iu=%2F7646%2Fapp_android_us%2Fweather%2Fsevere%2Ftropical  ad call url");
+	System.out.println("Verifying npa=1 keyword in iu=%2F7646%2Fapp_android_us%2Fweather%2Fsevere%2Ftropical ad call url");
 	try {
-		if(sb.toString().contains("iu=%2F7646%2Fapp_android_us%2Fvideo")){
+		if(sb.toString().contains("iu=%2F7646%2Fapp_android_us%2Fweather%2Fsevere%2Ftropical")){
 			//String Read_API_Call_Data = sb.toString().substring(sb.toString().indexOf("slotname=%2F7646%2Fapp_android_us%2Fvideo"),sb.toString().indexOf("npa=1"));
-			String Read_API_Call_Data = sb.toString().substring(sb.toString().indexOf("iu=%2F7646%2Fapp_android_us%2Fvideo"));
+			String Read_API_Call_Data = sb.toString().substring(sb.toString().indexOf("iu=%2F7646%2Fapp_android_us%2Fweather%2Fsevere%2Ftropical"));
 		if	(Read_API_Call_Data.contains("npa=1")){
-			System.out.println("npa value for iu=%2F7646%2Fapp_android_us%2Fvideo ad call is " +"1");	
-			logStep("npa value for iu=%2F7646%2Fapp_android_us%2Fvideo ad call is " +"1");
+			System.out.println("npa value for iu=%2F7646%2Fapp_android_us%2Fweather%2Fsevere%2Ftropical ad call is " +"1");	
+			logStep("npa value for iiu=%2F7646%2Fapp_android_us%2Fweather%2Fsevere%2Ftropical ad call is " +"1");
 			}
 		else {
-			System.out.println("npa  value for iiu=%2F7646%2Fapp_android_us%2Fvideoad call is not matched with"     +"1");
-			logStep("npa  value for iu=%2F7646%2Fapp_android_us%2Fvideo ad call is not matched with"     +"1");
-			Assert.fail("npa for iu=%2F7646%2Fapp_android_us%2Fvideoad call  is not matched with"     +"1");
+			System.out.println("npa  value for iu=%2F7646%2Fapp_android_us%2Fweather%2Fsevere%2Ftropical ad call is not matched with"     +"1");
+			logStep("npa  value for iu=%2F7646%2Fapp_android_us%2Fweather%2Fsevere%2Ftropical  ad call is not matched with"     +"1");
+			Assert.fail("npa for iiu=%2F7646%2Fapp_android_us%2Fweather%2Fsevere%2Ftropical ad call  is not matched with"     +"1");
 		}
 		}
 		else {
-			System.out.println("npa  value for iu=%2F7646%2Fapp_android_us%2Fvideo ad call is not matched with"     +"1");
-			logStep("npa  value for iu=%2F7646%2Fapp_android_us%2Fvideo ad call is not matched with"     +"1");
-			Assert.fail("npa for iu=%2F7646%2Fapp_android_us%2Fvideo ad call  is not matched with"     +"1");
+			System.out.println("npa  value for iu=%2F7646%2Fapp_android_us%2Fweather%2Fsevere%2Ftropical  ad call is not matched with"     +"1");
+			logStep("npa  value for iu=%2F7646%2Fapp_android_us%2Fweather%2Fsevere%2Ftropical ad call is not matched with"     +"1");
+			Assert.fail("npa for iu=%2F7646%2Fapp_android_us%2Fweather%2Fsevere%2Ftropical  ad call  is not matched with"     +"1");
 		}
 	}
 		catch(Exception e) {
-				System.out.println("npa  value for iu=%2F7646%2Fapp_android_us%2Fvideo ad call is not matched with"     +"1");
-				logStep("npa  value for iu=%2F7646%2Fapp_android_us%2Fvideo ad call is not matched with"     +"1");
-				Assert.fail("npa for iu=%2F7646%2Fapp_android_us%2Fvideoad call  is not matched with"     +"1");
+				System.out.println("npa  value for iu=%2F7646%2Fapp_android_us%2Fweather%2Fsevere%2Ftropical  ad call is not matched with"     +"1");
+				logStep("npa  value for iu=%2F7646%2Fapp_android_us%2Fweather%2Fsevere%2Ftropical ad call is not matched with"     +"1");
+				Assert.fail("npa for iu=%2F7646%2Fapp_android_us%2Fweather%2Fsevere%2Ftropical  ad call  is not matched with"     +"1");
 			}
 			
 		}
