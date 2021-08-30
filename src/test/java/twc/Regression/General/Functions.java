@@ -4579,30 +4579,30 @@ public static void validate_RDP_video_ad_Optinmode() throws Exception {
 	read_xml_data_into_buffer xml_data_into_buffer = new read_xml_data_into_buffer();
 	String sb = xml_data_into_buffer.read_xml_file_into_buffer_string();
 	//String[][] exceldata=read_excel_data.exceldataread("NextGenIM");
-	logStep("Verifying RDP keyword in iu=%2F7646%2Fapp_android_us%2Fvideo  ad call url");
+	logStep("Verifying RDP keyword in iu=%2F7646%2Fapp_android_us%2Fweather%2Fsevere%2Ftropical ad call url");
 	try{
-		if(sb.toString().contains("iu=%2F7646%2Fapp_android_us%2Fvideo")){
-			String Read_API_Call_Data = sb.toString().substring(sb.toString().lastIndexOf("iu=%2F7646%2Fapp_android_us%2Fvideo"));
+		if(sb.toString().contains("iu=%2F7646%2Fapp_android_us%2Fweather%2Fsevere%2Ftropical")){
+			String Read_API_Call_Data = sb.toString().substring(sb.toString().lastIndexOf("iu=%2F7646%2Fapp_android_us%2Fweather%2Fsevere%2Ftropical"));
 		if	(sb.contains("rdp=1")){
-			System.out.println("RDP key word preseted in iu=%2F7646%2Fapp_android_us%2Fvideo ad call url");	
-			logStep("RDP key word preseted in iu=%2F7646%2Fapp_android_us%2Fvideo ad call url");
-			Assert.fail("RDP key word preseted in iu=%2F7646%2Fapp_android_us%2Fvideo ad call url");
+			System.out.println("RDP key word preseted in iu=%2F7646%2Fapp_android_us%2Fweather%2Fsevere%2Ftropical ad call url");	
+			logStep("RDP key word preseted in iu=%2F7646%2Fapp_android_us%2Fweather%2Fsevere%2Ftropical ad call url");
+			Assert.fail("RDP key word preseted in iu=%2F7646%2Fapp_android_us%2Fweather%2Fsevere%2Ftropical ad call url");
 			}
 		
 		else {
-			System.out.println("RDP key word preseted in not  presented in iu=%2F7646%2Fapp_android_us%2Fvideo call url");	
-			logStep("RDP key word preseted in not presented iu=%2F7646%2Fapp_android_us%2Fvideo call url");
+			System.out.println("RDP key word preseted in not  presented in iu=%2F7646%2Fapp_android_us%2Fweather%2Fsevere%2Ftropical call url");	
+			logStep("RDP key word preseted in not presented iu=%2F7646%2Fapp_android_us%2Fweather%2Fsevere%2Ftropical call url");
 		}
 	}
 		else {
-			System.out.println("RDP key word preseted in iu=%2F7646%2Fapp_android_us%2Fvideo ad call url");	
-			logStep("RDP key word preseted in iu=%2F7646%2Fapp_android_us%2Fvideo ad call url");
-			Assert.fail("RDP key word preseted in iu=%2F7646%2Fapp_android_us%2Fvideo ad call url");
+			System.out.println("RDP key word preseted in iu=%2F7646%2Fapp_android_us%2Fweather%2Fsevere%2Ftropical ad call url");	
+			logStep("RDP key word preseted in iu=%2F7646%2Fapp_android_us%2Fweather%2Fsevere%2Ftropical ad call url");
+			Assert.fail("RDP key word preseted in iu=%2F7646%2Fapp_android_us%2Fweather%2Fsevere%2Ftropical ad call url");
 		}
 	}
 		catch(Exception e) {
-			System.out.println("RDP key word is presented in iu=%2F7646%2Fapp_android_us%2Fvideo call url");	
-			logStep("RDP key word is preseted in  iu=%2F7646%2Fapp_android_us%2Fvideo call url");
+			System.out.println("RDP key word is presented in iu=%2F7646%2Fapp_android_us%2Fweather%2Fsevere%2Ftropical call url");	
+			logStep("RDP key word is preseted in  iu=%2F7646%2Fapp_android_us%2Fweather%2Fsevere%2Ftropical call url");
 			}
 	}
 		
