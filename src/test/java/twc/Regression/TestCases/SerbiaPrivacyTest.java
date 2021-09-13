@@ -34,7 +34,6 @@ public class SerbiaPrivacyTest extends TwcAndroidBaseTest
 	private File configFile;
 
 	@BeforeClass(alwaysRun = true)
-	@Description("BeforeClass")
 	public void beforeClass() throws Exception {
 		System.out.println("****** SERBIA Privacy Test Started");
 		logStep("****** SERBIA Privacy Test Started");
