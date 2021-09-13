@@ -1,19 +1,31 @@
 package twc.Regression.TestCases;
 
-import java.io.File;
-
-import org.testng.Assert;
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.Test;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Test;
 
-import io.qameta.allure.Description;
+
+
+import org.testng.annotations.Test;
+
+import twc.Regression.HandleWithCharles.CharlesProxy;
+
+import java.io.File;
+
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
 import ru.yandex.qatools.allure.annotations.Title;
+import twc.Regression.Driver.Drivers;
 import twc.Regression.General.Functions;
 import twc.Regression.General.TwcAndroidBaseTest;
 import twc.Regression.HandleWithAppium.AppiumFunctions;
 import twc.Regression.HandleWithCharles.CharlesFunctions;
-import twc.Regression.HandleWithCharles.CharlesProxy;
 
 public class SerbiaPrivacyTest extends TwcAndroidBaseTest
 {
