@@ -60,47 +60,31 @@ public class SerbiaPrivacyTest extends TwcAndroidBaseTest
 	@Test(priority = 1000)
 	public void preConditionsTest_for_Serbia() throws Exception {
 			// Enable rewriting on Charles install/launch TWC
+		// Enable rewriting on Charles install/launch TWC
 		this.proxy.enableRewriting();
 		this.proxy.startRecording();
 		this.proxy.clearCharlesSession();
-		
-		/*AppiumFunctions.getIpaddress();
-		Drivers.property();
-		 CurrentWifiName=properties.getProperty("deviceWifiName");
-		 System.out.println(CurrentWifiName);
-		AppiumFunctions.LaunchSettingsAppWithFullReset();
-		//proxy offf
-	    AppiumFunctions.settingProxyOff("None");
-	   AppiumFunctions.LaunchAppWithFirebaseFullReset();
-	    AppiumFunctions.installapk();
-	    AppiumFunctions.LaunchSettingsAppWithFullReset();
-	//proxyenable
-        AppiumFunctions.settingProxyEnable("Manual",AppiumFunctions.current_IPAddress,AppiumFunctions.defaultPortNumber);*/	
+		     //Thread.sleep(100000);
 		AppiumFunctions.LaunchAppWithFullReset();
+		System.out.println("Launching the app with full reset");
+		   AppiumFunctions.resetApp();
 		  	AppiumFunctions.clickONNext();
-		
 			AppiumFunctions.ClickonIUnderstand();
-		
-			AppiumFunctions.ClickonIUnderstand();
-		attachScreen();
 			AppiumFunctions.ClickonIUnderstand();
 			AppiumFunctions.clickOnAllow();
-		attachScreen();
-		System.out.println("App launched ");
-		AppiumFunctions.gettingApkVersion();
-		attachScreen();
-		CharlesFunctions.archive_folder("Charles");
+			System.out.println("App launched ");
+			//CharlesFunctions.archive_folder("charles");
 		this.proxy.clearCharlesSession();
-			Thread.sleep(10000);
+		     Thread.sleep(5000);	
 		AppiumFunctions.Kill_Launch_App();
 		AppiumFunctions.ClickonIUnderstand();
 		attachScreen();
 		AppiumFunctions.clickOnVideos_tile();
 		attachScreen();
-		Thread.sleep(100000);
+                  Thread.sleep(80000);		
 		//CharlesFunctions.archive_folder("charles");
 		this.proxy.getXml();
-		//CharlesFunctions.archive_folder("charles");
+		Thread.sleep(20000);
 	//	Utils.createXMLFileForCharlesSessionFile();
 	}
 	@Test(priority =1001,enabled = true)  
