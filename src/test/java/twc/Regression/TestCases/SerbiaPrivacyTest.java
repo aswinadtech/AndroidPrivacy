@@ -59,30 +59,48 @@ public class SerbiaPrivacyTest extends TwcAndroidBaseTest
 	
 	@Test(priority = 1000)
 	public void preConditionsTest_for_Serbia() throws Exception {
-		// Enable rewriting on Charles install/launch TWC
+			// Enable rewriting on Charles install/launch TWC
 		this.proxy.enableRewriting();
 		this.proxy.startRecording();
 		this.proxy.clearCharlesSession();
+		
+		/*AppiumFunctions.getIpaddress();
+		Drivers.property();
+		 CurrentWifiName=properties.getProperty("deviceWifiName");
+		 System.out.println(CurrentWifiName);
+		AppiumFunctions.LaunchSettingsAppWithFullReset();
+		//proxy offf
+	    AppiumFunctions.settingProxyOff("None");
+	   AppiumFunctions.LaunchAppWithFirebaseFullReset();
+	    AppiumFunctions.installapk();
+	    AppiumFunctions.LaunchSettingsAppWithFullReset();
+	//proxyenable
+        AppiumFunctions.settingProxyEnable("Manual",AppiumFunctions.current_IPAddress,AppiumFunctions.defaultPortNumber);*/	
 		AppiumFunctions.LaunchAppWithFullReset();
-		   AppiumFunctions.resetApp();
 		  	AppiumFunctions.clickONNext();
+		
 			AppiumFunctions.ClickonIUnderstand();
+		
+			AppiumFunctions.ClickonIUnderstand();
+		attachScreen();
 			AppiumFunctions.ClickonIUnderstand();
 			AppiumFunctions.clickOnAllow();
-		// Preconditions
-	//	Utils.getCurrentMacIPAddressAndSetiPhoneProxy(true, true);
-		//Functions.listFilesForFolder(Functions.folder);
-	//	Functions.archive_folder("Charles");
-		//Functions.launchtheApp("true");
+		attachScreen();
 		System.out.println("App launched ");
+		AppiumFunctions.gettingApkVersion();
+		attachScreen();
+		CharlesFunctions.archive_folder("Charles");
 		this.proxy.clearCharlesSession();
+			Thread.sleep(10000);
 		AppiumFunctions.Kill_Launch_App();
 		AppiumFunctions.ClickonIUnderstand();
-		AppiumFunctions.gettingApkVersion() ;
-	//	Functions.close_launchApp();
-		//Utils.navigateToAllCards(false);
+		attachScreen();
+		AppiumFunctions.clickOnVideos_tile();
+		attachScreen();
+		Thread.sleep(100000);
 		//CharlesFunctions.archive_folder("charles");
 		this.proxy.getXml();
+		//CharlesFunctions.archive_folder("charles");
 	//	Utils.createXMLFileForCharlesSessionFile();
 	}
 	@Test(priority =1001,enabled = true)  
