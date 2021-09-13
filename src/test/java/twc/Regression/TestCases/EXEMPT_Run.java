@@ -233,6 +233,7 @@ public class EXEMPT_Run extends TwcAndroidBaseTest {
 			logStep("****** Criteo SDK config/app call validation Started");
 			CharlesFunctions.archive_folder("Charles");
 			Functions.verifyCriteo_config_app_Call("Criteo", false);
+		}
 	
 	
 	
