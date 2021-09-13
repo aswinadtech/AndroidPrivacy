@@ -206,9 +206,69 @@ public class SerbiaPrivacyTest extends TwcAndroidBaseTest
 			logStep("Verifying supress amazon SlotId for videos preload ad call for Serbia Privacy");
 			 Functions.verifyaax_SlotId_supress("f71b7e17-6e34-4f6c-98f6-bbbe9f55586c");
 			System.out.println("=================Verifying supress amazon SlotId for videos preload ad call for Serbia Privacy testcase  End =========================");
-		}	
+		}
+		@Test(priority =1026, enabled = true)  
+		  @Title("Verifying home screen hourly ad call presense for Serbia Privacy") 
+		  public void  Verifying_homescreenhourly_adCall_Presence_Serbia_privacy()throws Exception {
+	          System.out.println("=================Verifying home screen hourly ad call presense for Serbia  privacy  testcase started =========================" );
+		  logStep("Verifying home screen hourly ad call presense for Serbia  privacy");
+		  Functions.finding_Homescreen_iu_value();
+		  System.out.println("=================Verifying home screen hourly ad call presense for Serbia privacy  testcase  End =========================" );	  
+		  }
+		  
+		  @Test(priority = 1028, enabled = true)	  
+		  @Title("Verifying home screen marquee ad call presense for Serbia privacy")	
+		  public void Verifying_homescreenmarquee_adCall_Presence_Serbia_privacy() throws	 Exception {
+		  logStep("Verifying home screen marquee ad call presense for Serbia privacy" ); 
+		  System.out. println("=================Verifying home screen marquee ad call presense for Serbia privacy test case started =========================" );  
+		  Functions.finding_Homescreen_marquee_iu_value();
+		  System.out.println("=================Verifying home screen marquee ad call presense for Serbia privacy test case End =========================" );	  
+		  }
 		
-		@Test(priority = 1026, enabled = true)
+
+			@Test(priority =1030, enabled = true)  
+			 @Title("Verifying npa=1 in home screen hourly ad call for Serbia privacy") 
+			public void Verifying_npa_equals_1_homescreenHourly_adCall_Serbia_privacy()throws Exception {	  
+			 System.out. println("=================Verifying npa=1 in home screen hourly ad call for Serbia  privacy  testcase started =========================" ); 
+			  Functions.validate_npa_homescrenhourly_dontsellmyinformation();
+			  System.out. println("=================Verifying npa=1 in home screen hourly ad call for Serbiam privacy  testcase End =========================" );
+			  }
+		  
+			@Test(priority =1032, enabled = true)  
+			 @Title("Verifying npa=1 in home screen marquee ad call for Serbia privacy") 
+			public void Verifying_npa_equals_1_homescreenmarquee_adCall_Serbia_privacy()throws Exception {	  
+			 System.out. println("=================Verifying npa=1 in home screen marquee ad call for Serbia  privacy  testcase started =========================" ); 
+			 Functions.validate_npa_homescreenmarquee_dontsellmyinformation();
+			  System.out. println("=================Verifying npa=1 in home screen marquee ad call for Serbia privacy  testcase End =========================" );
+			  }
+		
+		
+		@Test(priority = 1034, enabled = true)	  
+		  @Title("Verifying videos ad call presense for Latam_CO_privacy") 
+		  public void Verifying_videos_adCall_Presence_Latam_CO_privacy() throws   Exception {
+		System.out. println("=================Verifying videos ad call presense for Latam_CO_privacy() privacy test case started =========================" );
+		  logStep("Verifying videos ad call presense for Latam_CO_privacy() privacy"); 	
+			/*CharlesFunctions.ClearSessions();
+			AppiumFunctions.Kill_Launch_App();
+			CharlesFunctions.startSessionBrowserData();
+			AppiumFunctions.clickOnVideos_tile();
+			CharlesFunctions.archive_folder("charles");
+			CharlesFunctions.ExportSession();*/
+		  Functions.Verify_video_ad_call_Optoutmode(); 
+		  System.out.println("=================Verifying videos ad call presense for Latam_CO_privacy() privacy test case started End =========================" );  
+		  }
+		  
+		  
+		  @Test(priority =1036, enabled = true)  
+	 @Title("Verifying npa=1 in videos ad call for Latam_CO_privacy") 
+	public void Verifying_npa_equals_1_videos_adCall_Latam_CO_privacy()throws Exception {	  
+	 System.out. println("=================Verifying npa=1 in detailed page ad call for Latam_CO_privacy() privacy testcase started =========================" ); 
+	 Functions.validate_npa_video_ad_dontsellmyinformation();
+		CharlesFunctions.archive_folder("Charles");
+	  System.out. println("=================Verifying npa=1 in detailed page ad call for Latam_CO_privacy() privacy testcase End =========================" );
+	  }
+		
+		@Test(priority = 1038, enabled = true)
 		@Title("Verify Criteo SDK inapp v2 call")
 		public void Verify_Criteo_SDK_inapp_v2_Call_privacy_optout_for_Serbia() throws Exception {
 			System.out.println("==============================================");
@@ -220,7 +280,7 @@ public class SerbiaPrivacyTest extends TwcAndroidBaseTest
 
 		}
 
-		@Test(priority = 1028, enabled = true)
+		@Test(priority = 1040, enabled = true)
 		@Title("Verify Criteo SDK config app call")
 		public void Verify_Criteo_SDK_config_app_Call_privacy_optout_for_Serbia() throws Exception {
 			System.out.println("==============================================");
