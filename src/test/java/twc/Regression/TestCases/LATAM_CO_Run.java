@@ -21,7 +21,31 @@ public class LATAM_CO_Run extends TwcAndroidBaseTest {
 	private CharlesProxy proxy;
 	private File configFile;
 	
+	@BeforeClass(alwaysRun = true)
+	public void beforeClass() {
+		System.out.println("****** LATAM CO Privacy Test Started");
+		logStep("****** LATAM CO  Privacy Test Started");
+		this.configFile = this.rewriteRuleToEnableLATAMCO(CONFIG_FILE_PATH);
+		this.proxy = new CharlesProxy("localhost", 8333, CONFIG_FILE_PATH);
+
+		this.proxy.startCharlesProxyWithUI();
+		this.proxy.disableRewriting();
+		this.proxy.stopRecording();
+		this.proxy.disableMapLocal();
+	}
 	
+	
+	@AfterClass(alwaysRun = true)
+	public void afterClass() {
+		if (this.configFile != null) {
+			this.configFile.delete();
+		}
+		this.proxy.disableRewriting();
+		//this.proxy.quitCharlesProxy();
+		
+		System.out.println("****** LATAM CO   Privacy Test Ended");
+		logStep("****** LATAM CO  Privacy Test Ended");
+	}
 	
 				@Test(priority = 539, enabled = true)
 			@Title("Verify Criteo SDK inapp v2 call")
