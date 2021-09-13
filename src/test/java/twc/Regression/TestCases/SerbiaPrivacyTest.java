@@ -277,7 +277,7 @@ public class SerbiaPrivacyTest extends TwcAndroidBaseTest
 	public void Verifying_npa_equals_1_videos_adCall_Latam_CO_privacy()throws Exception {	  
 	 System.out. println("=================Verifying npa=1 in detailed page ad call for Latam_CO_privacy() privacy testcase started =========================" ); 
 	 Functions.validate_npa_video_ad_dontsellmyinformation();
-		CharlesFunctions.archive_folder("Charles");
+		//CharlesFunctions.archive_folder("Charles");
 	  System.out. println("=================Verifying npa=1 in detailed page ad call for Latam_CO_privacy() privacy testcase End =========================" );
 	  }
 		
@@ -300,8 +300,9 @@ public class SerbiaPrivacyTest extends TwcAndroidBaseTest
 			System.out.println("=========================== Criteo SDK config/app call ====================");
 			System.out.println("****** Criteo SDK config/app call validation Started");
 			logStep("****** Criteo SDK config/app call validation Started");
-			Functions.verifyCriteo_config_app_Call("Criteo", false);
 			CharlesFunctions.archive_folder("Charles");
+			Functions.verifyCriteo_config_app_Call("Criteo", false);
+			
 			
 		}
 	
