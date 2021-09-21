@@ -57,7 +57,7 @@ public class SerbiaPrivacyTest extends TwcAndroidBaseTest
 		logStep("******SERBIA  Privacy Test Ended");
 	}
 	
-	@Test(priority = 1000)
+	@Test(priority = 3000)
 	public void preConditionsTest_for_Serbia() throws Exception {
 			// Enable rewriting on Charles install/launch TWC
 		// Enable rewriting on Charles install/launch TWC
@@ -87,7 +87,7 @@ public class SerbiaPrivacyTest extends TwcAndroidBaseTest
 		Thread.sleep(20000);
 	//	Utils.createXMLFileForCharlesSessionFile();
 	}
-	@Test(priority =1001,enabled = true)  
+	@Test(priority =3002,enabled = true)  
 	 @Title("Verifying Lotame ad.crwdcntrl.net api call supressing for Serbia privacy") 
 	public void Verifying_Loatme_adcrwdcntrlnet_apiCall_supressing_Serbia_Privacy() throws Exception {	  
 	 System.out. println("=================Verifying Lotame ad.crwdcntrl.net api call supressing for Serbia privacy testcase started =========================" ); 
@@ -96,7 +96,7 @@ public class SerbiaPrivacyTest extends TwcAndroidBaseTest
 	  }
 	
 
-	@Test(priority =1002,enabled = true)  
+	@Test(priority =3004,enabled = true)  
 	 @Title("Verifying Lotame bcp.crwdcntrl.net api call supressing for Serbia privacy") 
 	public void Verifying_Loatme_bcpcrwdcntrlnet_apiCall_supressing_Serbia_Privacy() throws Exception {	  
 	 System.out. println("=================Verifying Lotame bcp.crwdcntrl.net api call supressing for Serbia privacy testcase started =========================" ); 
@@ -104,7 +104,7 @@ public class SerbiaPrivacyTest extends TwcAndroidBaseTest
 	  System.out. println("=================Verifying Lotame bcp.crwdcntrl.net api call supressing for Serbia privacy testcase End =========================" );
 	  }
 	
-	@Test(priority =1004,enabled = true)  
+	@Test(priority =3006,enabled = true)  
 	 @Title("Verifying Factual location.wfxtriggers.com api call supressing for Serbia privacy")  
 	public void Verifying_Factual_locationwfxtriggerscom_apiCall_supressing_Serbia_Privacy() throws Exception {	  
 	 System.out. println("=================Verifying Factual location.wfxtriggers.com api call supressing for Serbia privacy started =========================" ); 
@@ -113,7 +113,7 @@ public class SerbiaPrivacyTest extends TwcAndroidBaseTest
 	  }
 	
 
-	 @Test(priority=1006,enabled = true)  
+	 @Test(priority=3008,enabled = true)  
 	  @Title("Verifying supress amazon slot id for  home screen hourly preload ad call Serbia Privacy") 
 	  public void Verifying_Supress_amazon_Slotid_homescreenhourly_preload_adcall_Serbia_Privacy()throws Exception { 
 	  System.out.println("=================Verifying supress amazon slot id for  home screen hourly preload ad call Serbia Privacy test case Started========================="); 
@@ -124,7 +124,7 @@ public class SerbiaPrivacyTest extends TwcAndroidBaseTest
 	  }
 	
 	 
-		@Test(priority = 1008, enabled = true)
+		@Test(priority = 3010, enabled = true)
 		@Title("Verifying supress amazon Slot Id for  feed1 preload ad call Serbia Privacy")
 		public void Verifying_supress_amazon_Slotid_feed1_preroladcall_Serbia_Privacy() throws Exception {
 			System.out.println("=================Verifying supress amazon Slot Id for  feed1 preload ad call Serbia Privacy testcase Started =========================");
@@ -135,7 +135,7 @@ public class SerbiaPrivacyTest extends TwcAndroidBaseTest
 
 		}
 	
-	@Test(priority = 1010, enabled = true)
+	@Test(priority = 3012, enabled = true)
 	@Title("Verifying supress amazon SlotId for feed2 prerload ad call  Serbia Privacy")
 	public void Verifying_supress_amazon_Slotid_feed2_preroladcall_Serbia_Privacy() throws Exception {
 		System.out.println("=================Verifying supress amazon SlotId for feed2 prerload ad call  Serbia Privacy testcase Started =========================");
@@ -145,7 +145,7 @@ public class SerbiaPrivacyTest extends TwcAndroidBaseTest
 		System.out.println("=================Verifying supress amazon SlotId for feed2 prerload ad call  Serbia Privacy  testcase End =========================");
 	}
 
-	 @Test(priority = 1012, enabled = true)
+	 @Test(priority = 3014, enabled = true)
 		@Title("Verifying supress amazon SlotId for  hourly details preload ad call Serbia Privacy")
 		public void Verifying_Supress_amazon_Slotid_Hourlydetails_preload_adcall_Serbia_Privacy() throws Exception {
 		System.out.println("=================Verifying supress amazon Slot Id for  hourly details preload ad call Serbia Privacy testcase  Started =========================");
@@ -155,7 +155,7 @@ public class SerbiaPrivacyTest extends TwcAndroidBaseTest
 		System.out.println("================= Verifying supress amazon Slot Id for  hourly details preload ad call Serbia Privacy testcase  End =========================");
 		}
 		
-		  @Test(priority =1014, enabled = true)
+		  @Test(priority =3016, enabled = true)
 			@Title("Verifying supress amazon SlotId for  hourly1 details big ad  preload call Serbia Privacy")
 			public void Verifying_Supress_amazon_Slotid_Hourly1_bigaddetails_preload_adcall_Serbia_Privacy() throws Exception {
 				System.out.println(
@@ -168,7 +168,7 @@ public class SerbiaPrivacyTest extends TwcAndroidBaseTest
 			
 
 
-			@Test(priority = 1016, enabled = true)
+			@Test(priority = 3018, enabled = true)
 			@Title("Verifying supress amazon SlotId for  hourly2 details big ad  preload call  Serbia Privacy")
 			public void Verifying_supress_amazon_Slotid_Hourly2_bigaddetails_preload_adcall_Serbia_Privacy() throws Exception {
 				System.out.println("=================Verifying supress amazon SlotId for  hourly2 details big ad  preload call  Serbia Privacy test case Started =========================");
@@ -180,7 +180,7 @@ public class SerbiaPrivacyTest extends TwcAndroidBaseTest
 
 
 
-			@Test(priority = 1018, enabled = true)
+			@Test(priority = 3020, enabled = true)
 			@Title("Verifying supress amazon SlotId for  hourly3 details big ad preload call Serbia Privacy")
 			public void Verifying_supress_amazon_Slotid_Hourly3_bigaddetails_preload_adcall_Serbia_Privacy()throws Exception {
 				System.out.println("=================Verifying supress amazon SlotId for  hourly3 details big ad preload call Serbia Privacy test case  Started =========================");
@@ -191,7 +191,7 @@ public class SerbiaPrivacyTest extends TwcAndroidBaseTest
 			  
 
 		
-		@Test(priority = 1020, enabled = true)
+		@Test(priority = 3022, enabled = true)
 		@Title("Verifying supress amazon SlotId for maps details preload ad call Serbia Privacy")
 		public void Verifying_supress_amazon_Slotid_mapsdetails_preload_adcall_Serbia_Privacy() throws Exception {
 			System.out.println("=================Verifying supress amazon SlotId for maps details preload ad call Serbia Privacy  testcase  Started =========================");
@@ -202,7 +202,7 @@ public class SerbiaPrivacyTest extends TwcAndroidBaseTest
 		}
 	
 
-		@Test(priority = 1022, enabled = true)
+		@Test(priority = 3024, enabled = true)
 		@Title("Verifying supress amazon SlotId for daily details preload ad call Serbia Privacy")
 		public void Verifying_supress_amazon_Slotid_Dailydetails_preload_adcall_Serbia_Privacy() throws Exception {
 			System.out.println("=================Verifying supress amazon SlotId for daily details preload ad call Serbia Privacy testcase Started =========================");
@@ -212,7 +212,7 @@ public class SerbiaPrivacyTest extends TwcAndroidBaseTest
 			
 			System.out.println("=================Verifying supress amazon SlotId for daily details preload ad call serbia Privacy testcase End =========================");
 		}
-		@Test(priority = 1024, enabled = true)
+		@Test(priority = 3026, enabled = true)
 		@Title("Verifying supress amazon SlotId for videos preload ad call for Serbia Privacy")
 		public void Verifying_supress_amazon_Slotid_video_adcall_Serbia_Privacy() throws Exception {
 			System.out.println("=================Verifying supress amazon SlotId for videos preload ad call for Serbia Privacy testcase Started =========================");
@@ -220,7 +220,7 @@ public class SerbiaPrivacyTest extends TwcAndroidBaseTest
 			 Functions.verifyaax_SlotId_supress("f71b7e17-6e34-4f6c-98f6-bbbe9f55586c");
 			System.out.println("=================Verifying supress amazon SlotId for videos preload ad call for Serbia Privacy testcase  End =========================");
 		}
-		@Test(priority =1026, enabled = true)  
+		@Test(priority =3028, enabled = true)  
 		  @Title("Verifying home screen hourly ad call presense for Serbia Privacy") 
 		  public void  Verifying_homescreenhourly_adCall_Presence_Serbia_privacy()throws Exception {
 	          System.out.println("=================Verifying home screen hourly ad call presense for Serbia  privacy  testcase started =========================" );
@@ -229,7 +229,7 @@ public class SerbiaPrivacyTest extends TwcAndroidBaseTest
 		  System.out.println("=================Verifying home screen hourly ad call presense for Serbia privacy  testcase  End =========================" );	  
 		  }
 		  
-		  @Test(priority = 1028, enabled = true)	  
+		  @Test(priority = 3030, enabled = true)	  
 		  @Title("Verifying home screen marquee ad call presense for Serbia privacy")	
 		  public void Verifying_homescreenmarquee_adCall_Presence_Serbia_privacy() throws	 Exception {
 		  logStep("Verifying home screen marquee ad call presense for Serbia privacy" ); 
@@ -239,7 +239,7 @@ public class SerbiaPrivacyTest extends TwcAndroidBaseTest
 		  }
 		
 
-			@Test(priority =1030, enabled = true)  
+			@Test(priority =3032, enabled = true)  
 			 @Title("Verifying npa=1 in home screen hourly ad call for Serbia privacy") 
 			public void Verifying_npa_equals_1_homescreenHourly_adCall_Serbia_privacy()throws Exception {	  
 			 System.out. println("=================Verifying npa=1 in home screen hourly ad call for Serbia  privacy  testcase started =========================" ); 
@@ -247,7 +247,7 @@ public class SerbiaPrivacyTest extends TwcAndroidBaseTest
 			  System.out. println("=================Verifying npa=1 in home screen hourly ad call for Serbiam privacy  testcase End =========================" );
 			  }
 		  
-			@Test(priority =1032, enabled = true)  
+			@Test(priority =3034, enabled = true)  
 			 @Title("Verifying npa=1 in home screen marquee ad call for Serbia privacy") 
 			public void Verifying_npa_equals_1_homescreenmarquee_adCall_Serbia_privacy()throws Exception {	  
 			 System.out. println("=================Verifying npa=1 in home screen marquee ad call for Serbia  privacy  testcase started =========================" ); 
@@ -256,7 +256,7 @@ public class SerbiaPrivacyTest extends TwcAndroidBaseTest
 			  }
 		
 		
-		@Test(priority = 1034, enabled = true)	  
+		@Test(priority = 3036, enabled = true)	  
 		  @Title("Verifying videos ad call presense for Latam_CO_privacy") 
 		  public void Verifying_videos_adCall_Presence_Latam_CO_privacy() throws   Exception {
 		System.out. println("=================Verifying videos ad call presense for Latam_CO_privacy() privacy test case started =========================" );
@@ -272,7 +272,7 @@ public class SerbiaPrivacyTest extends TwcAndroidBaseTest
 		  }
 		  
 		  
-		  @Test(priority =1036, enabled = true)  
+		  @Test(priority =3038, enabled = true)  
 	 @Title("Verifying npa=1 in videos ad call for Latam_CO_privacy") 
 	public void Verifying_npa_equals_1_videos_adCall_Latam_CO_privacy()throws Exception {	  
 	 System.out. println("=================Verifying npa=1 in detailed page ad call for Latam_CO_privacy() privacy testcase started =========================" ); 
@@ -281,7 +281,7 @@ public class SerbiaPrivacyTest extends TwcAndroidBaseTest
 	  System.out. println("=================Verifying npa=1 in detailed page ad call for Latam_CO_privacy() privacy testcase End =========================" );
 	  }
 		
-		@Test(priority = 1038, enabled = true)
+		@Test(priority = 3040, enabled = true)
 		@Title("Verify Criteo SDK inapp v2 call")
 		public void Verify_Criteo_SDK_inapp_v2_Call_privacy_optout_for_Serbia() throws Exception {
 			System.out.println("==============================================");
@@ -293,7 +293,7 @@ public class SerbiaPrivacyTest extends TwcAndroidBaseTest
 
 		}
 
-		@Test(priority = 1040, enabled = true)
+		@Test(priority = 3042, enabled = true)
 		@Title("Verify Criteo SDK config app call")
 		public void Verify_Criteo_SDK_config_app_Call_privacy_optout_for_Serbia() throws Exception {
 			System.out.println("==============================================");
