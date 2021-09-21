@@ -68,6 +68,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 	public void preConditionsTest_for_USA_CCPA_slecting_DoNotSellMyInformation() throws Exception {
 		// Enable rewriting on Charles install/launch TWC
 		this.proxy.enableRewriting();
+		this.proxy.disableRewriting();
 		this.proxy.startRecording();
 		CharlesFunctions.archive_folder("Charles");
 		this.proxy.clearCharlesSession();
