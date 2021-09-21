@@ -26,7 +26,7 @@ import twc.Regression.HandleWithCharles.CharlesFunctions;
 public class USA_CCPA_Run extends TwcAndroidBaseTest {
 	
 	
-	private static final String CONFIG_FILE_PATH = "enableUSACCPA.config";
+	private static final String USACCPACONFIG_FILE_PATH = "enableUSACCPA.config";
 	private static final String LGPD_CONFIG_FILE_PATH = "enableLGPD.config";
 	private static final String GDPR_CONFIG_FILE_PATH ="enableGDPR.config";
 	private static final String LATAMCOCONFIG_FILE_PATH = "enableLATAMCO.config";
@@ -38,8 +38,8 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 	public void beforeClass() {
 		System.out.println("****** USA CCPA  Privacy Test Started");
 		logStep("****** LGPD Privacy Test Started");
-		this.configFile = this.rewriteRuleToEnableUSACCPA(CONFIG_FILE_PATH);
-		this.proxy = new CharlesProxy("localhost", 8333, CONFIG_FILE_PATH);
+		this.configFile = this.rewriteRuleToEnableUSACCPA(USACCPACONFIG_FILE_PATH);
+		this.proxy = new CharlesProxy("localhost", 8333, USACCPACONFIG_FILE_PATH);
 
 		this.proxy.startCharlesProxyWithUI();
 		this.proxy.disableRewriting();
@@ -69,7 +69,11 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 		this.proxy.clearCharlesSession();
 		     //Thread.sleep(100000);
 		AppiumFunctions.LaunchAppWithFullReset();
+		
+		
 		   AppiumFunctions.resetApp();
+		
+		Thread.sleep(100000);
 		  	AppiumFunctions.clickONNext();
 			AppiumFunctions.ClickonIUnderstand();
 			AppiumFunctions.ClickonIUnderstand();
@@ -1730,8 +1734,8 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 				@Test(priority = 440,enabled = true)
 				public void preConditionsTest_for_USA_CCPA_slecting_StandardAdvertisingSettings() throws Exception{
 					proxy.quitCharlesProxy();
-					this.configFile = this.rewriteRuleToEnableUSACCPA(CONFIG_FILE_PATH);
-					this.proxy = new CharlesProxy("localhost", 8333, CONFIG_FILE_PATH);
+					this.configFile = this.rewriteRuleToEnableUSACCPA(USACCPACONFIG_FILE_PATH);
+					this.proxy = new CharlesProxy("localhost", 8333, USACCPACONFIG_FILE_PATH);
 
 					this.proxy.startCharlesProxyWithUI();
 					this.proxy.disableMapLocal();
