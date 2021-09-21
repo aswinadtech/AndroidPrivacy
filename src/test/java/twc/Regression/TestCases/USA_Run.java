@@ -60,10 +60,10 @@ public class USA_Run extends TwcAndroidBaseTest {
 		// Enable rewriting on Charles install/launch TWC
 		this.proxy.enableRewriting();
 		this.proxy.startRecording();
-		CharlesFunctions.archive_folder("Charles");
+		//CharlesFunctions.archive_folder("Charles");
 		this.proxy.clearCharlesSession();
 		AppiumFunctions.LaunchAppWithFullReset();
-		   AppiumFunctions.resetApp();
+		   //AppiumFunctions.resetApp();
 		Thread.sleep(100000);
 		Thread.sleep(100000);
 		  	AppiumFunctions.clickONNext();
