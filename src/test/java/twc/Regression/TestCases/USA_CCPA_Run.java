@@ -35,6 +35,8 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 	private static final String LATAMPE_CONFIG_FILE_PATH = "enableLATAMPE.config";
 	private static final String USA_CONFIG_FILE_PATH = "enableUSA.config";
 	private File configFile;
+		
+	private CharlesProxy proxy;
 	
 	@BeforeClass(alwaysRun = true)
 	public void beforeClass() {
