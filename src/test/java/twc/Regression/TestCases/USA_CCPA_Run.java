@@ -1073,8 +1073,8 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 			logStep("Enable Preconfiguration for USACCPA to LATMCO Travel Scenario");
 			proxy.quitCharlesProxy();
 			// Ad.closeApp();
-			this.configFile = this.rewriteRuleToEnableLGPD(LATAMCOCONFIG_FILE_PATH);
-			this.proxy = new CharlesProxy("localhost", 8333, LATAMCOCONFIG_FILE_PATH);
+			this.configFile = this.rewriteRuleToEnableLGPD(LATAMCO_CONFIG_FILE_PATH);
+			this.proxy = new CharlesProxy("localhost", 8333, LATAMCO_CONFIG_FILE_PATH);
 			proxy.startCharlesProxyWithUI();
 			this.proxy.disableRewriting();
 	                 this.proxy.stopRecording();
