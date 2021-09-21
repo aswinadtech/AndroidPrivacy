@@ -45,7 +45,7 @@ public class EXEMPT_Run extends TwcAndroidBaseTest {
 		logStep("****** EXEMPT  Privacy Test Ended");
 	}
 	
-	@Test(priority = 800)
+	@Test(priority = 2000)
 	public void preConditionsTest_for_EXEMPT() throws Exception {
 		// Enable rewriting on Charles install/launch TWC
 		this.proxy.enableRewriting();
@@ -78,7 +78,7 @@ public class EXEMPT_Run extends TwcAndroidBaseTest {
 	//AppiumFunctions.clickOnVideos_tile();
 	//	Utils.createXMLFileForCharlesSessionFile();
 	}
-	@Test(priority =802,enabled = true)  
+	@Test(priority =2002,enabled = true)  
 	 @Title("Verifying Lotame ad.crwdcntrl.net api call supressing for EXEMPT  privacy") 
 	public void Verifying_Loatme_adcrwdcntrlnet_apiCall_supressing_EXEMPT_Privacy() throws Exception {	  
 	 System.out. println("=================Verifying Lotame ad.crwdcntrl.net api call supressing for EXEMPT  privacy testcase started =========================" ); 
@@ -87,7 +87,7 @@ public class EXEMPT_Run extends TwcAndroidBaseTest {
 	  }
 	
 
-	@Test(priority =804,enabled = true)  
+	@Test(priority =2004,enabled = true)  
 	 @Title("Verifying Lotame bcp.crwdcntrl.net api call supressing for EXEMPT  privacy") 
 	public void Verifying_Loatme_bcpcrwdcntrlnet_apiCall_supressing_EXEMPT_Privacy() throws Exception {	  
 	 System.out. println("=================Verifying Lotame bcp.crwdcntrl.net api call supressing for EXEMPT  privacy testcase started =========================" ); 
@@ -95,7 +95,7 @@ public class EXEMPT_Run extends TwcAndroidBaseTest {
 	  System.out. println("=================Verifying Lotame bcp.crwdcntrl.net api call supressing for EXEMPT  privacy testcase End =========================" );
 	  }
 	
-	@Test(priority =806,enabled = true)  
+	@Test(priority =2006,enabled = true)  
 	 @Title("Verifying Factual location.wfxtriggers.com api call supressing for EXEMPT  privacy")  
 	public void Verifying_Factual_locationwfxtriggerscom_apiCall_supressing_EXEMPT_Privacy() throws Exception {	  
 	 System.out. println("=================Verifying Factual location.wfxtriggers.com api call supressing for EXEMPT  privacy started =========================" ); 
@@ -104,7 +104,7 @@ public class EXEMPT_Run extends TwcAndroidBaseTest {
 	  }
 	
 
-	 @Test(priority=808,enabled = true)  
+	 @Test(priority=2008,enabled = true)  
 	  @Title("Verifying supress amazon slot id for  home screen hourly preload ad call EXEMPT Privacy") 
 	  public void Verifying_Supress_amazon_Slotid_homescreenhourly_preload_adcall_EXEMPT_Privacy()throws Exception { 
 	  System.out.println("=================Verifying supress amazon slot id for  home screen hourly preload ad call EXEMPT Privacy test case Started========================="); 
@@ -115,7 +115,7 @@ public class EXEMPT_Run extends TwcAndroidBaseTest {
 	  }
 	
 	 
-		@Test(priority = 810, enabled = true)
+		@Test(priority = 2010, enabled = true)
 		@Title("Verifying supress amazon Slot Id for  feed1 preload ad call EXEMPT Privacy")
 		public void Verifying_supress_amazon_Slotid_feed1_preroladcall_EXEMPT_Privacy() throws Exception {
 			System.out.println("=================Verifying supress amazon Slot Id for  feed1 preload ad call EXEMPT Privacy testcase Started =========================");
@@ -126,7 +126,7 @@ public class EXEMPT_Run extends TwcAndroidBaseTest {
 
 		}
 	
-	@Test(priority = 812, enabled = true)
+	@Test(priority = 2012, enabled = true)
 	@Title("Verifying supress amazon SlotId for feed2 prerload ad call EXEMPT Privacy")
 	public void Verifying_supress_amazon_Slotid_feed2_preroladcall_EXEMPT_Privacy() throws Exception {
 		System.out.println("=================Verifying supress amazon SlotId for feed2 prerload ad call EXEMPT Privacy testcase Started =========================");
@@ -136,7 +136,7 @@ public class EXEMPT_Run extends TwcAndroidBaseTest {
 		System.out.println("=================Verifying supress amazon SlotId for feed2 prerload ad call EXEMPT Privacy  testcase End =========================");
 	}
 
-	 @Test(priority = 814, enabled = true)
+	 @Test(priority = 2014, enabled = true)
 		@Title("Verifying supress amazon SlotId for  hourly details preload ad call EXEMPT Privacy")
 		public void Verifying_Supress_amazon_Slotid_Hourlydetails_preload_adcall_EXEMPT_Privacy() throws Exception {
 		System.out.println("=================Verifying supress amazon Slot Id for  hourly details preload ad call EXEMPT Privacy testcase  Started =========================");
@@ -146,7 +146,7 @@ public class EXEMPT_Run extends TwcAndroidBaseTest {
 		System.out.println("================= Verifying supress amazon Slot Id for  hourly details preload ad call EXEMPT Privacy testcase  End =========================");
 		}
 		
-		  @Test(priority =816, enabled = true)
+		  @Test(priority =2016, enabled = true)
 			@Title("Verifying supress amazon SlotId for  hourly1 details big ad  preload call EXEMPT Privacy")
 			public void Verifying_Supress_amazon_Slotid_Hourly1_bigaddetails_preload_adcall_EXEMPT_Privacy() throws Exception {
 				System.out.println(
@@ -159,7 +159,7 @@ public class EXEMPT_Run extends TwcAndroidBaseTest {
 			
 
 
-			@Test(priority = 818, enabled = true)
+			@Test(priority = 2018, enabled = true)
 			@Title("Verifying supress amazon SlotId for  hourly2 details big ad  preload call EXEMPT Privacy")
 			public void Verifying_supress_amazon_Slotid_Hourly2_bigaddetails_preload_adcall_EXEMPT_Privacy() throws Exception {
 				System.out.println("=================Verifying supress amazon SlotId for  hourly2 details big ad  preload call EXEMPT Privacy test case Started =========================");
@@ -171,7 +171,7 @@ public class EXEMPT_Run extends TwcAndroidBaseTest {
 
 
 
-			@Test(priority = 820, enabled = true)
+			@Test(priority = 2020, enabled = true)
 			@Title("Verifying supress amazon SlotId for  hourly3 details big ad preload call EXEMPT Privacy")
 			public void Verifying_supress_amazon_Slotid_Hourly3_bigaddetails_preload_adcall_EXEMPT_Privacy()throws Exception {
 				System.out.println("=================Verifying supress amazon SlotId for  hourly3 details big ad preload call EXEMPT Privacy test case  Started =========================");
@@ -182,7 +182,7 @@ public class EXEMPT_Run extends TwcAndroidBaseTest {
 			  
 
 		
-		@Test(priority = 822, enabled = true)
+		@Test(priority = 2022, enabled = true)
 		@Title("Verifying supress amazon SlotId for maps details preload ad call EXEMPT Privacy")
 		public void Verifying_supress_amazon_Slotid_mapsdetails_preload_adcall_EXEMPT_Privacy() throws Exception {
 			System.out.println("=================Verifying supress amazon SlotId for maps details preload ad call EXEMPT Privacy  testcase  Started =========================");
@@ -193,7 +193,7 @@ public class EXEMPT_Run extends TwcAndroidBaseTest {
 		}
 	
 
-		@Test(priority = 824, enabled = true)
+		@Test(priority = 2024, enabled = true)
 		@Title("Verifying supress amazon SlotId for daily details preload ad call EXEMPT Privacy")
 		public void Verifying_supress_amazon_Slotid_Dailydetails_preload_adcall_EXEMPT_Privacy() throws Exception {
 			System.out.println("=================Verifying supress amazon SlotId for daily details preload ad call EXEMPT Privacy testcase Started =========================");
@@ -202,7 +202,7 @@ public class EXEMPT_Run extends TwcAndroidBaseTest {
 			 Functions.verifyaax_SlotId_supress("6c5a145d-9198-48f4-adfd-08f05557eace");
 			System.out.println("=================Verifying supress amazon SlotId for daily details preload ad call LATAM_CO Privacy testcase End =========================");
 		}
-		@Test(priority = 826, enabled = true)
+		@Test(priority = 2026, enabled = true)
 		@Title("Verifying supress amazon SlotId for videos preload ad call for EXEMPT Privacy")
 		public void Verifying_supress_amazon_Slotid_video_adcall_EXEMPT_Privacy() throws Exception {
 			System.out.println("=================Verifying supress amazon SlotId for videos preload ad call for EXEMPT Privacy testcase Started =========================");
@@ -212,7 +212,7 @@ public class EXEMPT_Run extends TwcAndroidBaseTest {
 		        //CharlesFunctions.archive_folder("Charles");
 		}	
 	
-	@Test(priority = 828, enabled = true)
+	@Test(priority = 2028, enabled = true)
 		@Title("Verify Criteo SDK inapp v2 call")
 		public void Verify_Criteo_SDK_inapp_v2_Call_privacy_optout_for_EXEMPT_Privacy() throws Exception {
 			System.out.println("==============================================");
@@ -224,7 +224,7 @@ public class EXEMPT_Run extends TwcAndroidBaseTest {
 
 		}
 
-		@Test(priority = 830, enabled = true)
+		@Test(priority = 2030, enabled = true)
 		@Title("Verify Criteo SDK config app call")
 		public void Verify_Criteo_SDK_config_app_Call_privacy_optout_for_EXEMPT_Privacy() throws Exception {
 			System.out.println("==============================================");
