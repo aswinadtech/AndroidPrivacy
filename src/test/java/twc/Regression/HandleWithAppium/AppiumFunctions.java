@@ -648,13 +648,13 @@ public static void killADB() throws IOException, Exception{
 		System.out.println("Videos element clicking");
 		logStep("Videos element clicking");
 		try {
-		Ad.findElementByAccessibilityId("Nicholas Tab").click();	
+		Ad.findElementByAccessibilityId("Videos Tab").click();	
 		Thread.sleep(5000);
 		System.out.println("Videos element clicked");
 		logStep("Videos element clicked");
 		}catch(Exception e) {
 			try {
-				Ad.findElementByAccessibilityId("Nicholas Tab").click();	
+				Ad.findElementByAccessibilityId("Videos Tab").click();	
 				Thread.sleep(5000);
 				System.out.println("Videos element clicked");
 				logStep("Videos element clicked");
