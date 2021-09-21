@@ -193,7 +193,7 @@ public class TwcAndroidBaseTest extends Drivers{
 	
 	
 	
-	/*public File rewriteRuleToEnableUSA(String fileName) {
+	public File rewriteRuleToEnableUSA(String fileName) {
 	final List<File> configFiles = new ArrayList<File>();
 	final File parentDir = new File(Constants.PATH_USER_HOME);
 	parentDir.mkdirs();
@@ -212,10 +212,10 @@ public class TwcAndroidBaseTest extends Drivers{
 
 
 	return configFile;
-}*/
+}
 	
 	
-	public File rewriteRuleToEnableUSA(String fileName) {
+	/*public File rewriteRuleToEnableUSA(String fileName) {
 		final List<File> configFiles = new ArrayList<File>();
 		final File parentDir = new File(Constants.PATH_USER_HOME);
 		parentDir.mkdirs();
@@ -231,7 +231,7 @@ public class TwcAndroidBaseTest extends Drivers{
 
 
 		return configFile;
-	}
+	}*/
 	
 		public File rewriteRuleToEnableLATAMPE(String fileName) {
 
