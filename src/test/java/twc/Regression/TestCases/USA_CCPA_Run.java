@@ -26,20 +26,22 @@ import twc.Regression.HandleWithCharles.CharlesFunctions;
 public class USA_CCPA_Run extends TwcAndroidBaseTest {
 	
 	
-	private static final String USACCPACONFIG_FILE_PATH = "enableUSACCPA.config";
+	private static final String CONFIG_FILE_PATH = "enableUSACCPA.config";
 	private static final String LGPD_CONFIG_FILE_PATH = "enableLGPD.config";
-	private static final String GDPR_CONFIG_FILE_PATH ="enableGDPR.config";
-	private static final String LATAMCOCONFIG_FILE_PATH = "enableLATAMCO.config";
-	private static final String SERBIA_CONFIG_FILE_PATH = "enableSerbia.config";
-	private CharlesProxy proxy;
+	private static final String GDPR_CONFIG_FILE_PATH = "enableGDPR.config";
+	private static final String SERBIA_CONFIG_FILE_PATH = "enableSERBIA.config";
+	private static final String LATAMCO_CONFIG_FILE_PATH = "enableLATAMCO.config";
+	private static final String LATAMDO_CONFIG_FILE_PATH = "enableLATAMDO.config";
+	private static final String LATAMPE_CONFIG_FILE_PATH = "enableLATAMPE.config";
+	private static final String USA_CONFIG_FILE_PATH = "enableUSA.config";
 	private File configFile;
 	
 	@BeforeClass(alwaysRun = true)
 	public void beforeClass() {
 		System.out.println("****** USA CCPA  Privacy Test Started");
 		logStep("****** LGPD Privacy Test Started");
-		this.configFile = this.rewriteRuleToEnableUSACCPA(USACCPACONFIG_FILE_PATH);
-		this.proxy = new CharlesProxy("localhost", 8333, USACCPACONFIG_FILE_PATH);
+		this.configFile = this.rewriteRuleToEnableUSACCPA(CONFIG_FILE_PATH);
+		this.proxy = new CharlesProxy("localhost", 8333, CONFIG_FILE_PATH);
 
 		this.proxy.startCharlesProxyWithUI();
 		this.proxy.disableRewriting();
@@ -1734,8 +1736,8 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 				@Test(priority = 440,enabled = true)
 				public void preConditionsTest_for_USA_CCPA_slecting_StandardAdvertisingSettings() throws Exception{
 					proxy.quitCharlesProxy();
-					this.configFile = this.rewriteRuleToEnableUSACCPA(USACCPACONFIG_FILE_PATH);
-					this.proxy = new CharlesProxy("localhost", 8333, USACCPACONFIG_FILE_PATH);
+					this.configFile = this.rewriteRuleToEnableUSACCPA(CONFIG_FILE_PATH);
+					this.proxy = new CharlesProxy("localhost", 8333, CONFIG_FILE_PATH);
 
 					this.proxy.startCharlesProxyWithUI();
 					this.proxy.disableMapLocal();
