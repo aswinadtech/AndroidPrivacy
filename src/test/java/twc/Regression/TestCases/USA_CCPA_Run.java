@@ -140,14 +140,6 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 	 
 
 				
-					@Test(priority = 112, enabled = true)
-					@Description("Verifying wfxtg trigger api call url on KillLaunch")
-					public void Smoke_Test_CaseVerify_WeatherFXAPI_url_KillLaunch() throws Exception {
-						System.out.println("================= Verifying WeatherFX API url started =========================");
-					
-						Functions.validating_WeatherFXAPI();
-						System.out.println("================= Verifying WeatherFX API url End =========================");
-					}
 	  
 	  @Test(priority=112,enabled = true)  
 	  @Title("Verifying supress amazon slotid for  home screen hourly preload ad call  USA-CCPA privacy when Advertising option set to Do Not Sell My Information") 
@@ -417,15 +409,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 		 Functions.validating_Fatualcall_privacy_Optoutmode_scenarion();
 		 System.out. println("================= Verifying Fatual api call when user selecting Optoutmode scenario in privacy card End =========================");
 		  }
-		                    @Test(priority = 208, enabled = true)
-					@Description("Verifying wfxtg trigger api call url on KillLaunch")
-					public void Smoke_Test_CaseVerify_WeatherFXAPI_url_KillLaunch() throws Exception {
-						System.out.println("================= Verifying WeatherFX API url started =========================");
-					
-						Functions.validating_WeatherFXAPI();
-						System.out.println("================= Verifying WeatherFX API url End =========================");
-					}
-		  
+		            
 		  @Test(priority=208,enabled = true)  
 		  @Title("Verifying supress amazon slotid for  home screen hourly preload ad call  USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA Travel Scenario") 
 		  public void Verifying_Supress_amazon_Slotid_homescreenhourly_preload_adcall_USA_CCPA_Privacy_DoNotSellMyInformation_for_USACCPA_Travel_Scenario() throws Exception { 
@@ -752,14 +736,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 	  }
 	
 	 
-	@Test(priority = 257, enabled = true)
-					@Description("Verifying wfxtg trigger api call url on KillLaunch")
-					public void Smoke_Test_CaseVerify_WeatherFXAPI_url_KillLaunch() throws Exception {
-						System.out.println("================= Verifying WeatherFX API url started =========================");
-					
-						Functions.validating_WeatherFXAPI();
-						System.out.println("================= Verifying WeatherFX API url End =========================");
-					}
+	
 		@Test(priority = 258, enabled = true)
 		@Title("Verifying presence amazon SlotId for  feed1 preload ad call  USA-CCPA privacy when Advertising option set to Standard Advertising Settings")
 		public void Verifying_presence_amazon_Slotid_feed1_preroladcall_USA_CCPA_Privacy_StandardAdvertisingSettings() throws Exception {
