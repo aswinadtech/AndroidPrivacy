@@ -48,7 +48,7 @@ public class LATAM_CO_Run extends TwcAndroidBaseTest {
 		logStep("****** LATAM CO  Privacy Test Ended");
 	}
 	
-	@Test(priority = 500)
+	@Test(priority = 900)
 	public void preConditionsTest_for_LATAMCO() throws Exception {
 		// Enable rewriting on Charles install/launch TWC
 		this.proxy.enableRewriting();
@@ -81,7 +81,7 @@ public class LATAM_CO_Run extends TwcAndroidBaseTest {
 		this.proxy.getXml();
 	//	Utils.createXMLFileForCharlesSessionFile();
 	}
-	@Test(priority =502,enabled = true)  
+	@Test(priority =902,enabled = true)  
 	 @Title("Verifying Lotame ad.crwdcntrl.net api call supressing for LATAM_CO  privacy") 
 	public void Verifying_Loatme_adcrwdcntrlnet_apiCall_supressing_Latam_CO_Privacy() throws Exception {	  
 	 System.out. println("=================Verifying Lotame ad.crwdcntrl.net api call supressing for LATAM_CO  privacy testcase started =========================" ); 
@@ -90,7 +90,7 @@ public class LATAM_CO_Run extends TwcAndroidBaseTest {
 	  }
 	
 
-	@Test(priority =504,enabled = true)  
+	@Test(priority =904,enabled = true)  
 	 @Title("Verifying Lotame bcp.crwdcntrl.net api call supressing for LATAM_CO  privacy") 
 	public void Verifying_Loatme_bcpcrwdcntrlnet_apiCall_supressing_Latam_CO_Privacy() throws Exception {	  
 	 System.out. println("=================Verifying Lotame bcp.crwdcntrl.net api call supressing for LATAM_CO  privacy testcase started =========================" ); 
@@ -98,7 +98,7 @@ public class LATAM_CO_Run extends TwcAndroidBaseTest {
 	  System.out. println("=================Verifying Lotame bcp.crwdcntrl.net api call supressing for LATAM_CO  privacy testcase End =========================" );
 	  }
 	
-	@Test(priority =506,enabled = true)  
+	@Test(priority =906,enabled = true)  
 	 @Title("Verifying Factual location.wfxtriggers.com api call supressing for LATAM_CO  privacy")  
 	public void Verifying_Factual_locationwfxtriggerscom_apiCall_supressing_Latam_CO_Privacy() throws Exception {	  
 	 System.out. println("=================Verifying Factual location.wfxtriggers.com api call supressing for LATAM_CO  privacy started =========================" ); 
@@ -107,7 +107,7 @@ public class LATAM_CO_Run extends TwcAndroidBaseTest {
 	  }
 	
 
-	 @Test(priority=508,enabled = true)  
+	 @Test(priority=908,enabled = true)  
 	  @Title("Verifying supress amazon slot id for  home screen hourly preload ad call LATAM_CO Privacy") 
 	  public void Verifying_Supress_amazon_Slotid_homescreenhourly_preload_adcall_Latam_CO_Privacy()throws Exception { 
 	  System.out.println("=================Verifying supress amazon slot id for  home screen hourly preload ad call LATAM_CO Privacy test case Started========================="); 
@@ -118,7 +118,7 @@ public class LATAM_CO_Run extends TwcAndroidBaseTest {
 	  }
 	
 	 
-		@Test(priority = 510, enabled = true)
+		@Test(priority = 910, enabled = true)
 		@Title("Verifying supress amazon Slot Id for  feed1 preload ad call LATAM_CO Privacy")
 		public void Verifying_supress_amazon_Slotid_feed1_preroladcall_Latam_CO_Privacy() throws Exception {
 			System.out.println("=================Verifying supress amazon Slot Id for  feed1 preload ad call LATAM_CO Privacy testcase Started =========================");
@@ -129,7 +129,7 @@ public class LATAM_CO_Run extends TwcAndroidBaseTest {
 
 		}
 	
-	@Test(priority = 512, enabled = true)
+	@Test(priority = 912, enabled = true)
 	@Title("Verifying supress amazon SlotId for feed2 prerload ad call  LATAM_CO Privacy")
 	public void Verifying_supress_amazon_Slotid_feed2_preroladcall_Latam_CO_Privacy() throws Exception {
 		System.out.println("=================Verifying supress amazon SlotId for feed2 prerload ad call  LATAM_CO Privacy testcase Started =========================");
@@ -139,7 +139,7 @@ public class LATAM_CO_Run extends TwcAndroidBaseTest {
 		System.out.println("=================Verifying supress amazon SlotId for feed2 prerload ad call  LATAM_CO Privacy  testcase End =========================");
 	}
 
-	 @Test(priority = 514, enabled = true)
+	 @Test(priority = 914, enabled = true)
 		@Title("Verifying supress amazon SlotId for  hourly details preload ad call LATAM_CO Privacy")
 		public void Verifying_Supress_amazon_Slotid_Hourlydetails_preload_adcall_Latam_CO_Privacy() throws Exception {
 		System.out.println("=================Verifying supress amazon Slot Id for  hourly details preload ad call LATAM_CO Privacy testcase  Started =========================");
@@ -149,7 +149,7 @@ public class LATAM_CO_Run extends TwcAndroidBaseTest {
 		System.out.println("================= Verifying supress amazon Slot Id for  hourly details preload ad call LATAM_CO Privacy testcase  End =========================");
 		}
 		
-		  @Test(priority =516, enabled = true)
+		  @Test(priority =916, enabled = true)
 			@Title("Verifying supress amazon SlotId for  hourly1 details big ad  preload call LATAM_CO Privacy")
 			public void Verifying_Supress_amazon_Slotid_Hourly1_bigaddetails_preload_adcall_Latam_CO_Privacy() throws Exception {
 				System.out.println(
@@ -162,7 +162,7 @@ public class LATAM_CO_Run extends TwcAndroidBaseTest {
 			
 
 
-			@Test(priority = 518, enabled = true)
+			@Test(priority = 918, enabled = true)
 			@Title("Verifying supress amazon SlotId for  hourly2 details big ad  preload call  LATAM_CO Privacy")
 			public void Verifying_supress_amazon_Slotid_Hourly2_bigaddetails_preload_adcall_Latam_CO_Privacy() throws Exception {
 				System.out.println("=================Verifying supress amazon SlotId for  hourly2 details big ad  preload call  LATAM_CO Privacy test case Started =========================");
@@ -174,7 +174,7 @@ public class LATAM_CO_Run extends TwcAndroidBaseTest {
 
 
 
-			@Test(priority = 520, enabled = true)
+			@Test(priority = 920, enabled = true)
 			@Title("Verifying supress amazon SlotId for  hourly3 details big ad preload call LATAM_CO Privacy")
 			public void Verifying_supress_amazon_Slotid_Hourly3_bigaddetails_preload_adcall_Latam_CO_Privacy()throws Exception {
 				System.out.println("=================Verifying supress amazon SlotId for  hourly3 details big ad preload call LATAM_CO Privacy test case  Started =========================");
@@ -185,7 +185,7 @@ public class LATAM_CO_Run extends TwcAndroidBaseTest {
 			  
 
 		
-		@Test(priority = 522, enabled = true)
+		@Test(priority = 922, enabled = true)
 		@Title("Verifying supress amazon SlotId for maps details preload ad call LATAM_CO Privacy")
 		public void Verifying_supress_amazon_Slotid_mapsdetails_preload_adcall_Latam_CO_Privacy() throws Exception {
 			System.out.println("=================Verifying supress amazon SlotId for maps details preload ad call LATAM_CO Privacy  testcase  Started =========================");
@@ -196,7 +196,7 @@ public class LATAM_CO_Run extends TwcAndroidBaseTest {
 		}
 	
 
-		@Test(priority = 524, enabled = true)
+		@Test(priority = 924, enabled = true)
 		@Title("Verifying supress amazon SlotId for daily details preload ad call LATAM_CO Privacy")
 		public void Verifying_supress_amazon_Slotid_Dailydetails_preload_adcall_Latam_CO_Privacy() throws Exception {
 			System.out.println("=================Verifying supress amazon SlotId for daily details preload ad call LATAM_CO Privacy testcase Started =========================");
@@ -205,7 +205,7 @@ public class LATAM_CO_Run extends TwcAndroidBaseTest {
 			 Functions.verifyaax_SlotId_supress("6c5a145d-9198-48f4-adfd-08f05557eace");
 			System.out.println("=================Verifying supress amazon SlotId for daily details preload ad call LATAM_CO Privacy testcase End =========================");
 		}
-		@Test(priority = 526, enabled = true)
+		@Test(priority = 926, enabled = true)
 		@Title("Verifying supress amazon SlotId for videos preload ad call for LATAM_CO Privacy")
 		public void Verifying_supress_amazon_Slotid_video_adcall_Latam_CO_Privacy() throws Exception {
 			System.out.println("=================Verifying supress amazon SlotId for videos preload ad call for LATAM_CO Privacy testcase Started =========================");
@@ -215,7 +215,7 @@ public class LATAM_CO_Run extends TwcAndroidBaseTest {
 		}	 
 	
 	
-	         @Test(priority =528, enabled = true)  
+	         @Test(priority =928, enabled = true)  
 		  @Title("Verifying home screen hourly ad call presense for Latam_CO_privacy") 
 		  public void  Verifying_homescreenhourly_adCall_Presence_Latam_CO_privacy()throws Exception {
 	          System.out.println("=================Verifying home screen hourly ad call presense for Latam_CO_privacy() privacy  testcase started =========================" );
@@ -224,7 +224,7 @@ public class LATAM_CO_Run extends TwcAndroidBaseTest {
 		  System.out.println("=================Verifying home screen hourly ad call presense for Latam_CO_privacy() privacy  testcase  End =========================" );	  
 		  }
 		  
-		  @Test(priority = 530, enabled = true)	  
+		  @Test(priority = 930, enabled = true)	  
 		  @Title("Verifying home screen marquee ad call presense for Latam_CO_privacy")	
 		  public void Verifying_homescreenmarquee_adCall_Presence_Latam_CO_privacy() throws	 Exception {
 		  logStep("Verifying home screen marquee ad call presense for Latam_CO_privacy() privacy" ); 
@@ -234,7 +234,7 @@ public class LATAM_CO_Run extends TwcAndroidBaseTest {
 		  }
 		
 
-			@Test(priority =532, enabled = true)  
+			@Test(priority =932, enabled = true)  
 			 @Title("Verifying npa=1 in home screen hourly ad call for Latam_CO_privacy") 
 			public void Verifying_npa_equals_1_homescreenHourly_adCall_Latam_CO_privacy()throws Exception {	  
 			 System.out. println("=================Verifying npa=1 in home screen hourly ad call for Latam_CO_privacy() privacy  testcase started =========================" ); 
@@ -242,7 +242,7 @@ public class LATAM_CO_Run extends TwcAndroidBaseTest {
 			  System.out. println("=================Verifying npa=1 in home screen hourly ad call for Latam_CO_privacy() privacy  testcase End =========================" );
 			  }
 		  
-			@Test(priority =534, enabled = true)  
+			@Test(priority =934, enabled = true)  
 			 @Title("Verifying npa=1 in home screen marquee ad call for Latam_CO_privacy") 
 			public void Verifying_npa_equals_1_homescreenmarquee_adCall_Latam_CO_privacy()throws Exception {	  
 			 System.out. println("=================Verifying npa=1 in home screen marquee ad call for Latam_CO_privacy() privacy  testcase started =========================" ); 
@@ -250,7 +250,7 @@ public class LATAM_CO_Run extends TwcAndroidBaseTest {
 			  System.out. println("=================Verifying npa=1 in home screen marquee ad call for Latam_CO_privacy() privacy  testcase End =========================" );
 			  }
 			  
-			@Test(priority = 536, enabled = true)	  
+			@Test(priority = 936, enabled = true)	  
 		  @Title("Verifying videos ad call presense for Latam_CO_privacy") 
 		  public void Verifying_videos_adCall_Presence_Latam_CO_privacy() throws   Exception {
 		System.out. println("=================Verifying videos ad call presense for Latam_CO_privacy() privacy test case started =========================" );
@@ -266,7 +266,7 @@ public class LATAM_CO_Run extends TwcAndroidBaseTest {
 		  }
 		  
 		  
-		  @Test(priority =538, enabled = true)  
+		  @Test(priority =938, enabled = true)  
 	 @Title("Verifying npa=1 in videos ad call for Latam_CO_privacy") 
 	public void Verifying_npa_equals_1_videos_adCall_Latam_CO_privacy()throws Exception {	  
 	 System.out. println("=================Verifying npa=1 in detailed page ad call for Latam_CO_privacy() privacy testcase started =========================" ); 
@@ -275,7 +275,7 @@ public class LATAM_CO_Run extends TwcAndroidBaseTest {
 	  System.out. println("=================Verifying npa=1 in detailed page ad call for Latam_CO_privacy() privacy testcase End =========================" );
 	  }
 	
-		@Test(priority = 540, enabled = true)
+		@Test(priority = 940, enabled = true)
 			@Title("Verify Criteo SDK inapp v2 call")
 			public void Verify_Criteo_SDK_inapp_v2_Call_privacy_optout_for_LATAM_CO() throws Exception {
 				System.out.println("==============================================");
@@ -287,7 +287,7 @@ public class LATAM_CO_Run extends TwcAndroidBaseTest {
 
 			}
 
-			@Test(priority = 542, enabled = true)
+			@Test(priority = 942, enabled = true)
 			@Title("Verify Criteo SDK config app call")
 			public void Verify_Criteo_SDK_config_app_Call_privacy_optout_for_LATAM_CO() throws Exception {
 				System.out.println("==============================================");
