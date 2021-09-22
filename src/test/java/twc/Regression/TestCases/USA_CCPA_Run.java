@@ -60,7 +60,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 	@Test(priority = 100)
 	public void preConditionsTest_for_USA_CCPA() throws Exception {
 		// Enable rewriting on Charles install/launch TWC
-		//this.proxy.enableRewriting();
+		this.proxy.enableRewriting();
 		this.proxy.startRecording();
 		this.proxy.clearCharlesSession();
 		AppiumFunctions.LaunchAppWithFullReset();
@@ -659,7 +659,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 
 					this.proxy.startCharlesProxyWithUI();
 					this.proxy.disableMapLocal();
-					//this.proxy.enableRewriting();
+					this.proxy.enableRewriting();
 	          	         this.proxy.startRecording();
 		               this.proxy.clearCharlesSession();
 				//	Functions.close_launchApp();
