@@ -65,6 +65,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 		this.proxy.clearCharlesSession();
 		AppiumFunctions.LaunchAppWithFullReset();
 		   AppiumFunctions.resetApp();
+			  Thread.sleep(80000);
 		  	AppiumFunctions.clickONNext();
 			AppiumFunctions.ClickonIUnderstand();
 			AppiumFunctions.ClickonIUnderstand();
@@ -82,7 +83,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 	 System.out. println("=================Verifying Privacy Card is present on the screen testcase started =========================" ); 
 	 AppiumFunctions. Kill_Launch_App();
 	  Thread.sleep(40000);	  
-	  AppiumFunctions.SwipeUp_Counter_privacy(25);
+	  //AppiumFunctions.SwipeUp_Counter_privacy(25);
 	  System.out. println("================= Verifying Privacy Card is present on the screen testcase End =========================" );
 	  }
 	  
@@ -90,10 +91,10 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 	  @Title("Selecting the  Do Not Sell My Information option  in the privacy card") 
 	  public void Selecting_DoNotSellMyInformation_scenario() throws Exception {	  
 	 System.out. println("=================Slecting Opt out mode scenario in privacy card testcase started =========================" );
-	  Thread.sleep(20000); 
+	  Thread.sleep(40000); 
 	  Functions.selecting_opt_out_mode(); 
 			  System.out.println("kill launch the app for two times");
-		    Thread.sleep(20000);		
+		    Thread.sleep(40000);		
 		  this.proxy.clearCharlesSession(); 
 	  Thread.sleep(30000); 
 	   AppiumFunctions.Kill_Launch_App();  
@@ -386,6 +387,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 			  AppiumFunctions.Kill_Launch_App();
 		   AppiumFunctions.clickOnMaps_tile();
 			AppiumFunctions.clickOnVideos_tile();
+			    Thread.sleep(60000);
 			//CharlesFunctions.archive_folder("charles");
 			this.proxy.getXml();
 		  Functions.validating_adcrw_privacy_Optoutmode_scenarion(); 
@@ -676,10 +678,10 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 	  logStep("Selecting the Standard Advertising Settings  in the privacy card");
      System.out. println("=================Slecting Standard Advertising Settings  in privacy card testcase started =========================");
 	Ad.resetApp();
-		  AppiumFunctions. Kill_Launch_App();
+		  //AppiumFunctions. Kill_Launch_App();
 		//CharlesFunctions.archive_folder("charles");
 	  Thread.sleep(100000);	  
-	  AppiumFunctions.SwipeUp_Counter_privacy(25);
+	//  AppiumFunctions.SwipeUp_Counter_privacy(25);
 	  Thread.sleep(40000); 
 	 // Functions.selecting_opt_in_mode();
 		   Thread.sleep(40000); 		  	
