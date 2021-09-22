@@ -55,11 +55,12 @@ public class USA_Run extends TwcAndroidBaseTest {
 	@Test(priority = 300)
 	public void preConditionsTest_for_USA() throws Exception {
 		// Enable rewriting on Charles install/launch TWC
-		//this.proxy.enableRewriting();
+		this.proxy.enableRewriting();
 		this.proxy.startRecording();
 		this.proxy.clearCharlesSession();
 		AppiumFunctions.LaunchAppWithFullReset();
 		   AppiumFunctions.resetApp();
+		 Thread.sleep(80000);
 		  	AppiumFunctions.clickONNext();
 			AppiumFunctions.ClickonIUnderstand();
 			AppiumFunctions.ClickonIUnderstand();
@@ -84,7 +85,7 @@ public class USA_Run extends TwcAndroidBaseTest {
 	 System.out. println("=================Verifying Privacy Card is present on the screen testcase started =========================" ); 
 	 AppiumFunctions.Kill_Launch_App();
 	  Thread.sleep(40000);	  
-	  AppiumFunctions.SwipeUp_Counter_privacy(25);
+	 // AppiumFunctions.SwipeUp_Counter_privacy(25);
 	  System.out. println("================= Verifying Privacy Card is present on the screen testcase End =========================" );
 	  }
 	  
@@ -665,7 +666,7 @@ public class USA_Run extends TwcAndroidBaseTest {
 					this.proxy.disableRewriting();
 					this.proxy.stopRecording();
 					this.proxy.disableMapLocal();
-					//this.proxy.enableRewriting();
+					this.proxy.enableRewriting();
 		                        this.proxy.startRecording();
 		                      this.proxy.clearCharlesSession();
 				//	Functions.close_launchApp();
@@ -681,11 +682,11 @@ public class USA_Run extends TwcAndroidBaseTest {
 	  Smoke_Test_Selecting_Optin_mode_scenario() throws Exception {
 	  logStep("Selecting the Standard Advertising Settings  in the privacy card");
      System.out. println("=================Slecting Standard Advertising Settings  in privacy card testcase started =========================");
-	 AppiumFunctions. Kill_Launch_App();
+	 	 Ad.resetApp();
 	//  AppFunctions. Kill_Launch_App();
 	  Thread.sleep(80000);	  
-	  AppiumFunctions.SwipeUp_Counter_privacy(25);
-	  Thread.sleep(40000); 
+	 // AppiumFunctions.SwipeUp_Counter_privacy(25);
+	  Thread.sleep(80000); 
 	 // Functions.selecting_opt_in_mode();
 	  AppiumFunctions.Kill_Launch_App();
 		this.proxy.clearCharlesSession();
