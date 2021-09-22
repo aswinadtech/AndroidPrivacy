@@ -724,7 +724,7 @@ public class USA_Run extends TwcAndroidBaseTest {
 	   logStep("Verifying Factual location.wfxtriggers.com api call presence for USA privacy when Advertising option set to Standard Advertising Settings"); 
 	   System.out.println("=================Verifying Factual location.wfxtriggers.com api call presence for USA privacy when Advertising option set to Standard Advertising Settings test case started =========================");
 		  
-		  Functions.validating_Fatualcall_privacy_Optinmode_scenarion(); 
+		 // Functions.validating_Fatualcall_privacy_Optinmode_scenarion(); 
 	   System.out. println("================= Verifying Factual location.wfxtriggers.com api call presence for USA privacy when Advertising option set to Standard Advertising Settings test case End =========================" );
 	 
 	  }
