@@ -118,6 +118,16 @@ public class GDPR_Run extends TwcAndroidBaseTest  {
 	  System.out. println("================= Verifying Lotame ad.crwdcntrl.net api call supressing for GDPR privacy  testcase End =========================" );
 	  }
 	
+	
+		@Test(priority = 3, enabled = true)
+	@Title("Verifying wfxtg trigger api call url on KillLaunch")
+	public void Smoke_Test_CaseVerify_WeatherFXAPI_url_KillLaunch() throws Exception {
+		System.out.println("================= Verifying WeatherFX API url started =========================");
+		
+		Functions.validating_WeatherFXAPI();
+		System.out.println("================= Verifying WeatherFX API url End =========================");
+	}
+	
 
 	@Test(priority =4,enabled = true)  
 	 @Title("Verifying Lotame bcp.crwdcntrl.net api call supressing for GDPR privacy") 
@@ -127,15 +137,15 @@ public class GDPR_Run extends TwcAndroidBaseTest  {
 	  System.out. println("=================Verifying Lotame bcp.crwdcntrl.net api call supressing for GDPR privacy testcase End =========================" );
 	  }
 	
-	@Test(priority =6,enabled = true)  
+		@Test(priority =6,enabled = true)  
 	 @Title("Verifying Factual location.wfxtriggers.com api call supressing for GDPR privacy")  
 	public void Verifying_Factual_locationwfxtriggerscom_apiCall_supressing_GDPR_Privacy() throws Exception {	  
 	 System.out. println("=================Verifying Factual location.wfxtriggers.com api call supressing for GDPR privacy started =========================" ); 
-	 //Functions.validating_Fatualcall_privacy_Optoutmode_scenarion();
-		  System.out. println("================= https://location.wfxtriggers.com url was not trigred =========================");
-			  logStep(" https://location.wfxtriggers.com url was not trigred");
+	 Functions.validating_Fatualcall_privacy_Optoutmode_scenarion();
+		  
 	  System.out. println("================= Verifying Factual location.wfxtriggers.com api call supressing for GDPR privacy End =========================" );
 	  }
+	
 	
 
 	 @Test(priority=8,enabled = true)  
