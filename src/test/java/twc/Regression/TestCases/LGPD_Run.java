@@ -101,12 +101,20 @@ public class LGPD_Run extends TwcAndroidBaseTest  {
 	  System.out. println("=================Verifying Lotame bcp.crwdcntrl.net api call supressing for LGPD privacy testcase End =========================" );
 	  }
 	
+		@Test(priority = 43, enabled = true)
+	@Title("Verifying wfxtg trigger api call url on KillLaunch")
+	public void Smoke_Test_CaseVerify_WeatherFXAPI_url_KillLaunch() throws Exception {
+		System.out.println("================= Verifying WeatherFX API url started =========================");
+		
+		Functions.validating_WeatherFXAPI();
+		System.out.println("================= Verifying WeatherFX API url End =========================");
+	}
+	
 	@Test(priority =44, enabled = true)  
 	 @Title("Verifying Factual location.wfxtriggers.com api call supressing for LGPD privacy") 
 	public void Verifying_Factual_locationwfxtriggerscom_apiCall_supressing_LGPD_Privacy() throws Exception {	  
 	 System.out. println("=================Verifying Factual location.wfxtriggers.com api call supressing for LGPD privacy started =========================" ); 
-	 //Functions.validating_Fatualcall_privacy_Optoutmode_scenarion();
-          logStep("https://location.wfxtriggers.com url was not trigred");
+	 Functions.validating_Fatualcall_privacy_Optoutmode_scenarion();
 	  System.out. println("================= Verifying Factual location.wfxtriggers.com api call supressing for LGPD privacy End =========================" );
 	  }
 	
