@@ -5440,6 +5440,25 @@ private static List<String> evaluateXPath(Document document, String xpathExpress
 	}
 	return values;
 }
+	
+	
+	public static void validating_WeatherFXAPI() throws Exception{
+
+	
+	read_xml_data_into_buffer xml_data_into_buffer = new read_xml_data_into_buffer();
+	String sb = xml_data_into_buffer.read_xml_file_into_buffer_string();	
+	System.out.println("Verifying for https://triggers.wfxtriggers.com/ call");
+	logStep("Verifying for https://triggers.wfxtriggers.com/ call");
+	if(sb.contains("triggers.wfxtriggers.com")) {
+	System.out.println("https://triggers.wfxtriggers.com/ url was trigred");
+	logStep("https://triggers.wfxtriggers.com/ url was trigred");
+}
+if(!sb.contains("triggers.wfxtriggers.com")) {
+System.out.println("https://triggers.wfxtriggers.com/ url was not trigred");
+logStep("https://triggers.wfxtriggers.com/ url was not trigred");
+Assert.fail("https://triggers.wfxtriggers.com/ url was not trigred");
+}
+}
 
 
 }
