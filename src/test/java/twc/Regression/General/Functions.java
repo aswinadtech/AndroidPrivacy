@@ -3115,7 +3115,7 @@ return wfxtriggers_values;
 }
 
 
-public static Map<String, String> validating_Fatualcall_privacy_Optoutmode_scenarion() throws Exception{
+public static void  validating_Fatualcall_privacy_Optoutmode_scenarion() throws Exception{
 
 	Map<String , String> wfxtriggers_values = new HashMap<String, String>();
 	String wxtgValues="";
@@ -3135,8 +3135,8 @@ if(!sb.contains("location.wfxtriggers.com")) {
 System.out.println("https://location.wfxtriggers.com url was not trigred");
 
 }
-return wfxtriggers_values;
 }
+
 public static Map<String, String> validating_aax_privacy_Optoutmode_scenarion() throws Exception{
 
 	Map<String , String> wfxtriggers_values = new HashMap<String, String>();
