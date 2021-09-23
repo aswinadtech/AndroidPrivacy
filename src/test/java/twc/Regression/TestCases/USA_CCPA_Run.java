@@ -128,6 +128,8 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 	  Functions.validating_bcp_privacy_Optoutmode_scenarion();
 	  System.out.println("================= Verifying BCP api call when user selecting Optoutmode scenario in privacy card End =========================");  
 	  }
+	
+	
 	  
 	  @Test(priority = 110, enabled = true)	  
 	  @Title("Verifying Factual location.wfxtriggers.com api call supressing for USA-CCPA privacy when Advertising option set to Do Not Sell My Information") 
@@ -347,11 +349,37 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 		  Functions.validate_RDP_video_ad_Optoutmode();
 		  System.out. println("================= Verifying rdp=1 in videos  ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information test case End =========================");
 		  }
+	
+	
+	 @Test(priority = 152, enabled = true)
+			@Title("Verify Criteo SDK inapp v2 call when privacy optout")
+		public void Verify_Criteo_SDK_inapp_v2_Call_privacy_optout_for_USACCPA() throws Exception {
+			System.out.println("==============================================");
+			System.out.println(
+					"=========================== Criteo SDK inapp/v2 call when privacy optout ====================");
+			System.out.println("****** Criteo SDK inapp/v2 call when privacy optout validation Started");
+			logStep("****** Criteo SDK inapp/v2 call when privacy optout validation Started");
+			
+				CharlesFunctions.createXMLFileForCharlesSessionFile();
+							Functions.verifyCriteo_inapp_v2_Call("Criteo", false);
+		 }
+	
+		@Test(priority = 154, enabled = true)
+		@Title("Verify Criteo SDK config app call when privacy optout")
+		public void Verify_Criteo_SDK_config_app_Call_privacy_optout_for_USACCPA() throws Exception {
+			System.out.println("==============================================");
+			System.out.println(
+					"=========================== Criteo SDK config/app call when privacy optout====================");
+			System.out.println("****** Criteo SDK config/app call when privacy optout validation Started");
+			logStep("****** Criteo SDK config/app call when privacy optout validation Started");
+				Functions.verifyCriteo_config_app_Call("Criteo", false);
+			 CharlesFunctions.archive_folder("Charles");
+	}
 		  
 	  
 		 @Test(priority = 200, enabled = true)
 		 @Title("Enabling Preconfiguration for USACCPA Travel Scenario")
-			public void enable_PreConfiguration_for_USACCPA_Travel_Scenario() throws Exception {
+			public void enable_PreConfiguration_for_USACCPA_to_LGPDTravel_Scenario() throws Exception {
 				System.out.println("==============================================");
 				System.out.println("****** Enable Preconfiguration for USACCPA Travel Scenario");
 				logStep("Enable Preconfiguration for USACCPA Travel Scenario");
@@ -373,9 +401,9 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 			}
 		 
 		 @Test(priority = 202, enabled = true)  
-		  @Title("Verifying Lotame ad.crwdcntrl.net api call supressing for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA Travel Scenario") 
-		  public void Verifying_Loatme_adcrwdcntrlnet_apiCall_supressing_USA_CCPA_Privacy_DoNotSellMyInformation_for_USACCPA_Travel_Scenario()  throws Exception {  
-		  logStep("Verifying Lotame ad.crwdcntrl.net api call supressing for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA Travel Scenario"); 
+		  @Title("Verifying Lotame ad.crwdcntrl.net api call supressing for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LGPD Travel Scenario") 
+		  public void Verifying_Loatme_adcrwdcntrlnet_apiCall_supressing_USA_CCPA_Privacy_DoNotSellMyInformation_for_USACCPA_to_LGPD_Travel_Scenario()  throws Exception {  
+		  logStep("Verifying Lotame ad.crwdcntrl.net api call supressing for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPAto LGPD Travel Scenario"); 
 		  System.out.println("=================Verifying Lotame ad.crwdcntrl.net api call supressing for USA-CCPA privacy test case  started =========================");
 			this.proxy.clearCharlesSession();
 		  AppiumFunctions.Kill_Launch_App();  
