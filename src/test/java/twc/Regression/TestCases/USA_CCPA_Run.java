@@ -1079,6 +1079,11 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 						Functions
 						.verifyCriteo_config_app_Call("Criteo", false);
 							 CharlesFunctions.archive_folder("Charles");
+								Thread.sleep(60000);
+				Thread.sleep(60000);
+				Thread.sleep(60000);
+				Thread.sleep(60000);
+				Thread.sleep(60000);
 
 						}
 						
@@ -1425,6 +1430,11 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 								Functions
 								.verifyCriteo_config_app_Call("Criteo", false);
 									 CharlesFunctions.archive_folder("Charles");
+										Thread.sleep(60000);
+				Thread.sleep(60000);
+				Thread.sleep(60000);
+				Thread.sleep(60000);
+				Thread.sleep(60000);
 
 								}
 								
@@ -1766,6 +1776,11 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 										Functions
 										.verifyCriteo_config_app_Call("Criteo", false);
 											 CharlesFunctions.archive_folder("Charles");
+												Thread.sleep(60000);
+				Thread.sleep(60000);
+				Thread.sleep(60000);
+				Thread.sleep(60000);
+				Thread.sleep(60000);
 
 										}
 								
