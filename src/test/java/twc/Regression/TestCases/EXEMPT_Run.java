@@ -103,6 +103,15 @@ public class EXEMPT_Run extends TwcAndroidBaseTest {
 	  System.out. println("================= Verifying Factual location.wfxtriggers.com api call supressing for EXEMPT  privacy End =========================" );
 	  }
 	
+	  @Test(priority = 2007, enabled = true)	  
+	  @Title("Verifying weatherfx api call presence for EXEMPT privacy when Advertising option set to Standard Advertising Settings")
+	  public void  Verifying_weatherfxapiCall_presence_EXEMPT_Privacy() throws Exception {
+	   logStep("Verifying weatherfx api call presence  for for EXEMPT  privacy testcase started"); 
+	   System.out.println("=================Verifying weatherfx api call presence  for for EXEMPT  privacy testcase started test case started =========================");
+	   Functions.validating_WeatherFXAPI();	
+	   System.out. println("================= Verifying weatherfx api call presence  for for EXEMPT  privacy testcase started test case End =========================" ); 
+	  }
+	
 
 	 @Test(priority=2008,enabled = true)  
 	  @Title("Verifying supress amazon slot id for  home screen hourly preload ad call EXEMPT Privacy") 
