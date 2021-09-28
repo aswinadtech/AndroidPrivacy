@@ -70,7 +70,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 		AppiumFunctions.LaunchAppWithFullReset();
 	    Thread.sleep(10000);	
 		 Ad.resetApp();
-		  Thread.sleep(60000);	
+		  Thread.sleep(100000);	
 		  	AppiumFunctions.clickONNext();
 			AppiumFunctions.ClickonIUnderstand();
 			AppiumFunctions.ClickonIUnderstand();
@@ -88,7 +88,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 	 System.out. println("=================Verifying Privacy Card is present on the screen testcase started =========================" ); 
 	 AppiumFunctions. Kill_Launch_App();
 	  Thread.sleep(40000);	  
-	  AppiumFunctions.SwipeUp_Counter_privacy(25);
+	 // AppiumFunctions.SwipeUp_Counter_privacy(25);
 	  System.out. println("================= Verifying Privacy Card is present on the screen testcase End =========================" );
 	  }
 	  
@@ -727,6 +727,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 					logStep("****** Criteo SDK config/app call when privacy optout for USACCPA  to LGPD Travel Scenario validation Started");
 				Functions
 				.verifyCriteo_config_app_Call("Criteo", false);
+					 CharlesFunctions.archive_folder("Charles");
 				Thread.sleep(60000);
 				Thread.sleep(60000);
 				Thread.sleep(60000);
@@ -1077,6 +1078,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 							logStep("****** Criteo SDK config/app call when privacy optout for USACCPA to GDPR Travel Scenario validation Started");
 						Functions
 						.verifyCriteo_config_app_Call("Criteo", false);
+							 CharlesFunctions.archive_folder("Charles");
 
 						}
 						
@@ -1422,6 +1424,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 									logStep("****** Criteo SDK config/app call when privacy optout for USACCPA to LATAMCO Travel Scenario validation Started");
 								Functions
 								.verifyCriteo_config_app_Call("Criteo", false);
+									 CharlesFunctions.archive_folder("Charles");
 
 								}
 								
@@ -1762,6 +1765,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 											logStep("****** Criteo SDK config/app call when privacy optout for USACCPA to SERBIA Travel Scenario validation Started");
 										Functions
 										.verifyCriteo_config_app_Call("Criteo", false);
+											 CharlesFunctions.archive_folder("Charles");
 
 										}
 								
@@ -1796,10 +1800,10 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 	  logStep("Selecting the Standard Advertising Settings  in the privacy card");
      System.out. println("=================Slecting Standard Advertising Settings  in privacy card testcase started =========================");
 	Ad.resetApp();
-		  AppiumFunctions. Kill_Launch_App();
+		  //AppiumFunctions. Kill_Launch_App();
 		//CharlesFunctions.archive_folder("charles");
 	  Thread.sleep(100000);	  
-	  AppiumFunctions.SwipeUp_Counter_privacy(25);
+	 // AppiumFunctions.SwipeUp_Counter_privacy(25);
 	  Thread.sleep(40000); 
 	 // Functions.selecting_opt_in_mode();
 		   Thread.sleep(40000); 		  	
