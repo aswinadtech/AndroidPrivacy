@@ -111,6 +111,15 @@ public class SerbiaPrivacyTest extends TwcAndroidBaseTest
 	 Functions.validating_Fatualcall_privacy_Optoutmode_scenarion();
 	  System.out. println("================= Verifying Factual location.wfxtriggers.com api call supressing for Serbia privacy End =========================" );
 	  }
+	  
+	  	 @Test(priority = 3007, enabled = true)	  
+	  @Title("Verifying weatherfx api call presence for Serbia privacy when Advertising option set to Standard Advertising Settings")
+	  public void  Verifying_weatherfxapiCall_presence_Serbia_Privacy() throws Exception {
+	   logStep("Verifying weatherfx api call presence  for for Serbia  privacy testcase started"); 
+	   System.out.println("=================Verifying weatherfx api call presence  for for Serbia  privacy testcase started test case started =========================");
+	   Functions.validating_WeatherFXAPI();	
+	   System.out. println("================= Verifying weatherfx api call presence  for for Serbia  privacy testcase started test case End =========================" ); 
+	  }
 	
 
 	 @Test(priority=3008,enabled = true)  
