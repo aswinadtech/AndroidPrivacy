@@ -730,7 +730,7 @@ public class USA_Run extends TwcAndroidBaseTest {
 					logStep("****** Criteo SDK config/app call when privacy optout for USA  to LGPD Travel Scenario validation Started");
 				
 				Functions.verifyCriteo_config_app_Call("Criteo", false);
-					CharlesFunctions.archive_folder(“Charles”);
+				 CharlesFunctions.archive_folder("Charles");
 				Thread.sleep(60000);
 				Thread.sleep(60000);
 				Thread.sleep(60000);
@@ -1081,7 +1081,7 @@ public class USA_Run extends TwcAndroidBaseTest {
 							logStep("****** Criteo SDK config/app call when privacy optout for USA to GDPR Travel Scenario validation Started");
 						
 						Functions.verifyCriteo_config_app_Call("Criteo", false);
-							CharlesFunctions.archive_folder(“Charles”);
+						 CharlesFunctions.archive_folder("Charles");
 							Thread.sleep(60000);
 				Thread.sleep(60000);
 				Thread.sleep(60000);
@@ -1433,7 +1433,7 @@ public class USA_Run extends TwcAndroidBaseTest {
 									logStep("****** Criteo SDK config/app call when privacy optout for USA to LATAMCO Travel Scenario validation Started");
 								
 								Functions.verifyCriteo_config_app_Call("Criteo", false);
-									CharlesFunctions.archive_folder(“Charles”);
+								 CharlesFunctions.archive_folder("Charles");
 									Thread.sleep(60000);
 				Thread.sleep(60000);
 				Thread.sleep(60000);
@@ -1779,7 +1779,7 @@ public class USA_Run extends TwcAndroidBaseTest {
 											logStep("****** Criteo SDK config/app call when privacy optout for USA to SERBIA Travel Scenario validation Started");
 										Functions
 										.verifyCriteo_config_app_Call("Criteo", false);
-											CharlesFunctions.archive_folder(“Charles”);
+										 CharlesFunctions.archive_folder("Charles");
 											Thread.sleep(60000);
 				Thread.sleep(60000);
 				Thread.sleep(60000);
