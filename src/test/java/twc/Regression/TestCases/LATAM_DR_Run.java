@@ -95,6 +95,15 @@ public class LATAM_DR_Run extends TwcAndroidBaseTest {
 	  System.out. println("=================Verifying Lotame bcp.crwdcntrl.net api call supressing for LATAM_DR  privacy testcase End =========================" );
 	  }
 	
+		  @Test(priority = 955, enabled = true)	  
+	  @Title("Verifying weatherfx api call presence for LATAM_DR privacy when Advertising option set to Standard Advertising Settings")
+	  public void  Verifying_weatherfxapiCall_presence_Latam_DR_Privacy() throws Exception {
+	   logStep("Verifying weatherfx api call presence  for for LATAM_DR  privacy testcase started"); 
+	   System.out.println("=================Verifying weatherfx api call presence  for for LATAM_DR  privacy testcase started test case started =========================");
+	   Functions.validating_WeatherFXAPI();	
+	   System.out. println("================= Verifying weatherfx api call presence  for for LATAM_DR  privacy testcase started test case End =========================" ); 
+	  }
+	
 	@Test(priority =956,enabled = true)  
 	 @Title("Verifying Factual location.wfxtriggers.com api call supressing for LATAM_DR  privacy")  
 	public void Verifying_Factual_locationwfxtriggerscom_apiCall_supressing_Latam_DR_Privacy() throws Exception {	  
