@@ -3931,12 +3931,13 @@ public static Map<String, String> validating_Fatualcall_privacy_Optinmode_scenar
 	if(sb.contains("location.wfxtriggers.com")) {
 		System.out.println("https://location.wfxtriggers.com url was trigred");
 		logStep("https://location.wfxtriggers.com url was trigred");
+		Assert.fail("https://location.wfxtriggers.com url was trigred");
 		}
 
 if(!sb.contains("location.wfxtriggers.com")) {
 	System.out.println("https://location.wfxtriggers.com url was not trigred");
 	logStep("https://location.wfxtriggers.com url was not trigred");
-	Assert.fail("https://location.wfxtriggers.com url was not trigred");
+	
 
 
 }
