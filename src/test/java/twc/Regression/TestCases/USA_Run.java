@@ -445,11 +445,11 @@ public class USA_Run extends TwcAndroidBaseTest {
 		  }
 		  
 		  @Test(priority = 558, enabled = true)	  
-		  @Title("Verifying Lotame WeatherFXAPICall_apiCall_presence api for USA privacy when Advertising option set to Do Not Sell My Information for USA to LGPD Travel Scenario")
+		  @Title("Verifying WeatherFXAPICall_apiCall_presence api for USA privacy when Advertising option set to Do Not Sell My Information for USA to LGPD Travel Scenario")
 		  public void Verifying_WeatherFXAPICall_apiCall_presence_USA_Privacy_DoNotSellMyInformation_for_USA_to_LGPD_Travel_Scenario() throws Exception {
 		  logStep("Verifying Verifying_WeatherFXAPICall_apiCall_presence for USA privacy when Advertising option set to Do Not Sell My Information for USA  to LGPD Travel Scenario" ); 
 		  System.out.println("=================Verifying_WeatherFXAPICall_apiCall_presence Optoutmode scenario in privacy card started =========================" );
-		  Functions.validating_bcp_privacy_Optoutmode_scenarion();
+		 	Functions.validating_WeatherFXAPI();
 		  System.out.println("=================Verifying_WeatherFXAPICall_apiCall_presence when user selecting Optoutmode scenario in privacy card End =========================");  
 		  }
 		  
@@ -805,7 +805,7 @@ public class USA_Run extends TwcAndroidBaseTest {
 				  public void Verifying_WeatherFXAPICall_apiCall_presence_USA_Privacy_DoNotSellMyInformation_for_USA_to_GDPR_Travel_Scenario() throws Exception {
 				  logStep("Verifying WeatherFXAPICall_apiCall_presence for USA privacy when Advertising option set to Do Not Sell My Information for USA to GDPR Travel Scenario" ); 
 				  System.out.println("=================Verifying_WeatherFXAPICall_apiCall_presence Optoutmode scenario  USA to GDPR in privacy card started =========================" );
-				  Functions.validating_bcp_privacy_Optoutmode_scenarion();
+				 	Functions.validating_WeatherFXAPI();
 				  System.out.println("=================Verifying_WeatherFXAPICall_apiCall_presence Optoutmode scenario  USA to GDPR in privacy card  End =========================");  
 				  }
 				  
@@ -1161,7 +1161,7 @@ public class USA_Run extends TwcAndroidBaseTest {
 						  public void Verifying_WeatherFXAPICall_apiCall_presence_USA_Privacy_DoNotSellMyInformation_for_USA_to_LATAMCO_Travel_Scenario() throws Exception {
 						  logStep("Verifying WeatherFXAPICall_apiCall_presence for USA privacy when Advertising option set to Do Not Sell My Information for USA to LATAMCO Travel Scenario" ); 
 						  System.out.println("=================Verifying_WeatherFXAPICall_apiCall_presence Optoutmode scenario  USA to LATAMCO in privacy card started =========================" );
-						  Functions.validating_bcp_privacy_Optoutmode_scenarion();
+							Functions.validating_WeatherFXAPI();
 						  System.out.println("=================Verifying_WeatherFXAPICall_apiCall_presence Optoutmode scenario  USA to LATAMCO in privacy card  End =========================");  
 						  }
 						  
@@ -1511,7 +1511,7 @@ public class USA_Run extends TwcAndroidBaseTest {
 								  public void Verifying_WeatherFXAPICall_apiCall_presence_USA_Privacy_DoNotSellMyInformation_for_USA_to_SERBIA_Travel_Scenario() throws Exception {
 								  logStep("Verifying WeatherFXAPICall_apiCall_presence for USA privacy when Advertising option set to Do Not Sell My Information for USA to SERBIA Travel Scenario" ); 
 								  System.out.println("=================Verifying_WeatherFXAPICall_apiCall_presence Optoutmode scenario  USA to SERBIA in privacy card started =========================" );
-								  Functions.validating_bcp_privacy_Optoutmode_scenarion();
+									Functions.validating_WeatherFXAPI();
 								  System.out.println("=================Verifying_WeatherFXAPICall_apiCall_presence Optoutmode scenario  USA to SERBIA in privacy card  End =========================");  
 								  }
 								  
