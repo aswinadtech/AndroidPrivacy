@@ -1340,14 +1340,14 @@ public class USA_Run extends TwcAndroidBaseTest {
 						  
 						  
 						  
-						  @Test(priority = 716, enabled = true)	  
+						  /*@Test(priority = 716, enabled = true)	  
 						  @Title("Verifying rdp=1 in home screen hourly ad call for USA privacy when Advertising option set to Do Not Sell My Information for USA to LATAMCO Travel Scenario") 
 						  public void  Verifying_rdp_equals_1_homescreenHourly_adCall_USA_Privacy_DoNotSellMyInformation_for_USA_to_LATAMCO_Travel_Scenario() throws  Exception {
 						  logStep("Verifying rdp=1 in home screen hourly ad call for USA privacy when Advertising option set to Do Not Sell My Information for USA to LATAMCO Travel Scenario"); 
 						  System.out.println("================= Verifying rdp=1 in home screen hourly ad call for USA privacy when Advertising option set to Do Not Sell My Information for USA to LATAMCO Travel Scenario test case  started =========================" ); 
 						  Functions.validate_RDP_homescrenhourly_Optoutmode();
 						  System.out. println("================= Verifying rdp=1 in home screen hourly ad call for USA privacy when Advertising option set to Do Not Sell My Information for USA to LATAMCO Travel Scenario test case  End =========================");
-					      }
+					      }*/
 						  
 						  @Test(priority = 718, enabled = true)	  
 						  @Title("Verifying rdp=1 in home screen marquee  ad call for USA privacy when Advertising option set to Do Not Sell My Information for USA to LATAMCO Travel Scenario") 
