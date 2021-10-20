@@ -268,7 +268,7 @@ public class SerbiaPrivacyTest extends TwcAndroidBaseTest
 		@Test(priority = 3036, enabled = true)	  
 		  @Title("Verifying videos ad call presense for Latam_CO_privacy") 
 		  public void Verifying_videos_adCall_Presence_Latam_CO_privacy() throws   Exception {
-		System.out. println("=================Verifying videos ad call presense for Latam_CO_privacy() privacy test case started =========================" );
+		System.out. println("=================Verifying videos ad call presense for Latam_CO_privacy() privacy test case started =========================");
 		  logStep("Verifying videos ad call presense for Latam_CO_privacy() privacy"); 	
 			/*CharlesFunctions.ClearSessions();
 			AppiumFunctions.Kill_Launch_App();
@@ -277,7 +277,7 @@ public class SerbiaPrivacyTest extends TwcAndroidBaseTest
 			CharlesFunctions.archive_folder("charles");
 			CharlesFunctions.ExportSession();*/
 		  Functions.Verify_video_ad_call_Optoutmode(); 
-		  System.out.println("=================Verifying videos ad call presense for Latam_CO_privacy() privacy test case started End =========================" );  
+		  System.out.println("=================Verifying videos ad call presense for Latam_CO_privacy() privacy test case started End =========================");  
 		  }
 		  
 		  
