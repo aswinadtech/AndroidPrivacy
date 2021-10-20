@@ -160,11 +160,11 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 	  @Title("Verifying supress amazon slotid for  home screen hourly preload ad call  USA-CCPA privacy when Advertising option set to Do Not Sell My Information") 
 	  public void Verifying_Supress_amazon_Slotid_homescreenhourly_preload_adcall_USA_CCPA_Privacy_DoNotSellMyInformation() throws Exception { 
 	  System.out.println("=================Verifying supress amazon slotid for  home screen hourly preload ad call  USA-CCPA privacy when Advertising option set to Do Not Sell My Information test case Started========================="); 
-	//  Functions.get_aaxcal_homescreen_hourly(); 
+ 
 	  logStep("Verifying supress amazon slot id for  home screen hourly preload ad call USA-CCPA privacy when Advertising option set to Do Not Sell My Information");
 	  Functions.verifyaax_SlotId_supress("869c843c-7cf8-47ae-b6ed-088057e4bc8a");
 	  System.out.println("=================Verifying supress amazon slotid for  home screen hourly preload ad call  USA-CCPA privacy when Advertising option set to Do Not Sell My Information  test case  End ========================="); 
-	  }*//
+	  }*/
 	
 	 
 		@Test(priority = 114, enabled = true)
