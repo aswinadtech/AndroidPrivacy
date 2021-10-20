@@ -113,7 +113,7 @@ public class LATAM_DR_Run extends TwcAndroidBaseTest {
 	  }
 	
 
-	 @Test(priority=958,enabled = true)  
+	 /*@Test(priority=958,enabled = true)  
 	  @Title("Verifying supress amazon slot id for  home screen hourly preload ad call LATAM_DR Privacy") 
 	  public void Verifying_Supress_amazon_Slotid_homescreenhourly_preload_adcall_Latam_DR_Privacy()throws Exception { 
 	  System.out.println("=================Verifying supress amazon slot id for  home screen hourly preload ad call LATAM_DR Privacy test case Started========================="); 
@@ -121,7 +121,7 @@ public class LATAM_DR_Run extends TwcAndroidBaseTest {
 	  logStep("Verifying supress amazon slot id for  home screen hourly preload ad call LATAM_DR Privacy");
 	  Functions.verifyaax_SlotId_supress("869c843c-7cf8-47ae-b6ed-088057e4bc8a");
 	  System.out.println("=================Verifying supress amazon slot id in home screen hourly preload ad call for LATAM_DR Privacy  test case  End ========================="); 
-	  }
+	  }*/
 	
 	 
 		@Test(priority = 960, enabled = true)
@@ -221,14 +221,14 @@ public class LATAM_DR_Run extends TwcAndroidBaseTest {
 		}	 
 	
 	
-	@Test(priority =978, enabled = true)  
+	/*@Test(priority =978, enabled = true)  
 		  @Title("Verifying home screen hourly ad call presense for Latam_DR_privacy") 
 		  public void  Verifying_homescreenhourly_adCall_Presence_Latam_DR_privacy()throws Exception {
 	   System.out.println("=================Verifying home screen hourly ad call presense for Latam_DR_privacy() privacy  testcase started =========================" );
 		  logStep("Verifying home screen hourly ad call presense for Latam_DR_privacy() privacy");
 		  Functions.finding_Homescreen_iu_value();
 		  System.out.println("=================Verifying home screen hourly ad call presense for Latam_DR_privacy() privacy  testcase  End =========================" );	  
-		  }
+		  }*/
 		  
 		  @Test(priority = 980, enabled = true)	  
 		  @Title("Verifying home screen marquee ad call presense for Latam_DR_privacy")	
@@ -240,13 +240,13 @@ public class LATAM_DR_Run extends TwcAndroidBaseTest {
 		  }
 		
 
-			@Test(priority =982, enabled = true)  
+			/*@Test(priority =982, enabled = true)  
 			 @Title("Verifying npa=1 in home screen hourly ad call for Latam_DR_privacy") 
 			public void Verifying_npa_equals_1_homescreenHourly_adCall_Latam_DR_privacy()throws Exception {	  
 			 System.out. println("=================Verifying npa=1 in home screen hourly ad call for Latam_DR_privacy() privacy  testcase started =========================" ); 
 			  Functions.validate_npa_homescrenhourly_dontsellmyinformation();
 			  System.out. println("=================Verifying npa=1 in home screen hourly ad call for Latam_DR_privacy() privacy  testcase End =========================" );
-			  }
+			  }*/
 		  
 			@Test(priority =984, enabled = true)  
 			 @Title("Verifying npa=1 in home screen marquee ad call for Latam_DR_privacy") 
