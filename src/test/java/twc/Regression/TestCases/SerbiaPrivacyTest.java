@@ -254,7 +254,7 @@ public class SerbiaPrivacyTest extends TwcAndroidBaseTest
 			 System.out. println("=================Verifying npa=1 in home screen hourly ad call for Serbia  privacy  testcase started =========================" ); 
 			  Functions.validate_npa_homescrenhourly_dontsellmyinformation();
 			  System.out. println("=================Verifying npa=1 in home screen hourly ad call for Serbiam privacy  testcase End =========================" );
-			  }/
+			  }*/
 		  
 			@Test(priority =3034, enabled = true)  
 			 @Title("Verifying npa=1 in home screen marquee ad call for Serbia privacy") 
