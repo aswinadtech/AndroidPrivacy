@@ -156,7 +156,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 
 				
 	  
-	  @Test(priority=112,enabled = true)  
+	 /* @Test(priority=112,enabled = true)  
 	  @Title("Verifying supress amazon slotid for  home screen hourly preload ad call  USA-CCPA privacy when Advertising option set to Do Not Sell My Information") 
 	  public void Verifying_Supress_amazon_Slotid_homescreenhourly_preload_adcall_USA_CCPA_Privacy_DoNotSellMyInformation() throws Exception { 
 	  System.out.println("=================Verifying supress amazon slotid for  home screen hourly preload ad call  USA-CCPA privacy when Advertising option set to Do Not Sell My Information test case Started========================="); 
@@ -164,7 +164,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 	  logStep("Verifying supress amazon slot id for  home screen hourly preload ad call USA-CCPA privacy when Advertising option set to Do Not Sell My Information");
 	  Functions.verifyaax_SlotId_supress("869c843c-7cf8-47ae-b6ed-088057e4bc8a");
 	  System.out.println("=================Verifying supress amazon slotid for  home screen hourly preload ad call  USA-CCPA privacy when Advertising option set to Do Not Sell My Information  test case  End ========================="); 
-	  }
+	  }*//
 	
 	 
 		@Test(priority = 114, enabled = true)
@@ -264,14 +264,14 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 		}	 
 	
 
-	@Test(priority =132, enabled = true)  
+	/*@Test(priority =132, enabled = true)  
 	  @Title("Verifying home screen hourly ad call presense for USA-CCPA privacy when Advertising option set to Do Not Sell My Information" ) 
 	  public void  Verifying_homescreenhourly_adCall_Presence_USA_CCPA_Privacy_DoNotSellMyInformation() throws Exception {
    System.out.println("=================Verifying home screen hourly ad call presense for USA-CCPA privacy when Advertising option set to Do Not Sell My Information  testcase started =========================" );
 	  logStep("Verifying home screen hourly ad call presense for USA-CCPA privacy when Advertising option set to Do Not Sell My Information");
 	  Functions.finding_Homescreen_iu_value();
 	  System.out.println("=================Verifying home screen hourly ad call presense for USA-CCPA privacy when Advertising option set to Do Not Sell My Information  testcase  End =========================" );	  
-	  }
+	  }*/
 	  
 	  @Test(priority =134, enabled = true)	  
 	  @Title("Verifying home screen marquee ad call presense for USA-CCPA privacy when Advertising option set to Do Not Sell My Information" )	
@@ -293,14 +293,14 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 	  }
 
 
-	  @Test(priority = 138, enabled = true)	  
+	  /*@Test(priority = 138, enabled = true)	  
 	  @Title("Verifying SOD Cust param value in homescreen hourly ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information" )
 	  public void  Verifying_SOD_Cust_Param_homescreenhourly_adCall_USA_CCPA_Privacy_DoNotSellMyInformation() throws  Exception {
 	  logStep("Verifying SOD Cust param value in homescreen hourly ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information" ); 
 	  System.out.println("================= Verifying SOD Cust param value in homescreen hourly ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information test case started ========================="); 
 	  Functions.validate_SOD_Cust_param_homescreenHourly_Optoutmode();
 	  System.out.println("================= Verifying SOD Cust param value in homescreen hourly ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information test case End =========================" ); 
-	  }
+	  }*/
 	
 	  @Test(priority = 140, enabled = true)	  
 	  @Title("Verifying SOD Cust param value in maps details page ad call for USA _CCPA privacy when Advertising option set to Do Not Sell My Information" )
@@ -313,14 +313,14 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 	  
 	  
 	  
-	  @Test(priority = 142, enabled = true)	  
+	  /*@Test(priority = 142, enabled = true)	  
 	  @Title("Verifying rdp=1 in home screen hourly ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information") 
 	  public void  Verifying_rdp_equals_1_homescreenHourly_adCall_USA_CCPA_Privacy_DoNotSellMyInformation() throws  Exception {
 	  logStep("Verifying rdp=1 in home screen hourly ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information"); 
 	  System.out.println("================= Verifying rdp=1 in home screen hourly ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information test case  started =========================" ); 
 	  Functions.validate_RDP_homescrenhourly_Optoutmode();
 	  System.out. println("================= Verifying rdp=1 in home screen hourly ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information test case  End =========================");
-      }
+      }*/
 	  
 	  @Test(priority = 144, enabled = true)	  
 	  @Title("Verifying rdp=1 in home screen marquee  ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information") 
@@ -471,7 +471,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 		 System.out. println("================= Verifying Fatual api call when user selecting Optoutmode scenario in privacy card End =========================");
 		  }
 		            
-		  @Test(priority=208,enabled = true)  
+		 /* @Test(priority=208,enabled = true)  
 		  @Title("Verifying supress amazon slotid for  home screen hourly preload ad call  USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LGPD Travel Scenario") 
 		  public void Verifying_Supress_amazon_Slotid_homescreenhourly_preload_adcall_USA_CCPA_Privacy_DoNotSellMyInformation_for_USACCPA_to_LGPD_Travel_Scenario() throws Exception { 
 		  System.out.println("=================Verifying supress amazon slotid for  home screen hourly preload ad call  USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA Travel Scenario test case Started========================="); 
@@ -479,7 +479,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 		  logStep("Verifying supress amazon slot id for  home screen hourly preload ad call USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA Travel Scenario");
 		  Functions.verifyaax_SlotId_supress("869c843c-7cf8-47ae-b6ed-088057e4bc8a");
 		  System.out.println("=================Verifying supress amazon slotid for  home screen hourly preload ad call  USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA Travel Scenario  test case  End ========================="); 
-		  }
+		  }*/
 		
 		 
 			@Test(priority = 210, enabled = true)
@@ -579,14 +579,14 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 			}	 
 		
 
-		@Test(priority =228, enabled = true)  
+		/*@Test(priority =228, enabled = true)  
 		  @Title("Verifying home screen hourly ad call presense for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LGPD Travel Scenario" ) 
 		  public void  Verifying_homescreenhourly_adCall_Presence_USA_CCPA_Privacy_DoNotSellMyInformation_for_USACCPA_to_LGPD_Travel_Scenario() throws Exception {
 	   System.out.println("=================Verifying home screen hourly ad call presense for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LGPD  Travel Scenario  testcase started =========================" );
 		  logStep("Verifying home screen hourly ad call presense for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LGPD Travel Scenario");
 		  Functions.finding_Homescreen_iu_value();
 		  System.out.println("=================Verifying home screen hourly ad call presense for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LGPD  Travel Scenario  testcase  End =========================" );	  
-		  }
+		  }*/
 		  
 		  @Test(priority =228, enabled = true)	  
 		  @Title("Verifying home screen marquee ad call presense for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA  to LGPD Travel Scenario" )	
@@ -608,14 +608,14 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 		  }
 
 
-		  @Test(priority = 232, enabled = true)	  
+		 /* @Test(priority = 232, enabled = true)	  
 		  @Title("Verifying SOD Cust param value in homescreen hourly ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LGPD Travel Scenario" )
 		  public void  Verifying_SOD_Cust_Param_homescreenhourly_adCall_USA_CCPA_Privacy_DoNotSellMyInformation_for_USACCPA_to_LGPD_Travel_Scenario() throws  Exception {
 		  logStep("Verifying SOD Cust param value in homescreen hourly ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LGPD Travel Scenario" ); 
 		  System.out.println("================= Verifying SOD Cust param value in homescreen hourly ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LGPD  Travel Scenario test case started ========================="); 
 		  Functions.validate_SOD_Cust_param_homescreenHourly_Optoutmode();
 		  System.out.println("================= Verifying SOD Cust param value in homescreen hourly ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LGPD Travel Scenario test case End =========================" ); 
-		  }
+		  }*/
 		
 		  @Test(priority = 234, enabled = true)	  
 		  @Title("Verifying SOD Cust param value in maps details page ad call for USA _CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LGPD Travel Scenario" )
@@ -628,14 +628,14 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 		  
 		  
 		  
-		  @Test(priority = 236, enabled = true)	  
+		 /* @Test(priority = 236, enabled = true)	  
 		  @Title("Verifying rdp=1 in home screen hourly ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LGPD Travel Scenario") 
 		  public void  Verifying_rdp_equals_1_homescreenHourly_adCall_USA_CCPA_Privacy_DoNotSellMyInformation_for_USACCPA_to_LGPD_Travel_Scenario() throws  Exception {
 		  logStep("Verifying rdp=1 in home screen hourly ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LGPD Travel Scenario"); 
 		  System.out.println("================= Verifying rdp=1 in home screen hourly ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LGPD Travel Scenario test case  started =========================" ); 
 		  Functions.validate_RDP_homescrenhourly_Optoutmode();
 		  System.out. println("================= Verifying rdp=1 in home screen hourly ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LGPD Travel Scenario test case  End =========================");
-	      }
+	      }*/
 		  
 		  @Test(priority = 238, enabled = true)	  
 		  @Title("Verifying rdp=1 in home screen marquee  ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LGPD Travel Scenario") 
@@ -679,14 +679,14 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 			  
 
 		
-			  @Test(priority = 246, enabled = true)	  
+			 /* @Test(priority = 246, enabled = true)	  
 			  @Title("Verifying npa=1 in home screen hourly ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LGPD Travel Scenario") 
 			  public void  Verifying_npa_equals_1_homescreenHourly_adCall_USA_CCPA_Privacy_DoNotSellMyInformation_for_USACCPA_to_LGPD_Travel_Scenario() throws  Exception {
 			  logStep("Verifying npa=1 in home screen hourly ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LGPD Travel Scenario"); 
 			  System.out.println("================= Verifying npa=1 in home screen hourly ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LGPD Travel Scenario test case  started =========================" ); 
 			  Functions.validate_npa_homescrenhourly_dontsellmyinformation();
 			  System.out. println("================= Verifying npa=1 in home screen hourly ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LGPD Travel Scenario test case  End =========================");
-		      }
+		      }*/
 			  
 			  @Test(priority = 248, enabled = true)	  
 			  @Title("Verifying npa=1 in home screen marquee  ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LGPD  Travel Scenario") 
@@ -827,7 +827,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 				 System.out. println("================= Verifying Fatual api call when user selecting Optoutmode scenario in privacy card End =========================");
 				  }
 				            
-				  @Test(priority=266,enabled = true)  
+				 /* @Test(priority=266,enabled = true)  
 				  @Title("Verifying supress amazon slotid for  home screen hourly preload ad call  USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to GDPR Travel Scenario") 
 				  public void Verifying_Supress_amazon_Slotid_homescreenhourly_preload_adcall_USA_CCPA_Privacy_DoNotSellMyInformation_for_USACCPA_to_GDPR_Travel_Scenario() throws Exception { 
 				  System.out.println("=================Verifying supress amazon slotid for  home screen hourly preload ad call  USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA Travel Scenario test case Started========================="); 
@@ -835,7 +835,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 				  logStep("Verifying supress amazon slot id for  home screen hourly preload ad call USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to GDPR Travel Scenario");
 				  Functions.verifyaax_SlotId_supress("869c843c-7cf8-47ae-b6ed-088057e4bc8a");
 				  System.out.println("=================Verifying supress amazon slotid for  home screen hourly preload ad call  USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to GDPR  Travel Scenario  test case  End ========================="); 
-				  }
+				  }*/
 				
 				 
 					@Test(priority = 268, enabled = true)
@@ -934,14 +934,14 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 					}	 
 				
 
-				@Test(priority =286, enabled = true)  
+				/*@Test(priority =286, enabled = true)  
 				  @Title("Verifying home screen hourly ad call presense for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to GDPR Travel Scenario" ) 
 				  public void  Verifying_homescreenhourly_adCall_Presence_USA_CCPA_Privacy_DoNotSellMyInformation_for_USACCPA_to_GDPR_Travel_Scenario() throws Exception {
 			   System.out.println("=================Verifying home screen hourly ad call presense for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to GDPR  Travel Scenario  testcase started =========================" );
 				  logStep("Verifying home screen hourly ad call presense for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to GDPR Travel Scenario");
 				  Functions.finding_Homescreen_iu_value();
 				  System.out.println("=================Verifying home screen hourly ad call presense for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to GDPR  Travel Scenario  testcase  End =========================" );	  
-				  }
+				  }*/
 				  
 				  @Test(priority =288, enabled = true)	  
 				  @Title("Verifying home screen marquee ad call presense for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA  to GDPR Travel Scenario" )	
@@ -963,14 +963,14 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 				  }
 
 
-				  @Test(priority = 292, enabled = true)	  
+				  /*@Test(priority = 292, enabled = true)	  
 				  @Title("Verifying SOD Cust param value in homescreen hourly ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to GDPR Travel Scenario" )
 				  public void  Verifying_SOD_Cust_Param_homescreenhourly_adCall_USA_CCPA_Privacy_DoNotSellMyInformation_for_USACCPA_to_GDPR_Travel_Scenario() throws  Exception {
 				  logStep("Verifying SOD Cust param value in homescreen hourly ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to GDPR Travel Scenario" ); 
 				  System.out.println("================= Verifying SOD Cust param value in homescreen hourly ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to GDPR  Travel Scenario test case started ========================="); 
 				  Functions.validate_SOD_Cust_param_homescreenHourly_Optoutmode();
 				  System.out.println("================= Verifying SOD Cust param value in homescreen hourly ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to GDPR Travel Scenario test case End =========================" ); 
-				  }
+				  }*/
 				
 				  @Test(priority = 294, enabled = true)	  
 				  @Title("Verifying SOD Cust param value in maps details page ad call for USA _CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to GDPR Travel Scenario" )
@@ -983,14 +983,14 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 				  
 				  
 				  
-				  @Test(priority = 296, enabled = true)	  
+				 /* @Test(priority = 296, enabled = true)	  
 				  @Title("Verifying rdp=1 in home screen hourly ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to GDPR Travel Scenario") 
 				  public void  Verifying_rdp_equals_1_homescreenHourly_adCall_USA_CCPA_Privacy_DoNotSellMyInformation_for_USACCPA_to_GDPR_Travel_Scenario() throws  Exception {
 				  logStep("Verifying rdp=1 in home screen hourly ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to GDPR Travel Scenario"); 
 				  System.out.println("================= Verifying rdp=1 in home screen hourly ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to GDPR Travel Scenario test case  started =========================" ); 
 				  Functions.validate_RDP_homescrenhourly_Optoutmode();
 				  System.out. println("================= Verifying rdp=1 in home screen hourly ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to GDPR Travel Scenario test case  End =========================");
-			      }
+			      }*/
 				  
 				  @Test(priority = 298, enabled = true)	  
 				  @Title("Verifying rdp=1 in home screen marquee  ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to GDPR Travel Scenario") 
@@ -1034,14 +1034,14 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 					  
 
 				
-					  @Test(priority = 306, enabled = true)	  
+					  /*@Test(priority = 306, enabled = true)	  
 					  @Title("Verifying npa=1 in home screen hourly ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to GDPR Travel Scenario") 
 					  public void  Verifying_npa_equals_1_homescreenHourly_adCall_USA_CCPA_Privacy_DoNotSellMyInformation_for_USACCPA_to_GDPR_Travel_Scenario() throws  Exception {
 					  logStep("Verifying npa=1 in home screen hourly ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to GDPR Travel Scenario"); 
 					  System.out.println("================= Verifying npa=1 in home screen hourly ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to GDPR Travel Scenario test case  started =========================" ); 
 					  Functions.validate_npa_homescrenhourly_dontsellmyinformation();
 					  System.out. println("================= Verifying npa=1 in home screen hourly ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to GDPR Travel Scenario test case  End =========================");
-				      }
+				      }*/
 					  
 					  @Test(priority = 308, enabled = true)	  
 					  @Title("Verifying npa=1 in home screen marquee  ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to GDPR  Travel Scenario") 
@@ -1182,7 +1182,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 						 System.out. println("================= Verifying Fatual api call when user selecting Optoutmode scenario in privacy card End =========================");
 						  }
 						            
-						  @Test(priority=326,enabled = true)  
+						  /*@Test(priority=326,enabled = true)  
 						  @Title("Verifying supress amazon slotid for  home screen hourly preload ad call  USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LATAMCO Travel Scenario") 
 						  public void Verifying_Supress_amazon_Slotid_homescreenhourly_preload_adcall_USA_CCPA_Privacy_DoNotSellMyInformation_for_USACCPA_to_LATAMCO_Travel_Scenario() throws Exception { 
 						  System.out.println("=================Verifying supress amazon slotid for  home screen hourly preload ad call  USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LATAMCO Travel Scenario test case Started========================="); 
@@ -1190,7 +1190,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 						  logStep("Verifying supress amazon slot id for  home screen hourly preload ad call USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to GDPR Travel Scenario");
 						  Functions.verifyaax_SlotId_supress("869c843c-7cf8-47ae-b6ed-088057e4bc8a");
 						  System.out.println("=================Verifying supress amazon slotid for  home screen hourly preload ad call  USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LATAMCO  Travel Scenario  test case  End ========================="); 
-						  }
+						  }*/
 						
 						 
 							@Test(priority = 328, enabled = true)
@@ -1289,14 +1289,14 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 							}	 
 						
 
-						@Test(priority =348, enabled = true)  
+						/*@Test(priority =348, enabled = true)  
 						  @Title("Verifying home screen hourly ad call presense for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LATAMCO Travel Scenario" ) 
 						  public void  Verifying_homescreenhourly_adCall_Presence_USA_CCPA_Privacy_DoNotSellMyInformation_for_USACCPA_to_LATAMCO_Travel_Scenario() throws Exception {
 					   System.out.println("=================Verifying home screen hourly ad call presense for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LATAMCO  Travel Scenario  testcase started =========================" );
 						  logStep("Verifying home screen hourly ad call presense for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to GDPR Travel Scenario");
 						  Functions.finding_Homescreen_iu_value();
 						  System.out.println("=================Verifying home screen hourly ad call presense for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LATAMCO  Travel Scenario  testcase  End =========================" );	  
-						  }
+						  }*/
 						  
 						  @Test(priority =350, enabled = true)	  
 						  @Title("Verifying home screen marquee ad call presense for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA  to LATAMCO Travel Scenario" )	
@@ -1318,14 +1318,14 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 						  }
 
 
-						  @Test(priority = 354, enabled = true)	  
+						  /*@Test(priority = 354, enabled = true)	  
 						  @Title("Verifying SOD Cust param value in homescreen hourly ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LATAMCO Travel Scenario" )
 						  public void  Verifying_SOD_Cust_Param_homescreenhourly_adCall_USA_CCPA_Privacy_DoNotSellMyInformation_for_USACCPA_to_LATAMCO_Travel_Scenario() throws  Exception {
 						  logStep("Verifying SOD Cust param value in homescreen hourly ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LATAMCO Travel Scenario" ); 
 						  System.out.println("================= Verifying SOD Cust param value in homescreen hourly ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LATAMCO  Travel Scenario test case started ========================="); 
 						  Functions.validate_SOD_Cust_param_homescreenHourly_Optoutmode();
 						  System.out.println("================= Verifying SOD Cust param value in homescreen hourly ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LATAMCO Travel Scenario test case End =========================" ); 
-						  }
+						  }*/
 						
 						  @Test(priority = 356, enabled = true)	  
 						  @Title("Verifying SOD Cust param value in maps details page ad call for USA _CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LATAMCO Travel Scenario" )
@@ -1338,14 +1338,14 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 						  
 						  
 						  
-						  @Test(priority = 358, enabled = true)	  
+						 /* @Test(priority = 358, enabled = true)	  
 						  @Title("Verifying rdp=1 in home screen hourly ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LATAMCO Travel Scenario") 
 						  public void  Verifying_rdp_equals_1_homescreenHourly_adCall_USA_CCPA_Privacy_DoNotSellMyInformation_for_USACCPA_to_LATAMCO_Travel_Scenario() throws  Exception {
 						  logStep("Verifying rdp=1 in home screen hourly ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LATAMCO Travel Scenario"); 
 						  System.out.println("================= Verifying rdp=1 in home screen hourly ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LATAMCO Travel Scenario test case  started =========================" ); 
 						  Functions.validate_RDP_homescrenhourly_Optoutmode();
 						  System.out. println("================= Verifying rdp=1 in home screen hourly ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LATAMCO Travel Scenario test case  End =========================");
-					      }
+					      }*/
 						  
 						  @Test(priority = 360, enabled = true)	  
 						  @Title("Verifying rdp=1 in home screen marquee  ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LATAMCO Travel Scenario") 
@@ -1389,14 +1389,14 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 							  
 
 						
-							  @Test(priority = 368, enabled = true)	  
+							/*@Test(priority = 368, enabled = true)	  
 							  @Title("Verifying npa=1 in home screen hourly ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LATAMCO Travel Scenario") 
 							  public void  Verifying_npa_equals_1_homescreenHourly_adCall_USA_CCPA_Privacy_DoNotSellMyInformation_for_USACCPA_to_LATAMCO_Travel_Scenario() throws  Exception {
 							  logStep("Verifying npa=1 in home screen hourly ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LATAMCO Travel Scenario"); 
 							  System.out.println("================= Verifying npa=1 in home screen hourly ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LATAMCO Travel Scenario test case  started =========================" ); 
 							  Functions.validate_npa_homescrenhourly_dontsellmyinformation();
 							  System.out. println("================= Verifying npa=1 in home screen hourly ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LATAMCO Travel Scenario test case  End =========================");
-						      }
+						      }*/
 							  
 							  @Test(priority = 370, enabled = true)	  
 							  @Title("Verifying npa=1 in home screen marquee  ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LATAMCO  Travel Scenario") 
@@ -1533,7 +1533,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 								 System.out. println("================= Verifying Fatual api call when user selecting Optoutmode scenario in privacy card End =========================");
 								  }
 								            
-								  @Test(priority=388,enabled = true)  
+								  /*@Test(priority=388,enabled = true)  
 								  @Title("Verifying supress amazon slotid for  home screen hourly preload ad call  USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to SERBIA Travel Scenario") 
 								  public void Verifying_Supress_amazon_Slotid_homescreenhourly_preload_adcall_USA_CCPA_Privacy_DoNotSellMyInformation_for_USACCPA_to_SERBIA_Travel_Scenario() throws Exception { 
 								  System.out.println("=================Verifying supress amazon slotid for  home screen hourly preload ad call  USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to SERBIA Travel Scenario test case Started========================="); 
@@ -1541,7 +1541,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 								  logStep("Verifying supress amazon slot id for  home screen hourly preload ad call USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to SERBIA Travel Scenario");
 								  Functions.verifyaax_SlotId_supress("869c843c-7cf8-47ae-b6ed-088057e4bc8a");
 								  System.out.println("=================Verifying supress amazon slotid for  home screen hourly preload ad call  USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to SERBIA  Travel Scenario  test case  End ========================="); 
-								  }
+								  }*/
 								
 								 
 									@Test(priority = 390, enabled = true)
@@ -1640,14 +1640,14 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 									}	 
 								
 
-								@Test(priority =408, enabled = true)  
+								/*@Test(priority =408, enabled = true)  
 								  @Title("Verifying home screen hourly ad call presense for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to SERBIA Travel Scenario" ) 
 								  public void  Verifying_homescreenhourly_adCall_Presence_USA_CCPA_Privacy_DoNotSellMyInformation_for_USACCPA_to_SERBIA_Travel_Scenario() throws Exception {
 							   System.out.println("=================Verifying home screen hourly ad call presense for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to SERBIA  Travel Scenario  testcase started =========================" );
 								  logStep("Verifying home screen hourly ad call presense for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to SERBIA Travel Scenario");
 								  Functions.finding_Homescreen_iu_value();
 								  System.out.println("=================Verifying home screen hourly ad call presense for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to SERBIA  Travel Scenario  testcase  End =========================" );	  
-								  }
+								  }*/
 								  
 								  @Test(priority =410, enabled = true)	  
 								  @Title("Verifying home screen marquee ad call presense for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA  to SERBIA Travel Scenario" )	
@@ -1669,14 +1669,14 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 								  }
 
 
-								  @Test(priority = 414, enabled = true)	  
+								 /* @Test(priority = 414, enabled = true)	  
 								  @Title("Verifying SOD Cust param value in homescreen hourly ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to SERBIA Travel Scenario" )
 								  public void  Verifying_SOD_Cust_Param_homescreenhourly_adCall_USA_CCPA_Privacy_DoNotSellMyInformation_for_USACCPA_to_SERBIA_Travel_Scenario() throws  Exception {
 								  logStep("Verifying SOD Cust param value in homescreen hourly ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to SERBIA Travel Scenario" ); 
 								  System.out.println("================= Verifying SOD Cust param value in homescreen hourly ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to SERBIA  Travel Scenario test case started ========================="); 
 								  Functions.validate_SOD_Cust_param_homescreenHourly_Optoutmode();
 								  System.out.println("================= Verifying SOD Cust param value in homescreen hourly ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to SERBIA Travel Scenario test case End =========================" ); 
-								  }
+								  }*/
 								
 								  @Test(priority = 416, enabled = true)	  
 								  @Title("Verifying SOD Cust param value in maps details page ad call for USA _CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to SERBIA Travel Scenario" )
@@ -1689,14 +1689,14 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 								  
 								  
 								  
-								  @Test(priority = 418, enabled = true)	  
+								 /* @Test(priority = 418, enabled = true)	  
 								  @Title("Verifying rdp=1 in home screen hourly ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to SERBIA Travel Scenario") 
 								  public void  Verifying_rdp_equals_1_homescreenHourly_adCall_USA_CCPA_Privacy_DoNotSellMyInformation_for_USACCPA_to_SERBIA_Travel_Scenario() throws  Exception {
 								  logStep("Verifying rdp=1 in home screen hourly ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to SERBIA Travel Scenario"); 
 								  System.out.println("================= Verifying rdp=1 in home screen hourly ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to SERBIA Travel Scenario test case  started =========================" ); 
 								  Functions.validate_RDP_homescrenhourly_Optoutmode();
 								  System.out. println("================= Verifying rdp=1 in home screen hourly ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to SERBIA Travel Scenario test case  End =========================");
-							      }
+							      }*/
 								  
 								  @Test(priority = 420, enabled = true)	  
 								  @Title("Verifying rdp=1 in home screen marquee  ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to SERBIA Travel Scenario") 
@@ -1740,14 +1740,14 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 									  
 
 								
-									  @Test(priority = 428, enabled = true)	  
+									  /*@Test(priority = 428, enabled = true)	  
 									  @Title("Verifying npa=1 in home screen hourly ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to SERBIA Travel Scenario") 
 									  public void  Verifying_npa_equals_1_homescreenHourly_adCall_USA_CCPA_Privacy_DoNotSellMyInformation_for_USACCPA_to_SERBIA_Travel_Scenario() throws  Exception {
 									  logStep("Verifying npa=1 in home screen hourly ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to SERBIA Travel Scenario"); 
 									  System.out.println("================= Verifying npa=1 in home screen hourly ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to SERBIA Travel Scenario test case  started =========================" ); 
 									  Functions.validate_npa_homescrenhourly_dontsellmyinformation();
 									  System.out. println("================= Verifying npa=1 in home screen hourly ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to SERBIA Travel Scenario test case  End =========================");
-								      }
+								      }*/
 									  
 									  @Test(priority = 430, enabled = true)	  
 									  @Title("Verifying npa=1 in home screen marquee  ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to SERBIA  Travel Scenario") 
@@ -1894,7 +1894,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 	  }
 	 
 	  
-	  @Test(priority=448,enabled = true)  
+	 /* @Test(priority=448,enabled = true)  
 	  @Title("Verifying presence amazon slotid for  home screen hourly preload ad call  USA-CCPA privacy when Advertising option set to Standard Advertising Settings") 
 	  public void Verifying_presence_amazon_Slotid_homescreenhourly_preload_adcall_USA_CCPA_Privacy_StandardAdvertisingSettings()  throws Exception { 
 	  System.out.println("=================Verifying presence amazon slotid for  home screen hourly preload ad call  USA-CCPA privacy when Advertising option set to Standard Advertising Settings test case Started========================="); 
@@ -1902,7 +1902,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 	  logStep("Verifying presence amazon slotid for  home screen hourly preload ad call  USA-CCPA privacy when Advertising option set to Standard Advertising Settings");
 	  Functions.verifyaax_SlotId_Presence("869c843c-7cf8-47ae-b6ed-088057e4bc8a");
 	  System.out.println("=================Verifying presence amazon slotid for  home screen hourly preload ad call  USA-CCPA privacy when Advertising option set to Standard Advertising Settings test case  End ========================="); 
-	  }
+	  }*/
 	
 	 
 	
@@ -1999,21 +1999,21 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 		
 		
 		  
-		  @Test(priority = 470, enabled = true)  
+		 /* @Test(priority = 470, enabled = true)  
 		  @Title("Verifying home screen hourly ad call presense for USA-CCPA privacy when Advertising option set to Standard Advertising Settings" ) 
 		  public void Verifying_homescreenhourly_adCall_Presence_USA_CCPA_Privacy_StandardAdvertisingSettings() throws Exception {
 		  logStep("Verifying home screen hourly ad call presense for USA-CCPA privacy when Advertising option set to Standard Advertising Settings" ); 
 		  System.out. println("=================Verifying home screen hourly ad call presense for USA-CCPA privacy when Advertising option set to Standard Advertising Settings test case  started ========================="); 
 		  Functions. finding_Homescreen_marquee_iu_value();
 		  System.out.println("================= Verifying home screen hourly ad call presense for USA-CCPA privacy when Advertising option set to Standard Advertising Settings test case  End =========================" );	  
-		  }
+		  }*/
 		  
 		  @Test(priority = 472, enabled = true)  
 		  @Title("Verifying home screen marquee ad call presense for USA-CCPA privacy when Advertising option set to Standard Advertising Settings" ) 
 		  public void Verifying_homescreenmarquee_adCall_Presence_USA_CCPA_Privacy_StandardAdvertisingSettings() throws Exception {
 		  logStep("Verifying home screen marquee ad call presense for USA-CCPA privacy when Advertising option set to Standard Advertising Settings" ); 
 		  System.out. println("=================Verifying home screen marquee ad call presense for USA-CCPA privacy when Advertising option set to Standard Advertising Settings test case started ========================="); 
-		  Functions. finding_Homescreen_iu_value();
+		  Functions. finding_Homescreen_marquee_iu_value();
 		  System.out.println("================= Verifying home screen marquee ad call presense for USA-CCPA privacy when Advertising option set to Standard Advertising Settings test case  End =========================" );	  
 		  }
 		  
@@ -2027,14 +2027,14 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 		  }
 		  
 		  
-		  @Test(priority = 476, enabled = true)	  
+		  /*@Test(priority = 476, enabled = true)	  
 		  @Title("Verifying SOD custum param for  home screen hourly ad call USA-CCPA privacy when Advertising option set to Standard Advertising Settings" )
 		  public void  Verifying_SOD_Cust_Param_homescreenhourly_adCall_USA_CCPA_Privacy_StandardAdvertisingSettings() throws  Exception {
 		  logStep("Verifying SOD custum param for  home screen hourly ad call USA-CCPA privacy when Advertising option set to Standard Advertising Settings" ); 
 		  System.out.println("================= Verifying SOD custum param for  home screen hourly ad call USA-CCPA privacy when Advertising option set to Standard Advertising Settings test case started ========================="); 
 		  Functions.validate_SOD_Cust_param_homescreenhourly_Optinmode();
 		  System.out.println("================= Verifying SOD custum param for  home screen hourly ad call USA-CCPA privacy when Advertising option set to Standard Advertising Settings test case End =========================" ); 
-		  }
+		  }*/
 		  
 		  @Test(priority =478, enabled = true)	  
 		  @Title("Verifying SOD custum param for  maps details ad call USA_CCPA privacy when Advertising option set to Standard Advertising Settings" )
@@ -2056,7 +2056,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 		  System.out. println("=================  Verifying rdp keyword supress in home screen marquee ad call for USA-CCPA privacy when Advertising option set to Standard Advertising Settings test case End =========================");
 	   }
 		  
-		  @Test(priority = 482, enabled = true)	  
+		  /*@Test(priority = 482, enabled = true)	  
 		  @Title("Verifying rdp keyword supress in home screen hourly ad call for USA-CCPA privacy when Advertising option set to Standard Advertising Settings") 
 		  public void
 		  Verifying_rdp_keyword_supress_homescreenHourly_adCall_USA_CCPA_Privacy_StandardAdvertisingSettings()  throws  Exception {
@@ -2064,7 +2064,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 		  System.out.println("================= Verifying rdp keyword supress in home screen hourly ad call for USA-CCPA privacy when Advertising option set to Standard Advertising Settings test case  started =========================" ); 
 		  Functions.validate_RDP_homescreenhourly_Optinmode();
 		  System.out. println("================= Verifying rdp keyword supress in home screen hourly ad call for USA-CCPA privacy when Advertising option set to Standard Advertising Settings End =========================");
-	   }
+	   }*/
 		
 		
 		
