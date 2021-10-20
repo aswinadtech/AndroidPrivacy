@@ -148,7 +148,7 @@ public class GDPR_Run extends TwcAndroidBaseTest  {
 	
 	
 
-	 @Test(priority=8,enabled = true)  
+	 /*@Test(priority=8,enabled = true)  
 	  @Title("Verifying supress amazon slot id for  home screen hourly preload ad call GDPR Privacy") 
 	  public void Verifying_Supress_amazon_Slotid_homescreenhourly_preload_adcall_GDPRPrivacy() throws Exception { 
 	  System.out.println("=================Verifying supress amazon slot id for  home screen hourly preload ad call GDPR Privacy test case Started========================="); 
@@ -156,7 +156,7 @@ public class GDPR_Run extends TwcAndroidBaseTest  {
 	  logStep("Verifying supress amazon slot id for  home screen hourly preload ad call GDPR Privacy");
 	  Functions.verifyaax_SlotId_supress("869c843c-7cf8-47ae-b6ed-088057e4bc8a");
 	  System.out.println("=================Verifying supress amazon slot id in home screen hourly preload ad call for GDPR Privacy  test case  End ========================="); 
-	  }
+	  }*/
 	
 	 
 		@Test(priority = 10, enabled = true)
@@ -259,14 +259,14 @@ public class GDPR_Run extends TwcAndroidBaseTest  {
 	
 	
 	
-	@Test(priority =28, enabled = true)  
+	/*@Test(priority =28, enabled = true)  
 		  @Title("Verifying home screen hourly ad call presense for GDPR privacy" ) 
 		  public void  Verifying_homescreenhourly_adCall_Presence_GDPR_privacy() throws Exception {
 	   System.out.println("=================Verifying home screen hourly ad call presense for GDPR privacy  testcase started =========================" );
 		  logStep("Verifying home screen hourly ad call presense for GDPR privacy");
 		  Functions.finding_Homescreen_iu_value();
 		  System.out.println("=================Verifying home screen hourly ad call presense for GDPR privacy  testcase  End =========================" );	  
-		  }
+		  }*/
 		  
 		  @Test(priority = 30, enabled = true)	  
 		  @Title("Verifying home screen marquee ad call presense for GDPR privacy" )	
@@ -278,13 +278,13 @@ public class GDPR_Run extends TwcAndroidBaseTest  {
 		  }
 		
 
-			@Test(priority =32, enabled = true)  
+			/*@Test(priority =32, enabled = true)  
 			 @Title("Verifying npa=1 in home screen hourly ad call for GDPR privacy") 
 			public void Verifying_npa_equals_1_homescreenHourly_adCall_GDPR_Privacy() throws Exception {	  
 			 System.out. println("=================Verifying npa=1 in home screen hourly ad call for GDPR privacy  testcase started =========================" ); 
 			  Functions.validate_npa_homescrenhourly_dontsellmyinformation();
 			  System.out. println("=================Verifying npa=1 in home screen hourly ad call for GDPR privacy  testcase End =========================" );
-			  }
+			  }*/
 		  
 			@Test(priority =34, enabled = true)  
 			 @Title("Verifying npa=1 in home screen marquee ad call for GDPR privacy") 
