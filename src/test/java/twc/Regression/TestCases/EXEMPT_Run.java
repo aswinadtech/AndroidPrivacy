@@ -113,7 +113,7 @@ public class EXEMPT_Run extends TwcAndroidBaseTest {
 	  }
 	
 
-	 @Test(priority=2008,enabled = true)  
+	 /*@Test(priority=2008,enabled = true)  
 	  @Title("Verifying supress amazon slot id for  home screen hourly preload ad call EXEMPT Privacy") 
 	  public void Verifying_Supress_amazon_Slotid_homescreenhourly_preload_adcall_EXEMPT_Privacy()throws Exception { 
 	  System.out.println("=================Verifying supress amazon slot id for  home screen hourly preload ad call EXEMPT Privacy test case Started========================="); 
@@ -121,7 +121,7 @@ public class EXEMPT_Run extends TwcAndroidBaseTest {
 	  logStep("Verifying supress amazon slot id for  home screen hourly preload ad call EXEMPT Privacy");
 	  Functions.verifyaax_SlotId_supress("869c843c-7cf8-47ae-b6ed-088057e4bc8a");
 	  System.out.println("=================Verifying supress amazon slot id in home screen hourly preload ad call for EXEMPT Privacy  test case  End ========================="); 
-	  }
+	  }*/
 	
 	 
 		@Test(priority = 2010, enabled = true)
