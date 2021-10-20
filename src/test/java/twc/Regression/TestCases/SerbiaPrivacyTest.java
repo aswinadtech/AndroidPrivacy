@@ -122,7 +122,7 @@ public class SerbiaPrivacyTest extends TwcAndroidBaseTest
 	  }
 	
 
-	 @Test(priority=3008,enabled = true)  
+	 /*@Test(priority=3008,enabled = true)  
 	  @Title("Verifying supress amazon slot id for  home screen hourly preload ad call Serbia Privacy") 
 	  public void Verifying_Supress_amazon_Slotid_homescreenhourly_preload_adcall_Serbia_Privacy()throws Exception { 
 	  System.out.println("=================Verifying supress amazon slot id for  home screen hourly preload ad call Serbia Privacy test case Started========================="); 
@@ -130,7 +130,7 @@ public class SerbiaPrivacyTest extends TwcAndroidBaseTest
 	  logStep("Verifying supress amazon slot id for  home screen hourly preload ad call Serbia Privacy");
 	  Functions.verifyaax_SlotId_supress("869c843c-7cf8-47ae-b6ed-088057e4bc8a");
 	  System.out.println("=================Verifying supress amazon slot id in home screen hourly preload ad call for Serbia Privacy  test case  End ========================="); 
-	  }
+	  }*/
 	
 	 
 		@Test(priority = 3010, enabled = true)
@@ -229,14 +229,14 @@ public class SerbiaPrivacyTest extends TwcAndroidBaseTest
 			 Functions.verifyaax_SlotId_supress("f71b7e17-6e34-4f6c-98f6-bbbe9f55586c");
 			System.out.println("=================Verifying supress amazon SlotId for videos preload ad call for Serbia Privacy testcase  End =========================");
 		}
-		@Test(priority =3028, enabled = true)  
+		/*@Test(priority =3028, enabled = true)  
 		  @Title("Verifying home screen hourly ad call presense for Serbia Privacy") 
 		  public void  Verifying_homescreenhourly_adCall_Presence_Serbia_privacy()throws Exception {
 	          System.out.println("=================Verifying home screen hourly ad call presense for Serbia  privacy  testcase started =========================" );
 		  logStep("Verifying home screen hourly ad call presense for Serbia  privacy");
 		  Functions.finding_Homescreen_iu_value();
 		  System.out.println("=================Verifying home screen hourly ad call presense for Serbia privacy  testcase  End =========================" );	  
-		  }
+		  }*/
 		  
 		  @Test(priority = 3030, enabled = true)	  
 		  @Title("Verifying home screen marquee ad call presense for Serbia privacy")	
@@ -248,13 +248,13 @@ public class SerbiaPrivacyTest extends TwcAndroidBaseTest
 		  }
 		
 
-			@Test(priority =3032, enabled = true)  
+			/*@Test(priority =3032, enabled = true)  
 			 @Title("Verifying npa=1 in home screen hourly ad call for Serbia privacy") 
 			public void Verifying_npa_equals_1_homescreenHourly_adCall_Serbia_privacy()throws Exception {	  
 			 System.out. println("=================Verifying npa=1 in home screen hourly ad call for Serbia  privacy  testcase started =========================" ); 
 			  Functions.validate_npa_homescrenhourly_dontsellmyinformation();
 			  System.out. println("=================Verifying npa=1 in home screen hourly ad call for Serbiam privacy  testcase End =========================" );
-			  }
+			  }/
 		  
 			@Test(priority =3034, enabled = true)  
 			 @Title("Verifying npa=1 in home screen marquee ad call for Serbia privacy") 
