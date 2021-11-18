@@ -116,7 +116,8 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 	  AppiumFunctions.Kill_Launch_App();  
 	   AppiumFunctions.clickOnMaps_tile();
 		AppiumFunctions.clickOnVideos_tile();
-		    Thread.sleep(80000);		
+		    Thread.sleep(80000);
+		    Thread.sleep(80000); 
 		  //CharlesFunctions.archive_folder("charles");
 		this.proxy.getXml();
 	 // Functions.validating_adcrw_privacy_Optoutmode_scenarion();
@@ -1860,7 +1861,8 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 		  AppiumFunctions.Kill_Launch_App();  
 		   AppiumFunctions.clickOnMaps_tile();
 			AppiumFunctions.clickOnVideos_tile();
-		    Thread.sleep(80000);			
+		    Thread.sleep(80000);
+		   Thread.sleep(80000);
 		  //CharlesFunctions.archive_folder("charles");
 			this.proxy.getXml();			
 	  Functions.validating_bcp_privacy_Optinmode_scenarion();
