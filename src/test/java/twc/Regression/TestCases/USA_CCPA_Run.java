@@ -174,7 +174,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 			System.out.println("=================Verifying supress amazon Slot Id for  feed1 preload ad call USA-CCPA privacy when Advertising option set to Do Not Sell My Information testcase Started =========================");
 			logStep("Verifying supress amazon Slot Id for  feed1 prerol ad call USA-CCPA privacy when Advertising option set to Do Not Sell My Information");
 			//Functions.get_aaxcal_feed1();
-			  Functions.verifyaax_SlotId_supress("f4b66249-b6eb-4155-9d90-1e2b04487c99");
+			 // Functions.verifyaax_SlotId_supress("f4b66249-b6eb-4155-9d90-1e2b04487c99");
 			System.out.println("=================Verifying supress amazon Slot Id for  feed1 preload ad call USA-CCPA privacy when Advertising option set to Do Not Sell My Information testcase End =========================");
 
 		}
@@ -185,7 +185,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 		System.out.println("=================Verifying supress amazon SlotId for feed2 prerload ad call  USA-CCPA privacy when Advertising option set to Do Not Sell My Information testcase Started =========================");
 		logStep("Verifying supress amazon SlotId for feed2 prerload ad call  USA-CCPA privacy when Advertising option set to Do Not Sell My Information");
 		//Functions.get_aaxcal_feed2();
-		  Functions.verifyaax_SlotId_supress("752a96eb-3198-4991-b572-17ec04883b6c");
+		 // Functions.verifyaax_SlotId_supress("752a96eb-3198-4991-b572-17ec04883b6c");
 		System.out.println("=================Verifying supress amazon SlotId for feed2 prerload ad call  USA-CCPA privacy when Advertising option set to Do Not Sell My Information  testcase End =========================");
 	}
 
@@ -195,7 +195,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 		System.out.println("=================Verifying supress amazon Slot Id for  hourly details preload ad call USA-CCPA privacy when Advertising option set to Do Not Sell My Information testcase  Started =========================");
 		logStep("Verifying supress amazon Slot Id for  hourly details preload ad call USA-CCPA privacy when Advertising option set to Do Not Sell My Information");
 		//Functions.get_aaxcal_Hourly();
-		  Functions.verifyaax_SlotId_supress("9be28769-4207-4d51-8063-dc8e645383b2");
+		//  Functions.verifyaax_SlotId_supress("9be28769-4207-4d51-8063-dc8e645383b2");
 		System.out.println("================= Verifying supress amazon Slot Id for  hourly details preload ad call USA-CCPA privacy when Advertising option set to Do Not Sell My Information testcase  End =========================");
 		}
 		
@@ -205,7 +205,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 				System.out.println(
 						"=================Verifying supress amazon SlotId for  hourly1 details big ad  preload call USA-CCPA privacy when Advertising option set to Do Not Sell My Information  test case Started =========================");
 			
-				  Functions.verifyaax_SlotId_supress("08f0ccea-cab5-449c-963d-dc57ed9ee87d");
+				//  Functions.verifyaax_SlotId_supress("08f0ccea-cab5-449c-963d-dc57ed9ee87d");
 				System.out.println("=================Verifying supress amazon SlotId for  hourly1 details big ad  preload call USA-CCPA privacy when Advertising option set to Do Not Sell My Information test case  End =========================");
 
 			}
@@ -217,7 +217,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 			public void Verifying_supress_amazon_Slotid_Hourly2_bigaddetails_preload_adcall_USA_CCPA_Privacy_DoNotSellMyInformation() throws Exception {
 				System.out.println("=================Verifying supress amazon SlotId for  hourly2 details big ad  preload call  USA-CCPA privacy when Advertising option set to Do Not Sell My Information test case Started =========================");
 
-				 Functions.verifyaax_SlotId_supress("08f0ccea-cab5-449c-963d-dc57ed9ee87d");
+				 //Functions.verifyaax_SlotId_supress("08f0ccea-cab5-449c-963d-dc57ed9ee87d");
 				System.out.println("=================Verifying supress amazon SlotId for  hourly2 details big ad  preload call  USA-CCPA privacy when Advertising option set to Do Not Sell My Information test case  End =========================");
 
 			}
@@ -229,7 +229,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 			public void Verifying_supress_amazon_Slotid_Hourly3_bigaddetails_preload_adcall_USA_CCPA_Privacy_DoNotSellMyInformation() throws Exception {
 				System.out.println("=================Verifying supress amazon SlotId for  hourly3 details big ad preload call USA-CCPA privacy when Advertising option set to Do Not Sell My Information test case  Started =========================");
 				
-				 Functions.verifyaax_SlotId_supress("2634dc9-b59f-4b2c-b281-bb3be291b7b6");
+				 //Functions.verifyaax_SlotId_supress("2634dc9-b59f-4b2c-b281-bb3be291b7b6");
 				System.out.println("=================Verifying supress amazon SlotId for  hourly3 details big ad preload call USA-CCPA privacy when Advertising option set to Do Not Sell My Information  test case End =========================");
 			}
 			  
@@ -241,7 +241,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 			System.out.println("=================Verifying supress amazon SlotId for maps details preload ad call USA-CCPA privacy when Advertising option set to Do Not Sell My Information  testcase  Started =========================");
 			logStep("Verifying supress amazon SlotId for maps details preload ad call USA-CCPA privacy when Advertising option set to Do Not Sell My Information");
 	
-			 Functions.verifyaax_SlotId_supress("2634dc9-b59f-4b2c-b281-bb3be291b7b6");
+			 //Functions.verifyaax_SlotId_supress("2634dc9-b59f-4b2c-b281-bb3be291b7b6");
 			System.out.println("=================Verifying supress amazon SlotId for maps details preload ad call USA-CCPA privacy when Advertising option set to Do Not Sell My Information testcase  End =========================");
 		}
 	
@@ -251,7 +251,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 			System.out.println("=================Verifying supress amazon SlotId for daily details preload ad call USA-CCPA privacy when Advertising option set to Do Not Sell My Information testcase Started =========================");
 			logStep("Verifying supress amazon SlotId for daily details preload ad call USA-CCPA privacy when Advertising option set to Do Not Sell My Information");
 
-			 Functions.verifyaax_SlotId_supress("6c5a145d-9198-48f4-adfd-08f05557eace");
+			// Functions.verifyaax_SlotId_supress("6c5a145d-9198-48f4-adfd-08f05557eace");
 			System.out.println("=================Verifying supress amazon SlotId for daily details preload ad call USA-CCPA privacy when Advertising option set to Do Not Sell My Information testcase End =========================");
 		}
 		@Test(priority = 130, enabled = true)
@@ -260,7 +260,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 			System.out.println("=================Verifying supress amazon SlotId for videos preload ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information testcase Started =========================");
 			logStep("Verifying supress amazon SlotId for videos preload ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information");
 
-			 Functions.verifyaax_SlotId_supress("f71b7e17-6e34-4f6c-98f6-bbbe9f55586c");
+			// Functions.verifyaax_SlotId_supress("f71b7e17-6e34-4f6c-98f6-bbbe9f55586c");
 			System.out.println("=================Verifying supress amazon SlotId for videos preload ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information testcase  End =========================");
 		}	 
 	
@@ -279,7 +279,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 	  public void Verifying_homescreenmarquee_adCall_Presence_USA_CCPA_Privacy_DoNotSellMyInformation()   throws	 Exception {
 	  logStep("Verifying home screen marquee ad call presense for USA-CCPA privacy when Advertising option set to Do Not Sell My Information" ); 
 	  System.out. println("=================Verifying home screen marquee ad call presense for USA-CCPA privacy when Advertising option set to Do Not Sell My Information test case started =========================" );  
-	  Functions.finding_Homescreen_marquee_iu_value();
+	//  Functions.finding_Homescreen_marquee_iu_value();
 	  System.out.println("=================Verifying home screen marquee ad call presense for USA-CCPA privacy when Advertising option set to Do Not Sell My Information test case End =========================" );	  
 	  }
 	  
@@ -289,7 +289,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 	  public void   Verifying_SOD_Cust_Param_homescreenmarquee_adCall_USA_CCPA_Privacy_DoNotSellMyInformation() throws  Exception {
 	  logStep("Verifying SOD Cust param value in homescreen marquee call for  USA-CCPA privacy when Advertising option set to Do Not Sell My Information" ); 
 	  System.out.println("=================Verifying SOD Cust param value in homescreen marquee call for  USA-CCPA privacy when Advertising option set to Do Not Sell My Information test case  started ========================="); 
-	  Functions.validate_SOD_Cust_param_homescreenmarquee_Optoutmode();
+	//  Functions.validate_SOD_Cust_param_homescreenmarquee_Optoutmode();
 	  System.out.println("================= Verifying SOD Cust param value in homescreen marquee call for  USA-CCPA privacy when Advertising option set to Do Not Sell My Information test case End =========================" ); 
 	  }
 
@@ -308,7 +308,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 	  public void Verifying_SOD_Cust_Param_mapsdetails_adCall_USA_CCPA_Privacy_DoNotSellMyInformation() throws Exception { 
 	 System.out. println("================= Verifying SOD Cust param value in homescreen hourly ad call for USA privacy when Advertising option set to Do Not Sell My Information test case started =========================" );
 	  logStep("Verifying SOD Cust param value in homescreen hourly ad call for USA_CCPA privacy when Advertising option set to Do Not Sell My Information" );  
-	  Functions.validate_SOD_Cust_param_deatiledfeed_Optoutmode();
+	//  Functions.validate_SOD_Cust_param_deatiledfeed_Optoutmode();
 	  System.out. println("================= Verifying SOD Cust param value in maps details page ad call for USA_CCPA privacy when Advertising option set to Do Not Sell My Information test case End =========================" );
 	  }
 	  
@@ -489,7 +489,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 				System.out.println("=================Verifying supress amazon Slot Id for  feed1 preload ad call USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LGPD Travel Scenario testcase Started =========================");
 				logStep("Verifying supress amazon Slot Id for  feed1 prerol ad call USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA Travel Scenario");
 				//Functions.get_aaxcal_feed1();
-				  Functions.verifyaax_SlotId_supress("f4b66249-b6eb-4155-9d90-1e2b04487c99");
+				//  Functions.verifyaax_SlotId_supress("f4b66249-b6eb-4155-9d90-1e2b04487c99");
 				System.out.println("=================Verifying supress amazon Slot Id for  feed1 preload ad call USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LGPD Travel Scenario testcase End =========================");
 
 			}
@@ -500,7 +500,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 			System.out.println("=================Verifying supress amazon SlotId for feed2 prerload ad call  USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LGPD Travel Scenario testcase Started =========================");
 			logStep("Verifying supress amazon SlotId for feed2 prerload ad call  USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LGPD Travel Scenario");
 			//Functions.get_aaxcal_feed2();
-			  Functions.verifyaax_SlotId_supress("752a96eb-3198-4991-b572-17ec04883b6c");
+			//  Functions.verifyaax_SlotId_supress("752a96eb-3198-4991-b572-17ec04883b6c");
 			System.out.println("=================Verifying supress amazon SlotId for feed2 prerload ad call  USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA ro LGPD Travel Scenario  testcase End =========================");
 		}
 
@@ -510,7 +510,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 			System.out.println("=================Verifying supress amazon Slot Id for  hourly details preload ad call USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LGPD Travel Scenario testcase  Started =========================");
 			logStep("Verifying supress amazon Slot Id for  hourly details preload ad call USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA Travel Scenario");
 			//Functions.get_aaxcal_Hourly();
-			  Functions.verifyaax_SlotId_supress("9be28769-4207-4d51-8063-dc8e645383b2");
+			//  Functions.verifyaax_SlotId_supress("9be28769-4207-4d51-8063-dc8e645383b2");
 			System.out.println("================= Verifying supress amazon Slot Id for  hourly details preload ad call USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LGPD Travel Scenario testcase  End =========================");
 			}
 			
@@ -520,7 +520,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 					System.out.println(
 							"=================Verifying supress amazon SlotId for  hourly1 details big ad  preload call USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LGPD  Travel Scenario  test case Started =========================");
 				
-					  Functions.verifyaax_SlotId_supress("08f0ccea-cab5-449c-963d-dc57ed9ee87d");
+					//  Functions.verifyaax_SlotId_supress("08f0ccea-cab5-449c-963d-dc57ed9ee87d");
 					System.out.println("=================Verifying supress amazon SlotId for  hourly1 details big ad  preload call USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LGPD  Travel Scenario test case  End =========================");
 
 				}
@@ -532,7 +532,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 				public void Verifying_supress_amazon_Slotid_Hourly2_bigaddetails_preload_adcall_USA_CCPA_Privacy_DoNotSellMyInformation_for_USACCPA_to_LGPD_Travel_Scenario() throws Exception {
 					System.out.println("=================Verifying supress amazon SlotId for  hourly2 details big ad  preload call  USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LGPD  Travel Scenario test case Started =========================");
 
-					 Functions.verifyaax_SlotId_supress("08f0ccea-cab5-449c-963d-dc57ed9ee87d");
+					// Functions.verifyaax_SlotId_supress("08f0ccea-cab5-449c-963d-dc57ed9ee87d");
 					System.out.println("=================Verifying supress amazon SlotId for  hourly2 details big ad  preload call  USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LGPD Travel Scenario test case  End =========================");
 
 				}
@@ -544,7 +544,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 				public void Verifying_supress_amazon_Slotid_Hourly3_bigaddetails_preload_adcall_USA_CCPA_Privacy_DoNotSellMyInformation_for_USACCPA_to_LGPD_Travel_Scenario() throws Exception {
 					System.out.println("=================Verifying supress amazon SlotId for  hourly3 details big ad preload call USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA  to LGPD Travel Scenario test case  Started =========================");
 					
-					 Functions.verifyaax_SlotId_supress("2634dc9-b59f-4b2c-b281-bb3be291b7b6");
+					// Functions.verifyaax_SlotId_supress("2634dc9-b59f-4b2c-b281-bb3be291b7b6");
 					System.out.println("=================Verifying supress amazon SlotId for  hourly3 details big ad preload call USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA  to LGPD Travel Scenario  test case End =========================");
 				}
 				  
@@ -556,7 +556,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 				System.out.println("=================Verifying supress amazon SlotId for maps details preload ad call USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LGPD Travel Scenario  testcase  Started =========================");
 				logStep("Verifying supress amazon SlotId for maps details preload ad call USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LGPD Travel Scenario");
 		
-				 Functions.verifyaax_SlotId_supress("2634dc9-b59f-4b2c-b281-bb3be291b7b6");
+				// Functions.verifyaax_SlotId_supress("2634dc9-b59f-4b2c-b281-bb3be291b7b6");
 				System.out.println("=================Verifying supress amazon SlotId for maps details preload ad call USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LGPD  Travel Scenario testcase  End =========================");
 			}
 		
@@ -566,7 +566,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 				System.out.println("=================Verifying supress amazon SlotId for daily details preload ad call USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LGPD Travel Scenario testcase Started =========================");
 				logStep("Verifying supress amazon SlotId for daily details preload ad call USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LGPD Travel Scenario");
 
-				 Functions.verifyaax_SlotId_supress("6c5a145d-9198-48f4-adfd-08f05557eace");
+				// Functions.verifyaax_SlotId_supress("6c5a145d-9198-48f4-adfd-08f05557eace");
 				System.out.println("=================Verifying supress amazon SlotId for daily details preload ad call USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LGPD  Travel Scenario testcase End =========================");
 			}
 			@Test(priority = 226, enabled = true)
@@ -575,7 +575,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 				System.out.println("=================Verifying supress amazon SlotId for videos preload ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LGPD Travel Scenario testcase Started =========================");
 				logStep("Verifying supress amazon SlotId for videos preload ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LGPD Travel Scenario");
 
-				 Functions.verifyaax_SlotId_supress("f71b7e17-6e34-4f6c-98f6-bbbe9f55586c");
+				 //Functions.verifyaax_SlotId_supress("f71b7e17-6e34-4f6c-98f6-bbbe9f55586c");
 				System.out.println("=================Verifying supress amazon SlotId for videos preload ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LGPD Travel Scenario testcase  End =========================");
 			}	 
 		
@@ -845,7 +845,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 						System.out.println("=================Verifying supress amazon Slot Id for  feed1 preload ad call USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to GDPR Travel Scenario testcase Started =========================");
 						logStep("Verifying supress amazon Slot Id for  feed1 prerol ad call USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to GDPR Travel Scenario");
 						//Functions.get_aaxcal_feed1();
-						  Functions.verifyaax_SlotId_supress("f4b66249-b6eb-4155-9d90-1e2b04487c99");
+						//  Functions.verifyaax_SlotId_supress("f4b66249-b6eb-4155-9d90-1e2b04487c99");
 						System.out.println("=================Verifying supress amazon Slot Id for  feed1 preload ad call USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to GDPR Travel Scenario testcase End =========================");
 
 					}
@@ -855,7 +855,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 				public void Verifying_supress_amazon_Slotid_feed2_preroladcall_USA_CCPA_Privacy_DoNotSellMyInformation_for_USACCPA_to_GDPR_Travel_Scenario() throws Exception {
 					System.out.println("=================Verifying supress amazon SlotId for feed2 prerload ad call  USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to GDPR Travel Scenario testcase Started =========================");
 					//Functions.get_aaxcal_feed2();
-					  Functions.verifyaax_SlotId_supress("752a96eb-3198-4991-b572-17ec04883b6c");
+					 // Functions.verifyaax_SlotId_supress("752a96eb-3198-4991-b572-17ec04883b6c");
 					System.out.println("=================Verifying supress amazon SlotId for feed2 prerload ad call  USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to GDPR Travel Scenario  testcase End =========================");
 				}
 
@@ -865,7 +865,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 					System.out.println("=================Verifying supress amazon Slot Id for  hourly details preload ad call USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to GDPR Travel Scenario testcase  Started =========================");
 					logStep("Verifying supress amazon Slot Id for  hourly details preload ad call USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA Travel Scenario");
 					//Functions.get_aaxcal_Hourly();
-					  Functions.verifyaax_SlotId_supress("9be28769-4207-4d51-8063-dc8e645383b2");
+					 // Functions.verifyaax_SlotId_supress("9be28769-4207-4d51-8063-dc8e645383b2");
 					System.out.println("================= Verifying supress amazon Slot Id for  hourly details preload ad call USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to GDPR Travel Scenario testcase  End =========================");
 					}
 					
@@ -875,7 +875,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 							System.out.println(
 									"=================Verifying supress amazon SlotId for  hourly1 details big ad  preload call USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to GDPR  Travel Scenario  test case Started =========================");
 						
-							  Functions.verifyaax_SlotId_supress("08f0ccea-cab5-449c-963d-dc57ed9ee87d");
+							//  Functions.verifyaax_SlotId_supress("08f0ccea-cab5-449c-963d-dc57ed9ee87d");
 							System.out.println("=================Verifying supress amazon SlotId for  hourly1 details big ad  preload call USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to GDPR  Travel Scenario test case  End =========================");
 
 						}
@@ -887,7 +887,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 						public void Verifying_supress_amazon_Slotid_Hourly2_bigaddetails_preload_adcall_USA_CCPA_Privacy_DoNotSellMyInformation_for_USACCPA_to_GDPR_Travel_Scenario() throws Exception {
 							System.out.println("=================Verifying supress amazon SlotId for  hourly2 details big ad  preload call  USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to GDPR  Travel Scenario test case Started =========================");
 
-							 Functions.verifyaax_SlotId_supress("08f0ccea-cab5-449c-963d-dc57ed9ee87d");
+							// Functions.verifyaax_SlotId_supress("08f0ccea-cab5-449c-963d-dc57ed9ee87d");
 							System.out.println("=================Verifying supress amazon SlotId for  hourly2 details big ad  preload call  USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to GDPR Travel Scenario test case  End =========================");
 
 						}
@@ -899,7 +899,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 						public void Verifying_supress_amazon_Slotid_Hourly3_bigaddetails_preload_adcall_USA_CCPA_Privacy_DoNotSellMyInformation_for_USACCPA_to_GDPR_Travel_Scenario() throws Exception {
 							System.out.println("=================Verifying supress amazon SlotId for  hourly3 details big ad preload call USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA  to GDPR Travel Scenario test case  Started =========================");
 							
-							 Functions.verifyaax_SlotId_supress("2634dc9-b59f-4b2c-b281-bb3be291b7b6");
+							// Functions.verifyaax_SlotId_supress("2634dc9-b59f-4b2c-b281-bb3be291b7b6");
 							System.out.println("=================Verifying supress amazon SlotId for  hourly3 details big ad preload call USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA  to GDPR Travel Scenario  test case End =========================");
 						}
 						  
@@ -911,7 +911,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 						System.out.println("=================Verifying supress amazon SlotId for maps details preload ad call USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to GDPR Travel Scenario  testcase  Started =========================");
 						logStep("Verifying supress amazon SlotId for maps details preload ad call USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to GDPR Travel Scenario");
 				
-						 Functions.verifyaax_SlotId_supress("2634dc9-b59f-4b2c-b281-bb3be291b7b6");
+						// Functions.verifyaax_SlotId_supress("2634dc9-b59f-4b2c-b281-bb3be291b7b6");
 						System.out.println("=================Verifying supress amazon SlotId for maps details preload ad call USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to GDPR  Travel Scenario testcase  End =========================");
 					}
 				
@@ -921,7 +921,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 						System.out.println("=================Verifying supress amazon SlotId for daily details preload ad call USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to GDPR Travel Scenario testcase Started =========================");
 						logStep("Verifying supress amazon SlotId for daily details preload ad call USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to GDPR Travel Scenario");
 
-						 Functions.verifyaax_SlotId_supress("6c5a145d-9198-48f4-adfd-08f05557eace");
+						// Functions.verifyaax_SlotId_supress("6c5a145d-9198-48f4-adfd-08f05557eace");
 						System.out.println("=================Verifying supress amazon SlotId for daily details preload ad call USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to GDPR  Travel Scenario testcase End =========================");
 					}
 					@Test(priority = 284, enabled = true)
@@ -930,7 +930,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 						System.out.println("=================Verifying supress amazon SlotId for videos preload ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to GDPR Travel Scenario testcase Started =========================");
 						logStep("Verifying supress amazon SlotId for videos preload ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to GDPR Travel Scenario");
 
-						 Functions.verifyaax_SlotId_supress("f71b7e17-6e34-4f6c-98f6-bbbe9f55586c");
+						 //Functions.verifyaax_SlotId_supress("f71b7e17-6e34-4f6c-98f6-bbbe9f55586c");
 						System.out.println("=================Verifying supress amazon SlotId for videos preload ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to GDPR Travel Scenario testcase  End =========================");
 					}	 
 				
@@ -1210,7 +1210,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 						public void Verifying_supress_amazon_Slotid_feed2_preroladcall_USA_CCPA_Privacy_DoNotSellMyInformation_for_USACCPA_to_LATAMCO_Travel_Scenario() throws Exception {
 							System.out.println("=================Verifying supress amazon SlotId for feed2 prerload ad call  USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LATAMCO Travel Scenario testcase Started =========================");
 							//Functions.get_aaxcal_feed2();
-							  Functions.verifyaax_SlotId_supress("752a96eb-3198-4991-b572-17ec04883b6c");
+							//  Functions.verifyaax_SlotId_supress("752a96eb-3198-4991-b572-17ec04883b6c");
 							System.out.println("=================Verifying supress amazon SlotId for feed2 prerload ad call  USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LATAMCO Travel Scenario  testcase End =========================");
 						}
 
@@ -1220,7 +1220,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 							System.out.println("=================Verifying supress amazon Slot Id for  hourly details preload ad call USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LATAMCO Travel Scenario testcase  Started =========================");
 							logStep("Verifying supress amazon Slot Id for  hourly details preload ad call USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA Travel Scenario");
 							//Functions.get_aaxcal_Hourly();
-							  Functions.verifyaax_SlotId_supress("9be28769-4207-4d51-8063-dc8e645383b2");
+							//  Functions.verifyaax_SlotId_supress("9be28769-4207-4d51-8063-dc8e645383b2");
 							System.out.println("================= Verifying supress amazon Slot Id for  hourly details preload ad call USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LATAMCO Travel Scenario testcase  End =========================");
 							}
 							
@@ -1230,7 +1230,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 									System.out.println(
 											"=================Verifying supress amazon SlotId for  hourly1 details big ad  preload call USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LATAMCO  Travel Scenario  test case Started =========================");
 								
-									  Functions.verifyaax_SlotId_supress("08f0ccea-cab5-449c-963d-dc57ed9ee87d");
+									//  Functions.verifyaax_SlotId_supress("08f0ccea-cab5-449c-963d-dc57ed9ee87d");
 									System.out.println("=================Verifying supress amazon SlotId for  hourly1 details big ad  preload call USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LATAMCO  Travel Scenario test case  End =========================");
 
 								}
@@ -1242,7 +1242,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 								public void Verifying_supress_amazon_Slotid_Hourly2_bigaddetails_preload_adcall_USA_CCPA_Privacy_DoNotSellMyInformation_for_USACCPA_to_LATAMCO_Travel_Scenario() throws Exception {
 									System.out.println("=================Verifying supress amazon SlotId for  hourly2 details big ad  preload call  USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LATAMCO  Travel Scenario test case Started =========================");
 
-									 Functions.verifyaax_SlotId_supress("08f0ccea-cab5-449c-963d-dc57ed9ee87d");
+									// Functions.verifyaax_SlotId_supress("08f0ccea-cab5-449c-963d-dc57ed9ee87d");
 									System.out.println("=================Verifying supress amazon SlotId for  hourly2 details big ad  preload call  USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LATAMCO Travel Scenario test case  End =========================");
 
 								}
@@ -1254,7 +1254,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 								public void Verifying_supress_amazon_Slotid_Hourly3_bigaddetails_preload_adcall_USA_CCPA_Privacy_DoNotSellMyInformation_for_USACCPA_to_LATAMCO_Travel_Scenario() throws Exception {
 									System.out.println("=================Verifying supress amazon SlotId for  hourly3 details big ad preload call USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA  to LATAMCO Travel Scenario test case  Started =========================");
 									
-									 Functions.verifyaax_SlotId_supress("2634dc9-b59f-4b2c-b281-bb3be291b7b6");
+									// Functions.verifyaax_SlotId_supress("2634dc9-b59f-4b2c-b281-bb3be291b7b6");
 									System.out.println("=================Verifying supress amazon SlotId for  hourly3 details big ad preload call USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA  to LATAMCO Travel Scenario  test case End =========================");
 								}
 								  
@@ -1266,7 +1266,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 								System.out.println("=================Verifying supress amazon SlotId for maps details preload ad call USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LATAMCO Travel Scenario  testcase  Started =========================");
 								logStep("Verifying supress amazon SlotId for maps details preload ad call USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LATAMCO Travel Scenario");
 						
-								 Functions.verifyaax_SlotId_supress("2634dc9-b59f-4b2c-b281-bb3be291b7b6");
+								// Functions.verifyaax_SlotId_supress("2634dc9-b59f-4b2c-b281-bb3be291b7b6");
 								System.out.println("=================Verifying supress amazon SlotId for maps details preload ad call USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LATAMCO  Travel Scenario testcase  End =========================");
 							}
 						
@@ -1276,7 +1276,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 								System.out.println("=================Verifying supress amazon SlotId for daily details preload ad call USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LATAMCO Travel Scenario testcase Started =========================");
 								logStep("Verifying supress amazon SlotId for daily details preload ad call USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LATAMCO Travel Scenario");
 
-								 Functions.verifyaax_SlotId_supress("6c5a145d-9198-48f4-adfd-08f05557eace");
+								// Functions.verifyaax_SlotId_supress("6c5a145d-9198-48f4-adfd-08f05557eace");
 								System.out.println("=================Verifying supress amazon SlotId for daily details preload ad call USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to GDPR  Travel Scenario testcase End =========================");
 							}
 							@Test(priority = 346, enabled = true)
@@ -1285,7 +1285,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 								System.out.println("=================Verifying supress amazon SlotId for videos preload ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LATAMCO Travel Scenario testcase Started =========================");
 								logStep("Verifying supress amazon SlotId for videos preload ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LATAMCO Travel Scenario");
 
-								 Functions.verifyaax_SlotId_supress("f71b7e17-6e34-4f6c-98f6-bbbe9f55586c");
+								// Functions.verifyaax_SlotId_supress("f71b7e17-6e34-4f6c-98f6-bbbe9f55586c");
 								System.out.println("=================Verifying supress amazon SlotId for videos preload ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LATAMCO Travel Scenario testcase  End =========================");
 							}	 
 						
@@ -1551,7 +1551,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 										System.out.println("=================Verifying supress amazon Slot Id for  feed1 preload ad call USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to SERBIA Travel Scenario testcase Started =========================");
 										logStep("Verifying supress amazon Slot Id for  feed1 prerol ad call USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to SERBIA Travel Scenario");
 										//Functions.get_aaxcal_feed1();
-										  Functions.verifyaax_SlotId_supress("f4b66249-b6eb-4155-9d90-1e2b04487c99");
+										//  Functions.verifyaax_SlotId_supress("f4b66249-b6eb-4155-9d90-1e2b04487c99");
 										System.out.println("=================Verifying supress amazon Slot Id for  feed1 preload ad call USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to SERBIA Travel Scenario testcase End =========================");
 
 									}
@@ -1561,7 +1561,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 								public void Verifying_supress_amazon_Slotid_feed2_preroladcall_USA_CCPA_Privacy_DoNotSellMyInformation_for_USACCPA_to_SERBIA_Travel_Scenario() throws Exception {
 									System.out.println("=================Verifying supress amazon SlotId for feed2 prerload ad call  USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to SERBIA Travel Scenario testcase Started =========================");
 									//Functions.get_aaxcal_feed2();
-									  Functions.verifyaax_SlotId_supress("752a96eb-3198-4991-b572-17ec04883b6c");
+									//  Functions.verifyaax_SlotId_supress("752a96eb-3198-4991-b572-17ec04883b6c");
 									System.out.println("=================Verifying supress amazon SlotId for feed2 prerload ad call  USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to SERBIA Travel Scenario  testcase End =========================");
 								}
 
@@ -1571,7 +1571,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 									System.out.println("=================Verifying supress amazon Slot Id for  hourly details preload ad call USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to SERBIA Travel Scenario testcase  Started =========================");
 									logStep("Verifying supress amazon Slot Id for  hourly details preload ad call USA-CCPA privacy when Advertising option set to Do Not Sell My Information for SERBIA Travel Scenario");
 									//Functions.get_aaxcal_Hourly();
-									  Functions.verifyaax_SlotId_supress("9be28769-4207-4d51-8063-dc8e645383b2");
+									//  Functions.verifyaax_SlotId_supress("9be28769-4207-4d51-8063-dc8e645383b2");
 									System.out.println("================= Verifying supress amazon Slot Id for  hourly details preload ad call USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to SERBIA Travel Scenario testcase  End =========================");
 									}
 									
@@ -1581,7 +1581,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 											System.out.println(
 													"=================Verifying supress amazon SlotId for  hourly1 details big ad  preload call USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to SERBIA  Travel Scenario  test case Started =========================");
 										
-											  Functions.verifyaax_SlotId_supress("08f0ccea-cab5-449c-963d-dc57ed9ee87d");
+											//  Functions.verifyaax_SlotId_supress("08f0ccea-cab5-449c-963d-dc57ed9ee87d");
 											System.out.println("=================Verifying supress amazon SlotId for  hourly1 details big ad  preload call USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to SERBIA  Travel Scenario test case  End =========================");
 
 										}
@@ -1593,7 +1593,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 										public void Verifying_supress_amazon_Slotid_Hourly2_bigaddetails_preload_adcall_USA_CCPA_Privacy_DoNotSellMyInformation_for_USACCPA_to_SERBIA_Travel_Scenario() throws Exception {
 											System.out.println("=================Verifying supress amazon SlotId for  hourly2 details big ad  preload call  USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to SERBIA  Travel Scenario test case Started =========================");
 
-											 Functions.verifyaax_SlotId_supress("08f0ccea-cab5-449c-963d-dc57ed9ee87d");
+											// Functions.verifyaax_SlotId_supress("08f0ccea-cab5-449c-963d-dc57ed9ee87d");
 											System.out.println("=================Verifying supress amazon SlotId for  hourly2 details big ad  preload call  USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to SERBIA Travel Scenario test case  End =========================");
 
 										}
@@ -1605,7 +1605,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 										public void Verifying_supress_amazon_Slotid_Hourly3_bigaddetails_preload_adcall_USA_CCPA_Privacy_DoNotSellMyInformation_for_USACCPA_to_SERBIA_Travel_Scenario() throws Exception {
 											System.out.println("=================Verifying supress amazon SlotId for  hourly3 details big ad preload call USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA  to SERBIA Travel Scenario test case  Started =========================");
 											
-											 Functions.verifyaax_SlotId_supress("2634dc9-b59f-4b2c-b281-bb3be291b7b6");
+											// Functions.verifyaax_SlotId_supress("2634dc9-b59f-4b2c-b281-bb3be291b7b6");
 											System.out.println("=================Verifying supress amazon SlotId for  hourly3 details big ad preload call USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA  to SERBIA Travel Scenario  test case End =========================");
 										}
 										  
@@ -1617,7 +1617,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 										System.out.println("=================Verifying supress amazon SlotId for maps details preload ad call USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to SERBIA Travel Scenario  testcase  Started =========================");
 										logStep("Verifying supress amazon SlotId for maps details preload ad call USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to SERBIA Travel Scenario");
 								
-										 Functions.verifyaax_SlotId_supress("2634dc9-b59f-4b2c-b281-bb3be291b7b6");
+										// Functions.verifyaax_SlotId_supress("2634dc9-b59f-4b2c-b281-bb3be291b7b6");
 										System.out.println("=================Verifying supress amazon SlotId for maps details preload ad call USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to SERBIA  Travel Scenario testcase  End =========================");
 									}
 								
@@ -1627,7 +1627,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 										System.out.println("=================Verifying supress amazon SlotId for daily details preload ad call USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to SERBIA Travel Scenario testcase Started =========================");
 										logStep("Verifying supress amazon SlotId for daily details preload ad call USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to SERBIA Travel Scenario");
 
-										 Functions.verifyaax_SlotId_supress("6c5a145d-9198-48f4-adfd-08f05557eace");
+										// Functions.verifyaax_SlotId_supress("6c5a145d-9198-48f4-adfd-08f05557eace");
 										System.out.println("=================Verifying supress amazon SlotId for daily details preload ad call USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to SERBIA  Travel Scenario testcase End =========================");
 									}
 									@Test(priority = 406, enabled = true)
@@ -1636,7 +1636,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 										System.out.println("=================Verifying supress amazon SlotId for videos preload ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to SERBIA Travel Scenario testcase Started =========================");
 										logStep("Verifying supress amazon SlotId for videos preload ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to SERBIA Travel Scenario");
 
-										 Functions.verifyaax_SlotId_supress("f71b7e17-6e34-4f6c-98f6-bbbe9f55586c");
+										// Functions.verifyaax_SlotId_supress("f71b7e17-6e34-4f6c-98f6-bbbe9f55586c");
 										System.out.println("=================Verifying supress amazon SlotId for videos preload ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to SERBIA Travel Scenario testcase  End =========================");
 									}	 
 								
