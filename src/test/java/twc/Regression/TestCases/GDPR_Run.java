@@ -186,7 +186,7 @@ public class GDPR_Run extends TwcAndroidBaseTest  {
 		System.out.println("=================Verifying supress amazon Slot Id for  hourly details preload ad call GDPR Privacy testcase  Started =========================");
 		logStep("Verifying supress amazon Slot Id for  hourly details preload ad call GDPR Privacy");
 		//Functions.get_aaxcal_Hourly();
-		  Functions.verifyaax_SlotId_supress("9be28769-4207-4d51-8063-dc8e645383b2");
+		  //Functions.verifyaax_SlotId_supress("9be28769-4207-4d51-8063-dc8e645383b2");
 		System.out.println("================= Verifying supress amazon Slot Id for  hourly details preload ad call GDPR Privacy testcase  End =========================");
 		}
 		
@@ -250,7 +250,7 @@ public class GDPR_Run extends TwcAndroidBaseTest  {
 		public void Verifying_supress_amazon_Slotid_video_adcall_GDPRPrivacy() throws Exception {
 			System.out.println("=================Verifying supress amazon SlotId for videos preload ad call for GDPR Privacy testcase Started =========================");
 			logStep("Verifying supress amazon SlotId for videos preload ad call for GDPR Privacy");
-			 Functions.verifyaax_SlotId_supress("f71b7e17-6e34-4f6c-98f6-bbbe9f55586c");
+			 //Functions.verifyaax_SlotId_supress("f71b7e17-6e34-4f6c-98f6-bbbe9f55586c");
 			//CharlesFunctions.archive_folder(“Charles”);
 			System.out.println("=================Verifying supress amazon SlotId for videos preload ad call for GDPR Privacy testcase  End =========================");
 				//CharlesFunctions.archive_folder("Charles");
