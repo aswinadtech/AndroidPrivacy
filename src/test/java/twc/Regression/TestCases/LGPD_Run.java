@@ -32,7 +32,7 @@ public class LGPD_Run extends TwcAndroidBaseTest  {
 	
 	@BeforeClass(alwaysRun = true)
 	public void beforeClass() {
-		System.out.println("****** LGPD Privacy Test Started");
+		/*System.out.println("****** LGPD Privacy Test Started");
 		logStep("****** LGPD Privacy Test Started");
 		this.configFile = this.rewriteRuleToEnableLGPD(CONFIG_FILE_PATH);
 		this.proxy = new CharlesProxy("localhost", 8333, CONFIG_FILE_PATH);
@@ -40,55 +40,55 @@ public class LGPD_Run extends TwcAndroidBaseTest  {
 		this.proxy.startCharlesProxyWithUI();
 		this.proxy.disableRewriting();
 		this.proxy.stopRecording();
-		this.proxy.disableMapLocal();
+		this.proxy.disableMapLocal();*/
 	}
 	
 	
 	@AfterClass(alwaysRun = true)
 	public void afterClass() {
-		if (this.configFile != null) {
+		/*if (this.configFile != null) {
 			this.configFile.delete();
 		}
 		this.proxy.disableRewriting();
 		this.proxy.quitCharlesProxy();
 		
 		System.out.println("****** LGPD  Privacy Test Ended");
-		logStep("****** LGPD Privacy Test Ended");
+		logStep("****** LGPD Privacy Test Ended");*/
 	}
 	@Test(priority = 40)
 	public void preConditionsTest_for_LGPD() throws Exception {
 		// Enable rewriting on Charles install/launch TWC
-		this.proxy.enableRewriting();
-		this.proxy.startRecording();
-		this.proxy.clearCharlesSession();
+		//this.proxy.enableRewriting();
+		//this.proxy.startRecording();
+		//this.proxy.clearCharlesSession();
 		     //Thread.sleep(100000);
-		AppiumFunctions.LaunchAppWithFullReset();
+		//AppiumFunctions.LaunchAppWithFullReset();
 		System.out.println("Launching the app with full reset");
-		   AppiumFunctions.resetApp();
+		  /* AppiumFunctions.resetApp();
 		  	AppiumFunctions.clickONNext();
 			AppiumFunctions.ClickonIUnderstand();
 			AppiumFunctions.ClickonIUnderstand();
 			AppiumFunctions.clickOnAllow();
-			System.out.println("App launched ");
+			System.out.println("App launched ");*/
 			//CharlesFunctions.archive_folder("charles");
-		this.proxy.clearCharlesSession();
+		/*this.proxy.clearCharlesSession();
 		     Thread.sleep(5000);	
 		AppiumFunctions.Kill_Launch_App();
 		AppiumFunctions.ClickonIUnderstand();
 		attachScreen();
 		AppiumFunctions.clickOnVideos_tile();
 		attachScreen();
-                  Thread.sleep(80000);		
+                  Thread.sleep(80000);	*/	
 		//CharlesFunctions.archive_folder("charles");
-		this.proxy.getXml();
-		Thread.sleep(20000);
+		//this.proxy.getXml();
+		//Thread.sleep(20000);
 	//	Utils.createXMLFileForCharlesSessionFile();
 	}
 @Test(priority =41, enabled = true)  
 	 @Title("Verifying Lotame ad.crwdcntrl.net api call supressing for LGPD privacy") 
 	public void Verifying_Loatme_adcrwdcntrlnet_apiCall_supressing_LGPD_Privacy() throws Exception {	  
 	 System.out. println("=================Verifying Lotame ad.crwdcntrl.net api call supressing for LGPD privacy testcase started =========================" ); 
-	 Functions.validating_adcrw_privacy_Optoutmode_scenarion(); 
+	// Functions.validating_adcrw_privacy_Optoutmode_scenarion(); 
 	  System.out. println("================= Verifying Lotame ad.crwdcntrl.net api call supressing for LGPD privacy  testcase End =========================" );
 	  }
 	
@@ -97,7 +97,7 @@ public class LGPD_Run extends TwcAndroidBaseTest  {
 	 @Title("Verifying Lotame bcp.crwdcntrl.net api call supressing for LGPD privacy") 
 	public void Verifying_Loatme_bcpcrwdcntrlnet_apiCall_supressing_LGPD_Privacy() throws Exception {	  
 	 System.out. println("=================Verifying Lotame bcp.crwdcntrl.net api call supressing for LGPD privacy testcase started =========================" ); 
-	 Functions.validating_bcp_privacy_Optoutmode_scenarion();
+	 //Functions.validating_bcp_privacy_Optoutmode_scenarion();
 	  System.out. println("=================Verifying Lotame bcp.crwdcntrl.net api call supressing for LGPD privacy testcase End =========================" );
 	  }
 	
@@ -106,7 +106,7 @@ public class LGPD_Run extends TwcAndroidBaseTest  {
 	public void Smoke_Test_CaseVerify_WeatherFXAPI_url_KillLaunch() throws Exception {
 		System.out.println("================= Verifying WeatherFX API url started =========================");
 		
-		Functions.validating_WeatherFXAPI();
+		//Functions.validating_WeatherFXAPI();
 		System.out.println("================= Verifying WeatherFX API url End =========================");
 	}
 	
@@ -114,7 +114,7 @@ public class LGPD_Run extends TwcAndroidBaseTest  {
 	 @Title("Verifying Factual location.wfxtriggers.com api call supressing for LGPD privacy") 
 	public void Verifying_Factual_locationwfxtriggerscom_apiCall_supressing_LGPD_Privacy() throws Exception {	  
 	 System.out. println("=================Verifying Factual location.wfxtriggers.com api call supressing for LGPD privacy started =========================" ); 
-	 Functions.validating_Fatualcall_privacy_Optoutmode_scenarion();
+	 //Functions.validating_Fatualcall_privacy_Optoutmode_scenarion();
 	  System.out. println("================= Verifying Factual location.wfxtriggers.com api call supressing for LGPD privacy End =========================" );
 	  }
 	
@@ -322,7 +322,7 @@ public class LGPD_Run extends TwcAndroidBaseTest  {
 			AppiumFunctions.clickOnVideos_tile();
 			CharlesFunctions.archive_folder("charles");
 			CharlesFunctions.ExportSession();*/
-		  Functions.Verify_video_ad_call_Optoutmode(); 
+		//  Functions.Verify_video_ad_call_Optoutmode(); 
 		  System.out.println("=================Verifying videos ad call presense for LGPD privacy test case started End =========================" );  
 		  }
 	
@@ -331,7 +331,7 @@ public class LGPD_Run extends TwcAndroidBaseTest  {
 	 @Title("Verifying npa=1 in Feed ad call for LGPD privacy") 
 	public void Verifying_npa_equals_1_Feed_adCall_LGPD_Privacy() throws Exception {	  
 	 System.out. println("=================Verifying npa=1 in Feed ad call for LGPD privacy testcase started =========================" ); 
-	Functions.validate_npa_homescreen_Optoutmode();
+	//Functions.validate_npa_homescreen_Optoutmode();
 	  System.out. println("=================Verifying npa=1 in Feed ad call for LGPD privacy testcase End =========================" );
 	  }
 	
@@ -361,8 +361,8 @@ public class LGPD_Run extends TwcAndroidBaseTest  {
 		System.out.println("=========================== Criteo SDK inapp/v2 call ====================");
 		System.out.println("****** Criteo SDK inapp/v2 call validation Started");
 		logStep("****** Criteo SDK inapp/v2 call validation Started");
-		CharlesFunctions.createXMLFileForCharlesSessionFile();
-		Functions.verifyCriteo_inapp_v2_Call("Criteo", false);
+		//CharlesFunctions.createXMLFileForCharlesSessionFile();
+		//Functions.verifyCriteo_inapp_v2_Call("Criteo", false);
 
 	}
 
@@ -373,8 +373,8 @@ public class LGPD_Run extends TwcAndroidBaseTest  {
 		System.out.println("=========================== Criteo SDK config/app call ====================");
 		System.out.println("****** Criteo SDK config/app call validation Started");
 		logStep("****** Criteo SDK config/app call validation Started");
-		Functions.verifyCriteo_config_app_Call("Criteo", false);
-		CharlesFunctions.archive_folder("Charles");
+		//Functions.verifyCriteo_config_app_Call("Criteo", false);
+		//CharlesFunctions.archive_folder("Charles");
 
 	}
 	
