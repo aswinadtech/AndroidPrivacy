@@ -1688,7 +1688,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 											System.out.println(
 													"****** Criteo SDK config/app call when privacy optout for USACCPA to SERBIA Travel Scenario validation Started");
 											
-				Thread.sleep(60000);
+				/*Thread.sleep(60000);
 				Thread.sleep(60000);
 				Thread.sleep(60000);*/
 
