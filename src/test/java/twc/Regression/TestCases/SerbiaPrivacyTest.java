@@ -35,7 +35,7 @@ public class SerbiaPrivacyTest extends TwcAndroidBaseTest
 
 	@BeforeClass(alwaysRun = true)
 	public void beforeClass() throws Exception {
-		System.out.println("****** SERBIA Privacy Test Started");
+		/*System.out.println("****** SERBIA Privacy Test Started");
 		logStep("****** SERBIA Privacy Test Started");
 		this.configFile = this.rewriteRuleToEnableSERBIA(CONFIG_FILE_PATH);
 		proxy = new CharlesProxy("localhost", 8333, CONFIG_FILE_PATH);
@@ -43,55 +43,29 @@ public class SerbiaPrivacyTest extends TwcAndroidBaseTest
 		this.proxy.startCharlesProxyWithUI();
 		this.proxy.disableRewriting();
 		this.proxy.stopRecording();
-		this.proxy.disableMapLocal();
+		this.proxy.disableMapLocal();*/
 	}
 	@AfterClass(alwaysRun = true)
 	public void afterClass() {
-		if (this.configFile != null) {
+		/*if (this.configFile != null) {
 			this.configFile.delete();
 		}
 		this.proxy.disableRewriting();
 		//this.proxy.quitCharlesProxy();
 		
 		System.out.println("****** SERBIA  Privacy Test Ended");
-		logStep("******SERBIA  Privacy Test Ended");
+		logStep("******SERBIA  Privacy Test Ended");*/
 	}
 	
 	@Test(priority = 3000)
 	public void preConditionsTest_for_Serbia() throws Exception {
-			// Enable rewriting on Charles install/launch TWC
-		// Enable rewriting on Charles install/launch TWC
-		this.proxy.enableRewriting();
-		this.proxy.startRecording();
-		this.proxy.clearCharlesSession();
-		     //Thread.sleep(100000);
-		AppiumFunctions.LaunchAppWithFullReset();
-		System.out.println("Launching the app with full reset");
-		   AppiumFunctions.resetApp();
-		  	AppiumFunctions.clickONNext();
-			AppiumFunctions.ClickonIUnderstand();
-			AppiumFunctions.ClickonIUnderstand();
-			AppiumFunctions.clickOnAllow();
-			System.out.println("App launched ");
-			//CharlesFunctions.archive_folder("charles");
-		this.proxy.clearCharlesSession();
-		     Thread.sleep(5000);	
-		AppiumFunctions.Kill_Launch_App();
-		AppiumFunctions.ClickonIUnderstand();
-		attachScreen();
-		AppiumFunctions.clickOnVideos_tile();
-		attachScreen();
-                  Thread.sleep(80000);		
-		//CharlesFunctions.archive_folder("charles");
-		this.proxy.getXml();
-		Thread.sleep(20000);
-	//	Utils.createXMLFileForCharlesSessionFile();
+		
 	}
 	@Test(priority =3002,enabled = true)  
 	 @Title("Verifying Lotame ad.crwdcntrl.net api call supressing for Serbia privacy") 
 	public void Verifying_Loatme_adcrwdcntrlnet_apiCall_supressing_Serbia_Privacy() throws Exception {	  
 	 System.out. println("=================Verifying Lotame ad.crwdcntrl.net api call supressing for Serbia privacy testcase started =========================" ); 
-	 Functions.validating_adcrw_privacy_Optoutmode_scenarion(); 
+	// Functions.validating_adcrw_privacy_Optoutmode_scenarion(); 
 	  System.out. println("================= Verifying Lotame ad.crwdcntrl.net api call supressing for Serbia privacy  testcase End =========================" );
 	  }
 	
@@ -100,7 +74,7 @@ public class SerbiaPrivacyTest extends TwcAndroidBaseTest
 	 @Title("Verifying Lotame bcp.crwdcntrl.net api call supressing for Serbia privacy") 
 	public void Verifying_Loatme_bcpcrwdcntrlnet_apiCall_supressing_Serbia_Privacy() throws Exception {	  
 	 System.out. println("=================Verifying Lotame bcp.crwdcntrl.net api call supressing for Serbia privacy testcase started =========================" ); 
-	 Functions.validating_bcp_privacy_Optoutmode_scenarion();
+	// Functions.validating_bcp_privacy_Optoutmode_scenarion();
 	  System.out. println("=================Verifying Lotame bcp.crwdcntrl.net api call supressing for Serbia privacy testcase End =========================" );
 	  }
 	
@@ -108,7 +82,7 @@ public class SerbiaPrivacyTest extends TwcAndroidBaseTest
 	 @Title("Verifying Factual location.wfxtriggers.com api call supressing for Serbia privacy")  
 	public void Verifying_Factual_locationwfxtriggerscom_apiCall_supressing_Serbia_Privacy() throws Exception {	  
 	 System.out. println("=================Verifying Factual location.wfxtriggers.com api call supressing for Serbia privacy started =========================" ); 
-	 Functions.validating_Fatualcall_privacy_Optoutmode_scenarion();
+	// Functions.validating_Fatualcall_privacy_Optoutmode_scenarion();
 	  System.out. println("================= Verifying Factual location.wfxtriggers.com api call supressing for Serbia privacy End =========================" );
 	  }
 	  
@@ -117,7 +91,7 @@ public class SerbiaPrivacyTest extends TwcAndroidBaseTest
 	  public void  Verifying_weatherfxapiCall_presence_Serbia_Privacy() throws Exception {
 	   logStep("Verifying weatherfx api call presence  for for Serbia  privacy testcase started"); 
 	   System.out.println("=================Verifying weatherfx api call presence  for for Serbia  privacy testcase started test case started =========================");
-	   Functions.validating_WeatherFXAPI();	
+	  // Functions.validating_WeatherFXAPI();	
 	   System.out. println("================= Verifying weatherfx api call presence  for for Serbia  privacy testcase started test case End =========================" ); 
 	  }
 	
@@ -243,7 +217,7 @@ public class SerbiaPrivacyTest extends TwcAndroidBaseTest
 		  public void Verifying_homescreenmarquee_adCall_Presence_Serbia_privacy() throws	 Exception {
 		  logStep("Verifying home screen marquee ad call presense for Serbia privacy" ); 
 		  System.out. println("=================Verifying home screen marquee ad call presense for Serbia privacy test case started =========================" );  
-		  Functions.finding_Homescreen_marquee_iu_value();
+		 // Functions.finding_Homescreen_marquee_iu_value();
 		  System.out.println("=================Verifying home screen marquee ad call presense for Serbia privacy test case End =========================" );	  
 		  }
 		
@@ -260,7 +234,7 @@ public class SerbiaPrivacyTest extends TwcAndroidBaseTest
 			 @Title("Verifying npa=1 in home screen marquee ad call for Serbia privacy") 
 			public void Verifying_npa_equals_1_homescreenmarquee_adCall_Serbia_privacy()throws Exception {	  
 			 System.out. println("=================Verifying npa=1 in home screen marquee ad call for Serbia  privacy  testcase started =========================" ); 
-			 Functions.validate_npa_homescreenmarquee_dontsellmyinformation();
+			// Functions.validate_npa_homescreenmarquee_dontsellmyinformation();
 			  System.out. println("=================Verifying npa=1 in home screen marquee ad call for Serbia privacy  testcase End =========================" );
 			  }
 		
@@ -271,7 +245,7 @@ public class SerbiaPrivacyTest extends TwcAndroidBaseTest
 		System.out. println("=================Verifying videos ad call presense for Latam_CO_privacy() privacy test case started =========================");
 		  logStep("Verifying videos ad call presense for Latam_CO_privacy() privacy"); 	
 
-		  Functions.Verify_video_ad_call_Optoutmode(); 
+		//  Functions.Verify_video_ad_call_Optoutmode(); 
 		  System.out.println("=================Verifying videos ad call presense for Latam_CO_privacy() privacy test case started End =========================");  
 		  }
 		  
@@ -292,8 +266,8 @@ public class SerbiaPrivacyTest extends TwcAndroidBaseTest
 			System.out.println("=========================== Criteo SDK inapp/v2 call ====================");
 			System.out.println("****** Criteo SDK inapp/v2 call validation Started");
 			logStep("****** Criteo SDK inapp/v2 call validation Started");
-			CharlesFunctions.createXMLFileForCharlesSessionFile();
-			Functions.verifyCriteo_inapp_v2_Call("Criteo", false);
+			//CharlesFunctions.createXMLFileForCharlesSessionFile();
+			//Functions.verifyCriteo_inapp_v2_Call("Criteo", false);
 
 		}
 
@@ -305,8 +279,8 @@ public class SerbiaPrivacyTest extends TwcAndroidBaseTest
 			System.out.println("****** Criteo SDK config/app call validation Started");
 			logStep("****** Criteo SDK config/app call validation Started");
 			
-			Functions.verifyCriteo_config_app_Call("Criteo", false);
-			CharlesFunctions.archive_folder("Charles");
+			//Functions.verifyCriteo_config_app_Call("Criteo", false);
+			//CharlesFunctions.archive_folder("Charles");
 			
 			
 		}
