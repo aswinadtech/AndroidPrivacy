@@ -86,8 +86,8 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 	  @Title("Verifying Privacy Card is present on the screen") public void
 	 Verifying_PrivacyCard_PresenceonScreen() throws Exception {	  
 	 System.out. println("=================Verifying Privacy Card is present on the screen testcase started =========================" ); 
-	 AppiumFunctions. Kill_Launch_App();
-	  Thread.sleep(40000);	  
+	// AppiumFunctions. Kill_Launch_App();
+	 // Thread.sleep(40000);	  
 	 // AppiumFunctions.SwipeUp_Counter_privacy(25);
 	  System.out. println("================= Verifying Privacy Card is present on the screen testcase End =========================" );
 	  }
@@ -1134,7 +1134,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 								System.out.println("=================Verifying supress amazon Slot Id for  feed1 preload ad call USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LATAMCO Travel Scenario testcase Started =========================");
 								logStep("Verifying supress amazon Slot Id for  feed1 prerol ad call USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to GDPR Travel Scenario");
 								//Functions.get_aaxcal_feed1();
-								  Functions.verifyaax_SlotId_supress("f4b66249-b6eb-4155-9d90-1e2b04487c99");
+								  //Functions.verifyaax_SlotId_supress("f4b66249-b6eb-4155-9d90-1e2b04487c99");
 								System.out.println("=================Verifying supress amazon Slot Id for  feed1 preload ad call USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LATAMCO Travel Scenario testcase End =========================");
 
 							}
@@ -1724,7 +1724,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 	  Smoke_Test_Selecting_Optin_mode_scenario() throws Exception {
 	  logStep("Selecting the Standard Advertising Settings  in the privacy card");
      System.out. println("=================Slecting Standard Advertising Settings  in privacy card testcase started =========================");
-	Ad.resetApp();
+	//Ad.resetApp();
 		  //AppiumFunctions. Kill_Launch_App();
 		//CharlesFunctions.archive_folder("charles");
 	 // Thread.sleep(100000);	  
