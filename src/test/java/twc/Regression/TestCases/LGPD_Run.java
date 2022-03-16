@@ -347,7 +347,7 @@ public class LGPD_Run extends TwcAndroidBaseTest  {
 	 @Title("Verifying npa=1 in videos ad call for LGPD privacy") 
 	public void Verifying_npa_equals_1_videos_adCall_LGPD_Privacy() throws Exception {	  
 	 System.out. println("=================Verifying npa=1 in detailed page ad call for LGPD privacy testcase started =========================" ); 
-	 Functions.validate_npa_video_ad_dontsellmyinformation();
+	// Functions.validate_npa_video_ad_dontsellmyinformation();
 	  System.out. println("=================Verifying npa=1 in detailed page ad call for LGPD privacy testcase End =========================" );
 	//CharlesFunctions.archive_folder("Charles");
 	 
