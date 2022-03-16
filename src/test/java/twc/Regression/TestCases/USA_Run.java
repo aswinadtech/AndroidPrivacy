@@ -52,8 +52,8 @@ public class USA_Run extends TwcAndroidBaseTest {
 	  @Title("Verifying Privacy Card is present on the screen") public void
 	 Verifying_PrivacyCard_PresenceonScreen() throws Exception {	  
 	 System.out. println("=================Verifying Privacy Card is present on the screen testcase started =========================" ); 
-	 AppiumFunctions.Kill_Launch_App();
-	  Thread.sleep(60000);	  
+	// AppiumFunctions.Kill_Launch_App();
+	 // Thread.sleep(60000);	  
 	 // AppiumFunctions.SwipeUp_Counter_privacy(25);
 	  System.out. println("================= Verifying Privacy Card is present on the screen testcase End =========================" );
 	  }
