@@ -37,7 +37,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 	
 	@BeforeClass(alwaysRun = true)
 	public void beforeClass() {
-		System.out.println("****** USA CCPA  Privacy Test Started");
+		/*System.out.println("****** USA CCPA  Privacy Test Started");
 		logStep("****** LGPD Privacy Test Started");
 		this.configFile = this.rewriteRuleToEnableUSACCPA(CONFIG_FILE_PATH);
 		this.proxy = new CharlesProxy("localhost", 8333, CONFIG_FILE_PATH);
@@ -45,26 +45,26 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 		this.proxy.startCharlesProxyWithUI();
 		this.proxy.disableRewriting();
 		this.proxy.stopRecording();
-		this.proxy.disableMapLocal();
+		this.proxy.disableMapLocal();*/
 	}
 	
 	
 	@AfterClass(alwaysRun = true)
 	public void afterClass() {
-		if (this.configFile != null) {
+		/*if (this.configFile != null) {
 			this.configFile.delete();
 		}
 		this.proxy.disableRewriting();
 		this.proxy.quitCharlesProxy();
 		
 		System.out.println("****** USA CCPA  Privacy Test Ended");
-		logStep("****** USA CCPA  Privacy Test Ended");
+		logStep("****** USA CCPA  Privacy Test Ended");*/
 	}
 	
 	@Test(priority = 100)
 	public void preConditionsTest_for_USA_CCPA() throws Exception {
 		// Enable rewriting on Charles install/launch TWC
-		this.proxy.enableRewriting();
+		/*this.proxy.enableRewriting();
 		this.proxy.startRecording();
 		this.proxy.clearCharlesSession();
 		AppiumFunctions.LaunchAppWithFullReset();
@@ -79,7 +79,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 		System.out.println("App launched ");
 		this.proxy.clearCharlesSession();
 		AppiumFunctions.Kill_Launch_App();
-		AppiumFunctions.ClickonIUnderstand();
+		AppiumFunctions.ClickonIUnderstand();*/
 	
 	}
 	@Test(priority =102, enabled = true)  
@@ -96,14 +96,14 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 	  @Title("Selecting the  Do Not Sell My Information option  in the privacy card") 
 	  public void Selecting_DoNotSellMyInformation_scenario() throws Exception {	  
 	 System.out. println("=================Slecting Opt out mode scenario in privacy card testcase started =========================" );
-	  Thread.sleep(20000); 
+	 /* Thread.sleep(20000); 
 	  Functions.selecting_opt_out_mode(); 
 			  System.out.println("kill launch the app for two times");
 		    Thread.sleep(20000);		
 		  this.proxy.clearCharlesSession(); 
 	  Thread.sleep(30000); 
 	   AppiumFunctions.Kill_Launch_App();  
-		this.proxy.clearCharlesSession();
+		this.proxy.clearCharlesSession();*/
 	  System.out.println("================= Slecting Optout mode scenario in privacy card  testcase End =========================");	  
 	  }
 	 // DoNotSellMyInformation
@@ -112,16 +112,16 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 	  public void Verifying_Loatme_adcrwdcntrlnet_apiCall_supressing_USA_CCPA_Privacy_DoNotSellMyInformation()  throws Exception {  
 	  logStep("Verifying Lotame ad.crwdcntrl.net api call supressing for USA-CCPA privacy when Advertising option set to Do Not Sell My Information"); 
 	  System.out.println("=================Verifying Lotame ad.crwdcntrl.net api call supressing for USA-CCPA privacy test case  started =========================");
-		  this.proxy.clearCharlesSession();
-	  AppiumFunctions.Kill_Launch_App();  
-	   AppiumFunctions.clickOnMaps_tile();
-		AppiumFunctions.clickOnVideos_tile();
-		    Thread.sleep(80000);
-		    Thread.sleep(80000); 
+		 // this.proxy.clearCharlesSession();
+	 // AppiumFunctions.Kill_Launch_App();  
+	  // AppiumFunctions.clickOnMaps_tile();
+		//AppiumFunctions.clickOnVideos_tile();
+		  //  Thread.sleep(80000);
+		   // Thread.sleep(80000); 
 		  //CharlesFunctions.archive_folder("charles");
-		this.proxy.getXml();
+		//this.proxy.getXml();
 	 // Functions.validating_adcrw_privacy_Optoutmode_scenarion();
-		  logStep("https://ad.crwdcntrl.net/ url was  not trigred");
+		 // logStep("https://ad.crwdcntrl.net/ url was  not trigred");
 		  
 	  System.out.println("================= Verifying Lotame ad.crwdcntrl.net api call supressing for USA-CCPA privacy test case End =========================");	  
 	  }
@@ -131,7 +131,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 		public void Verifying_WeatherFXAPICall_apiCall_presence_USA_CCPA_Privacy_DoNotSellMyInformation() throws Exception {
 			System.out.println("================= Verifying WeatherFX API url started =========================");
 			
-			Functions.validating_WeatherFXAPI();
+			//Functions.validating_WeatherFXAPI();
 			System.out.println("================= Verifying WeatherFX API url End =========================");
 		}
 	  
@@ -140,7 +140,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 	  public void Verifying_Loatme_bcpcrwdcntrlnet_apiCall_supressing_USA_CCPA_Privacy_DoNotSellMyInformation() throws Exception {
 	  logStep("Verifying Lotame bcp.crwdcntrl.net api call supressing for USA-CCPA privacy when Advertising option set to Do Not Sell My Information" ); 
 	  System.out.println("=================Verifying BCP api call when user selecting Optoutmode scenario in privacy card started =========================" );
-	  Functions.validating_bcp_privacy_Optoutmode_scenarion();
+	 // Functions.validating_bcp_privacy_Optoutmode_scenarion();
 	  System.out.println("================= Verifying BCP api call when user selecting Optoutmode scenario in privacy card End =========================");  
 	  }
 	  
@@ -149,7 +149,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 	  public void Verifying_Factual_locationwfxtriggerscom_apiCall_supressing_USA_CCPA_Privacy_DoNotSellMyInformation() throws Exception { 
 	  logStep("Verifying Factual location.wfxtriggers.com api call supressing for USA-CCPA privacy when Advertising option set to Do Not Sell My Information"); 
 	 System.out.println("=================Verifying Fatual api call when user selecting Optoutmode scenario in privacy card started =========================");
-	 Functions.validating_Fatualcall_privacy_Optoutmode_scenarion();
+	// Functions.validating_Fatualcall_privacy_Optoutmode_scenarion();
 	 	  
 	 System.out. println("================= Verifying Fatual api call when user selecting Optoutmode scenario in privacy card End =========================");
 	  }
@@ -329,7 +329,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 	  Verifying_rdp_equals_1_homescreenmarquee_adCall_USA_CCPA_Privacy_DoNotSellMyInformation() throws  Exception {
 	  logStep("Verifying rdp=1 in home screen marquee  ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information"); 
 	  System.out.println("================= Verifying rdp=1 in home screen marquee  ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information test case started =========================" ); 
-	  Functions.validate_RDP_homescreenmarquee_Optoutmode();
+	//  Functions.validate_RDP_homescreenmarquee_Optoutmode();
 	  System.out. println("================= Verifying rdp=1 in home screen marquee  ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information test case End =========================");
       }
 	  
@@ -340,7 +340,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 	System.out. println("=================Verifying videos ad call presense for USA-CCPA privacy when Advertising option set to Do Not Sell My Information test case started =========================" );
 	  logStep("Verifying videos ad call presense for USA-CCPA privacy when Advertising option set to Do Not Sell My Information"); 	
 	  logStep("Verifying supress of normal amazon slotid in feed_1  for USA-CCPA privacy when Advertising option set to Do Not Sell My Information");
-	  Functions.Verify_video_ad_call_Optoutmode(); 
+	 // Functions.Verify_video_ad_call_Optoutmode(); 
 	  System.out.println("=================Verifying videos ad call presense for USA-CCPA privacy when Advertising option set to Do Not Sell My Information test case started End =========================" );  
 	  }
 	
@@ -349,7 +349,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 	  public void  Verifying_SOD_Cust_Param_videos_adCall_USA_CCPA_Privacy_DoNotSellMyInformation() throws Exception {
 	  logStep("Verifying SOD Cust param value in Videos  ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information" ); 
 	  System.out. println("================= Verifying SOD Cust param value in Videos  ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information test case started =========================" );
-	  Functions.validate_SOD_Cust_param_video_Optoutmode(); 
+	//  Functions.validate_SOD_Cust_param_video_Optoutmode(); 
 	  System.out.println("================= Verifying SOD Cust param value in Videos  ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information test case  End ========================="); 
 	  }
 	
@@ -359,7 +359,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 		  public void Verifying_rdp_equals_1_Videos_adCall_USA_CCPA_Privacy_DoNotSellMyInformation() throws Exception {
 		  logStep("Verifying rdp=1 in videos  ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information" );  
 		  System.out. println("================= Verifying rdp=1 in videos  ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information test case started =========================");
-		  Functions.validate_RDP_video_ad_Optoutmode();
+		//  Functions.validate_RDP_video_ad_Optoutmode();
 		  System.out. println("================= Verifying rdp=1 in videos  ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information test case End =========================");
 		  }
 		  
@@ -376,8 +376,8 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 			System.out.println("****** Criteo SDK inapp/v2 call when privacy optout validation Started");
 			logStep("****** Criteo SDK inapp/v2 call when privacy optout validation Started");
 			
-				CharlesFunctions.createXMLFileForCharlesSessionFile();
-							Functions.verifyCriteo_inapp_v2_Call("Criteo", false);
+				/*CharlesFunctions.createXMLFileForCharlesSessionFile();
+							Functions.verifyCriteo_inapp_v2_Call("Criteo", false);*/
 		 }
 	
 		@Test(priority = 152, enabled = true)
@@ -387,9 +387,9 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 			System.out.println(
 					"=========================== Criteo SDK config/app call when privacy optout====================");
 			System.out.println("****** Criteo SDK config/app call when privacy optout validation Started");
-			logStep("****** Criteo SDK config/app call when privacy optout validation Started");
-				Functions.verifyCriteo_config_app_Call("Criteo", false);
-			 CharlesFunctions.archive_folder("Charles");
+			//logStep("****** Criteo SDK config/app call when privacy optout validation Started");
+				//Functions.verifyCriteo_config_app_Call("Criteo", false);
+			// CharlesFunctions.archive_folder("Charles");
 	}
 		
 		
@@ -398,7 +398,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 		 @Title("Enabling Preconfiguration for USACCPA to LGPD Travel Scenario")
 			public void enable_PreConfiguration_for_USACCPA_to_LGPD_Travel_Scenario() throws Exception {
 				System.out.println("==============================================");
-				System.out.println("****** Enable Preconfiguration for USACCPA to LGPD Travel Scenario");
+				/*System.out.println("****** Enable Preconfiguration for USACCPA to LGPD Travel Scenario");
 				logStep("Enable Preconfiguration for USACCPA to LGPD Travel Scenario");
 				proxy.quitCharlesProxy();
 				// Ad.closeApp();
@@ -413,7 +413,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 				// Ad.launchApp();
 				AppiumFunctions.Kill_Launch_App();
 				AppiumFunctions.Kill_Launch_App();
-				AppiumFunctions.ClickonIUnderstand();
+				AppiumFunctions.ClickonIUnderstand();*/
 				
 			}
 		 
@@ -421,7 +421,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 		  @Title("Verifying Lotame ad.crwdcntrl.net api call supressing for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LGPD Travel Scenario") 
 		  public void Verifying_Loatme_adcrwdcntrlnet_apiCall_supressing_USA_CCPA_Privacy_DoNotSellMyInformation_for_USACCPA_to_LGPD_Travel_Scenario()  throws Exception {  
 		  logStep("Verifying Lotame ad.crwdcntrl.net api call supressing for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LGPD Travel Scenario"); 
-		  System.out.println("=================Verifying Lotame ad.crwdcntrl.net api call supressing for USA-CCPA privacy test case  started =========================");
+		  /*System.out.println("=================Verifying Lotame ad.crwdcntrl.net api call supressing for USA-CCPA privacy test case  started =========================");
 			this.proxy.clearCharlesSession();
 		  AppiumFunctions.Kill_Launch_App();  
 			  AppiumFunctions.Kill_Launch_App();
@@ -438,9 +438,9 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 			   Thread.sleep(5000);
 			AppiumFunctions.clickOnVideos_tile();
 			   Thread.sleep(80000);
-			//CharlesFunctions.archive_folder("charles");
+		
 			this.proxy.getXml();
-		  Functions.validating_adcrw_privacy_Optoutmode_scenarion(); 
+		  Functions.validating_adcrw_privacy_Optoutmode_scenarion(); */
 		  System.out.println("================= Verifying Lotame ad.crwdcntrl.net api call supressing for USA-CCPA  privacy test case End =========================");	  
 		  }
 		  
@@ -449,7 +449,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 		  public void Verifying_WeatherFXAPICall_apiCall_presence_USA_CCPA_Privacy_DoNotSellMyInformation_for_USACCPA_to_LGPD_Travel_Scenario() throws Exception {
 		  logStep("Verifying Verifying_WeatherFXAPICall_apiCall_presence for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA  to LGPD Travel Scenario" ); 
 		  System.out.println("=================Verifying_WeatherFXAPICall_apiCall_presence Optoutmode scenario in privacy card started =========================" );
-			Functions.validating_WeatherFXAPI();
+			//Functions.validating_WeatherFXAPI();
 		  System.out.println("=================Verifying_WeatherFXAPICall_apiCall_presence when user selecting Optoutmode scenario in privacy card End =========================");  
 		  }
 		  
@@ -459,7 +459,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 		  public void Verifying_Loatme_bcpcrwdcntrlnet_apiCall_supressing_USA_CCPA_Privacy_DoNotSellMyInformation_for_USACCPA_to_LGPD_Travel_Scenario() throws Exception {
 		  logStep("Verifying Lotame bcp.crwdcntrl.net api call supressing for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA Travel Scenario" ); 
 		  System.out.println("=================Verifying BCP api call when user selecting Optoutmode scenario in privacy card started =========================" );
-		  Functions.validating_bcp_privacy_Optoutmode_scenarion();
+		 // Functions.validating_bcp_privacy_Optoutmode_scenarion();
 		  System.out.println("================= Verifying BCP api call when user selecting Optoutmode scenario in privacy card End =========================");  
 		  }
 		  
@@ -468,7 +468,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 		  public void Verifying_Factual_locationwfxtriggerscom_apiCall_supressing_USA_CCPA_Privacy_DoNotSellMyInformation_for_USACCPA_to_LGPD_Travel_Scenario() throws Exception { 
 		  logStep("Verifying Factual location.wfxtriggers.com api call supressing for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA Travel Scenario"); 
 		 System.out.println("=================Verifying Fatual api call when user selecting Optoutmode scenario in privacy card started =========================");
-		 Functions.validating_Fatualcall_privacy_Optoutmode_scenarion();
+		// Functions.validating_Fatualcall_privacy_Optoutmode_scenarion();
 		 System.out. println("================= Verifying Fatual api call when user selecting Optoutmode scenario in privacy card End =========================");
 		  }
 		            
@@ -594,7 +594,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 		  public void Verifying_homescreenmarquee_adCall_Presence_USA_CCPA_Privacy_DoNotSellMyInformation_for_USACCPA_to_LGPD_Travel_Scenario()   throws	 Exception {
 		  logStep("Verifying home screen marquee ad call presense for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LGPD Travel Scenario" ); 
 		  System.out. println("=================Verifying home screen marquee ad call presense for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LGPD Travel Scenario test case started =========================" );  
-		  Functions.finding_Homescreen_marquee_iu_value();
+		 // Functions.finding_Homescreen_marquee_iu_value();
 		  System.out.println("=================Verifying home screen marquee ad call presense for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LGPD Travel Scenario test case End =========================" );	  
 		  }
 		  
@@ -604,7 +604,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 		  public void   Verifying_SOD_Cust_Param_homescreenmarquee_adCall_USA_CCPA_Privacy_DoNotSellMyInformation_for_USACCPA_to_LGPD_Travel_Scenario() throws  Exception {
 		  logStep("Verifying SOD Cust param value in homescreen marquee call for  USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LGPD Travel Scenario" ); 
 		  System.out.println("=================Verifying SOD Cust param value in homescreen marquee call for  USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LGPD Travel Scenario test case  started ========================="); 
-		  Functions.validate_SOD_Cust_param_homescreenmarquee_Optoutmode();
+		 // Functions.validate_SOD_Cust_param_homescreenmarquee_Optoutmode();
 		  System.out.println("================= Verifying SOD Cust param value in homescreen marquee call for  USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LGPD Travel Scenario test case End =========================" ); 
 		  }
 
@@ -623,7 +623,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 		  public void Verifying_SOD_Cust_Param_mapsdetails_adCall_USA_CCPA_Privacy_DoNotSellMyInformation_for_USACCPA_to_LGPD_Travel_Scenario() throws Exception { 
 		 System.out. println("================= Verifying SOD Cust param value in homescreen hourly ad call for USA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LGPD Travel Scenario test case started =========================" );
 		  logStep("Verifying SOD Cust param value in homescreen hourly ad call for USA_CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LGPD Travel Scenario" );  
-		  Functions.validate_SOD_Cust_param_deatiledfeed_Optoutmode();
+		//  Functions.validate_SOD_Cust_param_deatiledfeed_Optoutmode();
 		  System.out. println("================= Verifying SOD Cust param value in maps details page ad call for USA_CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LGPD  Travel Scenario test case End =========================" );
 		  }
 		  
@@ -644,7 +644,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 		  Verifying_rdp_equals_1_homescreenmarquee_adCall_USA_CCPA_Privacy_DoNotSellMyInformation_for_USACCPA_to_LGPD_Travel_Scenario() throws  Exception {
 		  logStep("Verifying rdp=1 in home screen marquee  ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LGPD Travel Scenario"); 
 		  System.out.println("================= Verifying rdp=1 in home screen marquee  ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LGPD Travel Scenario test case started =========================" ); 
-		  Functions.validate_RDP_homescreenmarquee_Optoutmode();
+		//  Functions.validate_RDP_homescreenmarquee_Optoutmode();
 		  System.out. println("================= Verifying rdp=1 in home screen marquee  ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LGPD  Travel Scenario test case End =========================");
 	      }
 		  
@@ -655,7 +655,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 		System.out. println("=================Verifying videos ad call presense for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LGPD Travel Scenario test case started =========================" );
 		  logStep("Verifying videos ad call presense for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LGPD Travel Scenario"); 	
 		  logStep("Verifying supress of normal amazon slotid in feed_1  for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LGPD Travel Scenario");
-		  Functions.Verify_video_ad_call_Optoutmode(); 
+		  //Functions.Verify_video_ad_call_Optoutmode(); 
 		  System.out.println("=================Verifying videos ad call presense for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LGPD Travel Scenario test case started End =========================" );  
 		  }
 		
@@ -664,7 +664,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 		  public void  Verifying_SOD_Cust_Param_videos_adCall_USA_CCPA_Privacy_DoNotSellMyInformation_for_USACCPA_to_LGPD_Travel_Scenario() throws Exception {
 		  logStep("Verifying SOD Cust param value in Videos  ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LGPD Travel Scenario" ); 
 		  System.out. println("================= Verifying SOD Cust param value in Videos  ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LGPD Travel Scenario test case started =========================" );
-		  Functions.validate_SOD_Cust_param_video_Optoutmode(); 
+		 // Functions.validate_SOD_Cust_param_video_Optoutmode(); 
 		  System.out.println("================= Verifying SOD Cust param value in Videos  ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LGPD  Travel Scenario test case  End ========================="); 
 		  }
 		
@@ -674,7 +674,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 			  public void Verifying_rdp_equals_1_Videos_adCall_USA_CCPA_Privacy_DoNotSellMyInformation_for_USACCPA_to_LGPD_Travel_Scenario() throws Exception {
 			  logStep("Verifying rdp=1 in videos  ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA  to LGPD Travel Scenario" );  
 			  System.out. println("================= Verifying rdp=1 in videos  ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LGPD  Travel Scenario test case started =========================");
-			  Functions.validate_RDP_video_ad_Optoutmode();
+			//  Functions.validate_RDP_video_ad_Optoutmode();
 			  System.out. println("================= Verifying rdp=1 in videos  ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LGPD Travel Scenario test case End =========================");
 			  }
 			  
@@ -694,7 +694,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 			  public void Verifying_npa_equals_1_homescreenmarquee_adCall_USA_CCPA_Privacy_DoNotSellMyInformation_for_USACCPA_to_LGPD_Travel_Scenario() throws  Exception {
 			  logStep("Verifying npa=1 in home screen marquee  ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LGPD Travel Scenario"); 
 			  System.out.println("================= Verifying npa=1 in home screen marquee  ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LGPD Travel Scenario test case started =========================" ); 
-				 Functions.validate_npa_homescreenmarquee_dontsellmyinformation();
+				// Functions.validate_npa_homescreenmarquee_dontsellmyinformation();
 			  System.out. println("================= Verifying npa=1 in home screen marquee  ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LGPD Travel Scenario test case End =========================");
 		      }
 			 
@@ -704,7 +704,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 				 public void Verifying_npa_equals_1_Videos_adCall_USA_CCPA_Privacy_DoNotSellMyInformation_for_USACCPA_to_LGPD_Travel_Scenario() throws Exception {
 				 logStep("Verifying npa=1 in videos  ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LGPD Travel Scenario" );  	  
 				  System.out. println("================= Verifying rdp=1 in videos  ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LGPD Travel Scenario test case started =========================");
-				 Functions.validate_npa_video_ad_dontsellmyinformation();
+				// Functions.validate_npa_video_ad_dontsellmyinformation();
 				 System.out. println("================= Verifying rdp=1 in videos  ad call for USA-CCPA privacy when Advertising option set to Do Not Sell My Information for USACCPA to LGPD Travel Scenario test case End =========================");
 				
 				 }
@@ -719,7 +719,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 					System.out.println(
 							"****** Criteo SDK inapp/v2 call when privacy optout for USACCPA to LGPD Travel Scenario validation Started");
 					logStep("****** Criteo SDK inapp/v2 call when privacy optout for USACCPA  to LGPD Travel Scenario validation Started");
-			Functions.verifyCriteo_inapp_v2_Call("Criteo", false);
+			//Functions.verifyCriteo_inapp_v2_Call("Criteo", false);
 
 				}
 
@@ -732,14 +732,14 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 					System.out.println(
 							"****** Criteo SDK config/app call when privacy optout for USACCPA to LGPD Travel Scenario validation Started");
 					logStep("****** Criteo SDK config/app call when privacy optout for USACCPA  to LGPD Travel Scenario validation Started");
-				Functions
+				/*Functions
 				.verifyCriteo_config_app_Call("Criteo", false);
 					 CharlesFunctions.archive_folder("Charles");
 				Thread.sleep(60000);
 				Thread.sleep(60000);
 				Thread.sleep(60000);
 				Thread.sleep(60000);
-				Thread.sleep(60000); 
+				Thread.sleep(60000); */
 
 
 				}
