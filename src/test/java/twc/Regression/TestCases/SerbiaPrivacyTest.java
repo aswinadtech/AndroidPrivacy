@@ -59,6 +59,36 @@ public class SerbiaPrivacyTest extends TwcAndroidBaseTest
 	
 	@Test(priority = 3000)
 	public void preConditionsTest_for_Serbia() throws Exception {
+	// Enable rewriting on Charles install/launch TWC
+		this.proxy.enableRewriting();
+		this.proxy.startRecording();
+		CharlesFunctions.archive_folder("Charles");
+		this.proxy.clearCharlesSession();
+		AppiumFunctions.LaunchAppWithFullReset();
+		   AppiumFunctions.resetApp();
+		
+		  	AppiumFunctions.clickONNext();
+			AppiumFunctions.ClickonIUnderstand();
+			AppiumFunctions.ClickonIUnderstand();
+			AppiumFunctions.clickOnAllow();
+		// Preconditions
+	//	Utils.getCurrentMacIPAddressAndSetiPhoneProxy(true, true);
+		//Functions.listFilesForFolder(Functions.folder);
+	//	Functions.archive_folder("Charles");
+		//Functions.launchtheApp("true");
+		System.out.println("App launched ");
+		this.proxy.clearCharlesSession();
+		AppiumFunctions.Kill_Launch_App();
+		AppiumFunctions.ClickonIUnderstand();
+		attachScreen();
+	//	Functions.close_launchApp();
+		//Utils.navigateToAllCards(false);
+		//CharlesFunctions.archive_folder("charles");
+		AppiumFunctions.clickOnVideos_tile();
+		attachScreen();
+		Thread.sleep(20000);
+		this.proxy.getXml();
+	//	Utils.createXMLFileForCharlesSessionFile();
 		
 	}
 	@Test(priority =3002,enabled = true)  
