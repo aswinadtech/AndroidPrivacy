@@ -5,14 +5,7 @@
     <classes> 
        
         <class name="twc.Regression.TestCases.GDPR_Run"/>
-      <class name="twc.Regression.TestCases.LGPD_Run"/>
-       <class name="twc.Regression.TestCases.USA_CCPA_Run"/>
-          <class name="twc.Regression.TestCases.USA_Run"/>
-<class name="twc.Regression.TestCases.LATAM_CO_Run"/>
-      <class name="twc.Regression.TestCases.LATAM_DR_Run"/>
-      <class name="twc.Regression.TestCases.LATAM_PE_Run"/>
-      <class name="twc.Regression.TestCases.EXEMPT_Run"/>
-      <class name="twc.Regression.TestCases.SerbiaPrivacyTest"/>
+   
      
 
     </classes>
