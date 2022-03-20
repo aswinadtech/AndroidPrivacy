@@ -231,7 +231,7 @@ public class GDPR_Run extends TwcAndroidBaseTest  {
 		public void Verifying_supress_amazon_Slotid_mapsdetails_preload_adcall_GDPRPrivacy() throws Exception {
 			System.out.println("=================Verifying supress amazon SlotId for maps details preload ad call GDPR Privacy  testcase  Started =========================");
 			logStep("Verifying supress amazon SlotId for maps details preload ad call GDPR Privacy");
-			Functions.get_aaxcal_map_details();
+			//Functions.get_aaxcal_map_details();
 		// Functions.verifyaax_SlotId_supress("2634dc9-b59f-4b2c-b281-bb3be291b7b6");
 			System.out.println("=================Verifying supress amazon SlotId for maps details preload ad call GDPR Privacy testcase  End =========================");
 		}
