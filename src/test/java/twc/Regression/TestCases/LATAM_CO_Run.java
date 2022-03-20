@@ -26,32 +26,32 @@ public class LATAM_CO_Run extends TwcAndroidBaseTest {
 	public void beforeClass() {
 		System.out.println("****** LATAM CO Privacy Test Started");
 		logStep("****** LATAM CO  Privacy Test Started");
-		/*this.configFile = this.rewriteRuleToEnableLATAMCO(CONFIG_FILE_PATH);
+		this.configFile = this.rewriteRuleToEnableLATAMCO(CONFIG_FILE_PATH);
 		this.proxy = new CharlesProxy("localhost", 8333, CONFIG_FILE_PATH);
 
 		this.proxy.startCharlesProxyWithUI();
 		this.proxy.disableRewriting();
 		this.proxy.stopRecording();
-		this.proxy.disableMapLocal();*/
+		this.proxy.disableMapLocal();
 	}
 	
 	
 	@AfterClass(alwaysRun = true)
 	public void afterClass() {
-		/*if (this.configFile != null) {
+		if (this.configFile != null) {
 			this.configFile.delete();
 		}
 		this.proxy.disableRewriting();
 		//this.proxy.quitCharlesProxy();
 		
 		System.out.println("****** LATAM CO   Privacy Test Ended");
-		logStep("****** LATAM CO  Privacy Test Ended");*/
+		logStep("****** LATAM CO  Privacy Test Ended");
 	}
 	
 	@Test(priority = 900)
 	public void preConditionsTest_for_LATAMCO() throws Exception {
 		// Enable rewriting on Charles install/launch TWC
-		/*this.proxy.enableRewriting();
+		this.proxy.enableRewriting();
 		this.proxy.startRecording();
 		CharlesFunctions.archive_folder("Charles");
 		this.proxy.clearCharlesSession();
@@ -61,31 +61,31 @@ public class LATAM_CO_Run extends TwcAndroidBaseTest {
 		  	AppiumFunctions.clickONNext();
 			AppiumFunctions.ClickonIUnderstand();
 			AppiumFunctions.ClickonIUnderstand();
-			AppiumFunctions.clickOnAllow();*/
+			AppiumFunctions.clickOnAllow();
 		// Preconditions
 	//	Utils.getCurrentMacIPAddressAndSetiPhoneProxy(true, true);
 		//Functions.listFilesForFolder(Functions.folder);
 	//	Functions.archive_folder("Charles");
 		//Functions.launchtheApp("true");
-		/*System.out.println("App launched ");
+		System.out.println("App launched ");
 		this.proxy.clearCharlesSession();
 		AppiumFunctions.Kill_Launch_App();
 		AppiumFunctions.ClickonIUnderstand();
-		attachScreen();*/
+		attachScreen();
 	//	Functions.close_launchApp();
 		//Utils.navigateToAllCards(false);
 		//CharlesFunctions.archive_folder("charles");
-		/*AppiumFunctions.clickOnVideos_tile();
+		AppiumFunctions.clickOnVideos_tile();
 		attachScreen();
-		Thread.sleep(80000);
-		this.proxy.getXml();*/
+		Thread.sleep(20000);
+		this.proxy.getXml();
 	//	Utils.createXMLFileForCharlesSessionFile();
 	}
 	@Test(priority =902,enabled = true)  
 	 @Title("Verifying Lotame ad.crwdcntrl.net api call supressing for LATAM_CO  privacy") 
 	public void Verifying_Loatme_adcrwdcntrlnet_apiCall_supressing_Latam_CO_Privacy() throws Exception {	  
 	 System.out. println("=================Verifying Lotame ad.crwdcntrl.net api call supressing for LATAM_CO  privacy testcase started =========================" ); 
-	 //Functions.validating_adcrw_privacy_Optoutmode_scenarion(); 
+	 Functions.validating_adcrw_privacy_Optoutmode_scenarion(); 
 	  System.out. println("================= Verifying Lotame ad.crwdcntrl.net api call supressing for LATAM_CO  privacy  testcase End =========================" );
 	  }
 	
@@ -94,7 +94,7 @@ public class LATAM_CO_Run extends TwcAndroidBaseTest {
 	 @Title("Verifying Lotame bcp.crwdcntrl.net api call supressing for LATAM_CO  privacy") 
 	public void Verifying_Loatme_bcpcrwdcntrlnet_apiCall_supressing_Latam_CO_Privacy() throws Exception {	  
 	 System.out. println("=================Verifying Lotame bcp.crwdcntrl.net api call supressing for LATAM_CO  privacy testcase started =========================" ); 
-	// Functions.validating_bcp_privacy_Optoutmode_scenarion();
+	Functions.validating_bcp_privacy_Optoutmode_scenarion();
 	  System.out. println("=================Verifying Lotame bcp.crwdcntrl.net api call supressing for LATAM_CO  privacy testcase End =========================" );
 	  }
 	
@@ -103,7 +103,7 @@ public class LATAM_CO_Run extends TwcAndroidBaseTest {
 	  public void  Verifying_weatherfxapiCall_presence_Latam_CO_Privacy() throws Exception {
 	   logStep("Verifying weatherfx api call presence  for for LATAM_CO  privacy testcase started"); 
 	   System.out.println("=================Verifying weatherfx api call presence  for for LATAM_CO  privacy testcase started test case started =========================");
-	 //  Functions.validating_WeatherFXAPI();	
+	   Functions.validating_WeatherFXAPI();	
 	   System.out. println("================= Verifying weatherfx api call presence  for for LATAM_CO  privacy testcase started test case End =========================" ); 
 	  }
 	
@@ -111,7 +111,7 @@ public class LATAM_CO_Run extends TwcAndroidBaseTest {
 	 @Title("Verifying Factual location.wfxtriggers.com api call supressing for LATAM_CO  privacy")  
 	public void Verifying_Factual_locationwfxtriggerscom_apiCall_supressing_Latam_CO_Privacy() throws Exception {	  
 	 System.out. println("=================Verifying Factual location.wfxtriggers.com api call supressing for LATAM_CO  privacy started =========================" ); 
-	// Functions.validating_Fatualcall_privacy_Optoutmode_scenarion();
+	 Functions.validating_Fatualcall_privacy_Optoutmode_scenarion();
 	  System.out. println("================= Verifying Factual location.wfxtriggers.com api call supressing for LATAM_CO  privacy End =========================" );
 	  }
 	
@@ -238,7 +238,7 @@ public class LATAM_CO_Run extends TwcAndroidBaseTest {
 		  public void Verifying_homescreenmarquee_adCall_Presence_Latam_CO_privacy() throws	 Exception {
 		  logStep("Verifying home screen marquee ad call presense for Latam_CO_privacy() privacy" ); 
 		  System.out. println("=================Verifying home screen marquee ad call presense for Latam_CO_privacy() privacy test case started =========================" );  
-		//  Functions.finding_Homescreen_marquee_iu_value();
+		  Functions.finding_Homescreen_marquee_iu_value();
 		  System.out.println("=================Verifying home screen marquee ad call presense for Latam_CO_privacy() privacy test case End =========================" );	  
 		  }
 		
@@ -255,7 +255,7 @@ public class LATAM_CO_Run extends TwcAndroidBaseTest {
 			 @Title("Verifying npa=1 in home screen marquee ad call for Latam_CO_privacy") 
 			public void Verifying_npa_equals_1_homescreenmarquee_adCall_Latam_CO_privacy()throws Exception {	  
 			 System.out. println("=================Verifying npa=1 in home screen marquee ad call for Latam_CO_privacy() privacy  testcase started =========================" ); 
-			// Functions.validate_npa_homescreenmarquee_dontsellmyinformation();
+			Functions.validate_npa_homescreenmarquee_dontsellmyinformation();
 			  System.out. println("=================Verifying npa=1 in home screen marquee ad call for Latam_CO_privacy() privacy  testcase End =========================" );
 			  }
 			  
@@ -270,7 +270,7 @@ public class LATAM_CO_Run extends TwcAndroidBaseTest {
 			AppiumFunctions.clickOnVideos_tile();
 			CharlesFunctions.archive_folder("charles");
 			CharlesFunctions.ExportSession();*/
-		 // Functions.Verify_video_ad_call_Optoutmode(); 
+		 Functions.Verify_video_ad_call_Optoutmode(); 
 		  System.out.println("=================Verifying videos ad call presense for Latam_CO_privacy() privacy test case started End =========================" );  
 		  }
 		  
@@ -279,7 +279,7 @@ public class LATAM_CO_Run extends TwcAndroidBaseTest {
 	 @Title("Verifying npa=1 in videos ad call for Latam_CO_privacy") 
 	public void Verifying_npa_equals_1_videos_adCall_Latam_CO_privacy()throws Exception {	  
 	 System.out. println("=================Verifying npa=1 in detailed page ad call for Latam_CO_privacy() privacy testcase started =========================" ); 
-	// Functions.validate_npa_video_ad_dontsellmyinformation();
+	 Functions.validate_npa_video_ad_dontsellmyinformation();
 		//CharlesFunctions.archive_folder("Charles");
 	  System.out. println("=================Verifying npa=1 in detailed page ad call for Latam_CO_privacy() privacy testcase End =========================" );
 	  }
@@ -291,8 +291,8 @@ public class LATAM_CO_Run extends TwcAndroidBaseTest {
 				System.out.println("=========================== Criteo SDK inapp/v2 call ====================");
 				System.out.println("****** Criteo SDK inapp/v2 call validation Started");
 				logStep("****** Criteo SDK inapp/v2 call validation Started");
-				//CharlesFunctions.createXMLFileForCharlesSessionFile();
-				//Functions.verifyCriteo_inapp_v2_Call("Criteo", false);
+				CharlesFunctions.createXMLFileForCharlesSessionFile();
+				Functions.verifyCriteo_inapp_v2_Call("Criteo", false);
 
 			}
 
@@ -303,8 +303,8 @@ public class LATAM_CO_Run extends TwcAndroidBaseTest {
 				System.out.println("=========================== Criteo SDK config/app call ====================");
 				System.out.println("****** Criteo SDK config/app call validation Started");
 				logStep("****** Criteo SDK config/app call validation Started");
-				//CharlesFunctions.archive_folder("Charles");
-				//Functions.verifyCriteo_config_app_Call("Criteo", false);		
+				Functions.verifyCriteo_config_app_Call("Criteo", false);
+				CharlesFunctions.archive_folder("Charles");
 			}
 	
 	
