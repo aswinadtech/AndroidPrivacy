@@ -51,34 +51,31 @@ public class LATAM_CO_Run extends TwcAndroidBaseTest {
 	@Test(priority = 900)
 	public void preConditionsTest_for_LATAMCO() throws Exception {
 		// Enable rewriting on Charles install/launch TWC
+		// Enable rewriting on Charles install/launch TWC
 		this.proxy.enableRewriting();
 		this.proxy.startRecording();
-		CharlesFunctions.archive_folder("Charles");
 		this.proxy.clearCharlesSession();
-		AppiumFunctions.LaunchAppWithFullReset();
+		     Thread.sleep(100000);
+		//AppiumFunctions.LaunchAppWithFullReset();
+		System.out.println("Launching the app with full reset");
 		   AppiumFunctions.resetApp();
-		
 		  	AppiumFunctions.clickONNext();
 			AppiumFunctions.ClickonIUnderstand();
 			AppiumFunctions.ClickonIUnderstand();
 			AppiumFunctions.clickOnAllow();
-		// Preconditions
-	//	Utils.getCurrentMacIPAddressAndSetiPhoneProxy(true, true);
-		//Functions.listFilesForFolder(Functions.folder);
-	//	Functions.archive_folder("Charles");
-		//Functions.launchtheApp("true");
-		System.out.println("App launched ");
+			System.out.println("App launched ");
+			//CharlesFunctions.archive_folder("charles");
 		this.proxy.clearCharlesSession();
+		     Thread.sleep(5000);	
 		AppiumFunctions.Kill_Launch_App();
 		AppiumFunctions.ClickonIUnderstand();
 		attachScreen();
-	//	Functions.close_launchApp();
-		//Utils.navigateToAllCards(false);
-		//CharlesFunctions.archive_folder("charles");
 		AppiumFunctions.clickOnVideos_tile();
 		attachScreen();
-		Thread.sleep(20000);
+                  Thread.sleep(80000);	
+		//CharlesFunctions.archive_folder("charles");
 		this.proxy.getXml();
+		Thread.sleep(20000);
 	//	Utils.createXMLFileForCharlesSessionFile();
 	}
 	@Test(priority =902,enabled = true)  
