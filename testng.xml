@@ -5,7 +5,7 @@
     <classes> 
        
         <class name="twc.Regression.TestCases.GDPR_Run"/>
-   
+          <class name="twc.Regression.TestCases.LGPD_Run"/>
      
 
     </classes>
