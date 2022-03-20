@@ -88,7 +88,7 @@ public class LGPD_Run extends TwcAndroidBaseTest  {
 	 @Title("Verifying Lotame ad.crwdcntrl.net api call supressing for LGPD privacy") 
 	public void Verifying_Loatme_adcrwdcntrlnet_apiCall_supressing_LGPD_Privacy() throws Exception {	  
 	 System.out. println("=================Verifying Lotame ad.crwdcntrl.net api call supressing for LGPD privacy testcase started =========================" ); 
-	// Functions.validating_adcrw_privacy_Optoutmode_scenarion(); 
+	 Functions.validating_adcrw_privacy_Optoutmode_scenarion(); 
 	  System.out. println("================= Verifying Lotame ad.crwdcntrl.net api call supressing for LGPD privacy  testcase End =========================" );
 	  }
 	
@@ -97,7 +97,7 @@ public class LGPD_Run extends TwcAndroidBaseTest  {
 	 @Title("Verifying Lotame bcp.crwdcntrl.net api call supressing for LGPD privacy") 
 	public void Verifying_Loatme_bcpcrwdcntrlnet_apiCall_supressing_LGPD_Privacy() throws Exception {	  
 	 System.out. println("=================Verifying Lotame bcp.crwdcntrl.net api call supressing for LGPD privacy testcase started =========================" ); 
-	 //Functions.validating_bcp_privacy_Optoutmode_scenarion();
+	 Functions.validating_bcp_privacy_Optoutmode_scenarion();
 	  System.out. println("=================Verifying Lotame bcp.crwdcntrl.net api call supressing for LGPD privacy testcase End =========================" );
 	  }
 	
@@ -106,7 +106,7 @@ public class LGPD_Run extends TwcAndroidBaseTest  {
 	public void Smoke_Test_CaseVerify_WeatherFXAPI_url_KillLaunch() throws Exception {
 		System.out.println("================= Verifying WeatherFX API url started =========================");
 		
-		//Functions.validating_WeatherFXAPI();
+		Functions.validating_WeatherFXAPI();
 		System.out.println("================= Verifying WeatherFX API url End =========================");
 	}
 	
@@ -114,7 +114,7 @@ public class LGPD_Run extends TwcAndroidBaseTest  {
 	 @Title("Verifying Factual location.wfxtriggers.com api call supressing for LGPD privacy") 
 	public void Verifying_Factual_locationwfxtriggerscom_apiCall_supressing_LGPD_Privacy() throws Exception {	  
 	 System.out. println("=================Verifying Factual location.wfxtriggers.com api call supressing for LGPD privacy started =========================" ); 
-	 //Functions.validating_Fatualcall_privacy_Optoutmode_scenarion();
+	 Functions.validating_Fatualcall_privacy_Optoutmode_scenarion();
 	  System.out. println("================= Verifying Factual location.wfxtriggers.com api call supressing for LGPD privacy End =========================" );
 	  }
 	
