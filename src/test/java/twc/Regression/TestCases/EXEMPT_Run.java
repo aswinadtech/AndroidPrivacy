@@ -21,7 +21,7 @@ public class EXEMPT_Run extends TwcAndroidBaseTest {
 	
 	@BeforeClass(alwaysRun = true)
 	public void beforeClass() {
-		/*System.out.println("****** EXEMPT Privacy Test Started");
+		System.out.println("****** EXEMPT Privacy Test Started");
 		logStep("****** EXEMPT  Privacy Test Started");
 		this.configFile = this.rewriteRuleToEnableEXEMPT(CONFIG_FILE_PATH);
 		this.proxy = new CharlesProxy("localhost", 8333, CONFIG_FILE_PATH);
@@ -29,20 +29,20 @@ public class EXEMPT_Run extends TwcAndroidBaseTest {
 		this.proxy.startCharlesProxyWithUI();
 		this.proxy.disableRewriting();
 		this.proxy.stopRecording();
-		this.proxy.disableMapLocal();*/
+		this.proxy.disableMapLocal();
 	}
 	
 	
 	@AfterClass(alwaysRun = true)
 	public void afterClass() {
-		/*if (this.configFile != null) {
+		if (this.configFile != null) {
 			this.configFile.delete();
 		}
 		this.proxy.disableRewriting();
 		//this.proxy.quitCharlesProxy();
 		
 		System.out.println("****** EXEMPT   Privacy Test Ended");
-		logStep("****** EXEMPT  Privacy Test Ended");*/
+		logStep("****** EXEMPT  Privacy Test Ended");
 	}
 	
 	@Test(priority = 2000)
@@ -54,7 +54,7 @@ public class EXEMPT_Run extends TwcAndroidBaseTest {
 	 @Title("Verifying Lotame ad.crwdcntrl.net api call supressing for EXEMPT  privacy") 
 	public void Verifying_Loatme_adcrwdcntrlnet_apiCall_supressing_EXEMPT_Privacy() throws Exception {	  
 	 System.out. println("=================Verifying Lotame ad.crwdcntrl.net api call supressing for EXEMPT  privacy testcase started =========================" ); 
-	// Functions.validating_adcrw_privacy_Optoutmode_scenarion(); 
+	 Functions.validating_adcrw_privacy_Optoutmode_scenarion(); 
 	  System.out. println("================= Verifying Lotame ad.crwdcntrl.net api call supressing for EXEMPT  privacy  testcase End =========================" );
 	  }
 	
@@ -63,7 +63,7 @@ public class EXEMPT_Run extends TwcAndroidBaseTest {
 	 @Title("Verifying Lotame bcp.crwdcntrl.net api call supressing for EXEMPT  privacy") 
 	public void Verifying_Loatme_bcpcrwdcntrlnet_apiCall_supressing_EXEMPT_Privacy() throws Exception {	  
 	 System.out. println("=================Verifying Lotame bcp.crwdcntrl.net api call supressing for EXEMPT  privacy testcase started =========================" ); 
-	// Functions.validating_bcp_privacy_Optoutmode_scenarion();
+	 Functions.validating_bcp_privacy_Optoutmode_scenarion();
 	  System.out. println("=================Verifying Lotame bcp.crwdcntrl.net api call supressing for EXEMPT  privacy testcase End =========================" );
 	  }
 	
@@ -71,7 +71,7 @@ public class EXEMPT_Run extends TwcAndroidBaseTest {
 	 @Title("Verifying Factual location.wfxtriggers.com api call supressing for EXEMPT  privacy")  
 	public void Verifying_Factual_locationwfxtriggerscom_apiCall_supressing_EXEMPT_Privacy() throws Exception {	  
 	 System.out. println("=================Verifying Factual location.wfxtriggers.com api call supressing for EXEMPT  privacy started =========================" ); 
-	// Functions.validating_Fatualcall_privacy_Optoutmode_scenarion();
+	 Functions.validating_Fatualcall_privacy_Optoutmode_scenarion();
 	  System.out. println("================= Verifying Factual location.wfxtriggers.com api call supressing for EXEMPT  privacy End =========================" );
 	  }
 	
@@ -80,7 +80,7 @@ public class EXEMPT_Run extends TwcAndroidBaseTest {
 	  public void  Verifying_weatherfxapiCall_presence_EXEMPT_Privacy() throws Exception {
 	   logStep("Verifying weatherfx api call presence  for for EXEMPT  privacy testcase started"); 
 	   System.out.println("=================Verifying weatherfx api call presence  for for EXEMPT  privacy testcase started test case started =========================");
-	  // Functions.validating_WeatherFXAPI();	
+	   Functions.validating_WeatherFXAPI();	
 	   System.out. println("================= Verifying weatherfx api call presence  for for EXEMPT  privacy testcase started test case End =========================" ); 
 	  }
 	
@@ -200,8 +200,8 @@ public class EXEMPT_Run extends TwcAndroidBaseTest {
 			System.out.println("=========================== Criteo SDK inapp/v2 call ====================");
 			System.out.println("****** Criteo SDK inapp/v2 call validation Started");
 			logStep("****** Criteo SDK inapp/v2 call validation Started");
-			//CharlesFunctions.createXMLFileForCharlesSessionFile();
-			//Functions.verifyCriteo_inapp_v2_Call("Criteo", false);
+			CharlesFunctions.createXMLFileForCharlesSessionFile();
+			Functions.verifyCriteo_inapp_v2_Call("Criteo", false);
 
 		}
 
@@ -212,8 +212,8 @@ public class EXEMPT_Run extends TwcAndroidBaseTest {
 			System.out.println("=========================== Criteo SDK config/app call ====================");
 			System.out.println("****** Criteo SDK config/app call validation Started");
 			logStep("****** Criteo SDK config/app call validation Started");
-			//CharlesFunctions.archive_folder("Charles");
-			//Functions.verifyCriteo_config_app_Call("Criteo", false);
+			CharlesFunctions.archive_folder("Charles");
+			Functions.verifyCriteo_config_app_Call("Criteo", false);
 		}
 	
 	
