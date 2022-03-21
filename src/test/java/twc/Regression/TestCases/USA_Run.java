@@ -28,23 +28,53 @@ public class USA_Run extends TwcAndroidBaseTest {
 	private CharlesProxy proxy;
 	private File configFile;
 	
+	
 	@BeforeClass(alwaysRun = true)
 	public void beforeClass() {
-		System.out.println("****** USA   Privacy Test Started");
-		logStep("****** USA Privacy Test Started");
-		
+		System.out.println("****** USA CCPA  Privacy Test Started");
+		logStep("****** USA CCPA  Privacy Test Started");
+		this.configFile = this.rewriteRuleToEnableUSA(CONFIG_FILE_PATH);
+		this.proxy = new CharlesProxy("localhost", 8333, CONFIG_FILE_PATH);
+
+		this.proxy.startCharlesProxyWithUI();
+		this.proxy.disableRewriting();
+		this.proxy.stopRecording();
+		this.proxy.disableMapLocal();
 	}
 	
 	
 	@AfterClass(alwaysRun = true)
 	public void afterClass() {
+		if (this.configFile != null) {
+			this.configFile.delete();
+		}
+		this.proxy.disableRewriting();
+		this.proxy.quitCharlesProxy();
 		
+		System.out.println("****** USA CCPA  Privacy Test Ended");
+		logStep("****** USA CCPA  Privacy Test Ended");
 	}
 	
 	
 	@Test(priority = 500)
 	public void preConditionsTest_for_USA() throws Exception {
 		// Enable rewriting on Charles install/launch TWC
+		this.proxy.enableRewriting();
+		this.proxy.startRecording();
+		this.proxy.clearCharlesSession();
+		AppiumFunctions.LaunchAppWithFullReset();
+	    Thread.sleep(10000);	
+		 Ad.resetApp();
+		  Thread.sleep(100000);	
+		  	AppiumFunctions.clickONNext();
+			AppiumFunctions.ClickonIUnderstand();
+			AppiumFunctions.ClickonIUnderstand();
+			AppiumFunctions.clickOnAllow();
+		
+		System.out.println("App launched ");
+		this.proxy.clearCharlesSession();
+		AppiumFunctions.Kill_Launch_App();
+		AppiumFunctions.ClickonIUnderstand();
 	
 	}
 
