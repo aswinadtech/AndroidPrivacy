@@ -37,7 +37,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 	
 	@BeforeClass(alwaysRun = true)
 	public void beforeClass() {
-		/*System.out.println("****** USA CCPA  Privacy Test Started");
+		System.out.println("****** USA CCPA  Privacy Test Started");
 		logStep("****** LGPD Privacy Test Started");
 		this.configFile = this.rewriteRuleToEnableUSACCPA(CONFIG_FILE_PATH);
 		this.proxy = new CharlesProxy("localhost", 8333, CONFIG_FILE_PATH);
@@ -45,26 +45,26 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 		this.proxy.startCharlesProxyWithUI();
 		this.proxy.disableRewriting();
 		this.proxy.stopRecording();
-		this.proxy.disableMapLocal();*/
+		this.proxy.disableMapLocal();
 	}
 	
 	
 	@AfterClass(alwaysRun = true)
 	public void afterClass() {
-		/*if (this.configFile != null) {
+		if (this.configFile != null) {
 			this.configFile.delete();
 		}
 		this.proxy.disableRewriting();
 		this.proxy.quitCharlesProxy();
 		
 		System.out.println("****** USA CCPA  Privacy Test Ended");
-		logStep("****** USA CCPA  Privacy Test Ended");*/
+		logStep("****** USA CCPA  Privacy Test Ended");
 	}
 	
 	@Test(priority = 100)
 	public void preConditionsTest_for_USA_CCPA() throws Exception {
 		// Enable rewriting on Charles install/launch TWC
-		/*this.proxy.enableRewriting();
+		this.proxy.enableRewriting();
 		this.proxy.startRecording();
 		this.proxy.clearCharlesSession();
 		AppiumFunctions.LaunchAppWithFullReset();
@@ -79,7 +79,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 		System.out.println("App launched ");
 		this.proxy.clearCharlesSession();
 		AppiumFunctions.Kill_Launch_App();
-		AppiumFunctions.ClickonIUnderstand();*/
+		AppiumFunctions.ClickonIUnderstand();
 	
 	}
 	@Test(priority =102, enabled = true)  
