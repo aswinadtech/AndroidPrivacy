@@ -82,8 +82,8 @@ public class USA_Run extends TwcAndroidBaseTest {
 	  @Title("Verifying Privacy Card is present on the screen") public void
 	 Verifying_PrivacyCard_PresenceonScreen() throws Exception {	  
 	 System.out. println("=================Verifying Privacy Card is present on the screen testcase started =========================" ); 
-	// AppiumFunctions.Kill_Launch_App();
-	 // Thread.sleep(60000);	  
+	AppiumFunctions.Kill_Launch_App();
+	 Thread.sleep(60000);	  
 	 // AppiumFunctions.SwipeUp_Counter_privacy(25);
 	  System.out. println("================= Verifying Privacy Card is present on the screen testcase End =========================" );
 	  }
@@ -102,16 +102,16 @@ public class USA_Run extends TwcAndroidBaseTest {
 	  public void Verifying_Loatme_adcrwdcntrlnet_apiCall_supressing_USA_Privacy_DoNotSellMyInformation()  throws Exception {  
 	  logStep("Verifying Lotame ad.crwdcntrl.net api call supressing for USA privacy when Advertising option set to Do Not Sell My Information"); 
 	  System.out.println("=================Verifying Lotame ad.crwdcntrl.net api call supressing for USA privacy test case  started =========================");
-	 /* this.proxy.clearCharlesSession();
+	  this.proxy.clearCharlesSession();
 	   AppiumFunctions.Kill_Launch_App();  
 	   AppiumFunctions.clickOnMaps_tile();
 	   AppiumFunctions.clickOnVideos_tile();
 		  	  Thread.sleep(80000);	
-		  Thread.sleep(80000);*/
-		  //CharlesFunctions.archive_folder("charles");
-		//this.proxy.getXml();
+		  Thread.sleep(80000);
+		  CharlesFunctions.archive_folder("charles");
+		this.proxy.getXml();
 	
-	//  Functions.validating_adcrw_privacy_Optoutmode_scenarion(); 
+	  Functions.validating_adcrw_privacy_Optoutmode_scenarion(); 
       
 	  System.out.println("================= Verifying Lotame ad.crwdcntrl.net api call supressing for USA privacy test case End =========================");	  
 	  }
@@ -121,7 +121,7 @@ public class USA_Run extends TwcAndroidBaseTest {
 	  public void Verifying_Loatme_bcpcrwdcntrlnet_apiCall_supressing_USA_Privacy_DoNotSellMyInformation() throws Exception {
 	  logStep("Verifying Lotame bcp.crwdcntrl.net api call supressing for USA privacy when Advertising option set to Do Not Sell My Information" ); 
 	  System.out.println("=================Verifying BCP api call when user selecting Optoutmode scenario in privacy card started =========================" );
-	 // Functions.validating_bcp_privacy_Optoutmode_scenarion();
+	  Functions.validating_bcp_privacy_Optoutmode_scenarion();
 	  System.out.println("================= Verifying BCP api call when user selecting Optoutmode scenario in privacy card End =========================");  
 	  }
 	  
@@ -130,7 +130,7 @@ public class USA_Run extends TwcAndroidBaseTest {
 		public void Verifying_WeatherFXAPICall_apiCall_presence_USA_Privacy_DoNotSellMyInformation() throws Exception {
 			System.out.println("================= Verifying WeatherFX API url started =========================");
 			
-			//Functions.validating_WeatherFXAPI();
+			Functions.validating_WeatherFXAPI();
 			System.out.println("================= Verifying WeatherFX API url End =========================");
 		}
 	  
@@ -140,7 +140,7 @@ public class USA_Run extends TwcAndroidBaseTest {
 	  public void Verifying_Factual_locationwfxtriggerscom_apiCall_supressing_USA_Privacy_DoNotSellMyInformation() throws Exception { 
 	  logStep("Verifying Factual location.wfxtriggers.com api call supressing for USA privacy when Advertising option set to Do Not Sell My Information"); 
 	 System.out.println("=================Verifying Fatual api call when user selecting Optoutmode scenario in privacy card started =========================");
-	// Functions.validating_Fatualcall_privacy_Optoutmode_scenarion();
+	Functions.validating_Fatualcall_privacy_Optoutmode_scenarion();
 
 	 System.out. println("================= Verifying Fatual api call when user selecting Optoutmode scenario in privacy card End =========================");
 	  }
@@ -269,7 +269,7 @@ public class USA_Run extends TwcAndroidBaseTest {
 	  public void Verifying_homescreenmarquee_adCall_Presence_USA_Privacy_DoNotSellMyInformation()   throws	 Exception {
 	  logStep("Verifying home screen marquee ad call presense for USA privacy when Advertising option set to Do Not Sell My Information" ); 
 	  System.out. println("=================Verifying home screen marquee ad call presense for USA privacy when Advertising option set to Do Not Sell My Information test case started =========================" );  
-	 // Functions.finding_Homescreen_marquee_iu_value();
+	  Functions.finding_Homescreen_marquee_iu_value();
 	  System.out.println("=================Verifying home screen marquee ad call presense for USA privacy when Advertising option set to Do Not Sell My Information test case End =========================" );	  
 	  }
 	  
@@ -279,7 +279,7 @@ public class USA_Run extends TwcAndroidBaseTest {
 	  public void   Verifying_SOD_Cust_Param_homescreenmarquee_adCall_USA_Privacy_DoNotSellMyInformation() throws  Exception {
 	  logStep("Verifying SOD Cust param value in homescreen marquee call for  USA privacy when Advertising option set to Do Not Sell My Information" ); 
 	  System.out.println("=================Verifying SOD Cust param value in homescreen marquee call for  USA privacy when Advertising option set to Do Not Sell My Information test case  started ========================="); 
-	  //Functions.validate_SOD_Cust_param_homescreenmarquee_Optoutmode();
+	  Functions.validate_SOD_Cust_param_homescreenmarquee_Optoutmode();
 	  System.out.println("================= Verifying SOD Cust param value in homescreen marquee call for  USA privacy when Advertising option set to Do Not Sell My Information test case End =========================" ); 
 	  }
 
@@ -299,7 +299,7 @@ public class USA_Run extends TwcAndroidBaseTest {
 	  public void Verifying_SOD_Cust_Param_mapsdetails_adCall_USA_Privacy_DoNotSellMyInformation()  throws Exception { 
 	 System.out. println("================= Verifying SOD Cust param value in homescreen hourly ad call for USA privacy when Advertising option set to Do Not Sell My Information test case started =========================" );
 	  logStep("Verifying SOD Cust param value in homescreen hourly ad call for USA privacy when Advertising option set to Do Not Sell My Information" );  
-	  //Functions.validate_SOD_Cust_param_deatiledfeed_Optoutmode();
+	  Functions.validate_SOD_Cust_param_deatiledfeed_Optoutmode();
 	  System.out. println("================= Verifying SOD Cust param value in maps details page ad call for USA privacy when Advertising option set to Do Not Sell My Information test case End =========================" );
 	  }
 	  
@@ -318,7 +318,7 @@ public class USA_Run extends TwcAndroidBaseTest {
 	  Verifying_rdp_equals_1_homescreenmarquee_adCall_USA_Privacy_DoNotSellMyInformation() throws  Exception {
 	  logStep("Verifying rdp=1 in home screen marquee  ad call for USA privacy when Advertising option set to Do Not Sell My Information"); 
 	  System.out.println("================= Verifying rdp=1 in home screen marquee  ad call for USA privacy when Advertising option set to Do Not Sell My Information test case started =========================" ); 
-	  //Functions.validate_RDP_homescreenmarquee_Optoutmode();
+	  Functions.validate_RDP_homescreenmarquee_Optoutmode();
 	  System.out. println("================= Verifying rdp=1 in home screen marquee  ad call for USA privacy when Advertising option set to Do Not Sell My Information test case End =========================");
       }
 	  
@@ -329,7 +329,7 @@ public class USA_Run extends TwcAndroidBaseTest {
 	System.out. println("=================Verifying videos ad call presense for USA privacy when Advertising option set to Do Not Sell My Information test case started =========================" );
 	  logStep("Verifying videos ad call presense for USA privacy when Advertising option set to Do Not Sell My Information"); 	
 	  logStep("Verifying supress of normal amazon slotid in feed_1  for USA privacy when Advertising option set to Do Not Sell My Information");
-	 // Functions.Verify_video_ad_call_Optoutmode(); 
+	  Functions.Verify_video_ad_call_Optoutmode(); 
 	  System.out.println("=================Verifying videos ad call presense for USA privacy when Advertising option set to Do Not Sell My Information test case started End =========================" );  
 	  }
 	
@@ -338,7 +338,7 @@ public class USA_Run extends TwcAndroidBaseTest {
 	  public void  Verifying_SOD_Cust_Param_videos_adCall_USA_Privacy_DoNotSellMyInformation() throws Exception {
 	  logStep("Verifying SOD Cust param value in Videos  ad call for USA privacy when Advertising option set to Do Not Sell My Information" ); 
 	  System.out. println("================= Verifying SOD Cust param value in Videos  ad call for USA privacy when Advertising option set to Do Not Sell My Information test case started =========================" );
-	 // Functions.validate_SOD_Cust_param_video_Optoutmode(); 
+	  Functions.validate_SOD_Cust_param_video_Optoutmode(); 
 	  System.out.println("================= Verifying SOD Cust param value in Videos  ad call for USA privacy when Advertising option set to Do Not Sell My Information test case  End ========================="); 
 	  }
 	
@@ -348,7 +348,7 @@ public class USA_Run extends TwcAndroidBaseTest {
 		  public void Verifying_rdp_equals_1_Videos_adCall_USA_Privacy_DoNotSellMyInformation() throws Exception {
 		  logStep("Verifying rdp=1 in videos  ad call for USA privacy when Advertising option set to Do Not Sell My Information" );  
 		  System.out. println("================= Verifying rdp=1 in videos  ad call for USA privacy when Advertising option set to Do Not Sell My Information test case started =========================");
-		  //Functions.validate_RDP_video_ad_Optoutmode();
+		  Functions.validate_RDP_video_ad_Optoutmode();
 		  System.out. println("================= Verifying rdp=1 in videos  ad call for USA privacy when Advertising option set to Do Not Sell My Information test case End =========================");
 		  }
 	
@@ -361,7 +361,9 @@ public class USA_Run extends TwcAndroidBaseTest {
 					"=========================== Criteo SDK inapp/v2 call when privacy optout ====================");
 			System.out.println("****** Criteo SDK inapp/v2 call when privacy optout validation Started");
 			logStep("****** Criteo SDK inapp/v2 call when privacy optout validation Started");
-			
+			CharlesFunctions.createXMLFileForCharlesSessionFile();
+							Functions.verifyCriteo_inapp_v2_Call("Criteo", false);
+
 				
 		 }
 	
@@ -373,6 +375,13 @@ public class USA_Run extends TwcAndroidBaseTest {
 					"=========================== Criteo SDK config/app call when privacy optout====================");
 			System.out.println("****** Criteo SDK config/app call when privacy optout validation Started");
 			logStep("****** Criteo SDK config/app call when privacy optout validation Started");
+			Functions.verifyCriteo_config_app_Call("Criteo", false);
+					 CharlesFunctions.archive_folder("Charles");
+				Thread.sleep(60000);
+				Thread.sleep(60000);
+				Thread.sleep(60000);
+				Thread.sleep(60000);
+				Thread.sleep(60000);
 			
 	}
 	  
@@ -385,6 +394,23 @@ public class USA_Run extends TwcAndroidBaseTest {
 			public void enable_PreConfiguration_for_USA_to_LGPD_Travel_Scenario() throws Exception {
 				System.out.println("==============================================");
 				System.out.println("****** Enable Preconfiguration for USA to LGPD Travel Scenario");
+				System.out.println("==============================================");
+				System.out.println("****** Enable Preconfiguration for USACCPA to LGPD Travel Scenario");
+				logStep("Enable Preconfiguration for USACCPA to LGPD Travel Scenario");
+				proxy.quitCharlesProxy();
+				// Ad.closeApp();
+				this.configFile = this.rewriteRuleToEnableLGPD(LGPD_CONFIG_FILE_PATH);
+				this.proxy = new CharlesProxy("localhost", 8333, LGPD_CONFIG_FILE_PATH);
+				proxy.startCharlesProxyWithUI();
+				this.proxy.disableRewriting();
+		                 this.proxy.stopRecording();
+		                this.proxy.disableMapLocal();
+		                proxy.enableRewriting();
+		                proxy.startRecording();
+				// Ad.launchApp();
+				AppiumFunctions.Kill_Launch_App();
+				AppiumFunctions.Kill_Launch_App();
+				AppiumFunctions.ClickonIUnderstand();
 			
 			}
 		 
@@ -686,7 +712,11 @@ public class USA_Run extends TwcAndroidBaseTest {
 							"****** Criteo SDK config/app call when privacy optout for USA to LGPD Travel Scenario validation Started");
 					logStep("****** Criteo SDK config/app call when privacy optout for USA  to LGPD Travel Scenario validation Started");
 				
-				
+				Thread.sleep(60000);
+				Thread.sleep(60000);
+				Thread.sleep(60000);
+				Thread.sleep(60000);
+				Thread.sleep(60000);
 
 
 				}
@@ -704,6 +734,21 @@ public class USA_Run extends TwcAndroidBaseTest {
 					public void enable_PreConfiguration_for_USA_to_GDPR_Travel_Scenario() throws Exception {
 						System.out.println("==============================================");
 						System.out.println("****** Enable Preconfiguration for USA to GDPR  Travel Scenario");
+								logStep("Enable Preconfiguration for USACCPA to GDPR Travel Scenario");
+				proxy.quitCharlesProxy();
+				// Ad.closeApp();
+				this.configFile = this.rewriteRuleToEnableGDPR(CONFIG_FILE_PATH);
+		             this.proxy = new CharlesProxy("localhost", 8333, CONFIG_FILE_PATH);
+				proxy.startCharlesProxyWithUI();
+				this.proxy.disableRewriting();
+		                 this.proxy.stopRecording();
+		                this.proxy.disableMapLocal();
+		                proxy.enableRewriting();
+		                proxy.startRecording();
+				// Ad.launchApp();
+				AppiumFunctions.Kill_Launch_App();
+				AppiumFunctions.Kill_Launch_App();
+				AppiumFunctions.ClickonIUnderstand();
 						
 					}
 				 
@@ -1022,7 +1067,20 @@ public class USA_Run extends TwcAndroidBaseTest {
 						 @Test(priority = 674, enabled = true)
 						 @Title("Enabling Preconfiguration for USA to LATAMCO Travel Scenario")
 							public void enable_PreConfiguration_for_USA_to_LATAMCO_Travel_Scenario() throws Exception {
-								
+								proxy.quitCharlesProxy();
+				// Ad.closeApp();
+				this.configFile = this.rewriteRuleToEnableLATAMCO(CONFIG_FILE_PATH);
+		this.proxy = new CharlesProxy("localhost", 8333, CONFIG_FILE_PATH);
+				proxy.startCharlesProxyWithUI();
+				this.proxy.disableRewriting();
+		                 this.proxy.stopRecording();
+		                this.proxy.disableMapLocal();
+		                proxy.enableRewriting();
+		                proxy.startRecording();
+				// Ad.launchApp();
+				AppiumFunctions.Kill_Launch_App();
+				AppiumFunctions.Kill_Launch_App();
+				AppiumFunctions.ClickonIUnderstand();	
 								
 							}
 						 @Test(priority = 676, enabled = true)  
@@ -1322,6 +1380,11 @@ public class USA_Run extends TwcAndroidBaseTest {
 											"****** Criteo SDK config/app call when privacy optout for USA to LATAMCO Travel Scenario validation Started");
 									logStep("****** Criteo SDK config/app call when privacy optout for USA to LATAMCO Travel Scenario validation Started");
 								
+									Thread.sleep(60000);
+				Thread.sleep(60000);
+				Thread.sleep(60000);
+				Thread.sleep(60000);
+				Thread.sleep(60000);
 								
 
 								}
@@ -1336,8 +1399,22 @@ public class USA_Run extends TwcAndroidBaseTest {
 									public void enable_PreConfiguration_for_USA_to_SERBIA_Travel_Scenario() throws Exception {
 										System.out.println("==============================================");
 										System.out.println("****** Enable Preconfiguration for USA to SERBIA  Travel Scenario");
-										logStep("Enable Preconfiguration for USA to SERBIA Travel Scenario");
-										
+						
+					logStep("Enable Preconfiguration for USA to SERBIA Travel Scenario");
+					proxy.quitCharlesProxy();
+				// Ad.closeApp();
+					this.configFile = this.rewriteRuleToEnableSERBIA(CONFIG_FILE_PATH);
+		proxy = new CharlesProxy("localhost", 8333, CONFIG_FILE_PATH);
+				proxy.startCharlesProxyWithUI();
+				this.proxy.disableRewriting();
+		                 this.proxy.stopRecording();
+		                this.proxy.disableMapLocal();
+		                proxy.enableRewriting();
+		                proxy.startRecording();
+				// Ad.launchApp();
+				AppiumFunctions.Kill_Launch_App();
+				AppiumFunctions.Kill_Launch_App();
+				AppiumFunctions.ClickonIUnderstand();
 										
 									}
 								 @Test(priority = 738, enabled = true)  
