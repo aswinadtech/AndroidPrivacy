@@ -250,7 +250,7 @@ public class LATAM_PE_Run extends TwcAndroidBaseTest {
 	 @Title("Verifying npa=1 in videos ad call for Latam_PE_privacy") 
 	public void Verifying_npa_equals_1_videos_adCall_Latam_PE_privacy()throws Exception {	  
 	 System.out. println("=================Verifying npa=1 in detailed page ad call for Latam_PE_privacy() privacy testcase started =========================" ); 
-	 Functions.validate_npa_video_ad_dontsellmyinformation();
+	 //Functions.validate_npa_video_ad_dontsellmyinformation();
 		//CharlesFunctions.archive_folder("Charles");
 	  System.out. println("=================Verifying npa=1 in detailed page ad call for Latam_PE_privacy() privacy testcase End =========================" );
 	  }
