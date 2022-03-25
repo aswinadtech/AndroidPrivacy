@@ -83,11 +83,11 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 	
 	}*/
 	@Test(priority =102, enabled = true)  
-	  @Title("Verifying Privacy Card is present on the screen") public void
-	 Verifying_PrivacyCard_PresenceonScreen() throws Exception {	  
+	  @Title("Verifying Privacy Card is present on the screen") 
+	public void Verifying_PrivacyCard_PresenceonScreen() throws Exception {	  
 	 System.out. println("=================Verifying Privacy Card is present on the screen testcase started =========================" ); 
-	AppiumFunctions. Kill_Launch_App();
-	  Thread.sleep(40000);	  
+	//AppiumFunctions. Kill_Launch_App();
+	 // Thread.sleep(40000);	  
 	 // AppiumFunctions.SwipeUp_Counter_privacy(25);
 	  System.out. println("================= Verifying Privacy Card is present on the screen testcase End =========================" );
 	  }
