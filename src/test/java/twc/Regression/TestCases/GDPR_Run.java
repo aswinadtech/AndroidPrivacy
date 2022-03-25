@@ -43,24 +43,24 @@ public class GDPR_Run extends TwcAndroidBaseTest  {
 	public void beforeClass() {
 		System.out.println("****** GDPR Privacy Test Started");
 		logStep("****** GDPR Privacy Test Started");
-		this.configFile = this.rewriteRuleToEnableGDPR(CONFIG_FILE_PATH);
+		/*this.configFile = this.rewriteRuleToEnableGDPR(CONFIG_FILE_PATH);
 		this.proxy = new CharlesProxy("localhost", 8333, CONFIG_FILE_PATH);
 		this.proxy.startCharlesProxyWithUI();
 		this.proxy.disableRewriting();
 		this.proxy.stopRecording();
-		this.proxy.disableMapLocal();
+		this.proxy.disableMapLocal();*/
 	}
 
 	@AfterClass(alwaysRun = true)
 	public void afterClass() {
-		if (this.configFile != null) {
+		/*if (this.configFile != null) {
 			this.configFile.delete();
 		}
 		this.proxy.disableRewriting();
 		this.proxy.quitCharlesProxy();
 		
 		System.out.println("****** GDPR Privacy Test Ended");
-		logStep("****** GDPR Privacy Test Ended");
+		logStep("****** GDPR Privacy Test Ended");*/
 	}
 	
 	@Test(priority = 0)
