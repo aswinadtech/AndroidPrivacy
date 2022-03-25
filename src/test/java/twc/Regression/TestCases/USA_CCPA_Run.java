@@ -308,7 +308,7 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 	  public void Verifying_SOD_Cust_Param_mapsdetails_adCall_USA_CCPA_Privacy_DoNotSellMyInformation() throws Exception { 
 	 System.out. println("================= Verifying SOD Cust param value in homescreen hourly ad call for USA privacy when Advertising option set to Do Not Sell My Information test case started =========================" );
 	  logStep("Verifying SOD Cust param value in homescreen hourly ad call for USA_CCPA privacy when Advertising option set to Do Not Sell My Information" );  
-	 Functions.validate_SOD_Cust_param_deatiledfeed_Optoutmode();
+	// Functions.validate_SOD_Cust_param_deatiledfeed_Optoutmode();
 	  System.out. println("================= Verifying SOD Cust param value in maps details page ad call for USA_CCPA privacy when Advertising option set to Do Not Sell My Information test case End =========================" );
 	  }
 	  
