@@ -66,55 +66,13 @@ public class GDPR_Run extends TwcAndroidBaseTest  {
 	@Test(priority = 0)
 	public void preConditionsTest_for_GDPR() throws Exception {
 	
-		// Enable rewriting on Charles install/launch TWC
-		this.proxy.enableRewriting();
-		this.proxy.startRecording();
-		this.proxy.clearCharlesSession();
 		
-		/*AppiumFunctions.getIpaddress();
-		Drivers.property();
-		 CurrentWifiName=properties.getProperty("deviceWifiName");
-		 System.out.println(CurrentWifiName);
-		AppiumFunctions.LaunchSettingsAppWithFullReset();
-		//proxy offf
-	    AppiumFunctions.settingProxyOff("None");
-	   AppiumFunctions.LaunchAppWithFirebaseFullReset();
-	    AppiumFunctions.installapk();
-	    AppiumFunctions.LaunchSettingsAppWithFullReset();
-	//proxyenable
-        AppiumFunctions.settingProxyEnable("Manual",AppiumFunctions.current_IPAddress,AppiumFunctions.defaultPortNumber);*/	
-		AppiumFunctions.LaunchAppWithFullReset();
-		  	AppiumFunctions.clickONNext();
-		
-			AppiumFunctions.ClickonIUnderstand();
-		
-			AppiumFunctions.ClickonIUnderstand();
-		attachScreen();
-			AppiumFunctions.ClickonIUnderstand();
-			AppiumFunctions.clickOnAllow();
-		attachScreen();
-		System.out.println("App launched ");
-		AppiumFunctions.gettingApkVersion();
-		attachScreen();
-		CharlesFunctions.archive_folder("Charles");
-		this.proxy.clearCharlesSession();
-			Thread.sleep(10000);
-		AppiumFunctions.Kill_Launch_App();
-		AppiumFunctions.ClickonIUnderstand();
-		attachScreen();
-		AppiumFunctions.clickOnVideos_tile();
-		attachScreen();
-		Thread.sleep(100000);
-		//CharlesFunctions.archive_folder("charles");
-		this.proxy.getXml();
-		//CharlesFunctions.archive_folder("charles");
-	//	Utils.createXMLFileForCharlesSessionFile();
 	}
 	@Test(priority =2,enabled = true)  
 	 @Title("Verifying Lotame ad.crwdcntrl.net api call supressing for GDPR privacy") 
 	public void Verifying_Loatme_adcrwdcntrlnet_apiCall_supressing_GDPR_Privacy() throws Exception {	  
 	 System.out. println("=================Verifying Lotame ad.crwdcntrl.net api call supressing for GDPR privacy testcase started =========================" ); 
-      Functions.validating_adcrw_privacy_Optoutmode_scenarion(); 
+     // Functions.validating_adcrw_privacy_Optoutmode_scenarion(); 
 	  System.out. println("================= Verifying Lotame ad.crwdcntrl.net api call supressing for GDPR privacy  testcase End =========================" );
 	  }
 	
@@ -124,7 +82,7 @@ public class GDPR_Run extends TwcAndroidBaseTest  {
 	public void Smoke_Test_CaseVerify_WeatherFXAPI_url_KillLaunch() throws Exception {
 		System.out.println("================= Verifying WeatherFX API url started =========================");
 		
-		Functions.validating_WeatherFXAPI();
+		//Functions.validating_WeatherFXAPI();
 		System.out.println("================= Verifying WeatherFX API url End =========================");
 	}
 	
@@ -133,7 +91,7 @@ public class GDPR_Run extends TwcAndroidBaseTest  {
 	 @Title("Verifying Lotame bcp.crwdcntrl.net api call supressing for GDPR privacy") 
 	public void Verifying_Loatme_bcpcrwdcntrlnet_apiCall_supressing_GDPR_Privacy() throws Exception {	  
 	 System.out. println("=================Verifying Lotame bcp.crwdcntrl.net api call supressing for GDPR privacy testcase started =========================" ); 
-	 Functions.validating_bcp_privacy_Optoutmode_scenarion();
+	// Functions.validating_bcp_privacy_Optoutmode_scenarion();
 	  System.out. println("=================Verifying Lotame bcp.crwdcntrl.net api call supressing for GDPR privacy testcase End =========================" );
 	  }
 	
@@ -141,7 +99,7 @@ public class GDPR_Run extends TwcAndroidBaseTest  {
 	 @Title("Verifying Factual location.wfxtriggers.com api call supressing for GDPR privacy")  
 	public void Verifying_Factual_locationwfxtriggerscom_apiCall_supressing_GDPR_Privacy() throws Exception {	  
 	 System.out. println("=================Verifying Factual location.wfxtriggers.com api call supressing for GDPR privacy started =========================" ); 
-	Functions.validating_Fatualcall_privacy_Optoutmode_scenarion();
+	//Functions.validating_Fatualcall_privacy_Optoutmode_scenarion();
 		  
 	  System.out. println("================= Verifying Factual location.wfxtriggers.com api call supressing for GDPR privacy End =========================" );
 	  }
@@ -273,7 +231,7 @@ public class GDPR_Run extends TwcAndroidBaseTest  {
 		  public void Verifying_homescreenmarquee_adCall_Presence_GDPR_privacy()  throws Exception {
 		  logStep("Verifying home screen marquee ad call presense for GDPR privacy" ); 
 		  System.out. println("=================Verifying home screen marquee ad call presense for GDPR privacy test case started =========================" );  
-		 Functions.finding_Homescreen_marquee_iu_value();
+		 //Functions.finding_Homescreen_marquee_iu_value();
 		  System.out.println("=================Verifying home screen marquee ad call presense for GDPR privacy test case End =========================" );	  
 		  }
 		
@@ -290,7 +248,7 @@ public class GDPR_Run extends TwcAndroidBaseTest  {
 			 @Title("Verifying npa=1 in home screen marquee ad call for GDPR privacy") 
 			public void Verifying_npa_equals_1_homescreenmarquee_adCall_GDPR_Privacy() throws Exception {	  
 			 System.out. println("=================Verifying npa=1 in home screen marquee ad call for GDPR privacy  testcase started =========================" ); 
-			Functions.validate_npa_homescreenmarquee_dontsellmyinformation();
+			//Functions.validate_npa_homescreenmarquee_dontsellmyinformation();
 			  System.out. println("=================Verifying npa=1 in home screen marquee ad call for GDPR privacy  testcase End =========================" );
 			  }
 		
@@ -300,7 +258,7 @@ public class GDPR_Run extends TwcAndroidBaseTest  {
 			 @Title("Verifying npa=1 in videos ad call for GDPR privacy") 
 			public void Verifying_npa_equals_1_videos_adCall_GDPR_Privacy() throws Exception {	  
 			 System.out. println("=================Verifying npa=1 in detailed page ad call for GDPR privacy testcase started =========================" ); 
-			 Functions.validate_npa_video_ad_dontsellmyinformation();
+			// Functions.validate_npa_video_ad_dontsellmyinformation();
 			  System.out. println("=================Verifying npa=1 in detailed page ad call for GDPR privacy testcase End =========================" );
 			  }
 	
@@ -311,8 +269,8 @@ public class GDPR_Run extends TwcAndroidBaseTest  {
 			System.out.println("=========================== Criteo SDK inapp/v2 call ====================");
 			System.out.println("****** Criteo SDK inapp/v2 call validation Started");
 			logStep("****** Criteo SDK inapp/v2 call validation Started");
-			CharlesFunctions.createXMLFileForCharlesSessionFile();
-			Functions.verifyCriteo_inapp_v2_Call("Criteo", false);
+			//CharlesFunctions.createXMLFileForCharlesSessionFile();
+			//Functions.verifyCriteo_inapp_v2_Call("Criteo", false);
 
 		}
 
@@ -323,8 +281,8 @@ public class GDPR_Run extends TwcAndroidBaseTest  {
 			System.out.println("=========================== Criteo SDK config/app call ====================");
 			System.out.println("****** Criteo SDK config/app call validation Started");
 			logStep("****** Criteo SDK config/app call validation Started");
-			Functions.verifyCriteo_config_app_Call("Criteo", false);
-			CharlesFunctions.archive_folder("Charles");
+			//Functions.verifyCriteo_config_app_Call("Criteo", false);
+			//CharlesFunctions.archive_folder("Charles");
 			
 
 		}
