@@ -79,9 +79,9 @@ public class USA_CCPA_Run extends TwcAndroidBaseTest {
 		System.out.println("App launched ");
 		this.proxy.clearCharlesSession();
 		AppiumFunctions.Kill_Launch_App();
-		AppiumFunctions.ClickonIUnderstand();
+		AppiumFunctions.ClickonIUnderstand();*/
 	
-	}*/
+	}
 	@Test(priority =102, enabled = true)  
 	  @Title("Verifying Privacy Card is present on the screen") 
 	public void Verifying_PrivacyCard_PresenceonScreen() throws Exception {	  
