@@ -33,26 +33,26 @@ public class USA_Run extends TwcAndroidBaseTest {
 	public void beforeClass() {
 		System.out.println("****** USA CCPA  Privacy Test Started");
 		logStep("****** USA CCPA  Privacy Test Started");
-		this.configFile = this.rewriteRuleToEnableUSA(CONFIG_FILE_PATH);
+		/*this.configFile = this.rewriteRuleToEnableUSA(CONFIG_FILE_PATH);
 		this.proxy = new CharlesProxy("localhost", 8333, CONFIG_FILE_PATH);
 
 		this.proxy.startCharlesProxyWithUI();
 		this.proxy.disableRewriting();
 		this.proxy.stopRecording();
-		this.proxy.disableMapLocal();
+		this.proxy.disableMapLocal();*/
 	}
 	
 	
 	@AfterClass(alwaysRun = true)
 	public void afterClass() {
-		if (this.configFile != null) {
+		/*if (this.configFile != null) {
 			this.configFile.delete();
 		}
 		this.proxy.disableRewriting();
 		this.proxy.quitCharlesProxy();
 		
 		System.out.println("****** USA CCPA  Privacy Test Ended");
-		logStep("****** USA CCPA  Privacy Test Ended");
+		logStep("****** USA CCPA  Privacy Test Ended");*/
 	}
 	
 	
